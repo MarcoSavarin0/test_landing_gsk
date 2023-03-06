@@ -1,14 +1,21 @@
 import { NextSeo } from "next-seo"
-import useModal from "@/store/store"
+// import useModal from "@/store/store"
 
-import Modal from '@/components/ui/Modal'
+// import Modal from '@/components/ui/Modal'
+import Hero from "@/components/home/Hero"
+import Faq from "@/components/home/Faq"
+import Who from "@/components/home/Who"
+import Testimonial from "@/components/home/Testimonial"
+import Complication from "@/components/home/Complication"
+import Blog from "@/components/home/Blog"
+import Banner from "@/components/home/Banner"
 
 const Home = () => {
-	const [setVisibility] = useModal((state) => [state.setVisibility])
+	// const [setVisibility] = useModal((state) => [state.setVisibility])
 
-	const openModalHandler = (): void => {
+	/* const openModalHandler = (): void => {
 		setVisibility()
-	}
+	} */
 
 	return (
 		<>
@@ -33,14 +40,19 @@ const Home = () => {
 				}}
 			/>
 
-			<div>
-				<h1 data-testid="title">index</h1>
-				<button onClick={() => openModalHandler()}>Modal</button>
-			</div>
+			<>
+				<Hero/>
+				<Faq/>
+				<Who/>
+				<Testimonial/>
+				<Complication/>
+				<Blog/>
+				<Banner/>
+			</>
 
-			<Modal>
+			{/* <Modal>
 				<h1>Title</h1>
-			</Modal>
+			</Modal> */}
 		</>
 	)
 }
