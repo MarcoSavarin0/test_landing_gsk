@@ -1,10 +1,10 @@
 import { render, screen } from '@testing-library/react'
-import Home from '@/pages/index'
+import Intro from "@/components/home/Intro"
 import '@testing-library/jest-dom'
 
 describe('Home', () => {
 	it('renders a title', () => {
-		render(<Home />)
-		expect(screen.getByTestId("title")).toBeInTheDocument()
+		render(<Intro />)
+		expect(screen.getByText("Herpes Zóster")).toBeInTheDocument()
 	})
 })
