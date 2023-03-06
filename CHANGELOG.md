@@ -2,6 +2,13 @@
 
 ---
 
+## 1.0.0 (2023-03-06)
+
+
+### Chores
+
+* initial commit ([2f7fa8a](https://github.com/santyas/frontend-starter/commit/2f7fa8a3386771e337b59847a9cd04a64be9d8cd))
+
 ### [1.0.1](https://github.com/santyas/frontend-starter/compare/v1.1.0...v1.0.1) (2023-02-04)
 
 
