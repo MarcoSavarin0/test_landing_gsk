@@ -2,6 +2,20 @@
 
 ---
 
+## [1.1.0](https://github.com/santyas/frontend-starter/compare/v1.0.0...v1.1.0) (2023-03-06)
+
+
+### Features
+
+* add new navbar tailwindui ([550febd](https://github.com/santyas/frontend-starter/commit/550febddd0b804e37634782e109350272ab006a0))
+* add next local font + theme variable colors ([7f970db](https://github.com/santyas/frontend-starter/commit/7f970dbdd389865d03b2d70a1bd6369e29abaaf3))
+* create all home components ([f7be89e](https://github.com/santyas/frontend-starter/commit/f7be89e9fb84b5290e5ba16cd35cb51d9d147cef))
+
+
+### Chores
+
+* merge feat-navbar into develop ([6ebff0b](https://github.com/santyas/frontend-starter/commit/6ebff0bf9ebf28f4ade1f656d18478ce0fd49bee))
+
 ## 1.0.0 (2023-03-06)
 
 
