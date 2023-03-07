@@ -1,12 +1,15 @@
+import H2 from "@/components/ui/H2"
+import MirrorContent from "@/components/home/ui/MirrorContent"
+
 const Complication = () => {
 	return (
 		<section>
-			<h2>Posibles complicaciones</h2>
-			<div>
-				<article>
-					img
-					<h3>Lorem ipsum Lorem ipsum Lorem ipsum.</h3>
-				</article>
+			<H2 title={`Posibles complicaciones`}/>
+			<div className="">
+				<MirrorContent title={`Mirror content`} body={`Lorem ipsum`} image={`Img`} index={1}/>
+				<MirrorContent title={`Mirror content`} body={`Lorem ipsum`} image={`Img`} index={2}/>
+				<MirrorContent title={`Mirror content`} body={`Lorem ipsum`} image={`Img`} index={3}/>
+				<MirrorContent title={`Mirror content`} body={`Lorem ipsum`} image={`Img`} index={4}/>
 			</div>
 		</section>
 	)

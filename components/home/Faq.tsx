@@ -1,10 +1,11 @@
 import Cta from "@/components/ui/Cta"
+import H2 from "@/components/ui/H2"
 
 const Faq = () => {
 	return (
 		<section className="space-y-6 text-center">
 			<div>
-				<h2 className="uppercase text-gsk-orange font-bold">Preguntas frecuentes</h2>
+				<H2 title={`Preguntas frecuentes`}/>
 				<p>Lorem ipsum</p>
 			</div>
 			<div className="flex justify-between">
