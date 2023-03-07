@@ -6,48 +6,7 @@ import Layout from "@/components/layout"
 
 import '@/styles/globals.css'
 
-const gskPrecision = localFont({ src: [
-	{
-		path: '../styles/fonts/gskprecision-bold.woff2',
-		weight: '700',
-		style: 'normal'
-	},
-	{
-		path: '../styles/fonts/gskprecision-bolditalic.woff2',
-		weight: '700',
-		style: 'italic'
-	},
-	{
-		path: '../styles/fonts/gskprecision-regular.woff2',
-		weight: '400',
-		style: 'normal'
-	},
-	{
-		path: '../styles/fonts/gskprecision-regularitalic.woff2',
-		weight: '400',
-		style: 'normal'
-	},
-	{
-		path: '../styles/fonts/gskprecision-light.woff2',
-		weight: '200',
-		style: 'normal'
-	},
-	{
-		path: '../styles/fonts/gskprecision-lightitalic.woff2',
-		weight: '200',
-		style: 'italic'
-	},
-	{
-		path: '../styles/fonts/gskprecision-thin.woff2',
-		weight: '100',
-		style: 'normal'
-	},
-	{
-		path: '../styles/fonts/gskprecision-thinitalic.woff2',
-		weight: '100',
-		style: 'italic'
-	}
-] })
+const gskPrecision = localFont({ src: '../styles/fonts/gskprecision-regular.woff2' })
 
 function MyApp({Component, pageProps}: AppProps) {
 
