@@ -4,7 +4,7 @@ interface Header2 {
 
 const H2 = ({title}: Header2) => {
 	return (
-		<h2 className="uppercase text-gsk-orange font-bold">{title}</h2>
+		<h2 className="uppercase text-gsk-orange font-bold text-center">{title}</h2>
 	)
 }
 
