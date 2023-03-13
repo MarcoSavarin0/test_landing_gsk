@@ -30,7 +30,7 @@ const Complication = () => {
 		<section className="space-y-6 px-4">
 			<H2 title={`Posibles complicaciones`}/>
 
-			<div className="space-y-10 md:space-y-12 px-12 py-4">
+			<div className="space-y-10 md:space-y-12 px-8 sm:px-12 py-4">
 				{complications.map((item: Complication, index: number) => (
 					<MirrorContent key={index} title={item.title} body={item.body} image={`${index}.jpg`} index={index}/>
 				))}
