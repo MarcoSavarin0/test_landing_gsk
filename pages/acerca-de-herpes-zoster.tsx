@@ -11,17 +11,17 @@ import Banner from "@/components/home/Banner"
 import H2 from "@/components/ui/H2"
 import Description from "@/components/ui/Description"
 
-const Home = () => {
+const AcercaDe = () => {
 	return (
 		<>
 			<NextSeo
-				title="Hablemos de Zóster | Campaña de concientización y prevensión"
-				description="¿Qué es el Herpes Zóster? ¿Cuál es su origen? ¿Cuáles son sus síntomas? Informándote sobre este virus, ayudás a prevenir su propagación."
+				title="¿Qué es el Herpes Zoster (culebrilla)? | Hablemos de Zóster"
+				description="El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento."
 				canonical={process.env.NEXT_PUBLIC_SITE_URL}
 				openGraph={{
 					url: process.env.NEXT_PUBLIC_SITE_URL,
-					title: 'Hablemos de Zóster | Campaña de concientización y prevensión',
-					description: '¿Qué es el Herpes Zóster? ¿Cuál es su origen? ¿Cuáles son sus síntomas? Informándote sobre este virus, ayudás a prevenir su propagación.',
+					title: '¿Qué es el Herpes Zoster (culebrilla)? | Hablemos de Zóster',
+					description: 'El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento.',
 					images: [
 						{
 							url: '/og.jpg',
@@ -57,4 +57,4 @@ const Home = () => {
 	)
 }
 
-export default Home
+export default AcercaDe
