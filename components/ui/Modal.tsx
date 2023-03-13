@@ -42,13 +42,13 @@ const Modal = ({children}: Modal) => {
 							leaveFrom="opacity-100 translate-y-0 sm:scale-100"
 							leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
 						>
-							<Dialog.Panel className="relative bg-white rounded-lg text-left py-6 px-12 overflow-hidden shadow-xl transform transition-all w-11/12 sm:w-11/12 md:w-7/12"> {/*  sm:max-w-lg sm:w-full */}
-								<button className="hidden md:block absolute top-2 right-2" onClick={() => closeModalHandler()}>
+							<Dialog.Panel className="relative bg-gsk-gray rounded-lg text-left py-6 px-12 overflow-hidden shadow-xl transform transition-all w-11/12 sm:w-11/12 md:w-7/12"> {/*  sm:max-w-lg sm:w-full */}
+								<button className="block absolute top-2 right-2" onClick={() => closeModalHandler()}>
 									<svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
 										<path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12"/>
 									</svg>
 								</button>
-								<div className="bg-white flex flex-col space-y-4">
+								<div className="flex flex-col space-y-4">
 									{children}
 								</div>
 

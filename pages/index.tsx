@@ -1,7 +1,6 @@
 import { NextSeo } from "next-seo"
-// import useModal from "@/store/store"
 
-// import Modal from '@/components/ui/Modal'
+import Modal from '@/components/ui/Modal'
 import Hero from "@/components/home/Hero"
 import Faq from "@/components/home/Faq"
 import Who from "@/components/home/Who"
@@ -9,14 +8,10 @@ import Testimonial from "@/components/home/Testimonial"
 import Complication from "@/components/home/Complication"
 import Blog from "@/components/home/Blog"
 import Banner from "@/components/home/Banner"
+import H2 from "@/components/ui/H2"
+import Description from "@/components/ui/Description"
 
 const Home = () => {
-	// const [setVisibility] = useModal((state) => [state.setVisibility])
-
-	/* const openModalHandler = (): void => {
-		setVisibility()
-	} */
-
 	return (
 		<>
 			<NextSeo
@@ -54,9 +49,10 @@ const Home = () => {
 				<Banner/>
 			</>
 
-			{/* <Modal>
-				<h1>Title</h1>
-			</Modal> */}
+			<Modal>
+				<H2 title={`¿QUÉ ES EL HERPES ZÓSTER?`}/>
+				<Description title={`El Herpes Zóster, también llamado coloquialmente culebrilla, es una enfermedad causada por la reactivación del Virus Varicela Zóster (VVZ), el mismo virus que causa la varicela. Luego de que una persona contrae varicela <sup>1 2</sup>, el virus permanece latente en su sistema nervioso, por lo general, sin causar síntomas hasta su reactivación.`}/>
+			</Modal>
 		</>
 	)
 }
