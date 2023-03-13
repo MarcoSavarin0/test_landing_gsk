@@ -20,13 +20,13 @@ const Home = () => {
 	return (
 		<>
 			<NextSeo
-				title="Frontend Starter"
-				description="Example description"
+				title="Hablemos de Zóster | Campaña de concientización y prevensión"
+				description="¿Qué es el Herpes Zóster? ¿Cuál es su origen? ¿Cuáles son sus síntomas? Informándote sobre este virus, ayudás a prevenir su propagación."
 				canonical={process.env.NEXT_PUBLIC_SITE_URL}
 				openGraph={{
 					url: process.env.NEXT_PUBLIC_SITE_URL,
-					title: 'Frontend Starter',
-					description: 'Example description',
+					title: 'Hablemos de Zóster | Campaña de concientización y prevensión',
+					description: '¿Qué es el Herpes Zóster? ¿Cuál es su origen? ¿Cuáles son sus síntomas? Informándote sobre este virus, ayudás a prevenir su propagación.',
 					images: [
 						{
 							url: 'https://images.unsplash.com/photo-1656356594129-2dae4ec88923',
@@ -36,7 +36,7 @@ const Home = () => {
 							type: 'image/jpeg',
 						}
 					],
-					siteName: 'Frontend Starter',
+					siteName: 'Hablemos de Zóster | Campaña de concientización y prevensión',
 				}}
 			/>
 

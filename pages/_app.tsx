@@ -17,7 +17,7 @@ function MyApp({Component, pageProps}: AppProps) {
 					type: 'website',
 					locale: 'es_AR',
 					url: process.env.NEXT_PUBLIC_SITE_URL,
-					siteName: 'Frontend Starter',
+					siteName: 'Hablemos de Zóster | Campaña de concientización y prevensión',
 				}}
 				additionalMetaTags={[{
 					name: 'viewport',
