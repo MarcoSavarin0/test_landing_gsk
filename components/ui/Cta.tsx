@@ -7,7 +7,7 @@ interface CtaContent {
 
 const Cta = ({title, url}: CtaContent) => {
 	return (
-		<Link href={url}>
+		<Link href={url} className="text-base text-white bg-gsk-orange rounded px-8 py-3 uppercase font-bold">
 			<span>{title}</span>
 		</Link>
 	)

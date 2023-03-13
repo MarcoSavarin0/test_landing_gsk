@@ -1,13 +1,17 @@
 import Cta from "@/components/ui/Cta"
 import H2 from "@/components/ui/H2"
+import Description from "@/components/ui/Description"
 
 const Blog = () => {
 	return (
-		<section>
-			<div className="text-center">
+		<section className="py-4">
+			<div className="text-center space-y-4">
 				<H2 title={`Blog`}/>
-				<p>Conocé más sobre el Herpes Zóster.</p>
-				<Cta title={`Leer notas`} url={`/notas`}/>
+				<Description title={`Conocé más sobre el Herpes Zóster.`}/>
+
+				<div className="py-6">
+					<Cta title={`Leer notas`} url={`/notas`}/>
+				</div>
 			</div>
 		</section>
 	)

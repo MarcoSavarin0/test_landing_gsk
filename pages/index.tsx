@@ -43,9 +43,13 @@ const Home = () => {
 			<>
 				<Hero/>
 				<Faq/>
+				<hr className="w-6/12 border-b border-gsk-orange m-auto my-10"/>
 				<Who/>
+				<hr className="w-6/12 border-b border-gsk-orange m-auto my-10"/>
 				<Testimonial/>
+				<hr className="w-6/12 border-b border-gsk-orange m-auto my-10"/>
 				<Complication/>
+				<hr className="w-6/12 border-b border-gsk-orange m-auto my-10"/>
 				<Blog/>
 				<Banner/>
 			</>
