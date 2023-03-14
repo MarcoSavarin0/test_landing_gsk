@@ -12,24 +12,26 @@ const Navbar = () => {
 		<Disclosure as="header" className="bg-gsk-dark">
 			{({ open }) => (
 				<>
-					<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+					<div className="mx-auto max-w-8xl px-4 sm:px-6 lg:px-8">
 						<div className="flex h-16 items-center justify-between">
 							<div className="flex items-center">
 								<div className="flex-shrink-0">
-									<Image
-										className="block h-8 w-auto lg:hidden"
-										src="/gsk-logo.svg"
-										alt="GSK"
-										width={100}
-										height={70}
-									/>
-									<Image
-										className="hidden h-8 w-auto lg:block"
-										src="/gsk-logo.svg"
-										alt="GSK"
-										width={100}
-										height={70}
-									/>
+									<Link href="/">
+										<Image
+											className="block h-8 w-auto lg:hidden"
+											src="/gsk-logo.svg"
+											alt="GSK"
+											width={100}
+											height={70}
+										/>
+										<Image
+											className="hidden h-8 w-auto lg:block"
+											src="/gsk-logo.svg"
+											alt="GSK"
+											width={100}
+											height={70}
+										/>
+									</Link>
 								</div>
 							</div>
 							<nav className="hidden sm:ml-6 md:block">
@@ -44,16 +46,16 @@ const Navbar = () => {
 										href="#"
 										className="text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase"
 									>
-										Síntomas
+										¿Quiénes están en riesgo?
 									</Link>
 									<Link
 										href="#"
 										className="text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase"
 									>
-										¿Quiénes están en riesgo?
+										Síntomas
 									</Link>
 									<Link
-										href="#"
+										href="/blog"
 										className="text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase"
 									>
 										Blog
@@ -88,14 +90,14 @@ const Navbar = () => {
 								href="#"
 								className="block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white"
 							>
-								Síntomas
+								¿Quiénes están en riesgo?
 							</Disclosure.Button>
 							<Disclosure.Button
 								as="a"
 								href="#"
 								className="block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white"
 							>
-								¿Quiénes están en riesgo?
+								Síntomas
 							</Disclosure.Button>
 							<Disclosure.Button
 								as="a"

@@ -46,7 +46,7 @@ const Faq = () => {
 				))}
 			</div>
 			<div className="py-4">
-				<Cta title={`Ver más`} url={`/preguntas-frecuentes`}/>
+				<Cta title={`Ver más`} url={`/acerca-de-herpes-zoster`}/>
 			</div>
 		</section>
 	)

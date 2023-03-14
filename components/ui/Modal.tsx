@@ -52,9 +52,9 @@ const Modal = ({children}: Modal) => {
 									{children}
 								</div>
 
-								<button onClick={() => closeModalHandler()} className="relative block md:hidden">
+								{/* <button onClick={() => closeModalHandler()} className="relative block md:hidden">
 									<span className="relative" dangerouslySetInnerHTML={{__html: `Cerrar`}}/>
-								</button>
+								</button> */}
 							</Dialog.Panel>
 						</Transition.Child>
 					</div>
