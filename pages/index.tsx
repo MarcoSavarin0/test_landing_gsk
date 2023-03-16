@@ -1,5 +1,8 @@
 import { NextSeo } from "next-seo"
+import {shallow} from "zustand/shallow"
+import parse from "html-react-parser"
 
+import useModal from "@/store/store"
 import Modal from '@/components/ui/Modal'
 import Hero from "@/components/home/Hero"
 import Faq from "@/components/home/Faq"
@@ -12,6 +15,8 @@ import H2 from "@/components/ui/H2"
 import Description from "@/components/ui/Description"
 
 const Home = () => {
+	const { title, body } = useModal((state) => ({title: state.title, body: state.body,}), shallow)
+
 	return (
 		<>
 			<NextSeo
@@ -50,8 +55,8 @@ const Home = () => {
 			</>
 
 			<Modal>
-				<H2 title={`¿QUÉ ES EL HERPES ZÓSTER?`}/>
-				<Description title={`El Herpes Zóster, también llamado coloquialmente culebrilla, es una enfermedad causada por la reactivación del Virus Varicela Zóster (VVZ), el mismo virus que causa la varicela. Luego de que una persona contrae varicela <sup>1 2</sup>, el virus permanece latente en su sistema nervioso, por lo general, sin causar síntomas hasta su reactivación.`}/>
+				<H2 title={parse(title) as string}/>
+				<Description title={body}/>
 			</Modal>
 		</>
 	)

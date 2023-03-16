@@ -1,8 +1,9 @@
+import useModal from "@/store/store"
+
 import Cta from "@/components/ui/Cta"
 import H2 from "@/components/ui/H2"
 import Description from "@/components/ui/Description"
 import H3 from "@/components/ui/H3"
-import useModal from "@/store/store"
 
 interface Faq {
 	title: string
@@ -26,9 +27,11 @@ const faqs: Faq[] = [
 ]
 
 const Faq = () => {
-	const [setVisibility] = useModal((state) => [state.setVisibility])
+	const { setVisibility, setTitle, setBody } = useModal()
 
-	const openModalHandler = (): void => {
+	const openModalHandler = (index: number): void => {
+		setTitle(faqs[index].title)
+		setBody(faqs[index].body)
 		setVisibility()
 	}
 
@@ -40,7 +43,7 @@ const Faq = () => {
 			</div>
 			<div className="flex flex-col lg:flex-row justify-between px-12 gap-x-8 gap-y-8 lg:gap-y-0 items-center">
 				{faqs.map((item:Faq, index: number) => (
-					<button onClick={() => openModalHandler()} key={index} className="flex w-10/12 sm:w-7/12 lg:w-auto lg:grow text-center bg-gsk-gray rounded-xl font-bold justify-center lg:px-20 py-10 text-gsk-orange hover:bg-gsk-orange hover:text-white transition-colors ease-out duration-200">
+					<button onClick={() => openModalHandler(index)} key={index} className="flex w-10/12 sm:w-7/12 lg:w-auto lg:grow text-center bg-gsk-gray rounded-xl font-bold justify-center lg:px-20 py-10 text-gsk-orange hover:bg-gsk-orange hover:text-white transition-colors ease-out duration-200">
 						<H3 title={item.title}/>
 					</button>
 				))}

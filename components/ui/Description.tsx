@@ -2,12 +2,11 @@ import parse from "html-react-parser"
 
 interface Paragraph {
 	title: string
-	color?: string
 }
 
-const Description = ({title, color}: Paragraph) => {
+const Description = ({title}: Paragraph) => {
 	return (
-		<p className={`text-lg md:text-xl ${color}`}>{parse(title)}</p>
+		<div className="text-lg md:text-xl">{parse(title)}</div>
 	)
 }
 
