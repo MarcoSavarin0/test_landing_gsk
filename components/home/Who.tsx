@@ -1,3 +1,5 @@
+import { Element } from 'react-scroll'
+
 import H2 from "@/components/ui/H2"
 import CardIcon from "@/components/home/ui/CardIcon"
 import Description from "@/components/ui/Description"
@@ -29,10 +31,10 @@ const cards: Card[] = [
 const Who = () => {
 	return (
 		<section className="text-center space-y-6">
-			<div className="space-y-3 px-4">
+			<Element className="space-y-3 px-4" name="who">
 				<H2 title={`¿Quiénes están en riesgo?`}/>
 				<Description title={`Enterate si estás en riesgo de contraer Herpes Zóster.`}/>
-			</div>
+			</Element>
 
 			<div className="grid grid-cols-1 lg:grid-cols-3 content-start gap-x-0 lg:gap-x-10 gap-y-8 lg:gap-y-0 px-8 md:px-20 lg:px-12">
 				{cards.map(({title, body, image}: Card, index: number) => (

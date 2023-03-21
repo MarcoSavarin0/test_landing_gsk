@@ -28,6 +28,7 @@
 		"react-dom": "18.2.0",
 		"react-google-recaptcha-v3": "1.10.0",
 		"react-hook-form": "7.43.0",
+		"react-scroll": "1.8.9",
 		"sharp": "0.30.6",
 		"slugify": "1.6.5",
 		"zustand": "4.3.2"
@@ -41,6 +42,7 @@
 		"@types/node": "18.11.18",
 		"@types/react": "18.0.12",
 		"@types/react-dom": "18.0.5",
+		"@types/react-scroll": "1.8.6",
 		"@typescript-eslint/eslint-plugin": "5.50.0",
 		"@typescript-eslint/parser": "5.50.0",
 		"autoprefixer": "10.4.13",

@@ -1,4 +1,5 @@
 import {motion, useAnimation, useInView} from "framer-motion"
+import { Element } from 'react-scroll'
 
 import H2 from "@/components/ui/H2"
 import MirrorContent from "@/components/home/ui/MirrorContent"
@@ -53,7 +54,7 @@ const Complication = () => {
 	const complicationVariant = {
 		visible: (i: number) => ({
 			opacity: 1,
-			duration: 1,
+			duration: 3,
 			y: 0,
 			delay: i * .5
 		}),
@@ -71,23 +72,25 @@ const Complication = () => {
 
 
 	return (
-		<section className="space-y-6 px-4">
-			<H2 title={`Posibles complicaciones`}/>
+		<section className="px-4">
+			<Element name="complications" className="space-y-6">
+				<H2 title={`Posibles complicaciones`}/>
 
-			<motion.div className="space-y-10 md:space-y-12 px-8 sm:px-12 py-4"
-				ref={ref}
-				animate={controls}
-				initial="hidden"
-				variants={containerVariant}
-			>
-				{complications.map((item: Complication, index: number) => (
-					<motion.article className="flex flex-col md:flex-row justify-between gap-x-8 gap-y-5 md:gap-y-0"
-						key={index} variants={complicationVariant} custom={index}
-					>
-						<MirrorContent title={item.title} body={item.body} image={`${index}.jpg`} index={index}/>
-					</motion.article>
-				))}
-			</motion.div>
+				<motion.div className="space-y-10 md:space-y-12 px-8 sm:px-12 py-4"
+					ref={ref}
+					animate={controls}
+					initial="hidden"
+					variants={containerVariant}
+				>
+					{complications.map((item: Complication, index: number) => (
+						<motion.article className="flex flex-col md:flex-row justify-between gap-x-8 gap-y-5 md:gap-y-0"
+							key={index} variants={complicationVariant} custom={index}
+						>
+							<MirrorContent title={item.title} body={item.body} image={`${index}.jpg`} index={index}/>
+						</motion.article>
+					))}
+				</motion.div>
+			</Element>
 		</section>
 	)
 }
