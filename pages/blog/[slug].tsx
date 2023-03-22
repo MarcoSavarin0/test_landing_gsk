@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { NextSeo } from "next-seo"
+import {useRouter} from "next/router"
 
 import PostComponent from '@/components/blog/Post'
 import Banner from "@/components/home/Banner"
@@ -15,6 +16,16 @@ interface Category {
 	id: number
 	name: string
 	slug: string
+}
+
+type PostContent = Post & Category
+
+const postContent: PostContent = {
+	id: 1,
+	title: "Lorem ipsum dolor sit amet",
+	name: "string",
+	date: "01/04/2023",
+	slug: "lorem-ipsum-dolor-sit-amet"
 }
 
 const releated: Post[] = [
@@ -59,15 +70,18 @@ const categories: Category[] = [
 ]
 
 const Blog = () => {
+	const router = useRouter()
+	const queryTitle = router.query.slug
+
 	return (
 		<>
 			<NextSeo
-				title="Blog de Salud | Hablemos de Zoster"
+				title={`${queryTitle} | Hablemos de Zoster`}
 				description="El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento."
 				canonical={process.env.NEXT_PUBLIC_SITE_URL}
 				openGraph={{
 					url: process.env.NEXT_PUBLIC_SITE_URL,
-					title: 'Blog de Salud | Hablemos de Zoster',
+					title: `${queryTitle} | Hablemos de Zoster`,
 					description: 'El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento.',
 					images: [
 						{
@@ -92,7 +106,7 @@ const Blog = () => {
 						<article className="flex flex-col flex-1 gap-y-4">
 							<header className="space-y-1">
 								<span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span>
-								<h1 className="text-gsk-orange font-bold leading-none text-4xl sm:text-5xl">Título de la nota</h1>
+								<h1 className="text-gsk-orange font-bold leading-none text-4xl sm:text-5xl">{postContent.title}</h1>
 								<h2 className="text-gsk-orange text-xl">Ut enim ad minim veniam, quis nostrud exercitation elit.</h2>
 							</header>
 

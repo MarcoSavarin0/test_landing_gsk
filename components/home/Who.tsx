@@ -18,7 +18,7 @@ const cards: Card[] = [
 	},
 	{
 		title: "TENGO 50 AÑOS O MÁS",
-		body: "A medida que las personas envejecen, las células del sistema inmune se debilitan, por lo que aumenta el riesgo de desarrollar la enfermedad. Se calcula que aproximadamente más del 90%",
+		body: "A medida que las personas envejecen, las células del sistema inmune se debilitan, por lo que aumenta el riesgo de desarrollar la enfermedad. Se calcula que aproximadamente más del 90% de los adultos mayores a 50 años han sido infectados por el virus que causa la varicela y, por tanto, se encuentran en riesgo de desarrollar Herpes Zóster <sup>13</sup>.",
 		image: "mayor",
 	},
 	{
