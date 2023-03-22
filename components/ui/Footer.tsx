@@ -29,7 +29,7 @@ const Footer = () => {
 							</Link>
 						</div>
 						<div className="flex flex-row gap-x-0 mt-3 md:mt-0 gap-x-2 md:gap-x-2 justify-center md:justify-start">
-							<Link href={`#`} className="text-white hover:text-gray-500 font-light">
+							<Link href={`https://www.facebook.com/Hablemos-de-Zoster-102244729434697`} target="_blank" className="text-white hover:text-gray-500 font-light">
 								<span className="sr-only">Facebook</span>
 								<svg fill="currentColor" viewBox="0 0 24 24" className="h-7 w-7 md:h-5 md:w-5" aria-hidden="true">
 									<path
@@ -39,7 +39,7 @@ const Footer = () => {
 									/>
 								</svg>
 							</Link>
-							<Link href={`#`} className="text-white hover:text-gray-500 font-light">
+							<Link href={`https://www.instagram.com/hablemosdezoster/`} target="_blank" className="text-white hover:text-gray-500 font-light">
 								<span className="sr-only">Instagram</span>
 								<svg fill="currentColor" viewBox="0 0 24 24" className="h-7 w-7 md:h-5 md:w-5" aria-hidden="true">
 									<path

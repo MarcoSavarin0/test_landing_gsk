@@ -13,7 +13,7 @@ interface Complication {
 const complications: Complication[] = [
 	{
 		title: `NEURALGIA POSTHERPÉTICA`,
-		body: `La Neuralgia Posherpética (PHN, por sus siglas en inglés) es un dolor neurálgico que persiste después de que la erupción se haya curado. La PHN puede durar de tres a seis meses, o incluso persistir por más tiempo. Suele ser más común y grave en personas mayores que en personas más jóvenes. Después de los 50 años, alrededor del 20% de los pacientes con Herpes Zóster desarrollarán Neuralgia Posherpética.`
+		body: `La Neuralgia Postherpética (PHN, por sus siglas en inglés) es un dolor neurálgico que persiste después de que la erupción se haya curado. La PHN puede durar de tres a seis meses, o incluso persistir por más tiempo. Suele ser más común y grave en personas mayores que en personas más jóvenes. Después de los 50 años, alrededor del 20% de los pacientes con Herpes Zóster desarrollarán Neuralgia Postherpética.`
 	},
 	{
 		title: `CAMBIOS EN LA PIEL`,
