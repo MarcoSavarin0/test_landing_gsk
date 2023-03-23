@@ -4,7 +4,7 @@ import Description from "@/components/ui/Description"
 
 const Blog = () => {
 	return (
-		<section className="py-4">
+		<section className="pb-8">
 			<div className="text-center space-y-4">
 				<H2 title={`Blog`}/>
 				<Description title={`Conocé más sobre el Herpes Zóster.`}/>
