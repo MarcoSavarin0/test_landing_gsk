@@ -21,7 +21,7 @@ const Hero = () => {
 						<span className="block sm:inline-block md:block">QUE EL VIRUS SE REACTIVE.</span>
 						<span className="inline sm:inline-block md:block">HABLEMOS DE ZÓSTER.</span>
 					</h2>
-					<p className={`${gskPrecisionLight} text-gsk-orange text-xl 2xl:text-3xl font-light`}>Conocé más sobre la enfermedad, sus síntomas <span className="inline md:block">y las opciones de prevención y tratamiento.</span></p>
+					<p className={`${gskPrecisionLight} text-gsk-orange text-xl 2xl:text-3xl font-light`}>Conocé más sobre la enfermedad, sus síntomas y las opciones de prevención y tratamiento.</p>
 				</article>
 				<div className="static md:absolute top-0 left-0 w-full h-10 bg-gradient-to-b from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 mt-4 md:mt-0 z-10"/>
 				<div className="absolute bottom-0 left-0 w-full h-14 lg:h-20 xl:h-14 bg-gradient-to-t from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 z-10"/>

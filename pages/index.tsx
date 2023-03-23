@@ -1,6 +1,9 @@
+import {useEffect} from "react"
 import { NextSeo } from "next-seo"
 import {shallow} from "zustand/shallow"
 import parse from "html-react-parser"
+import {scroller} from "react-scroll"
+import {useRouter} from "next/router"
 
 import useModal from "@/store/store"
 import Modal from '@/components/ui/Modal'
@@ -16,6 +19,30 @@ import Description from "@/components/ui/Description"
 
 const Home = () => {
 	const { title, body } = useModal((state) => ({title: state.title, body: state.body,}), shallow)
+
+	const router = useRouter()
+	const hash = router.asPath.split("#")[1]
+
+	/* useEffect(() => {
+		if (router.query.seccion === 'myScrollToElement') {
+			setTimeout(() => {
+				scroller.scrollTo('myScrollToElement', {
+					duration: 1000,
+					smooth: true,
+					offset: -10,
+				})
+			}, 100)
+		}
+	}, [router.query]) */
+
+	useEffect(() => (
+		scroller.scrollTo(hash != undefined ? hash : "nav", {
+			duration: 1000,
+			delay: 300,
+			smooth: true,
+			offset: -10,
+		})
+	), [router.asPath])
 
 	return (
 		<>

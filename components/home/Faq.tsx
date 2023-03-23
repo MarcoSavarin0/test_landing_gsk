@@ -39,7 +39,7 @@ const Faq = () => {
 
 	return (
 		<section className="space-y-6 text-center pt-10">
-			<Element className="space-y-3 px-4" name="faq">
+			<Element className="space-y-3 px-4" name="preguntas-frecuentes">
 				<H2 title={`Preguntas frecuentes`}/>
 				<Description title={`Conocé toda la información que necesitás saber sobre el Herpes Zóster.`}/>
 			</Element>

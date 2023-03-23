@@ -1,9 +1,9 @@
-import {motion, useAnimation, useInView} from "framer-motion"
+import {useEffect, useRef} from "react"
 import { Element } from 'react-scroll'
+import {motion, useAnimation, useInView} from "framer-motion"
 
 import H2 from "@/components/ui/H2"
 import MirrorContent from "@/components/home/ui/MirrorContent"
-import {useEffect, useRef} from "react"
 
 interface Complication {
 	title: string
@@ -38,9 +38,9 @@ const Complication = () => {
 		visible: {
 			opacity: 1,
 			transition: {
-				duration: .1,
+				duration: .8,
 				when: "beforeChildren",
-				staggerChildren: 0.3,
+				staggerChildren: 0.8,
 			}
 		},
 		hidden: {
@@ -54,13 +54,16 @@ const Complication = () => {
 	const complicationVariant = {
 		visible: (i: number) => ({
 			opacity: 1,
-			duration: 3,
+			duration: 1,
 			y: 0,
-			delay: i * .5
+			delay: i * .8,
+			transition: {
+				duration: .5
+			}
 		}),
 		hidden: {
 			opacity: 0,
-			y: 100
+			y: 150
 		},
 	}
 
@@ -73,13 +76,13 @@ const Complication = () => {
 
 	return (
 		<section className="px-4">
-			<Element name="complications" className="space-y-6">
+			<Element name="sintomas" className="space-y-6">
 				<H2 title={`Posibles complicaciones`}/>
 
-				<motion.div className="space-y-10 md:space-y-12 px-8 sm:px-12 py-4"
+				<motion.div className="space-y-10 md:space-y-12 px-8 sm:px-12 py-4 overflow-hidden"
 					ref={ref}
-					animate={controls}
 					initial="hidden"
+					animate={controls}
 					variants={containerVariant}
 				>
 					{complications.map((item: Complication, index: number) => (
