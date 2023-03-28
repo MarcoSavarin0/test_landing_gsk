@@ -10,7 +10,6 @@ import Modal from '@/components/ui/Modal'
 import Hero from "@/components/home/Hero"
 import Faq from "@/components/home/Faq"
 import Who from "@/components/home/Who"
-import Testimonial from "@/components/home/Testimonial"
 import Complication from "@/components/home/Complication"
 import Blog from "@/components/home/Blog"
 import Banner from "@/components/home/Banner"
@@ -22,18 +21,6 @@ const Home = () => {
 
 	const router = useRouter()
 	const hash = router.asPath.split("#")[1]
-
-	/* useEffect(() => {
-		if (router.query.seccion === 'myScrollToElement') {
-			setTimeout(() => {
-				scroller.scrollTo('myScrollToElement', {
-					duration: 1000,
-					smooth: true,
-					offset: -10,
-				})
-			}, 100)
-		}
-	}, [router.query]) */
 
 	useEffect(() => (
 		scroller.scrollTo(hash != undefined ? hash : "nav", {
@@ -72,8 +59,7 @@ const Home = () => {
 				<Faq/>
 				<hr className="w-6/12 border-b border-gsk-orange m-auto my-10"/>
 				<Who/>
-				<hr className="w-6/12 border-b border-gsk-orange m-auto my-10"/>
-				<Testimonial/>
+				{/* <Testimonial/> */}
 				<hr className="w-6/12 border-b border-gsk-orange m-auto my-10"/>
 				<Complication/>
 				<hr className="w-6/12 border-b border-gsk-orange m-auto my-10"/>

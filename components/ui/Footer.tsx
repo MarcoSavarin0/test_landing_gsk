@@ -21,11 +21,14 @@ const Footer = () => {
 							<Link href={`#`} className="text-white hover:text-gray-500 font-light">
 								Referencias
 							</Link>
-							<Link href={`#`} className="text-white hover:text-gray-500 font-light">
+							<Link href="https://privacy.gsk.com/es-ar/privacy-notice//" target="_blank" className="text-white hover:text-gray-500 font-light">
+								Políticas de Cookies
+							</Link>
+							<Link href="https://privacy.gsk.com/es-ar/privacy-notice/general/general-full-text/" target="_blank" className="text-white hover:text-gray-500 font-light">
 								Políticas de privacidad
 							</Link>
-							<Link href={`#`} className="text-white hover:text-gray-500 font-light">
-								Términos de uso
+							<Link href="https://terms.gsk.com/es-ar/pharmaceuticals/default/" target="_blank" className="text-white hover:text-gray-500 font-light">
+								Términos y condiciones
 							</Link>
 						</div>
 						<div className="flex flex-row gap-x-0 mt-3 md:mt-0 gap-x-2 md:gap-x-2 justify-center md:justify-start">
