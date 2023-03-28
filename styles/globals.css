@@ -19,18 +19,21 @@ a {
     box-sizing: border-box;
 }
 
-.accordion div{
+/*
+.about div{
     @apply bg-white;
 }
-.accordion button:focus{
+.about button:focus{
     @apply ring-0;
 }
-.accordion h2{
+.about h2{
     @apply text-gsk-orange text-lg;
 }
-.accordion p{
+.about p{
     @apply text-black;
 }
-.accordion ul{
+*/
+
+.about ul{
     @apply list-disc list-inside;
 }

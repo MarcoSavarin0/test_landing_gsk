@@ -1,4 +1,3 @@
-import { Accordion } from "flowbite-react"
 import parse from "html-react-parser"
 
 interface Faq {
@@ -64,23 +63,21 @@ const faqs: Faq[] = [
 	}
 ]
 
-const AboutAccordion = () => {
+const About = () => {
 	return (
-		<Accordion>
-
+		<>
 			{faqs.map(({title, body}: Faq, index: number) => (
-				<Accordion.Panel key={index}>
-					<Accordion.Title>
+				<div key={index}>
+					<h2 className="text-gsk-orange text-lg">
 						{index +1 + `- ` + title}
-					</Accordion.Title>
-					<Accordion.Content>
+					</h2>
+					<p className="text-black">
 						{parse(body)}
-					</Accordion.Content>
-				</Accordion.Panel>
+					</p>
+				</div>
 			))}
-
-		</Accordion>
+		</>
 	)
 }
 
-export default AboutAccordion
+export default About

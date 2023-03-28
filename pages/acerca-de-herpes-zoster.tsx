@@ -4,7 +4,7 @@ import Blog from "@/components/home/Blog"
 import Banner from "@/components/home/Banner"
 import H2 from "@/components/ui/H2"
 import Description from "@/components/ui/Description"
-import AboutAccordion from "@/components/acercade/AboutAccordion"
+import About from "@/components/acercade/About"
 
 const AcercaDe = () => {
 	return (
@@ -32,15 +32,15 @@ const AcercaDe = () => {
 
 			<>
 				<section>
-					<div className="space-y-3 px-4 text-center bg-gsk-dark pt-10 pb-36">
+					<div className="space-y-3 px-4 text-center bg-gsk-dark pt-10 pb-36 shadow-xl">
 						<h1 className={`text-gsk-orange font-bold leading-none uppercase text-4xl sm:text-5xl lg:text-6xl xl:text-7xl`}>Herpes Zóster</h1>
 						<H2 title={`¿QUÉ TENÉS QUE SABER?`}/>
 						<Description title={`Conocé toda la información que necesitás saber sobre el Herpes Zóster.`} color={`text-white`}/>
 					</div>
 
-					<article className="w-10/12 mx-auto space-y-6">
-						<div className="accordion -mt-24">
-							<AboutAccordion/>
+					<article className="w-11/12 md:w-10/12 mx-auto about px-10 space-y-14 bg-white rounded-xl">
+						<div className="-mt-24 pt-8 space-y-6">
+							<About/>
 						</div>
 						<div>
 							<p className="text-xs font-light"><sup>3</sup> Mueller NH et al. Varicella Zoster Virus Infection: Clinical Features, Molecular Pathogenesis of Disease and Latency. Neurologic Clinics. 2008;26;675-697.</p>
