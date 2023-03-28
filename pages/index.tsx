@@ -15,6 +15,7 @@ import Blog from "@/components/home/Blog"
 import Banner from "@/components/home/Banner"
 import H2 from "@/components/ui/H2"
 import Description from "@/components/ui/Description"
+import Spacer from "@/components/ui/Spacer"
 
 const Home = () => {
 	const { title, body } = useModal((state) => ({title: state.title, body: state.body,}), shallow)
@@ -57,12 +58,12 @@ const Home = () => {
 			<>
 				<Hero/>
 				<Faq/>
-				<hr className="w-6/12 border-b border-gsk-orange m-auto my-10"/>
+				<Spacer/>
 				<Who/>
 				{/* <Testimonial/> */}
-				<hr className="w-6/12 border-b border-gsk-orange m-auto my-10"/>
+				<Spacer/>
 				<Complication/>
-				<hr className="w-6/12 border-b border-gsk-orange m-auto my-10"/>
+				<Spacer/>
 				<Blog/>
 				<Banner/>
 			</>
