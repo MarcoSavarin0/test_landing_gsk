@@ -21,7 +21,7 @@ const Footer = () => {
 							<Link href={`#`} className="text-white hover:text-gray-500 font-light">
 								Referencias
 							</Link>
-							<Link href="https://privacy.gsk.com/es-ar/privacy-notice//" target="_blank" className="text-white hover:text-gray-500 font-light">
+							<Link href="https://privacy.gsk.com/es-ar/privacy-notice/" target="_blank" className="text-white hover:text-gray-500 font-light">
 								Políticas de Cookies
 							</Link>
 							<Link href="https://privacy.gsk.com/es-ar/privacy-notice/general/general-full-text/" target="_blank" className="text-white hover:text-gray-500 font-light">

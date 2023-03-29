@@ -18,22 +18,3 @@ a {
 * {
     box-sizing: border-box;
 }
-
-/*
-.about div{
-    @apply bg-white;
-}
-.about button:focus{
-    @apply ring-0;
-}
-.about h2{
-    @apply text-gsk-orange text-lg;
-}
-.about p{
-    @apply text-black;
-}
-*/
-
-.about ul{
-    @apply list-disc list-inside;
-}

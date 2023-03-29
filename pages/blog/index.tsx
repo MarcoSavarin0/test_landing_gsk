@@ -1,6 +1,5 @@
 import { NextSeo } from "next-seo"
 
-import H2 from "@/components/ui/H2"
 import Description from "@/components/ui/Description"
 import PostComponent from '@/components/blog/Post'
 import Banner from "@/components/home/Banner"
@@ -80,13 +79,13 @@ const Blog = () => {
 
 			<>
 				<section className="py-10 space-y-10">
-					<div className="space-y-3 px-4 text-center">
-						<h1 className={`text-gsk-orange font-bold leading-none uppercase text-4xl sm:text-5xl lg:text-6xl xl:text-7xl`}>Blog</h1>
-						<H2 title={`Lorem ipsum dolor sit amet?`}/>
-						<Description title={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`}/>
+					<div className="space-y-3 px-10 text-center">
+						<h1 className={`text-gsk-orange font-bold leading-none uppercase text-4xl sm:text-5xl lg:text-6xl xl:text-7xl`}>Hablemos de Salud</h1>
+						<Description title={`En este blog encontrarás información actualizada y consejos útiles para prevenir y tratar el Herpes Zóster.`}/>
+						<Description title={`Además, abordaremos temas relevantes en el ámbito de la salud y compartiremos algunos conocimientos para contribuir a tu bienestar integral. ¡Navegá las notas y tomá acción en tu futuro!`}/>
 					</div>
 
-					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 px-10">
+					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-y-8 md:gap-y-4 gap-x-4 px-10">
 						{posts.map(({id, title, date}: Post) => (
 							<PostComponent key={id} id={id} title={title} date={date}/>
 						))}
