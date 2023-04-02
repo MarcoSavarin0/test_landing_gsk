@@ -37,7 +37,7 @@
 		"no-multi-spaces": "error",
 		"no-whitespace-before-property": "error",
 		"no-irregular-whitespace": "error",
-		"spaced-comment": "error",
+		"spaced-comment": ["error", "always", { "markers": ["/"] }],
 		"block-spacing": "error",
 		"semi": ["error", "never"],
 		"array-bracket-newline": ["error", "consistent"],
