@@ -33,14 +33,14 @@ const Navbar = () => {
 							</div>
 							<nav className="hidden sm:ml-6 md:block">
 								<div className="flex items-center">
-									<Link href="/#preguntas-frecuentes" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase">
+									<Link href="/#que-es-herpes-zoster" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase">
 										¿Qué es Herpes Zóster?
-									</Link>
-									<Link href="/#riesgo" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase">
-										¿Quiénes están en riesgo?
 									</Link>
 									<Link href="/#sintomas" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase">
 										Síntomas
+									</Link>
+									<Link href="/#riesgo" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase">
+										¿Quiénes están en riesgo?
 									</Link>
 									<Link href="/blog" scroll={false}
 										className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase">
@@ -64,18 +64,18 @@ const Navbar = () => {
 					<Disclosure.Panel as="nav" className="md:hidden">
 						<div className="space-y-1 px-2 pt-2 pb-3">
 							<Disclosure.Button as={Fragment}>
-								<Link href="/#preguntas-frecuentes" scroll={false} className="cursor-pointer block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
+								<Link href="/#que-es-herpes-zoster" scroll={false} className="cursor-pointer block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
 									¿Qué es Herpes Zóster?
-								</Link>
-							</Disclosure.Button>
-							<Disclosure.Button as={Fragment}>
-								<Link href="/#riesgo" scroll={false} className="cursor-pointer block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
-									¿Quiénes están en riesgo?
 								</Link>
 							</Disclosure.Button>
 							<Disclosure.Button as={Fragment}>
 								<Link href="/#sintomas" scroll={false} className="cursor-pointer block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
 									Síntomas
+								</Link>
+							</Disclosure.Button>
+							<Disclosure.Button as={Fragment}>
+								<Link href="/#riesgo" scroll={false} className="cursor-pointer block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
+									¿Quiénes están en riesgo?
 								</Link>
 							</Disclosure.Button>
 							<Disclosure.Button as={Fragment}>

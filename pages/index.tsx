@@ -8,6 +8,7 @@ import {useRouter} from "next/router"
 import useModal from "@/store/store"
 import Modal from '@/components/ui/Modal'
 import Hero from "@/components/home/Hero"
+import Sintomas from "@/components/home/Sintomas"
 import Faq from "@/components/home/Faq"
 import Who from "@/components/home/Who"
 import Complication from "@/components/home/Complication"
@@ -57,6 +58,8 @@ const Home = () => {
 
 			<>
 				<Hero/>
+				<Sintomas/>
+				<Spacer/>
 				<Faq/>
 				<Spacer/>
 				<Who/>
