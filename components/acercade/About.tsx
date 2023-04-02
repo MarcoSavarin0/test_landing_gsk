@@ -71,9 +71,9 @@ const About = () => {
 					<h2 className="text-gsk-orange text-lg">
 						{index +1 + `- ` + title}
 					</h2>
-					<p className="text-black">
+					<span className="text-black">
 						{parse(body)}
-					</p>
+					</span>
 				</div>
 			))}
 		</>

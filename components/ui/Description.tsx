@@ -1,5 +1,8 @@
 import parse from "html-react-parser"
 
+import localFont from "@next/font/local"
+const gskPrecisionRegular = localFont({ src: '../../styles/fonts/gskprecision-regular.woff2' })
+
 interface Paragraph {
 	title: string
 	color?: string
@@ -7,7 +10,7 @@ interface Paragraph {
 
 const Description = ({title, color}: Paragraph) => {
 	return (
-		<div className={`text-lg md:text-xl ${color}`}>{parse(title)}</div>
+		<div className={`${gskPrecisionRegular.className} text-lg md:text-xl ${color}`}>{parse(title)}</div>
 	)
 }
 

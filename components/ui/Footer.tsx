@@ -18,21 +18,21 @@ const Footer = () => {
 					/>
 					<div className={`${gskPrecisionLight} flex flex-col gap-y-1 text-sm`}>
 						<div className={`flex flex-col md:flex-row gap-x-0 md:gap-x-6`}>
-							<Link href={`#`} className="text-white hover:text-gray-500 font-light">
+							<Link href={`#`} className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
 								Referencias
 							</Link>
-							<Link href="https://privacy.gsk.com/es-ar/privacy-notice/" target="_blank" className="text-white hover:text-gray-500 font-light">
+							<Link href="https://privacy.gsk.com/es-ar/privacy-notice/" target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
 								Políticas de Cookies
 							</Link>
-							<Link href="https://privacy.gsk.com/es-ar/privacy-notice/general/general-full-text/" target="_blank" className="text-white hover:text-gray-500 font-light">
+							<Link href="https://privacy.gsk.com/es-ar/privacy-notice/general/general-full-text/" target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
 								Políticas de privacidad
 							</Link>
-							<Link href="https://terms.gsk.com/es-ar/pharmaceuticals/default/" target="_blank" className="text-white hover:text-gray-500 font-light">
+							<Link href="https://terms.gsk.com/es-ar/pharmaceuticals/default/" target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
 								Términos y condiciones
 							</Link>
 						</div>
 						<div className="flex flex-row gap-x-0 mt-3 md:mt-0 gap-x-2 md:gap-x-2 justify-center md:justify-start">
-							<Link href={`https://www.facebook.com/Hablemos-de-Zoster-102244729434697`} target="_blank" className="text-white hover:text-gray-500 font-light">
+							<Link href={`https://www.facebook.com/Hablemos-de-Zoster-102244729434697`} target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
 								<span className="sr-only">Facebook</span>
 								<svg fill="currentColor" viewBox="0 0 24 24" className="h-7 w-7 md:h-5 md:w-5" aria-hidden="true">
 									<path
@@ -42,7 +42,7 @@ const Footer = () => {
 									/>
 								</svg>
 							</Link>
-							<Link href={`https://www.instagram.com/hablemosdezoster/`} target="_blank" className="text-white hover:text-gray-500 font-light">
+							<Link href={`https://www.instagram.com/hablemosdezoster/`} target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
 								<span className="sr-only">Instagram</span>
 								<svg fill="currentColor" viewBox="0 0 24 24" className="h-7 w-7 md:h-5 md:w-5" aria-hidden="true">
 									<path
