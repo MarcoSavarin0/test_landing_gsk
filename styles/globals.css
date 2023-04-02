@@ -18,3 +18,13 @@ a {
 * {
     box-sizing: border-box;
 }
+
+.bg-shape {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    z-index: -1;
+}

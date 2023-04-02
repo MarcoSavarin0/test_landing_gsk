@@ -4,6 +4,7 @@ import {motion, useAnimation, useInView} from "framer-motion"
 
 import H2 from "@/components/ui/H2"
 import MirrorContent from "@/components/home/ui/MirrorContent"
+import Image from "next/image"
 
 interface Complication {
 	title: string
@@ -80,7 +81,21 @@ const Complication = () => {
 
 
 	return (
-		<section className="px-4">
+		<section className="px-4 relative">
+			<div className="bg-shape">
+				<Image
+					alt=""
+					src={`/assets/images/bg-complications.png`}
+					quality={70}
+					fill
+					sizes="100vw"
+					style={{
+						objectFit: 'cover',
+						backgroundPositionY: 'center'
+					}}
+				/>
+			</div>
+
 			<Element name="sintomas" className="space-y-6">
 				<H2 title={`Posibles complicaciones`}/>
 
