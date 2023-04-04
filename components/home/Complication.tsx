@@ -82,7 +82,7 @@ const Complication = () => {
 
 	return (
 		<section className="px-4 relative">
-			<div className="bg-shape">
+			<div className="bg-shape top-8 opacity-80">
 				<Image
 					alt=""
 					src={`/assets/images/bg-complications.png`}
@@ -91,7 +91,21 @@ const Complication = () => {
 					sizes="100vw"
 					style={{
 						objectFit: 'cover',
-						backgroundPositionY: 'center'
+						backgroundPositionY: 'top'
+					}}
+				/>
+			</div>
+
+			<div className="bg-shape -bottom-32">
+				<Image
+					alt=""
+					src={`/assets/images/bg-faq.png`}
+					quality={70}
+					fill
+					sizes="100vw"
+					style={{
+						objectFit: 'cover',
+						backgroundPositionY: 'bottom'
 					}}
 				/>
 			</div>

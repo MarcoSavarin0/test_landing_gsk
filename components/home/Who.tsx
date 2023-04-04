@@ -3,7 +3,6 @@ import { Element } from 'react-scroll'
 import H2 from "@/components/ui/H2"
 import CardIcon from "@/components/home/ui/CardIcon"
 import Description from "@/components/ui/Description"
-import Image from "next/image"
 
 interface Card {
 	title: string
@@ -32,19 +31,6 @@ const cards: Card[] = [
 const Who = () => {
 	return (
 		<section className="text-center space-y-6 relative">
-			<div className="bg-shape">
-				<Image
-					alt="Mountains"
-					src={`/assets/images/bg-faq.png`}
-					quality={70}
-					fill
-					sizes="100vw"
-					style={{
-						objectFit: 'fill',
-					}}
-				/>
-			</div>
-
 			<Element className="space-y-3 px-4" name="riesgo">
 				<H2 title={`¿Quiénes están en riesgo?`}/>
 				<Description title={`Enterate si estás en riesgo de contraer Herpes Zóster.`}/>

@@ -7,7 +7,7 @@ import Image from "next/image"
 const Sintomas = () => {
 	return (
 		<section className="space-y-6 text-center pt-10 relative">
-			<div className="bg-shape">
+			<div className="bg-shape top-10">
 				<Image
 					alt="Mountains"
 					src={`/assets/images/bg-faq.png`}
