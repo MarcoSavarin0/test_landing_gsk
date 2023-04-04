@@ -26,7 +26,7 @@ const complications: Complication[] = [
 	{
 		title: `HERPES ZÓSTER OFTALMOLÓGICO`,
 		image: `oftalmologico`,
-		body: `Ocurre cuando el virus infecta el nervio facial causando erupciones en la frente y una inflamación dolorosa en los tejidos.`
+		body: `Ocurre cuando el virus infecta el nervio facial causando erupciones en la frente y una inflamación dolorosa en los tejidos. Los personas pueden desarrollar queratitis , escleritis, uveítis y necrosis retiniana aguda. Las secuelas prolongadas o permanentes del Herpes Zóster Ofalmológico pueden dar lugar a pérdida de visión <sup>14</sup>.`
 	},
 	{
 		title: `OTRAS CONSECUENCIAS`,
@@ -96,7 +96,7 @@ const Complication = () => {
 				/>
 			</div>
 
-			<Element name="sintomas" className="space-y-6">
+			<Element name="riesgo" className="space-y-6">
 				<H2 title={`Posibles complicaciones`}/>
 
 				<motion.div className="space-y-10 md:space-y-12 px-8 sm:px-12 py-4 overflow-hidden"

@@ -42,9 +42,6 @@ const AcercaDe = () => {
 						<div className="-mt-24 pt-8 space-y-6">
 							<About/>
 						</div>
-						<div>
-							<p className="text-xs font-light"><sup>3</sup> Mueller NH et al. Varicella Zoster Virus Infection: Clinical Features, Molecular Pathogenesis of Disease and Latency. Neurologic Clinics. 2008;26;675-697.</p>
-						</div>
 					</article>
 
 				</section>

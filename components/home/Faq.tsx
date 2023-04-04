@@ -21,7 +21,7 @@ const faqs: Faq[] = [
 	},
 	{
 		title: `¿CÓMO SE TRATA <span className="block">EL HERPES ZÓSTER?</span>`,
-		body: `<p>Hay medicamentos antivirales disponibles para tratar el Herpes Zóster. Estos medicamentos ayudan a acortar la duración y severidad de la enfermedad, pero para que sean efectivos, se debe comenzar el tratamiento tan pronto como sea posible después de que aparezca la erupción. Los analgésicos pueden ayudar a aliviar el dolor y los paños húmedos, cremas recomendadas y los baños de avena coloidal 8 pueden ayudar a aliviar la picazón. Las personas que padezcan el Herpes Zóster o creen que pueden tenerlo deben acudir a su médico lo antes posible.</p>`
+		body: `<p>Hay medicamentos antivirales disponibles para tratar el Herpes Zóster. Estos medicamentos ayudan a acortar la duración y severidad de la enfermedad, pero para que sean efectivos, se debe comenzar el tratamiento tan pronto como sea posible después de que aparezca la erupción. Los analgésicos pueden ayudar a aliviar el dolor y los paños húmedos, cremas recomendadas y los baños de avena coloidal<sup>8</sup> pueden ayudar a aliviar la picazón. Las personas que padezcan el Herpes Zóster o creen que pueden tenerlo deben acudir a su médico lo antes posible.</p>`
 	}
 ]
 

@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from "next/link"
+import parse from "html-react-parser"
 
 interface Complication {
 	title: string
@@ -16,7 +17,7 @@ const MirrorContent = ({title, image, index, body}: Complication) => {
 			</div>
 			<div className="w-full md:w-8/12">
 				<h3 className="text-gsk-orange font-bold text-2xl">{title}</h3>
-				<p className="text-lg md:text-xl">{body}</p>
+				<p className="text-lg md:text-xl">{parse(body)}</p>
 				<Link href="#" className="text-lg underline text-gsk-orange hover:text-gsk-dark transition-colors duration-200 ease-out">Conocé más</Link>
 			</div>
 		</>
