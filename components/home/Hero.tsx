@@ -94,7 +94,7 @@ const Hero = () => {
 				allowTouchMove={true}
 				loop={true}
 				autoplay={{
-					delay: 600000,
+					delay: 6000,
 					pauseOnMouseEnter: false,
 					disableOnInteraction: false,
 					stopOnLastSlide: false,
