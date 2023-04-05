@@ -1,5 +1,4 @@
 import {useEffect, useRef} from "react"
-import { Element } from 'react-scroll'
 import {motion, useAnimation, useInView} from "framer-motion"
 
 import H2 from "@/components/ui/H2"
@@ -110,7 +109,7 @@ const Complication = () => {
 				/>
 			</div>
 
-			<Element name="riesgo" className="space-y-6">
+			<div className="space-y-6">
 				<H2 title={`Posibles complicaciones`}/>
 
 				<motion.div className="space-y-10 md:space-y-12 px-8 sm:px-12 py-4 overflow-hidden"
@@ -127,7 +126,7 @@ const Complication = () => {
 						</motion.article>
 					))}
 				</motion.div>
-			</Element>
+			</div>
 		</section>
 	)
 }

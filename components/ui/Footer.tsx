@@ -60,7 +60,7 @@ const Footer = () => {
 
 				<div className="mt-8 md:mt-0">
 					<p className="text-center text-xs leading-5 text-gray-500">
-						&copy; 2001-2023 GSK plc. All rights reserved. <span className="block md:inline">Trade marks are owned by or licensed to the GSK group of companies.</span>
+						NP-AR-HZU-WCNT-230002- Abril 2023 <span className="block lg:inline">Para mayor información consulte a su médico. GSK Biopharma Argentina S.A. Av del Libertador 7202, Piso 4, CABA, Buenos Aires, Argentina.</span>
 					</p>
 				</div>
 			</div>
