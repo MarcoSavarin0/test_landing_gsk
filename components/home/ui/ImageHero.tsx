@@ -6,7 +6,7 @@ interface ImageHero {
 
 const ImageHero = ({type}: ImageHero) => {
 	return (
-		<Image priority src={`/assets/images/hero/${type}.jpg`} alt={`Herpes Zóster`} width="1920" height="800" className="block w-full h-full object-cover object-center"/>
+		<Image priority src={`/assets/images/hero/${type}.jpg`} alt={`Herpes Zóster`} width="1280" height="700" className="block w-full h-full object-cover object-bottom"/>
 	)
 }
 
