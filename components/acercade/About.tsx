@@ -8,11 +8,11 @@ interface Faq {
 const faqs: Faq[] = [
 	{
 		title: `¿QUÉ ES EL HERPES ZÓSTER?`,
-		body: `<p>El Herpes Zóster, también llamado coloquialmente culebrilla, es una enfermedad causada por la reactivación del Virus Varicela Zóster (VVZ), el mismo virus que causa la varicela. Luego de que una persona contrae varicela <sup>1 2</sup>, el virus permanece latente en su sistema nervioso, por lo general, sin causar síntomas hasta su reactivación.</p>`
+		body: `<p>El Herpes Zóster, también llamado coloquialmente culebrilla, es una enfermedad causada por la reactivación del Virus Varicela Zóster (VVZ), el mismo virus que causa la varicela. Luego de que una persona contrae varicela, el virus permanece latente en su sistema nervioso, por lo general, sin causar síntomas hasta su reactivación <sup>1, 2</sup>.</p>`
 	},
 	{
 		title: `¿CUÁLES SON LOS SÍNTOMAS?`,
-		body: `<p>Generalmente los primeros síntomas del Herpes Zóster son picazón, dolor, hormigueo, sensación molesta o sensibilidad al tacto en el tórax, el abdomen o el rostro <sup>3</sup>. Tras los primeros días, comienza la fase aguda de la enfermedad, en la que aparece la erupción cutánea, con ampollas en las zonas afectadas, acompañadas de un dolor agudo. Al cabo de unos 10 días, las vesículas se convierten en costras que, normalmente, duran entre 2 y 4 semanas.</p>`
+		body: `<p>Generalmente los primeros síntomas del Herpes Zóster son picazón, dolor, hormigueo, sensación molesta o sensibilidad al tacto en el tórax, el abdomen o el rostro. Tras los primeros días, comienza la fase aguda de la enfermedad, en la que aparece la erupción cutánea, con ampollas en las zonas afectadas, acompañadas de un dolor agudo. Al cabo de unos 10 días, las vesículas se convierten en costras que, normalmente, duran entre 2 y 4 semanas <sup>3</sup>.</p>`
 	}
 	,
 	{
@@ -54,12 +54,12 @@ const faqs: Faq[] = [
 	,
 	{
 		title: `¿LOS NIÑOS PUEDEN TENER HERPES ZÓSTER?`,
-		body: `<p>Cualquier persona que haya tenido varicela puede desarrollar Herpes Zóster. Sin embargo, los casos en niños son poco frecuentes y los riesgos de padecer la patología incrementan en la adultez con el envejecimiento natural del sistema inmune. Se estima que el riesgo de contraer la enfermedad aumenta drásticamente de los 40 a los 50 años y continúa aumentando cada año.</p>`
+		body: `<p>Cualquier persona que haya tenido varicela puede desarrollar Herpes Zóster. Sin embargo, los casos en niños son poco frecuentes y los riesgos de padecer la patología incrementan en la adultez con el envejecimiento natural del sistema inmune. Se estima que el riesgo de contraer la enfermedad aumenta drásticamente de los 40 a los 50 años y continúa aumentando cada año <sup>9</sup>.</p>`
 	}
 	,
 	{
 		title: `¿EL HERPES ZÓSTER ES MORTAL? ¿ES PELIGROSO?`,
-		body: `<p>El Herpes Zóster presenta una baja mortalidad, pero sus complicaciones, especialmente la Neuralgia Postherpética, pueden ocasionar discapacidad y afectar a la calidad de vida de quienes lo padecen. El dolor puede alterar el sueño, el estado de ánimo, el trabajo y las actividades de la vida diaria, lo que repercute negativamente en la calidad de vida y provoca retraimiento social y depresión.</p>`
+		body: `<p>El Herpes Zóster presenta una baja mortalidad, pero sus complicaciones, especialmente la Neuralgia Postherpética, pueden ocasionar discapacidad y afectar a la calidad de vida de quienes lo padecen. El dolor puede alterar el sueño, el estado de ánimo, el trabajo y las actividades de la vida diaria, lo que repercute negativamente en la calidad de vida y provoca retraimiento social y depresión. <sup>11, 12</sup></p>`
 	}
 ]
 

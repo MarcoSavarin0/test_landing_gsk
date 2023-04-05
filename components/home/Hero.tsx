@@ -21,62 +21,62 @@ interface Dolor {
 
 const dolores: Dolor[] = [
 	{
-		title: "\"como sentir un ardor desesperante\"",
+		title: "\"Como sentir un ardor desesperante\"",
 		type: "ardor",
 		file: "video",
 	},
 	{
-		title: "\"como sentir un ardor desesperante\"",
+		title: "\"Como sentir un ardor desesperante\"",
 		type: "ardor",
 		file: "image",
 	},
 	{
-		title: "\"como clavos atravesando la piel\"",
+		title: "\"Como clavos atravesando la piel\"",
 		type: "clavos",
 		file: "video",
 	},
 	{
-		title: "\"como quemarse con agua hirviendo\"",
+		title: "\"Como quemarse con agua hirviendo\"",
 		type: "quemadura",
 		file: "video",
 	},
 	{
-		title: "\"como quemarse con agua hirviendo\"",
+		title: "\"Como quemarse con agua hirviendo\"",
 		type: "quemadura",
 		file: "image",
 	},
 	{
-		title: "\"como fuego recorriendo los nervios\"",
+		title: "\"Como fuego recorriendo los nervios\"",
 		type: "fuego",
 		file: "video",
 	},
 	{
-		title: "\"como fuego recorriendo los nervios\"",
+		title: "\"Como fuego recorriendo los nervios\"",
 		type: "fuego",
 		file: "image",
 	},
 	{
-		title: "\"como sentir descargas eléctricas en el cuerpo\"",
+		title: "\"Como sentir descargas eléctricas en el cuerpo\"",
 		type: "electricidad",
 		file: "video",
 	},
 	{
-		title: "\"como sentir una puntada perforante\"",
+		title: "\"Como sentir una puntada perforante\"",
 		type: "puntada",
 		file: "video",
 	},
 	{
-		title: "\"como sentir una puntada perforante\"",
+		title: "\"Como sentir una puntada perforante\"",
 		type: "puntada",
 		file: "image",
 	},
 	{
-		title: "\"como tener la piel en llamas\"",
+		title: "\"Como tener la piel en llamas\"",
 		type: "llamas",
 		file: "video",
 	},
 	{
-		title: "\"como tener la piel en llamas\"",
+		title: "\"Como tener la piel en llamas\"",
 		type: "llamas",
 		file: "image",
 	},
@@ -105,11 +105,15 @@ const Hero = () => {
 						<div className="relative w-full flex flex-col h-auto  bg-gsk-dark md:h-[27rem] lg:h-[34rem] xl:h-[46rem] 2xl:h-[54rem] overflow-hidden"> {/* md:h-[27rem] lg:h-[34rem] xl:h-[46rem] 2xl:h-[44rem]  */}
 							{item.file == "video" ? <VideoHero type={item.type}/> : <ImageHero type={item.type}/> }
 
-							<article className="order-first static md:absolute md:top-1/4 right-12 md:right-8 w-11/12 md:w-5/12 space-y-2 sm:space-y-4 px-6 md:px-0 pt-12 md:pt-0">
+							<article className="order-first static md:absolute md:top-[20%] right-12 md:right-8 w-11/12 md:w-5/12 space-y-2 sm:space-y-4 px-6 md:px-0 pt-12 md:pt-0">
 								<h2 className={`${gskPrecisionBoldItalic.className} text-white text-xl sm:text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl font-bold italic leading-[2rem]`}>
 									{item.title}
 								</h2>
-								<p className={`${gskPrecisionLight} hidden md:block text-gsk-orange text-xl 2xl:text-3xl font-light`}>Así describe el dolor una persona que sufrió Herpes Zóster. Conocé más sobre la enfermedad, sus síntomas y las opciones de prevención y tratamiento. Hablemos de Zóster.</p>
+								<div className="space-y-2">
+									<p className={`${gskPrecisionLight} hidden md:block text-gsk-orange text-xl 2xl:text-3xl font-light`}>Así describe el dolor una persona que sufrió Herpes Zóster.</p>
+									<p className={`${gskPrecisionLight} hidden md:block text-gsk-orange text-xl 2xl:text-3xl font-light`}>Conocé más sobre la enfermedad, sus síntomas y las opciones de prevención y tratamiento.</p>
+									<p className={`${gskPrecisionLight} hidden md:block text-gsk-orange text-xl 2xl:text-3xl font-light`}>Hablemos de Zóster.</p>
+								</div>
 							</article>
 
 							<p className={`${gskPrecisionLight} block md:hidden text-gsk-orange text-xl 2xl:text-3xl font-light`}>Así describe el dolor una persona que sufrió Herpes Zóster. Conocé más sobre la enfermedad, sus síntomas y las opciones de prevención y tratamiento. Hablemos de Zóster.</p>

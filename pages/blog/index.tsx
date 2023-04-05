@@ -1,16 +1,14 @@
 import { NextSeo } from "next-seo"
 
-// import Description from "@/components/ui/Description"
-// import PostComponent from '@/components/blog/Post'
-// import Banner from "@/components/home/Banner"
+import Description from "@/components/ui/Description"
+import PostComponent from '@/components/blog/Post'
+import Banner from "@/components/home/Banner"
 
-/* interface Post {
+interface Post {
 	id: number
 	title: string
 	date: string
-} */
-
-/*
+}
 
 const posts: Post[] = [
 	{
@@ -54,7 +52,6 @@ const posts: Post[] = [
 		date: "01/05/2023"
 	},
 ]
-*/
 
 const Blog = () => {
 	return (
@@ -81,7 +78,7 @@ const Blog = () => {
 			/>
 
 			<>
-				{/* <section className="py-10 space-y-10">
+				<section className="py-10 space-y-10">
 					<div className="space-y-3 px-10 text-center">
 						<h1 className={`text-gsk-orange font-bold leading-none uppercase text-4xl sm:text-5xl lg:text-6xl xl:text-7xl`}>Hablemos de Salud</h1>
 						<Description title={`En este blog encontrarás información actualizada y consejos útiles para prevenir y tratar el Herpes Zóster.`}/>
@@ -95,7 +92,7 @@ const Blog = () => {
 					</div>
 
 				</section>
-				<Banner/> */}
+				<Banner/>
 			</>
 		</>
 	)

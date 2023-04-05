@@ -13,7 +13,7 @@ interface Card {
 const cards: Card[] = [
 	{
 		title: "TUVE VARICELA",
-		body: "Después de la varicela, el Virus Varicela Zóster permanece latente en el sistema nervioso y puede reactivarse con la edad.",
+		body: "Después de la varicela, el Virus Varicela Zóster permanece latente en el sistema nervioso y puede reactivarse con la edad <sup>12</sup>.",
 		image: "varicela",
 	},
 	{

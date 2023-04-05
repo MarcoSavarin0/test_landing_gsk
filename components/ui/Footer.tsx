@@ -59,8 +59,11 @@ const Footer = () => {
 				</div>
 
 				<div className="mt-8 md:mt-0">
-					<p className="text-center text-xs leading-5 text-gray-500">
-						NP-AR-HZU-WCNT-230002- Abril 2023 <span className="block lg:inline">Para mayor información consulte a su médico. GSK Biopharma Argentina S.A. Av del Libertador 7202, Piso 4, CABA, Buenos Aires, Argentina.</span>
+					<p className="text-center md:text-left text-xs leading-5 text-gray-500">
+						NP-AR-HZU-WCNT-230002- Abril 2023
+						<span className="block">Para mayor información consulte a su médico.</span>
+						<span className="block">GSK Biopharma Argentina S.A. Av del Libertador 7202, Piso 4, CABA, Buenos Aires, Argentina.</span>
+						<span className="block">Para consultas sobre nuestros productos, consultas de calidad o reporte de eventos adversos puede comunicarse al 0800-222-4752.</span>
 					</p>
 				</div>
 			</div>

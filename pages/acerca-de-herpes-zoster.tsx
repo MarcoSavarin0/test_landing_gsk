@@ -1,10 +1,10 @@
 import { NextSeo } from "next-seo"
 
-/* import Blog from "@/components/home/Blog"
+import Blog from "@/components/home/Blog"
 import Banner from "@/components/home/Banner"
 import H2 from "@/components/ui/H2"
 import Description from "@/components/ui/Description"
-import About from "@/components/acercade/About" */
+import About from "@/components/acercade/About"
 
 const AcercaDe = () => {
 	return (
@@ -31,7 +31,7 @@ const AcercaDe = () => {
 			/>
 
 			<>
-				{/* <section>
+				<section>
 					<div className="space-y-3 px-4 text-center bg-gsk-dark pt-10 pb-36 shadow-xl">
 						<h1 className={`text-gsk-orange font-bold leading-none uppercase text-4xl sm:text-5xl lg:text-6xl xl:text-7xl`}>Herpes Zóster</h1>
 						<H2 title={`¿QUÉ TENÉS QUE SABER?`}/>
@@ -47,7 +47,7 @@ const AcercaDe = () => {
 				</section>
 				<hr className="w-6/12 border-b border-gsk-orange m-auto my-10"/>
 				<Blog/>
-				<Banner/> */}
+				<Banner/>
 			</>
 		</>
 	)
