@@ -19,7 +19,7 @@ const Footer = () => {
 							height={70}
 						/>
 						<div className={`${gskPrecisionLight} flex flex-col md:flex-row gap-x-0 md:gap-x-4 lg:gap-x-6 text-sm`}>
-							<Link href={`#`} className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
+							<Link href={`/referencias`} className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
 								Referencias
 							</Link>
 							<Link href="https://privacy.gsk.com/es-ar/privacy-notice/" target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
