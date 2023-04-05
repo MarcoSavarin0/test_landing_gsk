@@ -89,6 +89,7 @@ const Hero = () => {
 				spaceBetween={0}
 				slidesPerView={1}
 				effect={"fade"}
+				className="bg-gsk-dark"
 				modules={[EffectFade, Autoplay]}
 				allowTouchMove={true}
 				loop={true}
@@ -106,7 +107,7 @@ const Hero = () => {
 
 							<article className="order-first static md:absolute md:top-1/4 right-12 md:right-8 w-11/12 md:w-5/12 space-y-2 sm:space-y-4 px-6 md:px-0 pt-12 md:pt-0">
 								<h2 className={`${gskPrecisionBoldItalic.className} text-white text-xl sm:text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl font-bold italic leading-[2rem]`}>
-									<span className="inline sm:inline-block md:block">{item.title}</span>
+									{item.title}
 								</h2>
 								<p className={`${gskPrecisionLight} hidden md:block text-gsk-orange text-xl 2xl:text-3xl font-light`}>Así describe el dolor una persona que sufrió Herpes Zóster. Conocé más sobre la enfermedad, sus síntomas y las opciones de prevención y tratamiento. Hablemos de Zóster.</p>
 							</article>
