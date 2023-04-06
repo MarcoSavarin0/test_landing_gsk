@@ -1,4 +1,5 @@
 import {useEffect} from "react"
+import {router} from "next/client"
 
 interface Text {
 	text: string
@@ -8,9 +9,12 @@ const synth = window.speechSynthesis
 
 export default function SpeechBlog({text}: Text) {
 	useEffect(() => {
+		router.events.on('routeChangeStart', speechCancelHandler)
 
-		synth.cancel()
-	}, [])
+		return () => {
+			router.events.off('routeChangeStart', speechCancelHandler)
+		}
+	}, [router])
 
 	const textToSpeech = new SpeechSynthesisUtterance(text)
 	textToSpeech.rate = 0.8
