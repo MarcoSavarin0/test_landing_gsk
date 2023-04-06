@@ -6,6 +6,8 @@ import PostComponent from '@/components/blog/Post'
 import Banner from "@/components/home/Banner"
 import CategoryButton from "@/components/blog/CategoryButton"
 
+import dynamic from "next/dynamic"
+
 interface Post {
 	id: number
 	title: string
@@ -69,6 +71,10 @@ const categories: Category[] = [
 	}
 ]
 
+const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), {
+	ssr: false,
+})
+
 const Blog = () => {
 	const router = useRouter()
 	const queryTitle = router.query.slug
@@ -106,6 +112,9 @@ const Blog = () => {
 						<article className="flex flex-col flex-1 gap-y-4">
 							<header className="space-y-1">
 								<span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span>
+
+								<DynamicSpeechBlog text={`${queryTitle}`}/>
+
 								<h1 className="text-gsk-orange font-bold leading-none text-4xl sm:text-5xl">{postContent.title}</h1>
 								<h2 className="text-gsk-orange text-xl">Ut enim ad minim veniam, quis nostrud exercitation elit.</h2>
 							</header>
