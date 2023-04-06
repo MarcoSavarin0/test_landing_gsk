@@ -6,7 +6,7 @@ const gskPrecisionBold = localFont({ src: '../../styles/fonts/gskprecision-bold.
 
 const Intro = () => {
 	return (
-		<div className="pt-10 bg-gsk-dark text-center">
+		<div className="pt-10 md:pt-10 bg-gsk-dark text-center">
 			<Element name="que-es-herpes-zoster">
 				<h1 className={`${gskPrecisionBold} text-gsk-orange font-bold leading-none uppercase text-4xl sm:text-5xl lg:text-6xl xl:text-7xl`}>Herpes Zóster</h1>
 			</Element>
