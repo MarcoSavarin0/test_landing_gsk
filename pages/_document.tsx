@@ -22,7 +22,7 @@ class MyDocument extends Document {
 					`}
 					</Script>
 				</Head>
-				<body>
+				<body className="antialiased">
 					<Script id="google-tagmanager" strategy="afterInteractive">
 						{`
 						<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WL5WP7P" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

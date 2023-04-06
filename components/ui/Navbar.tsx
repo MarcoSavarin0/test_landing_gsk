@@ -33,17 +33,17 @@ const Navbar = () => {
 							</div>
 							<nav className="hidden sm:ml-6 md:block">
 								<div className="flex items-center">
-									<Link href="/#que-es-herpes-zoster" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase">
+									<Link href="/#que-es-herpes-zoster" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										¿Qué es Herpes Zóster?
 									</Link>
-									<Link href="/#sintomas" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase">
+									<Link href="/#sintomas" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										Síntomas
 									</Link>
-									<Link href="/#riesgo" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase">
+									<Link href="/#riesgo" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										¿Quiénes están en riesgo?
 									</Link>
 									<Link href="/blog" scroll={false}
-										className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase">
+										className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										Blog
 									</Link>
 								</div>
