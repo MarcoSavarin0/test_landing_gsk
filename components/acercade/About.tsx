@@ -34,7 +34,7 @@ const faqs: Faq[] = [
 	,
 	{
 		title: `¿CUÁLES SON LAS POSIBLES COMPLICACIONES QUE PUEDE TENER EL HERPES ZÓSTER?`,
-		body: `<p>Si bien la mayoría de las personas se recupera por completo, algunas pueden experimentar mayores complicaciones. La complicación más común es la Neuralgia Postherpética (PHN, por sus siglas en inglés), un dolor neurálgico que persiste después de que la erupción se haya curado. La PHN puede durar de tres a seis meses, o incluso persistir por más tiempo. Suele ser más común y grave en personas mayores que en personas más jóvenes. Después de los 50 años, alrededor del 20 % de los pacientes con Herpes Zóster desarrollarán Neuralgia Postherpética.<br/><br/>Otras complicaciones también pueden incluir:<br/><ul><li>Cambios en la piel: cicatrices o cambios en la pigmentación después de que la erupción haya sanado.</li><li>Infección secundaria de la erupción de la culebrilla.</li><li>Herpes Zóster Oftálmico: ocurre cuando el virus infecta el nervio facial.</li><li>Complicaciones del sistema nervioso periférico y central.</li><li>Complicaciones cardiovasculares.</li><li>Impacto negativo en la calidad de vida.</li></ul></p>`
+		body: `<p>Si bien la mayoría de las personas se recupera por completo, algunas pueden experimentar mayores complicaciones. La complicación más común es la Neuralgia Postherpética (NPH), un dolor neurálgico que persiste después de que la erupción se haya curado. La NPH puede durar de tres a seis meses, o incluso persistir por más tiempo. Suele ser más común y grave en personas mayores que en personas más jóvenes. Después de los 50 años, hasta un 30% de los pacientes con Herpes Zóster desarrollarán Neuralgia Postherpética.<br/><br/>Otras complicaciones también pueden incluir:<br/><ul><li>Cambios en la piel: cicatrices o cambios en la pigmentación después de que la erupción haya sanado.</li><li>Infección secundaria de la erupción de la culebrilla.</li><li>Herpes Zóster Oftálmico: ocurre cuando el virus infecta el nervio facial.</li><li>Complicaciones del sistema nervioso periférico y central.</li><li>Complicaciones cardiovasculares.</li><li>Impacto negativo en la calidad de vida.</li></ul></p>`
 	}
 	,
 	{
@@ -71,7 +71,7 @@ const About = () => {
 					<h2 className="text-gsk-orange text-lg">
 						{index +1 + `- ` + title}
 					</h2>
-					<span className="text-black">
+					<span className="text-black text-justify">
 						{parse(body)}
 					</span>
 				</div>

@@ -29,7 +29,7 @@ const Home = () => {
 			duration: 1000,
 			delay: 300,
 			smooth: true,
-			offset: -10,
+			offset: -25,
 		})
 	), [router.asPath])
 

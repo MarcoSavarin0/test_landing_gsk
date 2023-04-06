@@ -12,11 +12,11 @@ interface Faq {
 
 const faqs: Faq[] = [
 	{
-		title: `¿EL HERPES ZÓSTER<span ES CONTAGIOSO?`,
+		title: `¿EL HERPES ZÓSTER ES CONTAGIOSO?`,
 		body: `<p>No, el Herpes Zóster no puede contagiarse de una persona a otra. Sin embargo, si una persona tiene Herpes Zóster, el contacto directo con las secreciones de las vesículas del sarpullido puede propagar el Virus Varicela Zóster (VVZ) a las personas que nunca han tenido varicela o que nunca recibieron la vacuna contra la misma. Si ellas se infectan, presentarán varicela, pudiendo desarrollar Herpes Zóster más adelante en su vida.</p>`
 	},
 	{
-		title: `¿SE PUEDE TENER HERPES ZÓSTER MÁS UNA VEZ?`,
+		title: `¿SE PUEDE TENER HERPES ZÓSTER MÁS DE UNA VEZ?`,
 		body: `<p>Sí. Aunque no es tan común, el virus puede volver a reactivarse.</p>`
 	},
 	{

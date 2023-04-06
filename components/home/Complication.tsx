@@ -15,7 +15,7 @@ const complications: Complication[] = [
 	{
 		title: `NEURALGIA POSTHERPÉTICA`,
 		image: `neuralgia-post-herpetica`,
-		body: `La Neuralgia Postherpética (NPH, por sus siglas) es un dolor neurálgico que persiste después de que la erupción se haya curado. La NPH puede durar de tres a seis meses, o incluso persistir por más tiempo. Suele ser más común y grave en personas mayores que en personas más jóvenes. Después de los 50 años, alrededor del 30% de los pacientes con Herpes Zóster desarrollarán Neuralgia Postherpética.`
+		body: `La Neuralgia Postherpética (NPH) es un dolor neurálgico que persiste después de que la erupción se haya curado. La NPH puede durar de tres a seis meses, o incluso persistir por más tiempo. Suele ser más común y grave en personas mayores que en personas más jóvenes. Después de los 50 años, hasta un 30% de los pacientes con Herpes Zóster desarrollarán Neuralgia Postherpética.`
 	},
 	{
 		title: `CAMBIOS EN LA PIEL`,
