@@ -4,7 +4,6 @@ import {shallow} from "zustand/shallow"
 import parse from "html-react-parser"
 import {scroller} from "react-scroll"
 import {useRouter} from "next/router"
-// import Script from "next/script"
 
 import useModal from "@/store/store"
 import Modal from '@/components/ui/Modal'
@@ -56,14 +55,6 @@ const Home = () => {
 					siteName: 'Hablemos de Zóster | Campaña de concientización y prevensión',
 				}}
 			/>
-			{/* <Script id="in-page-analytics">
-				{
-					`
-					gtag('event', 'conversion', {'send_to': 'AW-11138119089/IKgRCLHhl5YYELHriL8p'});
-					`
-				}
-			</Script> */}
-
 			<>
 				<Hero/>
 				<Sintomas/>
