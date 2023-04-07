@@ -12,7 +12,8 @@ import Link from "next/link"
 import parse from "html-react-parser"
 
 const gskPrecisionLight = localFont({ src: '../../styles/fonts/gskprecision-light.woff2' })
-const barlowSemicondensedSemiBold = localFont({ src: '../../styles/fonts/barlowsemicondensed-semibold.woff2' })
+const barlowSemicondensedExtraBoldItalic = localFont({ src: '../../styles/fonts/barlowsemicondensed-extrabolditalic.woff2' })
+const barlowSemicondensedMediumItalic = localFont({ src: '../../styles/fonts/barlowsemicondensed-mediumitalic.woff2' })
 
 interface Dolor {
 	title: string
@@ -21,32 +22,32 @@ interface Dolor {
 
 const dolores: Dolor[] = [
 	{
-		title: `"Como sentir un <span className="font-bold">ardor</span> desesperante"`,
+		title: `"UN DOLOR QUE PUEDE SENTIRSE COMO UN <span className="font-bold ${barlowSemicondensedExtraBoldItalic.className}">ARDOR DESESPERANTE</span>"`,
 		type: "ardor",
 	},
 	{
-		title: "\"Como clavos atravesando la piel\"",
+		title: `"UN DOLOR QUE PUEDE SENTIRSE COMO <span className="font-bold ${barlowSemicondensedExtraBoldItalic.className}">CLAVOS ATRAVESANDO</span> LA <span className="font-bold ${barlowSemicondensedExtraBoldItalic.className}">PIEL</span>"`,
 		type: "clavos",
 	},
 	{
-		title: "\"Como quemarse con agua hirviendo\"",
+		title: `"UN DOLOR QUE PUEDE SENTIRSE COMO <span className="font-bold ${barlowSemicondensedExtraBoldItalic.className}">QUEMARSE</span> CON AGUA <span className="font-bold ${barlowSemicondensedExtraBoldItalic.className}">HIRVIENDO</span>"`,
 		type: "quemadura",
 	},
 	{
-		title: "\"Como si tuviera la piel en llamas\"",
-		type: "fuego",
+		title: `"UN DOLOR QUE PUEDE SENTIRSE COMO <span className="font-bold ${barlowSemicondensedExtraBoldItalic.className}">FUEGO RECORRIENDO</span> LOS <span className="font-bold ${barlowSemicondensedExtraBoldItalic.className}">NERVIOS</span>"`,
+		type: "llamas",
 	},
 	{
-		title: "\"Como sentir descargas eléctricas en el cuerpo\"",
+		title: `"UN DOLOR QUE PUEDE SENTIRSE COMO <span className="font-bold ${barlowSemicondensedExtraBoldItalic.className}">DESCARGAS ELÉCTRICAS</span> EN EL <span className="font-bold ${barlowSemicondensedExtraBoldItalic.className}">CUERPO</span>"`,
 		type: "electricidad",
 	},
 	{
-		title: "\"Como sentir una puntada perforante\"",
+		title: `"UN DOLOR QUE PUEDE SENTIRSE COMO UNA <span className="font-bold ${barlowSemicondensedExtraBoldItalic.className}">PUNTADA PERFORANTE</span>"`,
 		type: "puntada",
 	},
 	{
-		title: "\"Como fuego recorriendo los nervios\"",
-		type: "llamas",
+		title: `"UN DOLOR QUE PUEDE SENTIRSE COMO TENER LA <span className="font-bold ${barlowSemicondensedExtraBoldItalic.className}">PIEL</span> EN <span className="font-bold ${barlowSemicondensedExtraBoldItalic.className}">LLAMAS</span>"`,
+		type: "fuego",
 	}
 ]
 
@@ -75,12 +76,12 @@ const Hero = () => {
 
 							<VideoHero type={type}/>
 
-							<article className="order-first absolute top-0 md:top-[20%] right-auto md:right-8 w-11/12 sm:w-fit md:w-5/12 space-y-2 sm:space-y-4 px-6 md:px-0 pt-6 md:pt-0">
-								<h2 className={`${barlowSemicondensedSemiBold.className} drop-shadow-[14px_18px_3px_rgba(255,255,255,0.65)] sm:drop-shadow-[12px_12px_3px_rgba(255,255,255,0.65)] uppercase text-white w-full sm:w-fit text-4xl sm:text-4xl md:text-4xl xl:text-4xl 2xl:text-5xl font-bold md:leading-[2rem]`}>
+							<article className="order-first absolute top-4 md:top-[20%] text-right right-auto md:right-8 w-11/12 sm:w-fit md:w-5/12 lg:w-6/12 space-y-2 sm:space-y-4 px-6 md:px-0 pt-6 md:pt-0">
+								<h2 className={`${barlowSemicondensedMediumItalic.className} drop-shadow-[14px_18px_3px_rgba(255,255,255,0.50)] sm:drop-shadow-[12px_12px_3px_rgba(255,255,255,0.50)] uppercase text-white w-full sm:w-fit text-4xl sm:text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl md:leading-[2rem]`}>
 									{parse(title)}
 								</h2>
 								<div className={`${gskPrecisionLight} hidden md:block text-gsk-orange text-xl 2xl:text-3xl font-light space-y-3`}>
-									<p className="text-white">Así describe el dolor una persona que sufrió Herpes Zóster.</p>
+									{/* <p className="text-white">Así describe el dolor una persona que sufrió Herpes Zóster.</p> */}
 									<div>
 										<p>Conocé más sobre la enfermedad, sus síntomas y las opciones de prevención y tratamiento.</p>
 										<p><Link href={`/#que-es-herpes-zoster`} scroll={false} className="underline hover:text-white transition ease-out duration-300">Hablemos de Zóster</Link>.</p>
