@@ -81,7 +81,7 @@ const Hero = () => {
 							<article className="order-first absolute top-4 md:top-[12%] lg:top-[20%] text-right right-8 md:right-10 lg:right-14 xl:right-18 2xl:right-24 w-10/12 md:w-7/12 lg:w-6/12 xl:w-7/12 pt-6 md:pt-0 space-y-4">
 								<h1 className={`${barlowSemicondensedBoldItalic.className} text-white leading-none uppercase text-4xl sm:text-6xl lg:text-7xl xl:text-8xl`}>Herpes Zóster</h1>
 								<div className="space-y-2 sm:space-y-4">
-									<h2 className={`${barlowSemicondensedMediumItalic.className} drop-shadow-[14px_18px_3px_rgba(255,255,255,0.45)] sm:drop-shadow-[12px_12px_3px_rgba(255,255,255,0.45)] uppercase inline text-white w-full sm:w-fit text-3xl sm:text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl md:leading-[2rem]`}>
+									<h2 className={`${barlowSemicondensedMediumItalic.className} drop-shadow-[2px_2px_3px_rgba(255,255,255,0.45)] sm:drop-shadow-[12px_12px_3px_rgba(255,255,255,0.45)] uppercase inline text-white w-full sm:w-fit text-3xl sm:text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl md:leading-[2rem]`}>
 										{parse(title)}
 									</h2>
 									<div className={`${gskPrecisionLight} hidden md:block text-gsk-orange text-xl 2xl:text-3xl font-light space-y-3`}>
