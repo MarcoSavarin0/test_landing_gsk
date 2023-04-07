@@ -19,9 +19,12 @@ a {
     box-sizing: border-box;
 }
 
-.title-hero {
-    text-shadow: 4px 4px 15px rgba(255,255,255,.75);
+/*.title-hero {
+    text-shadow: 14px 18px 7px rgba(255, 255, 255, .75);
 }
+.title-hero-md {
+    text-shadow: 1px 1px 7px rgba(255, 255, 255, .75);
+}*/
 
 .bg-shape {
     position: absolute;
@@ -32,37 +35,7 @@ a {
     z-index: -1;
 }
 
-.flippable-card-container {
-    perspective: 1000px;
-}
-
-.card {
-    transform-style: preserve-3d;
-    position: relative;
-    user-select: text;
-    cursor: pointer;
-    @apply min-h-max;
-}
-
-.card-front {
-}
-
-.card-back {
-    transform: rotateY(180deg);
-}
-
-.card-front,
-.card-back {
-    position: absolute;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-
-
-
-
-
+/* Flip cards */
 .flip-exit {
     transform: rotateY(0deg);
 }
@@ -90,3 +63,4 @@ a {
 .flip-enter-done {
     transform: rotateY(0deg);
 }
+/* // Flip cards */
