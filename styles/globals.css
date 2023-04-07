@@ -19,6 +19,10 @@ a {
     box-sizing: border-box;
 }
 
+.title-hero {
+    text-shadow: 4px 4px 15px rgba(255,255,255,.75);
+}
+
 .bg-shape {
     position: absolute;
     left: 0;
@@ -28,7 +32,9 @@ a {
     z-index: -1;
 }
 
-
+.swiper-slide-next, .swiper-slide-prev {
+    @apply invisible;
+}
 
 .flippable-card-container {
     perspective: 1000px;
