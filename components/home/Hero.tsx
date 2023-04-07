@@ -8,6 +8,7 @@ import VideoHero from "@/components/home/ui/VideoHero"
 
 import 'swiper/css'
 import 'swiper/css/effect-fade'
+import Link from "next/link"
 
 const gskPrecisionBoldItalic = localFont({ src: '../../styles/fonts/gskprecision-bolditalic.woff2' })
 const gskPrecisionLight = localFont({ src: '../../styles/fonts/gskprecision-light.woff2' })
@@ -85,10 +86,12 @@ const Hero = () => {
 								<h2 className={`${gskPrecisionBoldItalic.className} text-white w-full sm:w-fit text-3xl sm:text-3xl md:text-3xl xl:text-4xl 2xl:text-5xl font-bold italic leading-[2rem]`}>
 									{item.title}
 								</h2>
-								<div className={`${gskPrecisionLight} hidden md:block text-gsk-orange text-xl 2xl:text-3xl font-light space-y-2`}>
-									<p>Así describe el dolor una persona que sufrió Herpes Zóster.</p>
-									<p>Conocé más sobre la enfermedad, sus síntomas y las opciones de prevención y tratamiento.</p>
-									<p>Hablemos de Zóster.</p>
+								<div className={`${gskPrecisionLight} hidden md:block text-gsk-orange text-xl 2xl:text-3xl font-light space-y-3`}>
+									<p className="text-white">Así describe el dolor una persona que sufrió Herpes Zóster.</p>
+									<div>
+										<p>Conocé más sobre la enfermedad, sus síntomas y las opciones de prevención y tratamiento.</p>
+										<p><Link href={`/#que-es-herpes-zoster`} scroll={false} className="underline hover:text-white transition ease-out duration-300">Hablemos de Zóster</Link>.</p>
+									</div>
 								</div>
 							</article>
 
@@ -98,10 +101,12 @@ const Hero = () => {
 				))}
 			</Swiper>
 
-			<div className={`${gskPrecisionLight} bg-gsk-dark block md:hidden text-gsk-orange text-xl 2xl:text-3xl font-light space-y-2 px-6 md:px-0`}>
-				<p>Así describe el dolor una persona que sufrió Herpes Zóster.</p>
-				<p>Conocé más sobre la enfermedad, sus síntomas y las opciones de prevención y tratamiento.</p>
-				<p>Hablemos de Zóster.</p>
+			<div className={`${gskPrecisionLight} bg-gsk-dark block md:hidden text-gsk-orange text-xl 2xl:text-3xl font-light space-y-3 px-6 md:px-0`}>
+				<p className="text-white">Así describe el dolor una persona que sufrió Herpes Zóster.</p>
+				<div>
+					<p>Conocé más sobre la enfermedad, sus síntomas y las opciones de prevención y tratamiento.</p>
+					<p><Link href={`/#que-es-herpes-zoster`} scroll={false} className="underline hover:text-white transition ease-out duration-300">Hablemos de Zóster</Link>.</p>
+				</div>
 			</div>
 
 			<Intro/>

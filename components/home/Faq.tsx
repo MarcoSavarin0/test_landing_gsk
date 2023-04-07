@@ -3,7 +3,7 @@ import useModal from "@/store/store"
 import Cta from "@/components/ui/Cta"
 import H2 from "@/components/ui/H2"
 import Description from "@/components/ui/Description"
-import H3 from "@/components/ui/H3"
+import parse from "html-react-parser"
 
 interface Faq {
 	title: string
@@ -40,11 +40,10 @@ const Faq = () => {
 				<H2 title={`Preguntas frecuentes`}/>
 				<Description title={`Conocé toda la información que necesitás saber sobre el Herpes Zóster.`}/>
 			</div>
-			{/* grid grid-cols-1 lg:grid-cols-3 content-start */}
 			<div className="grid grid-cols-1 lg:grid-cols-3 content-start px-12 gap-x-8 xl:gap-x-8 2xl:gap-x-16 gap-y-8 lg:gap-y-0 items-center">
 				{faqs.map((item:Faq, index: number) => (
 					<button onClick={() => openModalHandler(index)} key={index} className="w-11/12 sm:w-9/12 lg:w-full h-full mx-auto text-center bg-gsk-gray rounded-xl font-bold justify-center px-16 lg:px-12 py-10 text-gsk-orange hover:bg-gsk-orange hover:text-white transition hover:scale-105 ease-out duration-200">
-						<H3 title={item.title}/>
+						<h3 className="text-lg md:text-xl uppercase">{parse(item.title)}</h3>
 					</button>
 				))}
 			</div>
