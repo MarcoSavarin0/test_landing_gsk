@@ -55,7 +55,7 @@ const dolores: Dolor[] = [
 
 const Hero = () => {
 	return (
-		<section>
+		<section className="bg-gsk-dark">
 			<Swiper
 				spaceBetween={0}
 				slidesPerView={1}
@@ -73,15 +73,15 @@ const Hero = () => {
 			>
 				{dolores.map(({title, type}: Dolor, index: number) => (
 					<SwiperSlide key={index}>
-						<div className="relative w-full flex flex-col bg-gsk-dark h-[23rem] md:h-[27rem] lg:h-[34rem] xl:h-[46rem] 2xl:h-[54rem]">
+						<div className="relative w-full flex flex-col bg-gsk-dark h-[21rem] md:h-[27rem] lg:h-[34rem] xl:h-[46rem] 2xl:h-[54rem]">
 							<div className="hidden md:block static md:absolute top-0 left-0 w-full h-2 md:h-10 bg-gradient-to-b from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 mt-4 md:mt-0 z-10"/>
 
 							<VideoHero type={type}/>
 
-							<article className="order-first absolute top-4 md:top-[20%] text-right right-8 md:right-10 lg:right-14 xl:right-18 2xl:right-24 w-10/12 md:w-7/12 lg:w-6/12 xl:w-7/12 pt-6 md:pt-0 space-y-4">
+							<article className="order-first absolute top-4 md:top-[12%] lg:top-[20%] text-right right-8 md:right-10 lg:right-14 xl:right-18 2xl:right-24 w-10/12 md:w-7/12 lg:w-6/12 xl:w-7/12 pt-6 md:pt-0 space-y-4">
 								<h1 className={`${barlowSemicondensedBoldItalic.className} text-white leading-none uppercase text-4xl sm:text-6xl lg:text-7xl xl:text-8xl`}>Herpes Zóster</h1>
 								<div className="space-y-2 sm:space-y-4">
-									<h2 className={`${barlowSemicondensedMediumItalic.className} h-36 drop-shadow-[14px_18px_3px_rgba(255,255,255,0.45)] sm:drop-shadow-[12px_12px_3px_rgba(255,255,255,0.45)] uppercase inline text-white w-full sm:w-fit text-3xl sm:text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl md:leading-[2rem]`}>
+									<h2 className={`${barlowSemicondensedMediumItalic.className} drop-shadow-[14px_18px_3px_rgba(255,255,255,0.45)] sm:drop-shadow-[12px_12px_3px_rgba(255,255,255,0.45)] uppercase inline text-white w-full sm:w-fit text-3xl sm:text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl md:leading-[2rem]`}>
 										{parse(title)}
 									</h2>
 									<div className={`${gskPrecisionLight} hidden md:block text-gsk-orange text-xl 2xl:text-3xl font-light space-y-3`}>
@@ -92,16 +92,17 @@ const Hero = () => {
 									</div>
 								</div>
 
-								<span className="aboslute bottom-0 right-0 text-white z-20 text-[0.60rem] text-right w-fit">*BASADO EN TESTIMONIOS REALES DE PACIENTES. LOS SÍNTOMAS DEL HERPES ZOSTER PUEDEN VARIAR.</span>
 							</article>
 
-							<div className="absolute bottom-0 left-0 w-full h-4 bg-gradient-to-t from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 z-10"/>
+							<span className="absolute bottom-6 md:bottom-10 xl:bottom-14 right-8 md:right-10 lg:right-14 2xl:right-24 text-white z-20 text-[0.50rem] text-right w-fit leading-tight">*BASADO EN TESTIMONIOS REALES DE PACIENTES. <span className="block lg:inline">LOS SÍNTOMAS DEL HERPES ZOSTER PUEDEN VARIAR.</span></span>
+
+							<div className="absolute bottom-0 left-0 w-full h-2 bg-gradient-to-t from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 z-10"/>
 						</div>
 					</SwiperSlide>
 				))}
 			</Swiper>
 
-			<div className={`${gskPrecisionLight} bg-gsk-dark block md:hidden text-gsk-orange text-xl 2xl:text-3xl font-light px-8 md:px-0`}>
+			<div className={`${gskPrecisionLight} bg-gsk-dark block md:hidden text-gsk-orange text-xl 2xl:text-3xl font-light px-8 md:px-0 my-4`}>
 				<p>Conocé más sobre la enfermedad, sus síntomas <span className="lg:block">y las opciones de prevención y tratamiento.</span></p>
 				<p><Link href={`/#que-es-herpes-zoster`} scroll={false} className="hover:text-white transition ease-out duration-300">Hablemos de Zóster</Link>.</p>
 			</div>
