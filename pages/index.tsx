@@ -72,7 +72,7 @@ const Home = () => {
 
 			<Modal>
 				<H2 title={parse(title) as string}/>
-				<Description title={body}/>
+				<Description title={body} className="text-justify"/>
 			</Modal>
 		</>
 	)

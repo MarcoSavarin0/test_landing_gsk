@@ -26,7 +26,7 @@ const referenciasDetail: Referencia[] = [
 	}, */
 	{
 		id: 4, /* 6 */
-		title: `Schmader K. Clin Geriatr Med. 2007 Aug;23(3):615-32`,
+		title: `Schmader K. Clin Geriatr Med. 2007 Aug;23(3):615-32.`,
 	},
 	{
 		id: 5, /* 7 */
@@ -34,7 +34,7 @@ const referenciasDetail: Referencia[] = [
 	},
 	{
 		id: 6, /* 8 */
-		title: `Culebrilla | Tratamiento | Herpes zóster | CDC`,
+		title: `Culebrilla | Tratamiento | Herpes zóster | CDC.`,
 	},
 	/* {
 		id: 9,
