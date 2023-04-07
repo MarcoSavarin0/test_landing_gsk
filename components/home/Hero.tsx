@@ -10,7 +10,6 @@ import 'swiper/css'
 import 'swiper/css/effect-fade'
 import Link from "next/link"
 
-// const gskPrecisionBoldItalic = localFont({ src: '../../styles/fonts/gskprecision-bolditalic.woff2' })
 const gskPrecisionLight = localFont({ src: '../../styles/fonts/gskprecision-light.woff2' })
 const barlowSemicondensedSemiBold = localFont({ src: '../../styles/fonts/barlowsemicondensed-semibold.woff2' })
 
@@ -67,7 +66,7 @@ const Hero = () => {
 				effect={"fade"}
 				className="bg-gsk-dark"
 				modules={[EffectFade, Autoplay]}
-				allowTouchMove={true}
+				allowTouchMove={false}
 				loop={true}
 				autoplay={{
 					delay: 6000,
