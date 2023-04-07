@@ -73,8 +73,8 @@ const Hero = () => {
 			>
 				{dolores.map(({title, type}: Dolor, index: number) => (
 					<SwiperSlide key={index}>
-						<div className="relative w-full flex flex-col bg-gsk-dark h-[20rem] md:h-[27rem] lg:h-[34rem] xl:h-[46rem] 2xl:h-[54rem] overflow-hidden">
-							<div className="static md:absolute top-0 left-0 w-full h-2 md:h-10 bg-gradient-to-b from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 mt-4 md:mt-0 z-10"/>
+						<div className="relative w-full flex flex-col bg-gsk-dark h-[20rem] md:h-[27rem] lg:h-[34rem] xl:h-[46rem] 2xl:h-[54rem]">
+							<div className="hidden md:block static md:absolute top-0 left-0 w-full h-2 md:h-10 bg-gradient-to-b from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 mt-4 md:mt-0 z-10"/>
 
 							<VideoHero type={type}/>
 
@@ -92,7 +92,8 @@ const Hero = () => {
 										</div>
 									</div>
 								</div>
-								<span className="aboslute bottom-0 right-0 text-white z-20 text-[0.60rem]">*BASADO EN TESTIMONIOS REALES DE PACIENTES. LOS SÍNTOMAS DEL HERPES ZOSTER PUEDEN VARIAR.</span>
+
+								<span className="aboslute bottom-0 right-0 text-white z-20 text-[0.60rem] text-right w-fit">*BASADO EN TESTIMONIOS REALES DE PACIENTES. LOS SÍNTOMAS DEL HERPES ZOSTER PUEDEN VARIAR.</span>
 							</article>
 
 							<div className="absolute bottom-0 left-0 w-full h-4 bg-gradient-to-t from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 z-10"/>
