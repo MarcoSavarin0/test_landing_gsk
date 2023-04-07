@@ -32,10 +32,6 @@ a {
     z-index: -1;
 }
 
-.swiper-slide-next, .swiper-slide-prev {
-    @apply invisible;
-}
-
 .flippable-card-container {
     perspective: 1000px;
 }

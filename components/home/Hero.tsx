@@ -66,7 +66,7 @@ const Hero = () => {
 				effect={"fade"}
 				className="bg-gsk-dark"
 				modules={[EffectFade, Autoplay]}
-				allowTouchMove={false}
+				allowTouchMove={true}
 				loop={true}
 				autoplay={{
 					delay: 6000,

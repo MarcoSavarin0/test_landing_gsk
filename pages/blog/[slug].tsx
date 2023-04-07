@@ -110,13 +110,14 @@ const Blog = () => {
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
 						<article className="flex flex-col flex-1 gap-y-4">
-							<header className="space-y-1">
+							<header className="space-y-6">
 								<span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span>
 
-								<DynamicSpeechBlog text={`El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento.`}/>
-
-								<h1 className="text-gsk-orange font-bold leading-none text-4xl sm:text-5xl">{postContent.title}</h1>
-								<h2 className="text-gsk-orange text-xl">Ut enim ad minim veniam, quis nostrud exercitation elit.</h2>
+								<div className="space-y-1">
+									<DynamicSpeechBlog text={`El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento.`}/>
+									<h1 className="text-gsk-orange font-bold leading-none text-4xl sm:text-5xl">{postContent.title}</h1>
+									<h2 className="text-gsk-orange text-xl">Ut enim ad minim veniam, quis nostrud exercitation elit.</h2>
+								</div>
 							</header>
 
 							<article className="space-y-4">
