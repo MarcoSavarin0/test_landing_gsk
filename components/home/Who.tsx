@@ -13,12 +13,12 @@ interface Card {
 const cards: Card[] = [
 	{
 		title: "TUVE VARICELA",
-		body: "Después de la varicela, el Virus Varicela Zóster permanece latente en el sistema nervioso y puede reactivarse con la edad <sup>12</sup>.",
+		body: "Después de la varicela, el Virus Varicela Zóster permanece latente en el sistema nervioso y puede reactivarse con la edad <sup>1</sup>.",
 		image: "varicela",
 	},
 	{
 		title: "TENGO 50 AÑOS O MÁS",
-		body: "A medida que las personas envejecen, las células del sistema inmune se debilitan, por lo que aumenta el riesgo de desarrollar la enfermedad. Se calcula que aproximadamente más del 90% de los adultos mayores a 50 años han sido infectados por el virus que causa la varicela y, por tanto, se encuentran en riesgo de desarrollar Herpes Zóster <sup>13</sup>.",
+		body: "A medida que las personas envejecen, las células del sistema inmune se debilitan, por lo que aumenta el riesgo de desarrollar la enfermedad. Se calcula que aproximadamente más del 90% de los adultos mayores a 50 años han sido infectados por el virus que causa la varicela y, por tanto, se encuentran en riesgo de desarrollar Herpes Zóster <sup>1</sup>.",
 		image: "mayor",
 	},
 	{

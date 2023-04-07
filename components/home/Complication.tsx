@@ -25,7 +25,7 @@ const complications: Complication[] = [
 	{
 		title: `HERPES ZÓSTER OFTALMOLÓGICO`,
 		image: `oftalmologico`,
-		body: `Ocurre cuando el virus infecta el nervio facial causando erupciones en la frente y una inflamación dolorosa en los tejidos. Los personas pueden desarrollar queratitis , escleritis, uveítis y necrosis retiniana aguda. Las secuelas prolongadas o permanentes del Herpes Zóster Ofalmológico pueden dar lugar a pérdida de visión <sup>14</sup>.`
+		body: `Ocurre cuando el virus infecta el nervio facial causando erupciones en la frente y una inflamación dolorosa en los tejidos. Los personas pueden desarrollar queratitis , escleritis, uveítis y necrosis retiniana aguda. Las secuelas prolongadas o permanentes del Herpes Zóster Ofalmológico pueden dar lugar a pérdida de visión <sup>1</sup>.`
 	},
 	{
 		title: `OTRAS CONSECUENCIAS`,
