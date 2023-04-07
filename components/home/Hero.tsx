@@ -73,7 +73,7 @@ const Hero = () => {
 			>
 				{dolores.map(({title, type}: Dolor, index: number) => (
 					<SwiperSlide key={index}>
-						<div className="relative w-full flex flex-col bg-gsk-dark h-[20rem] md:h-[27rem] lg:h-[34rem] xl:h-[46rem] 2xl:h-[54rem]">
+						<div className="relative w-full flex flex-col bg-gsk-dark h-[23rem] md:h-[27rem] lg:h-[34rem] xl:h-[46rem] 2xl:h-[54rem]">
 							<div className="hidden md:block static md:absolute top-0 left-0 w-full h-2 md:h-10 bg-gradient-to-b from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 mt-4 md:mt-0 z-10"/>
 
 							<VideoHero type={type}/>
@@ -85,7 +85,6 @@ const Hero = () => {
 										{parse(title)}
 									</h2>
 									<div className={`${gskPrecisionLight} hidden md:block text-gsk-orange text-xl 2xl:text-3xl font-light space-y-3`}>
-										{/* <p className="text-white">Así describe el dolor una persona que sufrió Herpes Zóster.</p> */}
 										<div>
 											<p>Conocé más sobre la enfermedad, sus síntomas <span className="lg:block">y las opciones de prevención y tratamiento.</span></p>
 											<p><Link href={`/#que-es-herpes-zoster`} scroll={false} className="hover:text-white transition ease-out duration-300">Hablemos de Zóster</Link>.</p>
@@ -103,7 +102,6 @@ const Hero = () => {
 			</Swiper>
 
 			<div className={`${gskPrecisionLight} bg-gsk-dark block md:hidden text-gsk-orange text-xl 2xl:text-3xl font-light px-8 md:px-0`}>
-				{/* <p className="text-white">Así describe el dolor una persona que sufrió Herpes Zóster.</p> */}
 				<p>Conocé más sobre la enfermedad, sus síntomas <span className="lg:block">y las opciones de prevención y tratamiento.</span></p>
 				<p><Link href={`/#que-es-herpes-zoster`} scroll={false} className="hover:text-white transition ease-out duration-300">Hablemos de Zóster</Link>.</p>
 			</div>

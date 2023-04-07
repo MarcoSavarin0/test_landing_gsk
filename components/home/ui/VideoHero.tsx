@@ -14,7 +14,7 @@ const VideoHero = ({type}: VideoHero) => {
 				<Image src={`/assets/images/hero/${type}.jpg`} alt={`Herpes Zóster`} width="1280" height="700" className="block w-full h-full object-cover object-center"/>
 			</video>
 
-			<div className="relative md:absolute bottom-5 sm:bottom-2 md:bottom-3 lg:bottom-3 xl:bottom-5 2xl:bottom-6 left-0 w-full h-4 md:h-5 2xl:h-12 bg-gradient-to-t from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 z-10"/>
+			<div className="relative md:absolute bottom-3 sm:bottom-2 md:bottom-3 lg:bottom-3 xl:bottom-5 2xl:bottom-6 left-0 w-full h-4 md:h-5 2xl:h-12 bg-gradient-to-t from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 z-10"/>
 		</div>
 	)
 }
