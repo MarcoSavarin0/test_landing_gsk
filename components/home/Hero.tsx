@@ -13,9 +13,7 @@ import parse from "html-react-parser"
 
 const gskPrecisionLight = localFont({ src: '../../styles/fonts/gskprecision-light.woff2' })
 const barlowSemicondensedBoldItalic = localFont({ src: '../../styles/fonts/barlowsemicondensed-bolditalic.woff2' })
-
 const barlowSemicondensedItalic = localFont({ src: '../../styles/fonts/barlowsemicondensed-italic.woff2' })
-const barlowSemicondensedRegular = localFont({ src: '../../styles/fonts/barlowsemicondensed-regular.woff2' })
 
 interface Dolor {
 	title: string
@@ -25,37 +23,37 @@ interface Dolor {
 
 const dolores: Dolor[] = [
 	{
-		title: `<span className="md:block ${barlowSemicondensedRegular.className}">UN DOLOR QUE PUEDE SENTIRSE</span> COMO UN <span className="font-bold ${barlowSemicondensedBoldItalic.className}">ARDOR <span className="md:block">DESESPERANTE*</span></span>`,
+		title: `<span className="md:block">PUEDE SENTIRSE COMO UN</span><span className="md:block font-bold ${barlowSemicondensedBoldItalic.className}">ARDOR DESESPERANTE*</span>`,
 		type: "ardor",
 		top: "-mt-16",
 	},
 	{
-		title: `<span className="md:block ${barlowSemicondensedRegular.className}">UN DOLOR QUE PUEDE SENTIRSE</span> COMO <span className="font-bold ${barlowSemicondensedBoldItalic.className}">CLAVOS ATRAVESANDO</span> <span className="md:block">LA <span className="font-bold ${barlowSemicondensedBoldItalic.className}">PIEL*</span></span>`,
+		title: `<span className="md:block">PUEDE SENTIRSE COMO</span> <span className="font-bold ${barlowSemicondensedBoldItalic.className}">CLAVOS ATRAVESANDO</span> <span className="md:block">LA <span className="font-bold ${barlowSemicondensedBoldItalic.className}">PIEL*</span></span>`,
 		type: "clavos",
-		top: "-mt-28",
+		top: "-mt-24",
 	},
 	{
-		title: `<span className="md:block ${barlowSemicondensedRegular.className}">UN DOLOR QUE PUEDE SENTIRSE</span> COMO <span className="font-bold ${barlowSemicondensedBoldItalic.className}">QUEMARSE</span> CON AGUA <span className="md:block"><span className="font-bold ${barlowSemicondensedBoldItalic.className}">HIRVIENDO*</span></span>`,
+		title: `<span className="md:block">PUEDE SENTIRSE COMO</span> <span className="font-bold ${barlowSemicondensedBoldItalic.className}">QUEMARSE</span> CON AGUA <span className="md:block"><span className="font-bold ${barlowSemicondensedBoldItalic.className}">HIRVIENDO*</span></span>`,
 		type: "quemadura",
 		top: "-mt-24",
 	},
 	{
-		title: `<span className="md:block ${barlowSemicondensedRegular.className}">UN DOLOR QUE PUEDE SENTIRSE</span> COMO <span className="font-bold ${barlowSemicondensedBoldItalic.className}">FUEGO RECORRIENDO</span> <span className="md:block">LOS <span className="font-bold ${barlowSemicondensedBoldItalic.className}">NERVIOS*</span></span>`,
+		title: `<span className="md:block">PUEDE SENTIRSE COMO</span> <span className="font-bold ${barlowSemicondensedBoldItalic.className}">FUEGO RECORRIENDO</span> <span className="md:block">LOS <span className="font-bold ${barlowSemicondensedBoldItalic.className}">NERVIOS*</span></span>`,
 		type: "llamas",
 		top: "-mt-8",
 	},
 	{
-		title: `<span className="md:block ${barlowSemicondensedRegular.className}">UN DOLOR QUE PUEDE SENTIRSE</span> COMO <span className="font-bold ${barlowSemicondensedBoldItalic.className}">DESCARGAS ELÉCTRICAS</span> <span className="md:block">EN EL <span className="font-bold ${barlowSemicondensedBoldItalic.className}">CUERPO*</span></span>`,
+		title: `<span className="md:block">PUEDE SENTIRSE COMO</span> <span className="font-bold ${barlowSemicondensedBoldItalic.className}">DESCARGAS ELÉCTRICAS</span> <span className="md:block">EN EL <span className="font-bold ${barlowSemicondensedBoldItalic.className}">CUERPO*</span></span>`,
 		type: "electricidad",
 		top: "-mt-8",
 	},
 	{
-		title: `<span className="md:block ${barlowSemicondensedRegular.className}">UN DOLOR QUE PUEDE SENTIRSE</span> COMO UNA <span className="font-bold ${barlowSemicondensedBoldItalic.className}">PUNTADA <span className="md:block">PERFORANTE*</span></span>`,
+		title: `<span className="md:block">PUEDE SENTIRSE COMO UNA</span> <span className="font-bold ${barlowSemicondensedBoldItalic.className}">PUNTADA PERFORANTE*</span>`,
 		type: "puntada",
 		top: "-mt-24",
 	},
 	{
-		title: `<span className="md:block ${barlowSemicondensedRegular.className}">UN DOLOR QUE PUEDE SENTIRSE</span> COMO TENER LA <span className="font-bold ${barlowSemicondensedBoldItalic.className}">PIEL</span> <span className="md:block">EN <span className="font-bold ${barlowSemicondensedBoldItalic.className}">LLAMAS*</span></span>`,
+		title: `<span className="md:block">PUEDE SENTIRSE COMO</span> TENER LA <span className="font-bold ${barlowSemicondensedBoldItalic.className}">PIEL</span> <span className="md:block">EN <span className="font-bold ${barlowSemicondensedBoldItalic.className}">LLAMAS*</span></span>`,
 		type: "fuego",
 		top: "-mt-10",
 	}
@@ -86,10 +84,13 @@ const Hero = () => {
 
 							<VideoHero type={type} top={top}/>
 
-							<article className="order-first absolute top-4 md:top-[12%] lg:top-[20%] text-right right-8 md:right-10 lg:right-14 xl:right-18 2xl:right-24 w-10/12 md:w-7/12 lg:w-6/12 xl:w-7/12 pt-6 md:pt-0 space-y-4">
+							<article className="order-first absolute top-4 md:top-[12%] lg:top-[20%] text-right right-8 md:right-10 lg:right-14 xl:right-18 2xl:right-24 w-10/12 md:w-7/12 lg:w-6/12 xl:w-7/12 pt-6 md:pt-0">
+								<h2 className={`${barlowSemicondensedItalic.className} uppercase inline text-white w-full sm:w-fit text-2xl sm:text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl md:leading-[2rem]`}>
+									El dolor ocasionado por
+								</h2>
 								<h1 className={`${barlowSemicondensedBoldItalic.className} text-white leading-none uppercase text-4xl sm:text-6xl lg:text-7xl xl:text-8xl`}>Herpes Zóster</h1>
 								<div className="space-y-2 sm:space-y-4">
-									<h2 className={`${barlowSemicondensedItalic.className} drop-shadow-[2px_2px_3px_rgba(255,255,255,0.45)] sm:drop-shadow-[12px_12px_3px_rgba(255,255,255,0.45)] uppercase inline text-white w-full sm:w-fit text-3xl sm:text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl md:leading-[2rem]`}>
+									<h2 className={`${barlowSemicondensedItalic.className} uppercase inline text-white w-full sm:w-fit text-2xl sm:text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl md:leading-[2rem]`}>
 										{parse(title)}
 									</h2>
 									<div className={`${gskPrecisionLight} hidden md:block text-gsk-orange text-xl 2xl:text-3xl font-light space-y-3`}>

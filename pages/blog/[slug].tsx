@@ -115,6 +115,7 @@ const Blog = () => {
 
 								<div className="space-y-1">
 									<DynamicSpeechBlog text={`El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento.`}/>
+
 									<h1 className="text-gsk-orange font-bold leading-none text-4xl sm:text-5xl">{postContent.title}</h1>
 									<h2 className="text-gsk-orange text-xl">Ut enim ad minim veniam, quis nostrud exercitation elit.</h2>
 								</div>
@@ -136,7 +137,7 @@ const Blog = () => {
 						</article>
 						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-2">
 							<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-							<ul className="flex flex-row lg:flex-col gap-4 flex-wrap">
+							<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
 								{categories.map(({id, name, slug}: Category) => (
 									<li key={id}>
 										<CategoryButton title={name} slug={slug}/>

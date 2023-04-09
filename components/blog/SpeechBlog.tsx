@@ -7,10 +7,39 @@ interface Text {
 	text: string
 }
 
+type ActionsType = {
+	[key: string]: any
+}
+
 const synth = window.speechSynthesis
+
+const letsSpeech = (type: string): string => {
+	let action = ""
+
+	const speechSynth: ActionsType = {
+		'coke': () => {
+			action = 'play'
+		},
+		'pepsi': () => {
+			action = 'pause'
+		},
+		'lemonade': () => {
+			action = 'resume'
+		},
+		'default': () => {
+			action = 'cancel'
+		}
+	};
+
+	(speechSynth[type] || speechSynth['default'])()
+
+	return 'The drink I chose was ' + action
+}
 
 export default function SpeechBlog({text}: Text) {
 	const [playing, setPlaying] = useState(synth.speaking)
+
+	console.log(letsSpeech("hola"))
 
 	useEffect(() => {
 		router.events.on('routeChangeStart', speechCancelHandler)
@@ -25,7 +54,7 @@ export default function SpeechBlog({text}: Text) {
 
 
 	textToSpeech.onend = function () {
-		console.log("SpeechSynthesisUtterance.onend")
+		return synth.cancel()
 	}
 
 	const speechToggleHandler = () => {
