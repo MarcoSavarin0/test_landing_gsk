@@ -10,9 +10,9 @@ const Banner = () => {
 			<div className="absolute top-0 flex w-full justify-center">
 				<Image src="/shape-gsk-white.svg" width={80} height={60} alt="" />
 			</div>
-			<div className="space-y-2 px-6">
+			<div className="space-y-2 px-3 sm:px-6">
 				<h2 className={`${barlowSemicondensedItalic.className} text-2xl md:text-4xl leading-relaxed uppercase font-bold`}><span className={`${barlowSemicondensedBoldItalic.className} text-4xl md:text-5xl`}>Activemos</span> <span className="block">antes de que el <span className={`${barlowSemicondensedBoldItalic.className}`}>virus se reactive</span></span></h2>
-				<p className="text-lg md:text-xl">Consultá con tu médico o médica acerca de la prevención y el tratamiento del Herpes Zóster</p>
+				<p className="text-lg md:text-xl">Consultá con tu médico o médica acerca de la prevención y el tratamiento del Herpes Zóster.</p>
 			</div>
 		</section>
 	)

@@ -8,8 +8,8 @@ import VideoHero from "@/components/home/ui/VideoHero"
 
 import 'swiper/css'
 import 'swiper/css/effect-fade'
-import Link from "next/link"
 import parse from "html-react-parser"
+import {Button} from "react-scroll"
 
 const gskPrecisionLight = localFont({ src: '../../styles/fonts/gskprecision-light.woff2' })
 const barlowSemicondensedBoldItalic = localFont({ src: '../../styles/fonts/barlowsemicondensed-bolditalic.woff2' })
@@ -23,17 +23,17 @@ interface Dolor {
 
 const dolores: Dolor[] = [
 	{
-		title: `<span className="md:block">PUEDE SENTIRSE COMO UN</span><span className="block"><span className="font-bold ${barlowSemicondensedBoldItalic.className}">ARDOR DESESPERANTE</span>*</span>`,
+		title: `<span className="block">PUEDE SENTIRSE COMO UN</span><span className="block"><span className="font-bold ${barlowSemicondensedBoldItalic.className}">ARDOR DESESPERANTE</span>*</span>`,
 		type: "ardor",
 		top: "-mt-16",
 	},
 	{
-		title: `<span className="md:block">PUEDE SENTIRSE COMO</span> <span className="font-bold ${barlowSemicondensedBoldItalic.className}">CLAVOS ATRAVESANDO</span> <span className="block">LA <span className="font-bold ${barlowSemicondensedBoldItalic.className}">PIEL</span>*</span>`,
+		title: `<span className="block">PUEDE SENTIRSE COMO</span> <span className="font-bold ${barlowSemicondensedBoldItalic.className}">CLAVOS ATRAVESANDO</span> <span className="block">LA <span className="font-bold ${barlowSemicondensedBoldItalic.className}">PIEL</span>*</span>`,
 		type: "clavos",
 		top: "-mt-24",
 	},
 	{
-		title: `<span className="md:block">PUEDE SENTIRSE COMO</span> <span className="font-bold ${barlowSemicondensedBoldItalic.className}">QUEMARSE</span> CON AGUA <span className="block"><span className="font-bold ${barlowSemicondensedBoldItalic.className}">HIRVIENDO</span>*</span>`,
+		title: `<span className="block">PUEDE SENTIRSE COMO</span> <span className="font-bold ${barlowSemicondensedBoldItalic.className}">QUEMARSE</span> CON AGUA <span className="block"><span className="font-bold ${barlowSemicondensedBoldItalic.className}">HIRVIENDO</span>*</span>`,
 		type: "quemadura",
 		top: "-mt-24",
 	},
@@ -96,7 +96,7 @@ const Hero = () => {
 									<div className={`${gskPrecisionLight} hidden md:block text-gsk-orange text-xl 2xl:text-3xl font-light space-y-3`}>
 										<div>
 											<p>Conocé más sobre la enfermedad, sus síntomas <span className="lg:block">y las opciones de prevención y tratamiento.</span></p>
-											<p><Link href={`/#que-es-herpes-zoster`} scroll={false} className="hover:text-white transition ease-out duration-300">Hablemos de Zóster</Link>.</p>
+											<p><Button activeClass="active" className="hover:text-white transition ease-out duration-300 cursor-pointer" type="submit" value="Hablemos de Zóster" to="que-es-herpes-zoster" spy={true} smooth={true} offset={0} duration={800} />.</p>
 										</div>
 									</div>
 								</div>
@@ -112,7 +112,7 @@ const Hero = () => {
 
 			<div className={`${gskPrecisionLight.className} bg-gsk-dark block md:hidden text-gsk-orange text-xl 2xl:text-3xl font-light px-8 md:px-0 my-4`}>
 				<p>Conocé más sobre la enfermedad, sus síntomas <span className="lg:block">y las opciones de prevención y tratamiento.</span></p>
-				<p><Link href={`/#que-es-herpes-zoster`} scroll={false} className="hover:text-white transition ease-out duration-300">Hablemos de Zóster</Link>.</p>
+				<p><Button activeClass="active" className="hover:text-white transition ease-out duration-300 cursor-pointer" type="submit" value="Hablemos de Zóster" to="que-es-herpes-zoster" spy={true} smooth={true} offset={0} duration={800} />.</p>
 			</div>
 
 			<Intro/>
