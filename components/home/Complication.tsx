@@ -23,7 +23,7 @@ const complications: Complication[] = [
 		body: `Luego de que la erupción por Herpes Zóster haya sanado, pueden quedar cicatrices o incluso desarrollarse cambios en la pigmentación de la piel. Asimismo, en algunos casos es posible manifestar una infección secundaria de la erupción de la culebrilla.`
 	},
 	{
-		title: `HERPES ZÓSTER OFTALMOLÓGICO`,
+		title: `HERPES ZÓSTER OFTÁLMICO`,
 		image: `oftalmologico`,
 		body: `Ocurre cuando el virus infecta el nervio facial causando erupciones en la frente y una inflamación dolorosa en los tejidos. Los personas pueden desarrollar queratitis , escleritis, uveítis y necrosis retiniana aguda. Las secuelas prolongadas o permanentes del Herpes Zóster Ofalmológico pueden dar lugar a pérdida de visión <sup>1</sup>.`
 	},

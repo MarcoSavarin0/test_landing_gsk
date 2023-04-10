@@ -26,7 +26,7 @@ const AcercaDe = () => {
 							type: 'image/jpeg',
 						}
 					],
-					siteName: 'Hablemos de Zóster | Campaña de concientización y prevensión',
+					siteName: 'Hablemos de Zóster | Campaña de concientización y prevención',
 				}}
 			/>
 
