@@ -159,8 +159,8 @@ const Blog = ({nota}: any) => {
 								</div>
 							</header>
 
-							<article className="space-y-4">
-								<Markdown>{body}</Markdown>
+							<article>
+								<Markdown className="space-y-4">{body}</Markdown>
 							</article>
 
 							{/* <div className="space-y-2 mt-10">
