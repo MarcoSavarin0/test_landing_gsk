@@ -3,57 +3,35 @@ import { NextSeo } from "next-seo"
 import Description from "@/components/ui/Description"
 import PostComponent from '@/components/blog/Post'
 import Banner from "@/components/home/Banner"
+import {GetStaticProps} from "next"
 
-interface Post {
+/* interface Post {
 	id: number
 	title: string
 	date: string
+} */
+
+export const getStaticProps: GetStaticProps = async () => {
+	const res = await fetch(`${process.env.STRAPI_API_URL}/notas?populate=*&sort[0]=publishedAt%3Adesc`, {
+		headers: {
+			'Accept': 'application/json',
+			'Content-Type': 'application/json',
+			'Authorization': `Bearer ${process.env.STRAPI_API_TOKEN}`
+		}
+	})
+	const notas = await res.json()
+
+	return {
+		props: {
+			notas
+		},
+		revalidate: 10,
+	}
 }
 
-const posts: Post[] = [
-	{
-		id: 1,
-		title: "Título de la nota 1",
-		date: "01/05/2023"
-	},
-	{
-		id: 2,
-		title: "Título de la nota 2",
-		date: "01/05/2023"
-	},
-	{
-		id: 3,
-		title: "Título de la nota 3",
-		date: "01/05/2023"
-	},
-	{
-		id: 4,
-		title: "Título de la nota 1",
-		date: "01/05/2023"
-	},
-	{
-		id: 5,
-		title: "Título de la nota 2",
-		date: "01/05/2023"
-	},
-	{
-		id: 6,
-		title: "Título de la nota 3",
-		date: "01/05/2023"
-	},
-	{
-		id: 7,
-		title: "Título de la nota 2",
-		date: "01/05/2023"
-	},
-	{
-		id: 8,
-		title: "Título de la nota 3",
-		date: "01/05/2023"
-	},
-]
+const Blog = ({notas}: any) => {
+	console.log(notas.data)
 
-const Blog = () => {
 	return (
 		<>
 			<NextSeo
@@ -86,8 +64,8 @@ const Blog = () => {
 					</div>
 
 					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-y-8 md:gap-y-4 gap-x-4 px-10">
-						{posts.map(({id, title, date}: Post) => (
-							<PostComponent key={id} id={id} title={title} date={date}/>
+						{notas.data.map((item: any, index: number) => (
+							<PostComponent key={index} image={item.attributes.image} title={item.attributes.title} slug={item.attributes.slug}/>
 						))}
 					</div>
 
