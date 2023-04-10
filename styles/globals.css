@@ -28,6 +28,20 @@ a {
     z-index: -1;
 }
 
+
+.markdown-body {
+    @apply space-y-3;
+}
+
+.markdown-body h2 {
+    @apply text-2xl pt-2;
+}
+
+.markdown-body ul {
+    @apply list-disc list-inside;
+}
+
+
 /* Flip cards */
 .flip-exit {
     transform: rotateY(0deg);
