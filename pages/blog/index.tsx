@@ -30,8 +30,6 @@ export const getStaticProps: GetStaticProps = async () => {
 }
 
 const Blog = ({notas}: any) => {
-	console.log(notas.data)
-
 	return (
 		<>
 			<NextSeo
