@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import { NextSeo } from "next-seo"
-import {useRouter} from "next/router"
 import Markdown from 'markdown-to-jsx'
 
 // import PostComponent from '@/components/blog/Post'
@@ -116,21 +115,18 @@ export const getStaticPaths: GetStaticPaths = async () => {
 }
 
 const Blog = ({nota}: any) => {
-	const {title, body, image} = nota.data[0].attributes
-
-	const router = useRouter()
-	const queryTitle = router.query.slug
+	const {title, body, image, metatitle, metadescription} = nota.data[0].attributes
 
 	return (
 		<>
 			<NextSeo
-				title={`${queryTitle} | Hablemos de Zoster`}
-				description="El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento."
+				title={`${metatitle} | Blog | Hablemos de Zoster`}
+				description={`${metadescription}`}
 				canonical={process.env.NEXT_PUBLIC_SITE_URL}
 				openGraph={{
 					url: process.env.NEXT_PUBLIC_SITE_URL,
-					title: `${queryTitle} | Hablemos de Zoster`,
-					description: 'El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento.',
+					title: `${metatitle} | Blog |Hablemos de Zoster`,
+					description: `${metadescription}`,
 					images: [
 						{
 							url: '/og.jpg',
