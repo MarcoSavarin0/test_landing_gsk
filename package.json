@@ -19,6 +19,7 @@
 		"@next/bundle-analyzer": "13.1.6",
 		"@next/font": "13.1.6",
 		"@sendgrid/mail": "7.7.0",
+		"@vercel/analytics": "0.1.11",
 		"flowbite": "1.6.4",
 		"flowbite-react": "0.4.2",
 		"framer-motion": "10.5.0",

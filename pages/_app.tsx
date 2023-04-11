@@ -1,5 +1,6 @@
 import type {AppProps} from 'next/app'
 import { DefaultSeo } from 'next-seo'
+import { Analytics } from '@vercel/analytics/react'
 
 import localFont from '@next/font/local'
 import Layout from "@/components/layout"
@@ -31,6 +32,7 @@ function MyApp({Component, pageProps}: AppProps) {
 
 			<Layout className={gskPrecision.className}>
 				<Component {...pageProps} />
+				<Analytics/>
 			</Layout>
 		</>
 	)
