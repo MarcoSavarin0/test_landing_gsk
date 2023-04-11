@@ -1,6 +1,5 @@
 import {useEffect, useState} from "react"
 import {router} from "next/client"
-
 import { PlayCircleIcon, PauseCircleIcon, StopCircleIcon } from '@heroicons/react/24/solid'
 
 interface Text {
@@ -11,35 +10,35 @@ type ActionsType = {
 	[key: string]: any
 }
 
-const synth = window.speechSynthesis
-
-const letsSpeech = (type: string): string => {
-	let action = ""
-
-	const speechSynth: ActionsType = {
-		'coke': () => {
-			action = 'play'
-		},
-		'pepsi': () => {
-			action = 'pause'
-		},
-		'lemonade': () => {
-			action = 'resume'
-		},
-		'default': () => {
-			action = 'cancel'
-		}
-	};
-
-	(speechSynth[type] || speechSynth['default'])()
-
-	return 'The drink I chose was ' + action
-}
-
 export default function SpeechBlog({text}: Text) {
-	const [playing, setPlaying] = useState(synth.speaking)
+	const synth = window.speechSynthesis
+	const textToSpeech = new SpeechSynthesisUtterance(text)
+	textToSpeech.rate = 0.8
 
-	console.log(letsSpeech("hola"))
+	const [playing, setPlaying] = useState(false)
+
+	const letsSpeech = (type: string): void => {
+		const speechSynth: ActionsType = {
+			'play': () => {
+				setPlaying(true)
+				synth.speak(textToSpeech)
+			},
+			'pause': () => {
+				setPlaying(false)
+				synth.pause()
+			},
+			'resume': () => {
+				setPlaying(true)
+				synth.resume()
+			},
+			'cancel': () => {
+				setPlaying(false)
+				synth.cancel()
+			}
+		};
+
+		(speechSynth[type] || speechSynth['cancel'])()
+	}
 
 	useEffect(() => {
 		router.events.on('routeChangeStart', speechCancelHandler)
@@ -49,43 +48,25 @@ export default function SpeechBlog({text}: Text) {
 		}
 	}, [router])
 
-	const textToSpeech = new SpeechSynthesisUtterance(text)
-	textToSpeech.rate = 0.8
-
-
 	textToSpeech.onend = function () {
-		return synth.cancel()
+		return letsSpeech('cancel')
 	}
 
 	const speechToggleHandler = () => {
-		if (synth.speaking) {
-			setPlaying(false)
-			return synth.pause()
-		} else if(synth.paused) {
-			setPlaying(true)
-			return synth.resume()
+		console.log(synth.speaking)
+
+		if (synth.paused) {
+			return letsSpeech('resume')
+		} else if(synth.speaking) {
+			return letsSpeech('pause')
 		} else {
-			setPlaying(true)
-			return synth.speak(textToSpeech)
+			return letsSpeech('play')
 		}
 	}
 
-	/* const speechPlayHandler = () => {
-		setPlaying(true)
-		return synth.speak(textToSpeech)
-	}
-
-	const speechPauseHandler = () => {
-		return synth.pause()
-	}
-
-	const speechResumeHandler = () => {
-		return synth.resume()
-	} */
-
 	const speechCancelHandler = () => {
 		setPlaying(false)
-		return synth.cancel()
+		return letsSpeech('cancel')
 	}
 
 	return (
@@ -93,16 +74,6 @@ export default function SpeechBlog({text}: Text) {
 			<button onClick={() => speechToggleHandler()}>
 				{playing ? <PauseCircleIcon className="h-6 w-6 text-gsk-dark" /> : <PlayCircleIcon className="h-6 w-6 text-gsk-dark" />}
 			</button>
-
-			{/* <button onClick={() => speechPlayHandler()}>
-				<PlayCircleIcon className="h-6 w-6 text-gsk-dark" />
-			</button>
-			<button onClick={() => speechPauseHandler()}>
-				<PauseCircleIcon className="h-6 w-6 text-gsk-dark" />
-			</button>
-			<button onClick={() => speechResumeHandler()}>
-				<PlayCircleIcon className="h-6 w-6 text-gsk-dark" />
-			</button> */}
 			<button onClick={() => speechCancelHandler()}>
 				<StopCircleIcon className="h-6 w-6 text-gsk-dark" />
 			</button>
