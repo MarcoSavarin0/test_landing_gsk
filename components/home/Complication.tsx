@@ -132,7 +132,7 @@ const Complication = () => {
 						<motion.article className="flex flex-col md:flex-row justify-between gap-x-8 gap-y-5 md:gap-y-0"
 							key={index} variants={complicationVariant} custom={index}
 						>
-							<MirrorContent title={item.title} body={item.body} image={`${item.image}.jpg`} slug={item.slug} index={index} cta={item.cta}/>
+							<MirrorContent title={item.title} body={item.body} image={`${item.image}.webp`} slug={item.slug} index={index} cta={item.cta}/>
 						</motion.article>
 					))}
 				</motion.div>

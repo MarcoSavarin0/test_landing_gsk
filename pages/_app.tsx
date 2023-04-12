@@ -22,7 +22,7 @@ function MyApp({Component, pageProps}: AppProps) {
 				}}
 				additionalMetaTags={[{
 					name: 'viewport',
-					content: 'initial-scale=1.0, maximum-scale=1.0, width=device-width'
+					content: 'initial-scale=1.0, maximum-scale=3.0, width=device-width'
 				},
 				{
 					name: 'google-site-verification',

@@ -19,7 +19,7 @@ const AcercaDe = () => {
 					description: 'El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento.',
 					images: [
 						{
-							url: '/og.jpg',
+							url: '/og.webp',
 							width: 1200,
 							height: 627,
 							alt: 'Herpes Zóster',

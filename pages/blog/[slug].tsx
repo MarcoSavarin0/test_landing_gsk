@@ -144,7 +144,7 @@ const Blog = ({nota}: any) => {
 			<>
 				<div className="space-y-8 pb-10">
 					<div className="flex w-full h-96 overflow-hidden">
-						<Image priority src={`/assets/images/notas/${image}.jpg`} className="w-full h-auto object-cover" alt="Post" width={100} height={70}/>
+						<Image priority src={`/assets/images/notas/${image}.webp`} className="w-full h-auto object-cover" alt="Post" width={100} height={70}/>
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">

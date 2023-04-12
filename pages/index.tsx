@@ -45,7 +45,7 @@ const Home = () => {
 					description: '¿Qué es el Herpes Zóster? ¿Cuál es su origen? ¿Cuáles son sus síntomas? Informándote sobre este virus, ayudás a prevenir su propagación.',
 					images: [
 						{
-							url: '/og.jpg',
+							url: '/og.webp',
 							width: 1200,
 							height: 627,
 							alt: 'Herpes Zóster',
