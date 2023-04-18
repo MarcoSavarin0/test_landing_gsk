@@ -4,12 +4,11 @@ import {EffectFade, Autoplay} from "swiper"
 import Intro from "@/components/home/Intro"
 import localFont from "@next/font/local"
 
-import VideoHero from "@/components/home/ui/VideoHero"
-
 import 'swiper/css'
 import 'swiper/css/effect-fade'
 import parse from "html-react-parser"
 import {Button} from "react-scroll"
+import dynamic from "next/dynamic"
 
 const gskPrecisionLight = localFont({ src: '../../styles/fonts/gskprecision-light.woff2' })
 const barlowSemicondensedBoldItalic = localFont({ src: '../../styles/fonts/barlowsemicondensed-bolditalic.woff2' })
@@ -59,7 +58,13 @@ const dolores: Dolor[] = [
 	}
 ]
 
+const DynamicVideoPlayer = dynamic(() => import('@/components/home/ui/VideoPlayerSlide'), {
+	ssr: false,
+})
+
 const Hero = () => {
+	// const refPlayer = useRef(null)
+
 	return (
 		<section className="bg-gsk-dark">
 			<Swiper
@@ -68,13 +73,32 @@ const Hero = () => {
 				effect={"fade"}
 				className="bg-gsk-dark"
 				modules={[EffectFade, Autoplay]}
-				allowTouchMove={true}
+				allowTouchMove={false}
 				loop={true}
+				speed={2000}
 				autoplay={{
-					delay: 6000,
+					delay: 7000,
 					pauseOnMouseEnter: false,
 					disableOnInteraction: false,
 					stopOnLastSlide: false,
+				}}
+				onSwiper={(swiper) => {
+					const currentSlide = swiper.slides[0]
+
+					currentSlide.querySelector("video")?.play()
+				}}
+				onSlideChangeTransitionStart={(swiper) => {
+					const prevSlide = swiper.slides[swiper.activeIndex - 1]
+
+					prevSlide.querySelector("video")?.pause()
+				}}
+				onSlideNextTransitionStart={(swiper) => {
+					const currentSlide = swiper.slides[swiper.activeIndex]
+
+					currentSlide.querySelector("video")?.play()
+					currentSlide.querySelector("video")?.addEventListener("ended", () => {
+						swiper.slideNext()
+					})
 				}}
 			>
 				{dolores.map(({title, type, top}: Dolor, index: number) => (
@@ -82,7 +106,9 @@ const Hero = () => {
 						<div className="relative w-full flex flex-col bg-gsk-dark h-[21rem] md:h-[27rem] lg:h-[34rem] xl:h-[46rem] 2xl:h-[54rem] overflow-hidden">
 							<div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-b from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 z-10"/>
 
-							<VideoHero type={type} top={top}/>
+							<div className="absolute bottom-auto md:bottom-0 md:left-0 w-full h-fit">
+								<DynamicVideoPlayer index={index} type={type} top={top}/>
+							</div>
 
 							<article className="order-first absolute top-4 md:top-[12%] lg:top-[20%] text-right right-8 md:right-10 lg:right-14 xl:right-18 2xl:right-24 w-10/12 md:w-7/12 lg:w-6/12 xl:w-7/12 pt-6 md:pt-0">
 								<h2 className={`${barlowSemicondensedItalic.className} uppercase inline text-white w-full sm:w-fit text-2xl sm:text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl md:leading-[2rem]`}>
