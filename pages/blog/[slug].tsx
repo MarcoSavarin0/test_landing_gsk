@@ -130,7 +130,7 @@ const Blog = ({nota}: any) => {
 					description: `${metadescription}`,
 					images: [
 						{
-							url: '/og.jpg',
+							url: '/og.webp',
 							width: 1200,
 							height: 627,
 							alt: 'Herpes Zóster',

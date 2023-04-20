@@ -71,7 +71,7 @@ const Complication = () => {
 			opacity: 1,
 			duration: 1,
 			y: 0,
-			delay: i * .8,
+			delay: i * .4,
 			transition: {
 				duration: .5
 			}
