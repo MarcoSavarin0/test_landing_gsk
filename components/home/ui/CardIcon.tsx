@@ -4,17 +4,20 @@ import parse from "html-react-parser"
 import ReactCardFlip from "react-card-flip"
 
 import H3 from "@/components/ui/H3"
+import va from "@vercel/analytics"
 
 interface CardIcon {
+	index?: number
 	title: string
 	body: string
 	image: string
 }
 
-const CardIcon = ({title, image, body}: CardIcon) => {
+const CardIcon = ({index, title, image, body}: CardIcon) => {
 	const [flipped, setFlipped] = useState(false)
 
 	const doFlip = (bool: boolean) => {
+		va.track(`CardFlip ${index} ${bool ? "Open" : "Close"}`)
 		setFlipped(bool)
 	}
 

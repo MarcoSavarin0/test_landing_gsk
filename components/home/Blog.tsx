@@ -10,7 +10,7 @@ const Blog = () => {
 				<Description title={`Conocé más sobre el Herpes Zóster.`}/>
 
 				<div className="py-6">
-					<Cta title={`Leer más`} url={`/blog`}/>
+					<Cta title={`Leer más`} location={'Cta to Blog at Home'} url={`/blog`}/>
 				</div>
 			</div>
 		</section>

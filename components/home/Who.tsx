@@ -38,7 +38,7 @@ const Who = () => {
 
 			<div className="grid grid-cols-1 lg:grid-cols-3 content-start gap-x-0 lg:gap-x-10 gap-y-8 lg:gap-y-0 px-8 md:px-20 lg:px-12">
 				{cards.map(({title, body, image}: Card, index: number) => (
-					<CardIcon key={index} title={title} body={body} image={image}/>
+					<CardIcon key={index} index={index} title={title} body={body} image={image}/>
 				))}
 			</div>
 		</section>

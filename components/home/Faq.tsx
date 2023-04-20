@@ -4,6 +4,7 @@ import Cta from "@/components/ui/Cta"
 import H2 from "@/components/ui/H2"
 import Description from "@/components/ui/Description"
 import parse from "html-react-parser"
+import va from "@vercel/analytics"
 
 interface Faq {
 	title: string
@@ -29,6 +30,7 @@ const Faq = () => {
 	const { setVisibility, setTitle, setBody } = useModal()
 
 	const openModalHandler = (index: number): void => {
+		va.track(`Faq ${index + 1}`)
 		setTitle(faqs[index].title)
 		setBody(faqs[index].body)
 		setVisibility()
@@ -48,7 +50,7 @@ const Faq = () => {
 				))}
 			</div>
 			<div className="py-4">
-				<Cta title={`Ver más`} url={`/acerca-de-herpes-zoster`}/>
+				<Cta title={`Ver más`} location={'Cta More FAQ'} url={`/acerca-de-herpes-zoster`}/>
 			</div>
 		</section>
 	)
