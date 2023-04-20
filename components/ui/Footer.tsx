@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import localFont from "@next/font/local"
+import va from "@vercel/analytics"
 
 const gskPrecisionLight = localFont({ src: '../../styles/fonts/gskprecision-light.woff2' })
 
@@ -19,23 +20,23 @@ const Footer = () => {
 							height={70}
 						/>
 						<div className={`${gskPrecisionLight} flex flex-col md:flex-row gap-x-0 md:gap-x-4 lg:gap-x-6 text-base md:text-sm`}>
-							<Link href={`/referencias`} className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
+							<Link onClick={() => va.track('Footer referencias')} href={`/referencias`} className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
 								Referencias
 							</Link>
-							<Link href="https://privacy.gsk.com/es-ar/privacy-notice/" target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
+							<Link onClick={() => va.track('Footer pd-cookies')} href="https://privacy.gsk.com/es-ar/privacy-notice/" target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
 								Políticas de Cookies
 							</Link>
-							<Link href="https://privacy.gsk.com/es-ar/privacy-notice/general/general-full-text/" target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
+							<Link onClick={() => va.track('Footer pd-privacidad')} href="https://privacy.gsk.com/es-ar/privacy-notice/general/general-full-text/" target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
 								Políticas de privacidad
 							</Link>
-							<Link href="https://terms.gsk.com/es-ar/pharmaceuticals/default/" target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
+							<Link onClick={() => va.track('Footer tyc')} href="https://terms.gsk.com/es-ar/pharmaceuticals/default/" target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
 								Términos y condiciones
 							</Link>
 						</div>
 					</div>
 
 					<div className="flex flex-row mt-3 md:mt-0 gap-x-3 md:gap-x-2 items-center justify-center">
-						<Link href={`https://www.facebook.com/Hablemos-de-Zoster-102244729434697`} target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
+						<Link onClick={() => va.track('Footer Facebook')} href={`https://www.facebook.com/Hablemos-de-Zoster-102244729434697`} target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
 							<span className="sr-only">Facebook</span>
 							<svg fill="currentColor" viewBox="0 0 24 24" className="h-9 md:h-7 w-9 md:w-7" aria-hidden="true">
 								<path
@@ -45,7 +46,7 @@ const Footer = () => {
 								/>
 							</svg>
 						</Link>
-						<Link href={`https://www.instagram.com/hablemosdezoster/`} target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
+						<Link onClick={() => va.track('Footer Instagram')} href={`https://www.instagram.com/hablemosdezoster/`} target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
 							<span className="sr-only">Instagram</span>
 							<svg fill="currentColor" viewBox="0 0 24 24" className="h-9 md:h-7 w-9 md:w-7" aria-hidden="true">
 								<path

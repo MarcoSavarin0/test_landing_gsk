@@ -7,7 +7,7 @@ import H3 from "@/components/ui/H3"
 import va from "@vercel/analytics"
 
 interface CardIcon {
-	index?: number
+	index: number
 	title: string
 	body: string
 	image: string
@@ -15,9 +15,10 @@ interface CardIcon {
 
 const CardIcon = ({index, title, image, body}: CardIcon) => {
 	const [flipped, setFlipped] = useState(false)
+	const indexForVa = index + 1
 
 	const doFlip = (bool: boolean) => {
-		va.track(`CardFlip ${index} ${bool ? "Open" : "Close"}`)
+		va.track(`CardFlip ${indexForVa} ${bool ? "Open" : "Close"}`)
 		setFlipped(bool)
 	}
 
