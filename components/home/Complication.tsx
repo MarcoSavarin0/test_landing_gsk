@@ -94,7 +94,7 @@ const Complication = () => {
 			<div className="bg-shape top-8 opacity-80">
 				<Image
 					alt=""
-					src={`/assets/images/bg-complications.png`}
+					src={`https://${process.env.NEXT_PUBLIC_AWS_BUCKET_NAME}.s3.${process.env.NEXT_PUBLIC_AWS_PUBLIC_REGION}.amazonaws.com/assets/bg-complications.png`}
 					quality={70}
 					fill
 					sizes="100vw"
@@ -108,7 +108,7 @@ const Complication = () => {
 			<div className="bg-shape -bottom-32">
 				<Image
 					alt=""
-					src={`/assets/images/bg-faq.png`}
+					src={`https://${process.env.NEXT_PUBLIC_AWS_BUCKET_NAME}.s3.${process.env.NEXT_PUBLIC_AWS_PUBLIC_REGION}.amazonaws.com/assets/bg-faq.png`}
 					quality={70}
 					fill
 					sizes="100vw"

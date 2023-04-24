@@ -130,7 +130,7 @@ const Blog = ({nota}: any) => {
 					description: `${metadescription}`,
 					images: [
 						{
-							url: '/og.webp',
+							url: `https://${process.env.NEXT_PUBLIC_AWS_BUCKET_NAME}.s3.${process.env.NEXT_PUBLIC_AWS_PUBLIC_REGION}.amazonaws.com/meta/og.webp`,
 							width: 1200,
 							height: 627,
 							alt: 'Herpes Zóster',
@@ -144,7 +144,7 @@ const Blog = ({nota}: any) => {
 			<>
 				<div className="space-y-8 pb-10">
 					<div className="flex w-full h-96 md:h-[25rem] lg:h-[34rem] xl:h-[42rem] overflow-hidden">
-						<Image priority src={`/assets/images/notas/${image}.webp`} className="w-full h-auto object-cover" alt="Post" width={1920} height={1080}/>
+						<Image priority src={`https://${process.env.NEXT_PUBLIC_AWS_BUCKET_NAME}.s3.${process.env.NEXT_PUBLIC_AWS_PUBLIC_REGION}.amazonaws.com/notas/${image}.webp`} className="w-full h-auto object-cover" alt="Post" width={1920} height={1080}/>
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
