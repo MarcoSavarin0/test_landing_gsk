@@ -35,9 +35,9 @@ const Blog = ({notas}: any) => {
 			<NextSeo
 				title="Blog de Salud | Hablemos de Zoster"
 				description="El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento."
-				canonical={process.env.NEXT_PUBLIC_SITE_URL}
+				canonical={`${process.env.NEXT_PUBLIC_SITE_URL}/blog`}
 				openGraph={{
-					url: process.env.NEXT_PUBLIC_SITE_URL,
+					url: `${process.env.NEXT_PUBLIC_SITE_URL}/blog`,
 					title: 'Blog de Salud | Hablemos de Zoster',
 					description: 'El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento.',
 					images: [

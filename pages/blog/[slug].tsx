@@ -142,9 +142,9 @@ const Blog = ({nota}: any) => {
 			<NextSeo
 				title={`${metatitle} | Blog | Hablemos de Zoster`}
 				description={`${metadescription}`}
-				canonical={process.env.NEXT_PUBLIC_SITE_URL}
+				canonical={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`}
 				openGraph={{
-					url: process.env.NEXT_PUBLIC_SITE_URL,
+					url: `${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`,
 					title: `${metatitle} | Blog |Hablemos de Zoster`,
 					description: `${metadescription}`,
 					images: [

@@ -10,9 +10,9 @@ const Referencias = () => {
 			<NextSeo
 				title="¿Qué es el Herpes Zoster (culebrilla)? | Hablemos de Zóster"
 				description="El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento."
-				canonical={process.env.NEXT_PUBLIC_SITE_URL}
+				canonical={`${process.env.NEXT_PUBLIC_SITE_URL}/referencias`}
 				openGraph={{
-					url: process.env.NEXT_PUBLIC_SITE_URL,
+					url: `${process.env.NEXT_PUBLIC_SITE_URL}/referencias`,
 					title: '¿Qué es el Herpes Zoster (culebrilla)? | Hablemos de Zóster',
 					description: 'El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento.',
 					images: [
