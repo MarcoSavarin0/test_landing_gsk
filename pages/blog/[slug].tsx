@@ -117,7 +117,7 @@ const Blog = ({nota}: any) => {
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
 								<div className="space-y-1">
-									<DynamicSpeechBlog slug={slug} text={parse(title) + " " + parse(body)}/>
+									<DynamicSpeechBlog text={parse(title) + " " + parse(body)}/>
 
 									<h1 className="text-gsk-orange font-bold leading-none text-4xl sm:text-5xl">{title}</h1>
 									{/* <h2 className="text-gsk-orange text-xl">Ut enim ad minim veniam, quis nostrud exercitation elit.</h2> */}

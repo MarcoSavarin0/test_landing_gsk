@@ -1,6 +1,5 @@
 import Image from "next/image"
 import Link from "next/link"
-import va from "@vercel/analytics"
 
 interface Post {
 	image: string
@@ -29,7 +28,7 @@ const toBase64 = (str: string) =>
 
 const Post = ({image, title, slug}: Post) => {
 	return (
-		<Link href={`/blog/${slug}`} onClick={() => va.track(`Blog - Open ${slug} post`)}>
+		<Link href={`/blog/${slug}`}>
 			<article className="group w-full h-auto sm:h-full rounded-xl shadow-md hover:shadow-xl active:shadow-md space-y-3 pb-4 bg-white hover:bg-gsk-orange transition ease-out duration-300 overflow-hidden">
 				<div className="overflow-hidden flex">
 					<Image src={`https://${process.env.NEXT_PUBLIC_AWS_BUCKET_NAME}.s3.${process.env.NEXT_PUBLIC_AWS_PUBLIC_REGION}.amazonaws.com/notas/${image}.webp`}

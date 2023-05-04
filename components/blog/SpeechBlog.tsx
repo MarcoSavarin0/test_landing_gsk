@@ -1,18 +1,17 @@
 import {useEffect, useState} from "react"
 import {router} from "next/client"
 import { PlayCircleIcon, PauseCircleIcon, StopCircleIcon } from '@heroicons/react/24/solid'
-import va from "@vercel/analytics"
 
 interface Text {
 	text: string
-	slug: string
+	slug?: string
 }
 
 type ActionsType = {
 	[key: string]: any
 }
 
-export default function SpeechBlog({text, slug}: Text) {
+export default function SpeechBlog({text}: Text) {
 	const synth = window.speechSynthesis
 	const textToSpeech = new SpeechSynthesisUtterance(text)
 	textToSpeech.rate = 0.8
@@ -56,19 +55,16 @@ export default function SpeechBlog({text, slug}: Text) {
 
 	const speechToggleHandler = () => {
 		if (synth.paused) {
-			va.track(`Resume SpeechSynth ${slug}`)
+			// va.track(`Resume SpeechSynth ${slug}`)
 			return letsSpeech('resume')
 		} else if(synth.speaking) {
-			va.track(`Pause SpeechSynth ${slug}`)
 			return letsSpeech('pause')
 		} else {
-			va.track(`Play SpeechSynth ${slug}`)
 			return letsSpeech('play')
 		}
 	}
 
 	const speechCancelHandler = () => {
-		va.track(`Stop SpeechSynth ${slug}`)
 		setPlaying(false)
 		return letsSpeech('cancel')
 	}
