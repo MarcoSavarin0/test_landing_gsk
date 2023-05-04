@@ -4,74 +4,11 @@ import Markdown from 'markdown-to-jsx'
 
 // import PostComponent from '@/components/blog/Post'
 import Banner from "@/components/home/Banner"
-// import CategoryButton from "@/components/blog/CategoryButton"
+import CategoryButton from "@/components/blog/CategoryButton"
 
 import dynamic from "next/dynamic"
 import {GetStaticPaths, GetStaticProps} from "next"
 import parse from "html-react-parser"
-
-/* interface Post {
-	id: number
-	title: string
-	date: string
-}
-
-interface Category {
-	id: number
-	name: string
-	slug: string
-}
-
-type PostContent = Post & Category
-
-const postContent: PostContent = {
-	id: 1,
-	title: "Lorem ipsum dolor sit amet",
-	name: "string",
-	date: "01/04/2023",
-	slug: "lorem-ipsum-dolor-sit-amet"
-}
-
-const releated: Post[] = [
-	{
-		id: 1,
-		title: "Título de la nota 1",
-		date: "01/05/2023"
-	},
-	{
-		id: 2,
-		title: "Título de la nota 2",
-		date: "01/05/2023"
-	},
-	{
-		id: 3,
-		title: "Título de la nota 3",
-		date: "01/05/2023"
-	}
-] */
-
-/* const categories: Category[] = [
-	{
-		id: 1,
-		name: "Ipsum",
-		slug: "ipsum"
-	},
-	{
-		id: 2,
-		name: "Aliqua",
-		slug: "aliqua"
-	},
-	{
-		id: 3,
-		name: "Consectetur",
-		slug: "consectetur"
-	},
-	{
-		id: 4,
-		name: "Voluptatem",
-		slug: "voluptatem"
-	}
-] */
 
 const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), {
 	ssr: false,
@@ -135,7 +72,7 @@ const toBase64 = (str: string) =>
 		: window.btoa(str)
 
 const Blog = ({nota}: any) => {
-	const {title, body, image, metatitle, metadescription, slug} = nota.data[0].attributes
+	const {title, body, image, metatitle, metadescription, slug, categoria} = nota.data[0].attributes
 
 	return (
 		<>
@@ -200,16 +137,14 @@ const Blog = ({nota}: any) => {
 								</div>
 							</div> */}
 						</article>
-						{/* <aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-2">
+						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-2">
 							<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
 							<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-								{categories.map(({id, name, slug}: Category) => (
-									<li key={id}>
-										<CategoryButton title={name} slug={slug}/>
-									</li>
-								))}
+								<li>
+									<CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/>
+								</li>
 							</ul>
-						</aside> */}
+						</aside>
 					</div>
 				</div>
 				<Banner/>

@@ -3,10 +3,10 @@ import { NextSeo } from "next-seo"
 import Description from "@/components/ui/Description"
 import PostComponent from '@/components/blog/Post'
 import Banner from "@/components/home/Banner"
-import {GetStaticProps} from "next"
+import {GetStaticPaths, GetStaticProps} from "next"
 
-export const getStaticProps: GetStaticProps = async () => {
-	const res = await fetch(`${process.env.STRAPI_API_URL}/notas?populate=*&sort[0]=publishedAt%3Adesc`, {
+export const getStaticProps: GetStaticProps = async (context) => {
+	const res = await fetch(`${process.env.STRAPI_API_URL}/notas?populate=*&filters[categoria][slug][$eq]=${context.params?.slug}`, {
 		headers: {
 			'Accept': 'application/json',
 			'Content-Type': 'application/json',
@@ -20,6 +20,26 @@ export const getStaticProps: GetStaticProps = async () => {
 			notas
 		},
 		revalidate: 10,
+	}
+}
+
+export const getStaticPaths: GetStaticPaths = async () => {
+	const res = await fetch(`${process.env.STRAPI_API_URL}/categories?populate=*`, {
+		headers: {
+			'Accept': 'application/json',
+			'Content-Type': 'application/json',
+			'Authorization': `Bearer ${process.env.STRAPI_API_TOKEN}`
+		}
+	})
+	const categories = await res.json()
+
+	const paths = categories.data.map((item: any) => ({
+		params: {slug: item.attributes.slug},
+	}))
+
+	return {
+		paths: paths,
+		fallback: false,
 	}
 }
 
