@@ -3,7 +3,6 @@ import {motion, useAnimation, useInView} from "framer-motion"
 
 import H2 from "@/components/ui/H2"
 import MirrorContent from "@/components/home/ui/MirrorContent"
-import Image from "next/image"
 
 interface Complication {
 	title: string
@@ -55,7 +54,7 @@ const Complication = () => {
 			transition: {
 				duration: .8,
 				when: "beforeChildren",
-				staggerChildren: 0.8,
+				staggerChildren: 0.6,
 			}
 		},
 		hidden: {
@@ -71,7 +70,7 @@ const Complication = () => {
 			opacity: 1,
 			duration: 1,
 			y: 0,
-			delay: i * .4,
+			delay: i * .1,
 			transition: {
 				duration: .5
 			}
@@ -91,7 +90,7 @@ const Complication = () => {
 
 	return (
 		<section className="px-4 relative">
-			<div className="bg-shape top-8 opacity-80">
+			{/* <div className="bg-shape top-8 opacity-80">
 				<Image
 					alt=""
 					src={`https://${process.env.NEXT_PUBLIC_AWS_BUCKET_NAME}.s3.${process.env.NEXT_PUBLIC_AWS_PUBLIC_REGION}.amazonaws.com/assets/bg-complications.png`}
@@ -103,9 +102,9 @@ const Complication = () => {
 						backgroundPositionY: 'top'
 					}}
 				/>
-			</div>
+			</div> */}
 
-			<div className="bg-shape -bottom-32">
+			{/* <div className="bg-shape -bottom-32">
 				<Image
 					alt=""
 					src={`https://${process.env.NEXT_PUBLIC_AWS_BUCKET_NAME}.s3.${process.env.NEXT_PUBLIC_AWS_PUBLIC_REGION}.amazonaws.com/assets/bg-faq.png`}
@@ -117,7 +116,7 @@ const Complication = () => {
 						backgroundPositionY: 'bottom'
 					}}
 				/>
-			</div>
+			</div> */}
 
 			<div className="space-y-6">
 				<H2 title={`Posibles complicaciones`}/>

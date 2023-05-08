@@ -100,7 +100,7 @@ const Blog = ({nota}: any) => {
 			<>
 				<div className="space-y-8 pb-10">
 					<div className="flex w-full h-96 md:h-[25rem] lg:h-[34rem] xl:h-[42rem] overflow-hidden">
-						<Image src={`https://${process.env.NEXT_PUBLIC_AWS_BUCKET_NAME}.s3.${process.env.NEXT_PUBLIC_AWS_PUBLIC_REGION}.amazonaws.com/notas/${image}.webp`}
+						<Image src={`https://gsk-hdz.b-cdn.net/notas/${image}.webp`}
 							className="w-full h-auto object-cover" alt="Post" width={1920} height={1080}
 							placeholder="blur"
 							blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(1920, 1080))}`}

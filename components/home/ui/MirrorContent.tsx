@@ -34,10 +34,10 @@ const MirrorContent = ({title, image, index, slug, body, cta}: Complication) => 
 	return (
 		<>
 			<div className={`${index % 2 ? 'md:order-last' : ''} w-full md:w-4/12`}>
-				<Image src={`https://${process.env.NEXT_PUBLIC_AWS_BUCKET_NAME}.s3.${process.env.NEXT_PUBLIC_AWS_PUBLIC_REGION}.amazonaws.com/notas/${image}`}
-					alt={title} height={1920} width={1080}
+				<Image src={`https://gsk-hdz.b-cdn.net/notas/${image}`}
+					alt={title} width={600} height={337}
 					placeholder="blur"
-					blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(1920, 1080))}`}
+					blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(600, 337))}`}
 					className="border border-gsk-dark/5 w-full h-auto rounded-2xl drop-shadow-md"
 					style={{
 						maxWidth: '100%',
