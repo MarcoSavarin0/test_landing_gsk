@@ -6,7 +6,7 @@ import Banner from "@/components/home/Banner"
 import {GetStaticPaths, GetStaticProps} from "next"
 
 export const getStaticProps: GetStaticProps = async (context) => {
-	const res = await fetch(`${process.env.STRAPI_API_URL}/notas?populate=*&filters[categoria][slug][$eq]=${context.params?.slug}`, {
+	const res = await fetch(`${process.env.STRAPI_API_URL}/notas?populate=*&filters[tags][slug][$eq]=${context.params?.slug}`, {
 		headers: {
 			'Accept': 'application/json',
 			'Content-Type': 'application/json',
@@ -24,7 +24,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-	const res = await fetch(`${process.env.STRAPI_API_URL}/categories?populate=*`, {
+	const res = await fetch(`${process.env.STRAPI_API_URL}/tags?populate=*`, {
 		headers: {
 			'Accept': 'application/json',
 			'Content-Type': 'application/json',
@@ -43,7 +43,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 	}
 }
 
-const Categoria = ({notas}: any) => {
+const Tag = ({notas}: any) => {
 	return (
 		<>
 			<NextSeo
@@ -88,4 +88,4 @@ const Categoria = ({notas}: any) => {
 	)
 }
 
-export default Categoria
+export default Tag

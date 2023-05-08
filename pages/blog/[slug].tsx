@@ -72,7 +72,7 @@ const toBase64 = (str: string) =>
 		: window.btoa(str)
 
 const Blog = ({nota}: any) => {
-	const {title, body, image, metatitle, metadescription, slug, categoria} = nota.data[0].attributes
+	const {title, body, image, metatitle, metadescription, slug, categoria, tags} = nota.data[0].attributes
 
 	return (
 		<>
@@ -137,13 +137,23 @@ const Blog = ({nota}: any) => {
 								</div>
 							</div> */}
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-2">
-							<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-							<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-								<li>
-									<CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/>
-								</li>
-							</ul>
+						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
+							<div className="space-y-2">
+								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
+								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
+									<li>
+										<CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/>
+									</li>
+								</ul>
+							</div>
+							<div className="space-y-2">
+								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
+								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
+									<li>
+										<CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/>
+									</li>
+								</ul>
+							</div>
 						</aside>
 					</div>
 				</div>
