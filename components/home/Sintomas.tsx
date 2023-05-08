@@ -2,12 +2,11 @@ import {Element} from 'react-scroll'
 
 import H2 from "@/components/ui/H2"
 import Description from "@/components/ui/Description"
-import Image from "next/image"
 
 const Sintomas = () => {
 	return (
 		<section className="space-y-6 text-center pt-10 relative">
-			<div className="bg-shape top-10">
+			{/* <div className="bg-shape top-10">
 				<Image
 					alt="Mountains"
 					src={`/assets/images/bg-faq.png`}
@@ -18,7 +17,7 @@ const Sintomas = () => {
 						objectFit: 'fill',
 					}}
 				/>
-			</div>
+			</div> */}
 
 			<Element className="space-y-3 px-4 mx-auto w-10/12" name="sintomas">
 				<H2 title={`Síntomas`}/>
