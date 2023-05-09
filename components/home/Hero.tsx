@@ -1,14 +1,14 @@
+import {useRef} from "react"
 import {Swiper, SwiperSlide} from "swiper/react"
 import {EffectFade, Autoplay} from "swiper"
+import {Button} from "react-scroll"
+import parse from "html-react-parser"
 
 import Intro from "@/components/home/Intro"
 import localFont from "@next/font/local"
 
 import 'swiper/css'
 import 'swiper/css/effect-fade'
-import parse from "html-react-parser"
-import {Button} from "react-scroll"
-import dynamic from "next/dynamic"
 
 const gskPrecisionLight = localFont({ src: '../../styles/fonts/gskprecision-light.woff2' })
 const barlowSemicondensedBoldItalic = localFont({ src: '../../styles/fonts/barlowsemicondensed-bolditalic.woff2' })
@@ -58,12 +58,8 @@ const dolores: Dolor[] = [
 	}
 ]
 
-const DynamicVideoPlayer = dynamic(() => import('@/components/home/ui/VideoPlayerSlide'), {
-	ssr: false,
-})
-
 const Hero = () => {
-	// const refPlayer = useRef(null)
+	const videoRefs: any = useRef([])
 
 	return (
 		<section className="bg-gsk-dark">
@@ -76,30 +72,35 @@ const Hero = () => {
 				allowTouchMove={false}
 				loop={true}
 				speed={2000}
-				autoplay={{
-					delay: 7000,
-					pauseOnMouseEnter: false,
-					disableOnInteraction: false,
-					stopOnLastSlide: false,
-				}}
-				onSwiper={(swiper) => {
-					const currentSlide = swiper.slides[0]
 
-					currentSlide.querySelector("video")?.play()
-				}}
-				onSlideChangeTransitionStart={(swiper) => {
-					const indexPrev = swiper.activeIndex - 1
-					const prevSlide = swiper.slides[indexPrev]
+				onInit={(swiper) => {
+					const index = swiper.realIndex
+					const currentVideo: HTMLMediaElement = videoRefs.current[index]
 
-					prevSlide.querySelector("video")?.pause()
-				}}
-				onSlideNextTransitionStart={(swiper) => {
-					const index = swiper.activeIndex
-					const currentSlide = swiper.slides[index]
+					currentVideo.play()
 
-					currentSlide.querySelector("video")?.play()
-					currentSlide.querySelector("video")?.addEventListener("ended", () => {
-						swiper.slideNext()
+					currentVideo.addEventListener("ended", (e) => {
+						console.log("ended", e)
+						currentVideo.pause()
+						currentVideo.currentTime = 0
+						if(!swiper.destroyed) {
+							swiper.slideNext()
+						}
+					})
+				}}
+
+				onSlideChangeTransitionStart={(swiperTransition) => {
+					const index = swiperTransition.realIndex
+					const currentVideo: HTMLMediaElement = videoRefs.current[index]
+
+					currentVideo.play()
+
+					currentVideo.addEventListener("ended", () => {
+						currentVideo.pause()
+						currentVideo.currentTime = 0
+						if(!swiperTransition.destroyed) {
+							swiperTransition.slideNext()
+						}
 					})
 				}}
 			>
@@ -109,7 +110,9 @@ const Hero = () => {
 							<div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-b from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 z-10"/>
 
 							<div className="absolute bottom-auto md:bottom-0 md:left-0 w-full h-fit">
-								<DynamicVideoPlayer index={index} type={type} top={top}/>
+								<video ref={(e: any) => videoRefs.current[index] = e} poster={"data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAASACADASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAEDBAIF/8QAGhAAAgMBAQAAAAAAAAAAAAAAAAMBAiExEf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBA//EABcRAQEBAQAAAAAAAAAAAAAAAAABESH/2gAMAwEAAhEDEQA/APBqs6svCujSyWYSFcZW18kLgh19C7jZ81Cy6eAAhsjukrAED//Z"} className={`w-full h-[27rem] md:h-auto object-cover md:object-contain object-[30%] md:object-top brightness-75 md:brightness-100 ${top} md:mt-0 bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="none" muted={true} width="1280" height="700" autoPlay={false} controls={false} loop={false}>
+									<source src={`https://${process.env.NEXT_PUBLIC_AWS_BUCKET_NAME}.s3.${process.env.NEXT_PUBLIC_AWS_PUBLIC_REGION}.amazonaws.com/hero/${type}.webm`} type="video/webm"/>
+								</video>
 							</div>
 
 							<article className="order-first absolute top-4 md:top-[12%] lg:top-[20%] text-right right-8 md:right-10 lg:right-14 xl:right-18 2xl:right-24 w-10/12 md:w-7/12 lg:w-6/12 xl:w-7/12 pt-6 md:pt-0">
