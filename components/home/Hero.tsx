@@ -86,6 +86,14 @@ const Hero = () => {
 							swiper.slideNext()
 						}
 					})
+
+					currentVideo.removeEventListener("ended", () => {
+						currentVideo.pause()
+						currentVideo.currentTime = 0
+						if(!swiper.destroyed) {
+							swiper.slideNext()
+						}
+					})
 				}}
 
 				onSlideChangeTransitionStart={(swiperTransition) => {
@@ -95,6 +103,14 @@ const Hero = () => {
 					currentVideo.play()
 
 					currentVideo.addEventListener("ended", () => {
+						currentVideo.pause()
+						currentVideo.currentTime = 0
+						if(!swiperTransition.destroyed) {
+							swiperTransition.slideNext()
+						}
+					})
+
+					currentVideo.removeEventListener("ended", () => {
 						currentVideo.pause()
 						currentVideo.currentTime = 0
 						if(!swiperTransition.destroyed) {
