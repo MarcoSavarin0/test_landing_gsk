@@ -3,7 +3,7 @@ const nextConfig = {
 	reactStrictMode: true,
 	images: {
 		domains: [
-			`${process.env.NEXT_PUBLIC_AWS_BUCKET_NAME}.s3.${process.env.NEXT_PUBLIC_AWS_PUBLIC_REGION}.amazonaws.com`, `gsk-hdz.b-cdn.net`
+			`gsk-hdz.b-cdn.net`
 		],
 	},
 }
