@@ -41,6 +41,10 @@ a {
     @apply text-xl pt-2;
 }
 
+.markdown-body a {
+    @apply hover:underline text-gsk-orange;
+}
+
 .markdown-body ul {
     @apply list-disc list-inside;
 }

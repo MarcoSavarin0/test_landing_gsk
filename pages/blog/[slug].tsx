@@ -9,6 +9,7 @@ import CategoryButton from "@/components/blog/CategoryButton"
 import dynamic from "next/dynamic"
 import {GetStaticPaths, GetStaticProps} from "next"
 import parse from "html-react-parser"
+import Link from "next/link"
 
 const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), {
 	ssr: false,
@@ -125,7 +126,13 @@ const Blog = ({nota}: any) => {
 							</header>
 
 							<article>
-								<Markdown className="markdown-body">{body}</Markdown>
+								<Markdown
+									options={{
+										overrides: {
+											a: Link,
+										},
+									}}
+									className="markdown-body">{body}</Markdown>
 							</article>
 
 							{/* <div className="space-y-2 mt-10">
