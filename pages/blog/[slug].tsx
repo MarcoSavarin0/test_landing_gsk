@@ -129,8 +129,14 @@ const Blog = ({nota}: any) => {
 								<Markdown
 									options={{
 										overrides: {
-											a: Link,
-										},
+											a: ({ href, children }) => {
+												return (
+													<Link href={href}>
+														{children}
+													</Link>
+												)
+											},
+										}
 									}}
 									className="markdown-body">{body}</Markdown>
 							</article>
