@@ -18,7 +18,7 @@ const Autotest = () => {
 					</div>
 				</div>
 
-				<article className="w-11/12 md:w-10/12 mx-auto about px-10 space-y-14 text-white rounded-xl">
+				<article className="h-fit lg:h-[40rem] 2xl:h-[50rem] w-11/12 md:w-10/12 mx-auto about px-10 space-y-14 text-white rounded-xl">
 					<div className="-mt-24 pt-8 space-y-14">
 						<div className="space-y-4">
 							<div>
