@@ -1,5 +1,6 @@
 import H2 from "@/components/ui/H2"
 import Banner from "@/components/home/Banner"
+import Link from "next/link"
 
 const Autotest = () => {
 	return (
@@ -23,9 +24,9 @@ const Autotest = () => {
 							</div>
 						</div>
 
-						<p className="uppercase text-xl w-full md:w-10/12 lg:w-1/2 font-bold">¿SABÍAS que el <span className="text-gsk-orange">Herpes Zóster</span> es causado por el virus <span className="text-gsk-orange">Varicela-Zóster</span>, el mismo que ocasiona la varicela?</p>
+						<p className="uppercase text-xl w-full md:w-10/12 lg:w-1/2 font-bold">¿Tuviste varicela en algún momento de tu vida?</p>
 
-						<ul className="flex flex-wrap gap-x-2 gap-y-2">
+						<ul className="flex flex-wrap gap-x-2 gap-y-3">
 							<li>
 								<input type="radio" id="si" name="conocimiento" value="si" className="hidden peer" required />
 								<label htmlFor="si" className="px-4 py-1 rounded-lg uppercase border border-white hover:border-gsk-orange bg-gsk-dark hover:bg-gsk-orange transition-colors duration-100 peer-checked:bg-gsk-orange peer-checked:border-gsk-orange cursor-pointer">
@@ -46,7 +47,9 @@ const Autotest = () => {
 							</li>
 						</ul>
 
-						<button className="px-4 py-1 rounded-lg uppercase border border-gsk-orange hover:border-white bg-gsk-orange hover:bg-white text-white hover:text-gsk-orange transition-colors duration-200">SIGUIENTE</button>
+						<div className="flex flex-wrap gap-x-2 gap-y-1">
+							<Link href="/autotest/2" className="px-4 py-1 rounded-lg uppercase border border-gsk-orange hover:border-white bg-gsk-orange hover:bg-white text-white hover:text-gsk-orange transition-colors duration-200">SIGUIENTE</Link>
+						</div>
 					</div>
 				</article>
 			</div>
