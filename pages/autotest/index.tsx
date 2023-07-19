@@ -31,7 +31,7 @@ const Autotest = () => {
 								<p>Este cuestionario <strong>no solicitará ninguna información personal o sensible, ni está diseñado para utilizarse para el diagnóstico, prevención o tratamiento del Herpes Zóster.</strong> Sus fines son estrictamente informativos y no reemplazan el asesoramiento médico. Si vos o alguna persona cercana está sufriendo Herpes Zóster, o si tenes cualquier duda o pregunta sobre tu salud, no dudes en realizar una consulta con tu médico o médica de confianza.</p>
 							</div>
 							<div>
-								<Cta title={`EMPECEMOS`} url={`/autotest/1`}/>
+								<Cta title={`EMPECEMOS`} url={`/autotest/resultado`}/>
 							</div>
 						</div>
 
