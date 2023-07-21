@@ -32,7 +32,7 @@ export function StepOne() {
 					{/* factorize */}
 				</div>
 
-				<p className="uppercase text-xl w-full md:w-10/12 lg:w-1/2 font-bold">¿Tuviste varicela en algún momento de tu vida?</p>
+				<p className="uppercase text-xl w-full sm:w-10/12 md:w-4/12 font-bold">¿Tuviste varicela en algún momento de tu vida?</p>
 
 				<ul className="flex flex-wrap gap-x-2 gap-y-3">
 					<li>

@@ -81,10 +81,10 @@ export function StepFour() {
 						<Cta title={`Reiniciar el test`} url={`/autotest`}/>
 					</div>
 
-					<p className="italic">Para conocer mas sobre el Herpes Zóster, volvé al <Link href="/" className="text-gsk-orange hover:underline">Home</Link> o ingresá en nuestro <Link href="/blog" className="text-gsk-orange hover:underline">Blog</Link>.</p>
+					<p className="italic">Para conocer más sobre el Herpes Zóster, volvé al <Link href="/" className="text-gsk-orange hover:underline">Home</Link> o ingresá en nuestro <Link href="/blog" className="text-gsk-orange hover:underline">Blog</Link>.</p>
 				</div>
 
-				<ol className="text-xs">
+				<ol className="text-[0.6rem]">
 					<li>
 						1- Harpaz R et al. Advisory Committee on Immunization Practices (ACIP), Centers for Disease Control and Prevention (CDC). Prevention of Herpes Zoster: recommendations of the Advisory Committee on Immunization Practices (ACIP). MMWR Recomm Rep. 2008;57(RR-5):1-30.
 					</li>
@@ -105,7 +105,7 @@ export function StepFour() {
 					</div>
 				</div>
 
-				<p className="uppercase text-xl w-full md:w-10/12 lg:w-5/12 font-bold">¿Tu sistema inmune está comprometido? <span className="font-normal text-sm block">(Por ejemplo, por tratamientos médicos o uso de medicamentos que debilitan el sistema inmunitario)</span></p>
+				<p className="uppercase text-xl w-full sm:w-10/12 md:w-5/12 lg:w-4/12 xl:w-3/12 font-bold">¿Tu sistema inmune está comprometido? <span className="font-normal text-sm block">(Por ejemplo, por tratamientos médicos o uso de medicamentos que debilitan el sistema inmunitario)</span></p>
 
 				<ul className="flex flex-wrap gap-x-2 gap-y-3">
 					<li>

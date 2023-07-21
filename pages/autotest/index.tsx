@@ -35,7 +35,7 @@ const Autotest = () => {
 							</div>
 						</div>
 
-						<ol className="text-xs">
+						<ol className="text-[0.6rem]">
 							<li>1- Harpaz R et al. Advisory Committee on Immunization Practices (ACIP), Centers for Disease Control and Prevention (CDC). Prevention of Herpes Zoster: recommendations of the Advisory Committee on Immunization Practices (ACIP). MMWR Recomm Rep. 2008;57(RR-5):1-30.</li>
 							<li>2- Mueller NH et al. Varicella Zoster Virus Infection: Clinical Features, Molecular Pathogenesis of Disease and Latency. Neurologic Clinics. 2008;26;675-697.</li>
 						</ol>
