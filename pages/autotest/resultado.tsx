@@ -29,19 +29,19 @@ const Autotest = () => {
 	return (
 		<section className="space-y-20 lg:space-y-6 bg-gsk-dark">
 			<div>
-				<div className="space-y-3 px-4 text-center pt-10 pb-36">
+				<div className="space-y-3 px-4 text-center pt-10 lg:pb-36">
 					<h1 className={`text-gsk-orange font-bold leading-none uppercase text-4xl sm:text-5xl lg:text-6xl xl:text-7xl`}>Herpes Zóster</h1>
 					<H2 title={`TEST: ¿ESTOY EN RIESGO DE TENER HERPES ZÓSTER?`}/>
 				</div>
 
-				<article className="h-fit lg:h-[40rem] 2xl:h-[50rem] w-11/12 md:w-10/12 mx-auto about px-10 space-y-14 text-white rounded-xl">
+				<article className="h-fit lg:h-[40rem] 2xl:h-[50rem] w-full md:w-10/12 mx-auto about px-10 space-y-14 text-white rounded-xl">
 					<FormProvider>
 						<ActiveStepFormComponent />
 					</FormProvider>
 				</article>
 			</div>
 
-			<Banner/>
+			<Banner color="dark"/>
 		</section>
 	)
 }

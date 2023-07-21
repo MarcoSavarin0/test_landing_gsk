@@ -3,6 +3,7 @@ import { Element } from 'react-scroll'
 import H2 from "@/components/ui/H2"
 import CardIcon from "@/components/home/ui/CardIcon"
 import Description from "@/components/ui/Description"
+import Cta from "@/components/ui/Cta"
 
 interface Card {
 	title: string
@@ -30,7 +31,7 @@ const cards: Card[] = [
 
 const Who = () => {
 	return (
-		<section className="text-center space-y-6 relative">
+		<section className="text-center space-y-10 relative">
 			<Element className="space-y-3 px-4" name="riesgo">
 				<H2 title={`¿Quiénes están en riesgo?`}/>
 				<Description title={`Enterate si estás en riesgo de contraer Herpes Zóster.`}/>
@@ -40,6 +41,10 @@ const Who = () => {
 				{cards.map(({title, body, image}: Card, index: number) => (
 					<CardIcon key={index} index={index} title={title} body={body} image={image}/>
 				))}
+			</div>
+
+			<div>
+				<Cta title={`CONOCÉ TU NIVEL DE RIESGO`} url="/autotest"/>
 			</div>
 		</section>
 	)

@@ -32,7 +32,7 @@ export function StepThree() {
 					{/* factorize */}
 				</div>
 
-				<p className="uppercase text-xl w-full md:w-10/12 lg:w-1/2 font-bold">¿Tenés alguna enfermedad crónica? (Por ejemplo, asma, diabetes, EPOC o patologías cardiovasculares)</p>
+				<p className="uppercase text-xl w-full md:w-10/12 lg:w-1/2 font-bold">¿Tenés alguna enfermedad crónica? <span className="font-normal text-sm block">(Por ejemplo, asma, diabetes, EPOC o patologías cardiovasculares)</span></p>
 
 				<ul className="flex flex-wrap gap-x-2 gap-y-3">
 					<li>

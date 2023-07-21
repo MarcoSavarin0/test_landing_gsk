@@ -43,7 +43,7 @@ const Autotest = () => {
 				</article>
 			</div>
 
-			<Banner/>
+			<Banner color="dark"/>
 		</section>
 	)
 }

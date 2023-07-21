@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form"
-import { useFormState } from "./FormContext"
+import { useFormState } from "@/components/form/FormContext"
 
 type RadioValue = {
 	conocimiento: string
