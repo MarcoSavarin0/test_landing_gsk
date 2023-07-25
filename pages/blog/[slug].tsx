@@ -87,7 +87,7 @@ const Blog = ({nota}: any) => {
 					description: `${metadescription}`,
 					images: [
 						{
-							url: `https://${process.env.NEXT_PUBLIC_AWS_BUCKET_NAME}.s3.${process.env.NEXT_PUBLIC_AWS_PUBLIC_REGION}.amazonaws.com/meta/og.webp`,
+							url: `https://gsk-hdz.b-cdn.net/og.jpg`,
 							width: 1200,
 							height: 627,
 							alt: 'Herpes Zóster',
