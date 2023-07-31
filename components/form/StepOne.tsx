@@ -36,19 +36,19 @@ export function StepOne() {
 
 				<ul className="flex flex-wrap gap-x-2 gap-y-3">
 					<li>
-						<input type="radio" id="si" value="si,1" {...register("conocimiento")} className="hidden peer" required={true} />
+						<input type="radio" id="si" value="si" {...register("conocimiento")} className="hidden peer" required={true} />
 						<label htmlFor="si" className="px-4 py-1 rounded-lg uppercase border border-white hover:border-gsk-orange bg-gsk-dark hover:bg-gsk-orange transition-colors duration-100 peer-checked:bg-gsk-orange peer-checked:border-gsk-orange cursor-pointer">
 							SÍ
 						</label>
 					</li>
 					<li>
-						<input type="radio" id="no" value="no,0" {...register("conocimiento")} className="hidden peer" required={true} />
+						<input type="radio" id="no" value="no" {...register("conocimiento")} className="hidden peer" required={true} />
 						<label htmlFor="no" className="px-4 py-1 rounded-lg uppercase border border-white hover:border-gsk-orange bg-gsk-dark hover:bg-gsk-orange transition-colors duration-100 peer-checked:bg-gsk-orange peer-checked:border-gsk-orange cursor-pointer">
 							NO
 						</label>
 					</li>
 					<li>
-						<input type="radio" id="norecuerdo" value="norecuerdo,0" {...register("conocimiento")} className="hidden peer" required={true} />
+						<input type="radio" id="norecuerdo" value="norecuerdo" {...register("conocimiento")} className="hidden peer" required={true} />
 						<label htmlFor="norecuerdo" className="px-4 py-1 rounded-lg uppercase border border-white hover:border-gsk-orange bg-gsk-dark hover:bg-gsk-orange transition-colors duration-100 peer-checked:bg-gsk-orange peer-checked:border-gsk-orange cursor-pointer">
 							NO LO RECUERDO
 						</label>

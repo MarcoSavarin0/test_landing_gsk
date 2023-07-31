@@ -36,13 +36,13 @@ export function StepTwo() {
 
 				<ul className="flex flex-wrap gap-x-2 gap-y-3">
 					<li>
-						<input type="radio" id="menos" value="menos,0" {...register("edad")} className="hidden peer" required={true} />
+						<input type="radio" id="menos" value="menos" {...register("edad")} className="hidden peer" required={true} />
 						<label htmlFor="menos" className="px-4 py-1 rounded-lg uppercase border border-white hover:border-gsk-orange bg-gsk-dark hover:bg-gsk-orange transition-colors duration-100 peer-checked:bg-gsk-orange peer-checked:border-gsk-orange cursor-pointer">
 							Menos de 50 años
 						</label>
 					</li>
 					<li>
-						<input type="radio" id="mas" value="mas,2" {...register("edad")} className="hidden peer" required={true} />
+						<input type="radio" id="mas" value="mas" {...register("edad")} className="hidden peer" required={true} />
 						<label htmlFor="mas" className="px-4 py-1 rounded-lg uppercase border border-white hover:border-gsk-orange bg-gsk-dark hover:bg-gsk-orange transition-colors duration-100 peer-checked:bg-gsk-orange peer-checked:border-gsk-orange cursor-pointer">
 							Más de 50 años
 						</label>

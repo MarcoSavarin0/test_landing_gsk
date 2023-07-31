@@ -45,7 +45,6 @@ const results = [
 
 export function StepFour() {
 	const [isCreated, setCreated] = useState(false)
-	const [score, setScore] = useState(0)
 
 	const { setFormData, formData, onHandleBack, step } = useFormState()
 	const { register, handleSubmit } = useForm<RadioValue>({
@@ -57,9 +56,68 @@ export function StepFour() {
 		setCreated(true)
 	}
 
+	const getValue = () => {
+		const CONOCIMIENTO = JSON.stringify(formData["conocimiento"]).replaceAll('"', '')
+		const EDAD = JSON.stringify(formData["edad"]).replaceAll('"', '')
+		const ENFERMEDAD = JSON.stringify(formData["enfermedad"]).replaceAll('"', '')
+		const INMUNE = JSON.stringify(formData["inmune"]).replaceAll('"', '')
+
+		if (CONOCIMIENTO == "si" && EDAD == "menos" && ENFERMEDAD == "si" && INMUNE == "si") {
+			return 3
+		} else if (CONOCIMIENTO == "si" && EDAD == "menos" && ENFERMEDAD == "no" && INMUNE == "no") {
+			return 1
+		} else if (CONOCIMIENTO == "si" && EDAD == "menos" && ENFERMEDAD == "si" && INMUNE == "no") {
+			return 1
+		} else if (CONOCIMIENTO == "si" && EDAD == "menos" && ENFERMEDAD == "no" && INMUNE == "si") {
+			return 3
+		} else if (CONOCIMIENTO == "si" && EDAD == "mas" && ENFERMEDAD == "si" && INMUNE == "si") {
+			return 3
+		} else if (CONOCIMIENTO == "si" && EDAD == "mas" && ENFERMEDAD == "no" && INMUNE == "no") {
+			return 2
+		} else if (CONOCIMIENTO == "si" && EDAD == "mas" && ENFERMEDAD == "si" && INMUNE == "no") {
+			return 4
+		} else if (CONOCIMIENTO == "si" && EDAD == "mas" && ENFERMEDAD == "no" && INMUNE == "si") {
+			return 3
+		} else if (CONOCIMIENTO == "no" && EDAD == "menos" && ENFERMEDAD == "si" && INMUNE == "si") {
+			return 3
+		} else if (CONOCIMIENTO == "no" && EDAD == "menos" && ENFERMEDAD == "no" && INMUNE == "no") {
+			return 1
+		} else if (CONOCIMIENTO == "no" && EDAD == "menos" && ENFERMEDAD == "si" && INMUNE == "no") {
+			return 1
+		} else if (CONOCIMIENTO == "no" && EDAD == "menos" && ENFERMEDAD == "no" && INMUNE == "si") {
+			return 3
+		} else if (CONOCIMIENTO == "no" && EDAD == "mas" && ENFERMEDAD == "si" && INMUNE == "si") {
+			return 3
+		} else if (CONOCIMIENTO == "no" && EDAD == "mas" && ENFERMEDAD == "no" && INMUNE == "no") {
+			return 2
+		} else if (CONOCIMIENTO == "no" && EDAD == "mas" && ENFERMEDAD == "si" && INMUNE == "no") {
+			return 4
+		} else if (CONOCIMIENTO == "no" && EDAD == "mas" && ENFERMEDAD == "no" && INMUNE == "si") {
+			return 3
+		} else if (CONOCIMIENTO == "norecuerdo" && EDAD == "menos" && ENFERMEDAD == "si" && INMUNE == "si") {
+			return 3
+		} else if (CONOCIMIENTO == "norecuerdo" && EDAD == "menos" && ENFERMEDAD == "no" && INMUNE == "no") {
+			return 1
+		} else if (CONOCIMIENTO == "norecuerdo" && EDAD == "menos" && ENFERMEDAD == "si" && INMUNE == "no") {
+			return 1
+		} else if (CONOCIMIENTO == "norecuerdo" && EDAD == "menos" && ENFERMEDAD == "no" && INMUNE == "si") {
+			return 3
+		} else if (CONOCIMIENTO == "norecuerdo" && EDAD == "mas" && ENFERMEDAD == "si" && INMUNE == "si") {
+			return 3
+		} else if (CONOCIMIENTO == "norecuerdo" && EDAD == "mas" && ENFERMEDAD == "no" && INMUNE == "no") {
+			return 2
+		} else if (CONOCIMIENTO == "norecuerdo" && EDAD == "mas" && ENFERMEDAD == "si" && INMUNE == "no") {
+			return 4
+		} else if (CONOCIMIENTO == "norecuerdo" && EDAD == "mas" && ENFERMEDAD == "no" && INMUNE == "si") {
+			return 3
+		} else {
+			return 1
+		}
+	}
+
 	useEffect(() => {
 		if(isCreated) {
-			setScore(Number(JSON.stringify(formData["conocimiento"]).split(',')[1].replace('"', '')) + Number(JSON.stringify(formData["edad"]).split(',')[1].replace('"', '')) + Number(JSON.stringify(formData["enfermedad"]).split(',')[1].replace('"', '')) + Number(JSON.stringify(formData["inmune"]).split(',')[1].replace('"', '')))
+			getValue()
 		}
 	}, [formData, isCreated])
 
@@ -69,19 +127,19 @@ export function StepFour() {
 				<div className="text-center space-y-1">
 					<div className="flex flex-wrap gap-x-2 justify-center items-end">
 						<span className="bg-gsk-orange w-4 md:w-5 h-4"/>
-						<span className={`${score >= 2 ? `bg-gsk-orange` : `bg-gsk-gray`} w-4 md:w-5 h-8`}/>
-						<span className={`${score >= 3 ? `bg-gsk-orange` : `bg-gsk-gray`} w-4 md:w-5 h-12`}/>
-						<span className={`${score >= 4 ? `bg-gsk-orange` : `bg-gsk-gray`} w-4 md:w-5 h-14`}/>
+						<span className={`${getValue() >= 2 ? `bg-gsk-orange` : `bg-gsk-gray`} w-4 md:w-5 h-8`}/>
+						<span className={`${getValue() >= 3 ? `bg-gsk-orange` : `bg-gsk-gray`} w-4 md:w-5 h-12`}/>
+						<span className={`${getValue() >= 4 ? `bg-gsk-orange` : `bg-gsk-gray`} w-4 md:w-5 h-14`}/>
 					</div>
-					<h3 className="uppercase text-xl md:text-2xl font-bold">{JSON.stringify(results[score].result).split('"').join('')}</h3>
+					<h3 className="uppercase text-xl md:text-2xl font-bold">{JSON.stringify(results[getValue()].result).split('"').join('')}</h3>
 				</div>
 
 				<div className="bg-white px-6 md:px-10 py-6 rounded-lg text-gsk-dark text-center space-y-6">
 					<h3 className="text-xl">
-						<span className="uppercase text-gsk-orange font-bold">{JSON.stringify(results[score].title).split('"').join('')}</span> de desarrollar Herpes Zóster.
+						<span className="uppercase text-gsk-orange font-bold">{JSON.stringify(results[getValue()].title).split('"').join('')}</span> de desarrollar Herpes Zóster.
 					</h3>
 
-					<p>{parse(JSON.stringify(results[score].body).split('"').join(''))}</p>
+					<p>{parse(JSON.stringify(results[getValue()].body).split('"').join(''))}</p>
 
 					<div>
 						<Cta title={`Reiniciar el test`} url={`/autotest`}/>
@@ -115,13 +173,13 @@ export function StepFour() {
 
 				<ul className="flex flex-wrap gap-x-2 gap-y-3">
 					<li>
-						<input type="radio" id="si" value="si,1" {...register("inmune")} className="hidden peer" required={true} />
+						<input type="radio" id="si" value="si" {...register("inmune")} className="hidden peer" required={true} />
 						<label htmlFor="si" className="px-4 py-1 rounded-lg uppercase border border-white hover:border-gsk-orange bg-gsk-dark hover:bg-gsk-orange transition-colors duration-100 peer-checked:bg-gsk-orange peer-checked:border-gsk-orange cursor-pointer">
 							Sí
 						</label>
 					</li>
 					<li>
-						<input type="radio" id="no" value="no,0" {...register("inmune")} className="hidden peer" required={true} />
+						<input type="radio" id="no" value="no" {...register("inmune")} className="hidden peer" required={true} />
 						<label htmlFor="no" className="px-4 py-1 rounded-lg uppercase border border-white hover:border-gsk-orange bg-gsk-dark hover:bg-gsk-orange transition-colors duration-100 peer-checked:bg-gsk-orange peer-checked:border-gsk-orange cursor-pointer">
 							No
 						</label>
