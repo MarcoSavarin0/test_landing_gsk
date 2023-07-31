@@ -42,7 +42,7 @@ export function StepTwo() {
 						</label>
 					</li>
 					<li>
-						<input type="radio" id="mas" value="mas,1" {...register("edad")} className="hidden peer" required={true} />
+						<input type="radio" id="mas" value="mas,2" {...register("edad")} className="hidden peer" required={true} />
 						<label htmlFor="mas" className="px-4 py-1 rounded-lg uppercase border border-white hover:border-gsk-orange bg-gsk-dark hover:bg-gsk-orange transition-colors duration-100 peer-checked:bg-gsk-orange peer-checked:border-gsk-orange cursor-pointer">
 							Más de 50 años
 						</label>
