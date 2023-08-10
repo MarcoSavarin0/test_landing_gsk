@@ -51,7 +51,7 @@ export function StepFour() {
 		defaultValues: formData,
 	})
 
-	const onHandleFormSubmit = (data: RadioValue) => {
+	const onHandleFormSubmit = async (data: RadioValue) => {
 		setFormData((prev: any) => ({ ...prev, ...data }))
 		setCreated(true)
 	}
@@ -117,9 +117,15 @@ export function StepFour() {
 
 	useEffect(() => {
 		if(isCreated) {
-			getValue()
+			fetch(`http://localhost:3000/api/autotest/resultado`, {
+				method: "POST",
+				headers: {
+					"Content-Type": "application/json"
+				},
+				body: JSON.stringify(formData)
+			})
 		}
-	}, [formData, isCreated])
+	}, [isCreated])
 
 	return isCreated ? (
 		<div>
@@ -160,7 +166,6 @@ export function StepFour() {
 			<div className="pt-8 space-y-5">
 				<div>
 					<span className="text-xs">{step} / 4</span>
-
 					<div className="flex flex-wrap gap-x-1 justify-start items-center">
 						<span className={`${step >= 1 ? "bg-gsk-orange" : "bg-gsk-gray"} w-8 sm:w-12 md:w-16 lg:w-20 h-1`}/>
 						<span className={`${step >= 2 ? "bg-gsk-orange" : "bg-gsk-gray"} w-8 sm:w-12 md:w-16 lg:w-20 h-1`}/>
