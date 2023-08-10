@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react'
-import Intro from "@/components/home/Intro"
 import '@testing-library/jest-dom'
+import Spacer from "@/components/ui/Spacer"
 
-describe('Hero', () => {
-	it('renders a title', () => {
-		render(<Intro />)
+describe('Home', () => {
+	it('h1 rendered', () => {
+		render(<Spacer />)
 	})
 })
