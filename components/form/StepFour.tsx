@@ -117,7 +117,7 @@ export function StepFour() {
 
 	useEffect(() => {
 		if(isCreated) {
-			fetch(`http://localhost:3000/api/autotest/resultado`, {
+			fetch(`/api/autotest/resultado`, {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json"
