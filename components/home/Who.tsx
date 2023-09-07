@@ -34,7 +34,7 @@ const Who = () => {
 		<section className="text-center space-y-10 relative">
 			<Element className="space-y-3 px-4" name="riesgo">
 				<H2 title={`¿Quiénes están en riesgo?`}/>
-				<Description title={`Enterate si estás en riesgo de contraer Herpes Zóster.`}/>
+				<Description title={`Enterate si vos o alguien de tu círculo cercano está en riesgo de contraer Herpes Zóster.`}/>
 			</Element>
 
 			<div className="grid grid-cols-1 lg:grid-cols-3 content-start gap-x-0 lg:gap-x-10 gap-y-8 lg:gap-y-0 px-8 md:px-20 lg:px-12">
@@ -44,7 +44,7 @@ const Who = () => {
 			</div>
 
 			<div>
-				<Cta title={`CONOCÉ TU NIVEL DE RIESGO`} url="/autotest"/>
+				<Cta title={`INICIAR TEST`} url="/autotest"/>
 			</div>
 		</section>
 	)

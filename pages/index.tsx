@@ -37,12 +37,12 @@ const Home = () => {
 		<>
 			<NextSeo
 				title="Hablemos de Zóster | Campaña de concientización y prevención"
-				description="¿Qué es el Herpes Zóster? ¿Cuál es su origen? ¿Cuáles son sus síntomas? Informándote sobre este virus, ayudás a prevenir su propagación."
+				description="¿Qué es el Herpes Zóster? ¿Cuál es su origen? ¿Cuáles son sus síntomas? Conocé más sobre esta enfermedad e informate para cuidarte a vos y a quienes te rodean."
 				canonical={process.env.NEXT_PUBLIC_SITE_URL}
 				openGraph={{
 					url: process.env.NEXT_PUBLIC_SITE_URL,
 					title: 'Hablemos de Zóster | Campaña de concientización y prevención',
-					description: '¿Qué es el Herpes Zóster? ¿Cuál es su origen? ¿Cuáles son sus síntomas? Informándote sobre este virus, ayudás a prevenir su propagación.',
+					description: '¿Qué es el Herpes Zóster? ¿Cuál es su origen? ¿Cuáles son sus síntomas? Conocé más sobre esta enfermedad e informate para cuidarte a vos y a quienes te rodean.',
 					images: [
 						{
 							url: `https://gsk-hdz.b-cdn.net/og.jpg`,
