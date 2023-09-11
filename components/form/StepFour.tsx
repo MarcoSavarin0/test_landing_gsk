@@ -27,19 +27,19 @@ const results = [
 		"body": `Se estima que 1 de cada 3 personas desarrollará Herpes Zóster en algún momento de su vida. Algunos de los factores que pueden llevar a desarrollar Herpes Zóster son: haber tenido varicela en algún momento, sufrir alguna enfermedad de base o estar en tratamiento con medicamentos que debilitan el sistema inmunológico o, en algunos casos, la edad. Esto se debe a que, con los años, el sistema inmune comienza a debilitarse, aumentando el riesgo de que el virus se reactive. Las personas mayores de 50 años tienen más posibilidades de contraer Herpes Zóster.<sup>1</sup>`,
 	},
 	{
+		"result": "Mayor Riesgo",
+		"title": "Tenés MAYOR RIESGO",
+		"body": `Algunos de los factores que pueden llevar a desarrollar Herpes Zóster son: haber tenido varicela en algún momento, sufrir alguna enfermedad de base o estar en tratamiento con medicamentos que debilitan el sistema inmunológico o, en algunos casos, la edad. Esto se debe a que, con los años, el sistema inmune comienza a debilitarse, aumentando el riesgo de que el virus se reactive.<sup>1</sup> Ante la aparición de síntomas, recomendamos visitar a tu médico o médica para obtener más información sobre los factores de riesgo, la prevención y tratamiento del Herpes Zóster.`,
+	},
+	{
 		"result": "Riesgo aumentado",
 		"title": "Tenés un RIESGO AUMENTADO",
 		"body": `Las enfermedades de base aumentan el riesgo de desarrollar Herpes Zóster en las personas mayores de 50 años que tuvieron varicela en algún momento de sus vidas. Otro factor que puede llevar a desarrollar la enfermedad es estar en tratamiento con medicamentos que debilitan el sistema inmunológico.<sup>1</sup>`,
 	},
 	{
-		"result": "Mayor Riesgo",
-		"title": "Tenés MAYOR RIESGO",
-		"body": `Algunos de los factores que pueden llevar a desarrollar Herpes Zóster son: haber tenido varicela en algún momento, sufrir alguna enfermedad de base o estar en tratamiento con medicamentos que debilitan el sistema inmunológico o, en algunos casos, la edad. Esto se debe a que, con los años, el sistema inmune comienza a debilitarse, aumentando el riesgo de que el virus se reactive.<sup>1</sup> Ante la aparición de síntomas, recomendamos visitar a tu médico o médica para obtener más información sobre los factores de riesgo, la prevención y tratamiento del Herpes Zóster.`,
-	},
-	{
-		"result": "Mayor Riesgo",
-		"title": "Tenés MAYOR RIESGO",
-		"body": `Algunos de los factores que pueden llevar a desarrollar Herpes Zóster son: haber tenido varicela en algún momento, sufrir alguna enfermedad de base o estar en tratamiento con medicamentos que debilitan el sistema inmunológico o, en algunos casos, la edad. Esto se debe a que, con los años, el sistema inmune comienza a debilitarse, aumentando el riesgo de que el virus se reactive.<sup>1</sup> Ante la aparición de síntomas, recomendamos visitar a tu médico o médica para obtener más información sobre los factores de riesgo, la prevención y tratamiento del Herpes Zóster.`,
+		"result": "Riesgo aumentado",
+		"title": "Tenés un RIESGO AUMENTADO",
+		"body": `Las enfermedades de base aumentan el riesgo de desarrollar Herpes Zóster en las personas mayores de 50 años que tuvieron varicela en algún momento de sus vidas. Otro factor que puede llevar a desarrollar la enfermedad es estar en tratamiento con medicamentos que debilitan el sistema inmunológico.<sup>1</sup>`,
 	}
 ]
 

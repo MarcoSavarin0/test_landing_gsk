@@ -2,7 +2,6 @@ import Image from 'next/image'
 import { NextSeo } from "next-seo"
 import Markdown from 'markdown-to-jsx'
 
-// import PostComponent from '@/components/blog/Post'
 import Banner from "@/components/home/Banner"
 import CategoryButton from "@/components/blog/CategoryButton"
 
@@ -148,6 +147,31 @@ const Blog = ({nota}: any) => {
 										<PostComponent key={id} id={id} title={title} date={date}/>
 									))}
 								</div>
+							</div> */}
+
+							{/* <div>
+								<FacebookShareButton url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}>
+									<FacebookIcon size={32} round />
+								</FacebookShareButton>
+
+								<LinkedinShareButton url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`}>
+									<LinkedinIcon size={32} round />
+								</LinkedinShareButton>
+
+								<TwitterShareButton
+									url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`}
+									title={title}
+								>
+									<TwitterIcon size={32} round />
+								</TwitterShareButton>
+
+								<WhatsappShareButton
+									url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`}
+									title={title}
+									separator=" 🔗 "
+								>
+									<WhatsappIcon size={32} round />
+								</WhatsappShareButton>
 							</div> */}
 						</article>
 						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
