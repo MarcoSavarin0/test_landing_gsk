@@ -9,6 +9,7 @@ import dynamic from "next/dynamic"
 import {GetStaticPaths, GetStaticProps} from "next"
 import parse from "html-react-parser"
 import Link from "next/link"
+import Share from "@/components/ui/Share"
 
 const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), {
 	ssr: false,
@@ -148,31 +149,9 @@ const Blog = ({nota}: any) => {
 									))}
 								</div>
 							</div> */}
-
-							{/* <div>
-								<FacebookShareButton url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}>
-									<FacebookIcon size={32} round />
-								</FacebookShareButton>
-
-								<LinkedinShareButton url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`}>
-									<LinkedinIcon size={32} round />
-								</LinkedinShareButton>
-
-								<TwitterShareButton
-									url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`}
-									title={title}
-								>
-									<TwitterIcon size={32} round />
-								</TwitterShareButton>
-
-								<WhatsappShareButton
-									url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`}
-									title={title}
-									separator=" 🔗 "
-								>
-									<WhatsappIcon size={32} round />
-								</WhatsappShareButton>
-							</div> */}
+							<div>
+								<Share url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/>
+							</div>
 						</article>
 						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
 							<div className="space-y-2">
