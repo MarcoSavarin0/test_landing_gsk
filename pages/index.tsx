@@ -73,7 +73,7 @@ const Home = () => {
 				<div className="flex flex-col justify-center items-center py-10 gap-y-4">
 					<Description title={`Cuidá la salud de quienes te rodean`}/>
 					<div>
-						<Share cta={`Compartí esta información`} url={"/"} quote={"Hablemos de Zoster"} hashtag={"#hablemosdezoster"}/>
+						<Share cta={`Compartí esta información`} url={`${process.env.NEXT_PUBLIC_SITE_URL}`} quote={"Hablemos de Zoster"} hashtag={"#hablemosdezoster"}/>
 					</div>
 				</div>
 			</>
