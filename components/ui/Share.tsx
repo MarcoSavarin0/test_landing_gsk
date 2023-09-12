@@ -2,7 +2,6 @@ import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import {
-	EmailIcon, EmailShareButton,
 	FacebookIcon,
 	FacebookShareButton,
 	LinkedinIcon,
@@ -12,17 +11,18 @@ import {
 } from "next-share"
 
 interface ShareData {
+	cta: string
 	url: string
 	quote: string
 	hashtag: string
 }
 
-export default function Share({url, quote, hashtag}: ShareData) {
+export default function Share({cta, url, quote, hashtag}: ShareData) {
 	return (
 		<Menu as="div" className="relative inline-block text-left">
 			<div>
 				<Menu.Button className="group inline-flex w-full justify-center items-center gap-x-1.5 text-base hover:text-white text-gsk-orange hover:bg-gsk-orange bg-white border-2 border-gsk-orange transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold shadow-sm">
-					Compartir en
+					{cta}
 					<ChevronDownIcon className="-mr-1 h-5 w-5 text-gsk-orange group-hover:text-white" aria-hidden="true" />
 				</Menu.Button>
 			</div>
@@ -57,11 +57,6 @@ export default function Share({url, quote, hashtag}: ShareData) {
 							<WhatsappShareButton url={url} title={quote} separator=" 🔗 ">
 								<WhatsappIcon className={`hover:scale-105 transition-transform`} size={32} round />
 							</WhatsappShareButton>
-						</Menu.Item>
-						<Menu.Item>
-							<EmailShareButton url={url} subject={quote} body="Cuerpo del correo">
-								<EmailIcon className={`hover:scale-105 transition-transform`} size={32} round />
-							</EmailShareButton>
 						</Menu.Item>
 					</div>
 				</Menu.Items>

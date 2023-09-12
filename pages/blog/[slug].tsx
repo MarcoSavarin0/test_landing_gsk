@@ -149,8 +149,9 @@ const Blog = ({nota}: any) => {
 									))}
 								</div>
 							</div> */}
-							<div>
-								<Share url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/>
+							<div className="space-y-2 mt-2">
+								<p>Cuidá la salud de quienes te rodean:</p>
+								<Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/>
 							</div>
 						</article>
 						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">

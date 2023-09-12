@@ -17,6 +17,7 @@ import Banner from "@/components/home/Banner"
 import H2 from "@/components/ui/H2"
 import Description from "@/components/ui/Description"
 import Spacer from "@/components/ui/Spacer"
+import Share from "@/components/ui/Share"
 
 const Home = () => {
 	const { title, body } = useModal((state) => ({title: state.title, body: state.body,}), shallow)
@@ -68,6 +69,13 @@ const Home = () => {
 				<Spacer/>
 				<Blog/>
 				<Banner/>
+
+				<div className="flex flex-col justify-center items-center py-10 gap-y-4">
+					<Description title={`Cuidá la salud de quienes te rodean`}/>
+					<div>
+						<Share cta={`Compartí esta información`} url={"/"} quote={"Hablemos de Zoster"} hashtag={"#hablemosdezoster"}/>
+					</div>
+				</div>
 			</>
 
 			<Modal>
