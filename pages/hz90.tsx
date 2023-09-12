@@ -1,4 +1,5 @@
 import { NextSeo } from "next-seo"
+import Image from 'next/image'
 
 import Blog from "@/components/home/Blog"
 import Banner from "@/components/home/Banner"
@@ -65,6 +66,17 @@ const Hz90 = () => {
 									<Cta title={`Descargá el folleto`} url={`https://www.gsk.com/`}/>
 								</div>
 								<p className="text-gsk-orange text-xl font-bold mt-4">Y consultá con tu médico o médica sobre su prevención y tratamiento. </p>
+							</div>
+
+							<div className="grid grid-cols-2 md:grid-cols-4 gap-1">
+								<Image src={"/assets/images/hz90/01.jpg"} alt={"HZ90"} width={1080} height={1080}/>
+								<Image src={"/assets/images/hz90/02.jpg"} alt={"HZ90"} width={1080} height={1080}/>
+								<Image src={"/assets/images/hz90/03.jpg"} alt={"HZ90"} width={1080} height={1080}/>
+								<Image src={"/assets/images/hz90/04.jpg"} alt={"HZ90"} width={1080} height={1080}/>
+								<Image src={"/assets/images/hz90/02.jpg"} alt={"HZ90"} width={1080} height={1080}/>
+								<Image src={"/assets/images/hz90/04.jpg"} alt={"HZ90"} width={1080} height={1080}/>
+								<Image src={"/assets/images/hz90/01.jpg"} alt={"HZ90"} width={1080} height={1080}/>
+								<Image src={"/assets/images/hz90/03.jpg"} alt={"HZ90"} width={1080} height={1080}/>
 							</div>
 
 						</div>
