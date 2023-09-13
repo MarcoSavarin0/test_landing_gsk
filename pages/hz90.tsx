@@ -7,13 +7,13 @@ const Hz90 = () => {
 	return (
 		<>
 			<NextSeo
-				title="¿Qué es el Herpes Zoster (culebrilla)? | Hablemos de Zóster"
-				description="El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento."
+				title="Campaña de concientización hZ_90 | Hablemos de Zóster"
+				description="¿Te cruzaste al misterioso hZ_90 en las redes, en la calle o en los shoppings? Conocé todo sobre la campaña hZ_90 e informate sobre Herpes Zóster."
 				canonical={`${process.env.NEXT_PUBLIC_SITE_URL}/acerca-de-herpes-zoster`}
 				openGraph={{
 					url: `${process.env.NEXT_PUBLIC_SITE_URL}/acerca-de-herpes-zoster`,
-					title: '¿Qué es el Herpes Zoster (culebrilla)? | Hablemos de Zóster',
-					description: 'El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento.',
+					title: 'Campaña de concientización hZ_90 | Hablemos de Zóster',
+					description: '¿Te cruzaste al misterioso hZ_90 en las redes, en la calle o en los shoppings? Conocé todo sobre la campaña hZ_90 e informate sobre Herpes Zóster.',
 					images: [
 						{
 							url: `https://gsk-hdz.b-cdn.net/og.jpg`,
@@ -23,7 +23,7 @@ const Hz90 = () => {
 							type: 'image/jpeg',
 						}
 					],
-					siteName: 'Hablemos de Zóster | Campaña de concientización y prevención',
+					siteName: 'Campaña de concientización hZ_90 | Hablemos de Zóster',
 				}}
 			/>
 
