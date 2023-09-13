@@ -39,6 +39,10 @@ const Navbar = () => {
 										className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										Blog
 									</Link>
+									<Link href="/hz90" scroll={false}
+										className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
+										HZ_90
+									</Link>
 								</div>
 							</nav>
 							<div className="-mr-2 flex md:hidden">

@@ -10,9 +10,10 @@ interface Modal {
 const Modal = ({children}: Modal) => {
 	const cancelButtonRef = useRef(null)
 
-	const [visibility, setVisibility] = useModal((state) => [state.visibility, state.setVisibility])
+	const [visibility, setVisibility, set90] = useModal((state) => [state.visibility, state.setVisibility, state.set90])
 
 	const closeModalHandler = (): void => {
+		set90("hidden")
 		setVisibility()
 	}
 

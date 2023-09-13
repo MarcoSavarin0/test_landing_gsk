@@ -1,7 +1,7 @@
 import { NextSeo } from "next-seo"
 import Image from 'next/image'
 
-import Cta from "@/components/ui/Cta"
+import Link from "next/link"
 
 const Hz90 = () => {
 	return (
@@ -60,11 +60,19 @@ const Hz90 = () => {
 							</div>
 
 							<div className="flex flex-col justify-center gap-y-5 items-center text-center">
-								<p className="text-lg">Para conocer más sobre Herpes Zóster, hacé click acá: </p>
+								<h2 className="text-lg">Para conocer más sobre Herpes Zóster, hacé click acá: </h2>
 								<div className="flex flex-col md:flex-row justify-center items-center gap-2">
-									<Cta title={`¿Qué es el Herpes Zoster?`} url={`https://www.hablemosdezoster.com/#que-es-herpes-zoster`}/>
-									<Cta title={`Conocé tu nivel de riesgo`} url={`https://www.hablemosdezoster.com/#riesgo`}/>
-									<Cta title={`Descargá el folleto`} location={`_blank`} url={`/hablemos-de-zoster.pdf`}/>
+									<Link href="https://www.hablemosdezoster.com/#que-es-herpes-zoster" className="text-base text-center text-white hover:text-gsk-orange bg-gsk-orange hover:bg-white border-2 border-transparent hover:border-gsk-orange transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold">
+										<h3>¿Qué es el Herpes Zoster?</h3>
+									</Link>
+
+									<Link href="https://www.hablemosdezoster.com/autotest" className="text-base text-center text-white hover:text-gsk-orange bg-gsk-orange hover:bg-white border-2 border-transparent hover:border-gsk-orange transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold">
+										<h3>Conocé tu nivel de riesgo</h3>
+									</Link>
+
+									<Link href="/hablemos-de-zoster.pdf" target="_blank" className="text-base text-center text-white hover:text-gsk-orange bg-gsk-orange hover:bg-white border-2 border-transparent hover:border-gsk-orange transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold">
+										<h3>Descargá el folleto</h3>
+									</Link>
 								</div>
 								<p className="text-gsk-orange text-xl font-bold mt-4">Y consultá con tu médico o médica sobre su prevención y tratamiento. </p>
 							</div>
