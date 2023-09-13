@@ -38,24 +38,25 @@ const Hz90 = () => {
 					<article className="w-11/12 md:w-10/12 mx-auto about px-10 space-y-14 rounded-xl text-white">
 						<div className="pt-8 space-y-12">
 
-							<div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-								<div className="space-y-8">
-									<h1 className={`text-gsk-orange font-bold text-2xl`}>HZ_90: de qué se trata la campaña que protagonizaron Yanina Latorre y Marcelo Tinelli.</h1>
-
-									<div className="space-y-6">
-										<p>Con el fin de concientizar acerca del Herpes Zóster, el laboratorio GSK llevó adelante una campaña que busca visibilizar la enfermedad y poner en conocimiento a la población para que pueda consultar con su profesional de salud de cabecera sobre las distintas alternativas de prevención y tratamiento de la misma.</p>
-										<p>El 13 de septiembre “hZ_90” tomó las cuentas de Instagram de Yanina Latorre y Marcelo Tinelli, cambiando durante horas sus fotos de perfil y publicando contenido interferido, que contenía frases como “perdón por ser una molestia” o “aparezco cuando menos lo esperás”.</p>
-										<p>Horas después de la aparición de hZ_90 en las redes de ambas figuras, las pantallas que rodean al Obelisco, en la concurrida Avenida 9 de Julio, comenzaron a mostrar un mensaje en simultáneo que se repetía una y otra vez: hz_90 aseguraba que todas esas pantallas ahora eran suyas. Lo mismo pasaba en otras zonas de la Capital Federal, en las líneas de subte de la Ciudad de Buenos Aires y en las pantallas de los principales shoppings del país.</p>
-										<p>Mientras esto sucedía, el tema despertó el interés en redes sociales y en los principales programas de TV y radio, donde crecía la incógnita acerca de qué se trataba hZ_90.</p>
-										<p>No fue sino hasta el día siguiente, que las celebridades pudieron recuperar sus cuentas y explicar qué había ocurrido: hZ_90 era la representación del Herpes Zóster -coloquialmente conocido como Culebrilla-, la enfermedad causada por la reactivación del virus que genera la Varicela.</p>
-										<p>El número 90 no fue elegido de forma aleatoria; se calcula que el 90% de los argentinos mayores de 50 años ha tenido contacto con la Varicela en algún momento de su vida1 y, por lo tanto, están en riesgo de desarrollar Herpes Zóster.</p>
-										<p>Así como hZ_90 apareció sin previo aviso interrumpiendo las actividades cotidianas y generando grandes molestias, luego de causar Varicela, el Virus Varicela Zóster queda latente en el sistema nervioso y puede despertarse generando Herpes Zóster.</p>
+							<div className="flex">
+								<div className="flex flex-col md:block">
+									<div className="space-y-6 float-none lg:float-right order-last lg:order-first w-full lg:w-4/12 xl:w-5/12 lg:px-4 pb-4 pt-6 lg:pt-0">
+										<Image src={"/imageholder.webp"} alt={"HZ90"} width={1018} height={396}/>
+										<Image src={"/imageholder.webp"} alt={"HZ90"} width={1018} height={396}/>
+										<Image src={"/imageholder.webp"} alt={"HZ90"} width={1018} height={396}/>
 									</div>
-								</div>
-								<div className="space-y-6">
-									<Image src={"/imageholder.webp"} alt={"HZ90"} width={1018} height={396}/>
-									<Image src={"/imageholder.webp"} alt={"HZ90"} width={1018} height={396}/>
-									<Image src={"/imageholder.webp"} alt={"HZ90"} width={1018} height={396}/>
+									<div className="space-y-8">
+										<h1 className={`text-gsk-orange font-bold text-2xl`}>HZ_90: de qué se trata la campaña que protagonizaron Yanina Latorre y Marcelo Tinelli.</h1>
+										<div className="space-y-6 text-justify">
+											<p>Con el fin de concientizar acerca del Herpes Zóster, el laboratorio GSK llevó adelante una campaña que busca visibilizar la enfermedad y poner en conocimiento a la población para que pueda consultar con su profesional de salud de cabecera sobre las distintas alternativas de prevención y tratamiento de la misma.</p>
+											<p>El 13 de septiembre “hZ_90” tomó las cuentas de Instagram de Yanina Latorre y Marcelo Tinelli, cambiando durante horas sus fotos de perfil y publicando contenido interferido, que contenía frases como “perdón por ser una molestia” o “aparezco cuando menos lo esperás”.</p>
+											<p>Horas después de la aparición de hZ_90 en las redes de ambas figuras, las pantallas que rodean al Obelisco, en la concurrida Avenida 9 de Julio, comenzaron a mostrar un mensaje en simultáneo que se repetía una y otra vez: hz_90 aseguraba que todas esas pantallas ahora eran suyas. Lo mismo pasaba en otras zonas de la Capital Federal, en las líneas de subte de la Ciudad de Buenos Aires y en las pantallas de los principales shoppings del país.</p>
+											<p>Mientras esto sucedía, el tema despertó el interés en redes sociales y en los principales programas de TV y radio, donde crecía la incógnita acerca de qué se trataba hZ_90.</p>
+											<p>No fue sino hasta el día siguiente, que las celebridades pudieron recuperar sus cuentas y explicar qué había ocurrido: hZ_90 era la representación del Herpes Zóster -coloquialmente conocido como Culebrilla-, la enfermedad causada por la reactivación del virus que genera la Varicela.</p>
+											<p>El número 90 no fue elegido de forma aleatoria; se calcula que el 90% de los argentinos mayores de 50 años ha tenido contacto con la Varicela en algún momento de su vida1 y, por lo tanto, están en riesgo de desarrollar Herpes Zóster.</p>
+											<p>Así como hZ_90 apareció sin previo aviso interrumpiendo las actividades cotidianas y generando grandes molestias, luego de causar Varicela, el Virus Varicela Zóster queda latente en el sistema nervioso y puede despertarse generando Herpes Zóster.</p>
+										</div>
+									</div>
 								</div>
 							</div>
 
