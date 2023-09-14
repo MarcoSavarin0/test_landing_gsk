@@ -41,8 +41,8 @@ const Hz90 = () => {
 							<div className="flex">
 								<div className="flex flex-col md:block">
 									<div className="space-y-6 float-none lg:float-right order-last lg:order-first w-full lg:w-4/12 xl:w-5/12 lg:px-4 pb-4 pt-6 lg:pt-0">
-										<Image src={"https://gsk-hdz.b-cdn.net/hz90/subte.webp"} alt={"HZ90"} width={1000} height={1000}/>
-										<Image src={"https://gsk-hdz.b-cdn.net/hz90/shopping.webp"} alt={"HZ90"} width={1000} height={1590}/>
+										<Image src={"https://gsk-hdz.b-cdn.net/hz90/subterraneo.webp"} alt={"HZ90"} width={720} height={1000}/>
+										<Image src={"https://gsk-hdz.b-cdn.net/hz90/shopping.webp"} alt={"HZ90"} width={720} height={1000}/>
 									</div>
 									<div className="space-y-8">
 										<h1 className={`text-gsk-orange font-bold text-2xl`}>HZ_90: de qué se trata la campaña que protagonizaron Yanina Latorre y Marcelo Tinelli.</h1>
