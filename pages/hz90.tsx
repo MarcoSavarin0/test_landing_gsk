@@ -31,7 +31,7 @@ const Hz90 = () => {
 				<section className="bg-[#00070C] pb-10">
 					<div className="w-full h-auto">
 						<video className={`w-full h-auto object-cover bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="none" muted={true} width="1920" height="420" autoPlay={true} controls={false} loop={true}>
-							<source src={`/header.mp4`} type="video/mp4"/>
+							<source src={`https://gsk-hdz.b-cdn.net/hz90/header.mp4`} type="video/mp4"/>
 						</video>
 					</div>
 
@@ -71,7 +71,7 @@ const Hz90 = () => {
 										<h3>Conocé tu nivel de riesgo</h3>
 									</Link>
 
-									<Link href="/hablemos-de-zoster.pdf" target="_blank" className="text-base text-center text-white hover:text-gsk-orange bg-gsk-orange hover:bg-white border-2 border-transparent hover:border-gsk-orange transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold">
+									<Link href="https://gsk-hdz.b-cdn.net/hz90/hablemos-de-zoster.pdf" target="_blank" className="text-base text-center text-white hover:text-gsk-orange bg-gsk-orange hover:bg-white border-2 border-transparent hover:border-gsk-orange transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold">
 										<h3>Descargá el folleto</h3>
 									</Link>
 								</div>

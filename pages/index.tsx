@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react"
+import {useEffect} from "react"
 import { NextSeo } from "next-seo"
 import {shallow} from "zustand/shallow"
 import parse from "html-react-parser"
@@ -33,18 +33,6 @@ const Home = () => {
 			offset: -25,
 		})
 	), [router.asPath])
-
-	const { setVisibility, set90, hz90 } = useModal()
-	const [showModal, setShowModal] = useState(hz90)
-	const openModalHandler = (): void => {
-		setShowModal(hz90)
-		set90("flex")
-		setVisibility()
-	}
-
-	useEffect(() => {
-		openModalHandler()
-	}, [showModal])
 
 	return (
 		<>

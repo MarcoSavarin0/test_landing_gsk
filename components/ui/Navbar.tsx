@@ -80,6 +80,11 @@ const Navbar = () => {
 									Blog
 								</Link>
 							</Disclosure.Button>
+							<Disclosure.Button as={Fragment}>
+								<Link href="/hz90" className="block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
+									HZ_90
+								</Link>
+							</Disclosure.Button>
 						</div>
 					</Disclosure.Panel>
 				</>

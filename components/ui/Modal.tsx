@@ -10,10 +10,9 @@ interface Modal {
 const Modal = ({children}: Modal) => {
 	const cancelButtonRef = useRef(null)
 
-	const [visibility, setVisibility, set90] = useModal((state) => [state.visibility, state.setVisibility, state.set90])
+	const [visibility, setVisibility] = useModal((state) => [state.visibility, state.setVisibility])
 
 	const closeModalHandler = (): void => {
-		set90("hidden")
 		setVisibility()
 	}
 
@@ -52,10 +51,6 @@ const Modal = ({children}: Modal) => {
 								<div className="flex flex-col space-y-4">
 									{children}
 								</div>
-
-								{/* <button onClick={() => closeModalHandler()} className="relative block md:hidden">
-									<span className="relative" dangerouslySetInnerHTML={{__html: `Cerrar`}}/>
-								</button> */}
 							</Dialog.Panel>
 						</Transition.Child>
 					</div>
