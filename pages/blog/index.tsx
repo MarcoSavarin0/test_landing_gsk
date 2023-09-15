@@ -6,7 +6,7 @@ import Banner from "@/components/home/Banner"
 import {GetStaticProps} from "next"
 
 export const getStaticProps: GetStaticProps = async () => {
-	const res = await fetch(`${process.env.STRAPI_API_URL}/notas?populate=*&sort[0]=publishedAt%3Adesc`, {
+	const res = await fetch(`${process.env.STRAPI_API_URL}/notas?populate=*&sort[0]=publishedAt%3Adesc&pagination[pageSize]=26`, {
 		headers: {
 			'Accept': 'application/json',
 			'Content-Type': 'application/json',

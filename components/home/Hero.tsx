@@ -1,6 +1,6 @@
 import {useRef} from "react"
 import {Swiper, SwiperSlide} from "swiper/react"
-import {EffectFade, Autoplay} from "swiper"
+import {EffectFade, Autoplay} from "swiper/modules"
 import {Button} from "react-scroll"
 import parse from "html-react-parser"
 

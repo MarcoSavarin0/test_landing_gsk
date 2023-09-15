@@ -82,3 +82,7 @@ a {
     transform: rotateY(0deg);
 }
 /* // Flip cards */
+
+.hz90-carousel .swiper-button-next, .hz90-carousel .swiper-button-prev {
+    @apply text-white !important;
+}
