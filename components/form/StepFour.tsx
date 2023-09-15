@@ -125,7 +125,7 @@ export function StepFour() {
 				body: JSON.stringify(formData)
 			})
 		}
-	}, [isCreated])
+	}, [formData, isCreated])
 
 	return isCreated ? (
 		<div>

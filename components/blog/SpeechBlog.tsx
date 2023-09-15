@@ -8,7 +8,7 @@ interface Text {
 }
 
 type ActionsType = {
-	[key: string]: any
+	[key: string]: () => void
 }
 
 export default function SpeechBlog({text}: Text) {
