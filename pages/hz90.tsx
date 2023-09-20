@@ -11,12 +11,12 @@ const Hz90 = () => {
 	return (
 		<>
 			<NextSeo
-				title="Campaña de concientización hZ_90 | Hablemos de Zóster"
+				title="Hz 90: Campaña de concientización hZ_90 | Hablemos de Zóster"
 				description="¿Te cruzaste al misterioso hZ_90 en las redes, en la calle o en los shoppings? Conocé todo sobre la campaña hZ_90 e informate sobre Herpes Zóster."
 				canonical={`${process.env.NEXT_PUBLIC_SITE_URL}/acerca-de-herpes-zoster`}
 				openGraph={{
 					url: `${process.env.NEXT_PUBLIC_SITE_URL}/acerca-de-herpes-zoster`,
-					title: 'Campaña de concientización hZ_90 | Hablemos de Zóster',
+					title: 'Hz 90: Campaña de concientización hZ_90 | Hablemos de Zóster',
 					description: '¿Te cruzaste al misterioso hZ_90 en las redes, en la calle o en los shoppings? Conocé todo sobre la campaña hZ_90 e informate sobre Herpes Zóster.',
 					images: [
 						{
@@ -27,7 +27,7 @@ const Hz90 = () => {
 							type: 'image/jpeg',
 						}
 					],
-					siteName: 'Campaña de concientización hZ_90 | Hablemos de Zóster',
+					siteName: 'Hz 90: Campaña de concientización hZ_90 | Hablemos de Zóster',
 				}}
 			/>
 
