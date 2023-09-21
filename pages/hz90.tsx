@@ -39,7 +39,7 @@ const Hz90 = () => {
 						</video>
 					</div>
 
-					<article className="w-11/12 md:w-10/12 mx-auto about px-10 space-y-14 rounded-xl text-white">
+					<article className="w-11/12 md:w-10/12 mx-auto about px-8 space-y-14 rounded-xl text-white">
 						<div className="pt-8 space-y-12">
 
 							<div className="flex flex-col lg:flex-row gap-y-8 lg:gap-y-0 gap-x-8">
@@ -56,43 +56,48 @@ const Hz90 = () => {
 									</div>
 								</div>
 
-								<div className="hz90-carousel w-full lg:w-5/12 xl:w-5/12 2xl:w-3/12">
-									<Swiper slidesPerView={1} spaceBetween={50} loop={true} navigation={true} modules={[EffectFade, Autoplay, Navigation]}>
-										<SwiperSlide>
-											<Image src={"https://gsk-hdz.b-cdn.net/hz90/01.webp"} alt={"HZ_90"} width={720} height={1000}/>
-										</SwiperSlide>
-										<SwiperSlide>
-											<Image src={"https://gsk-hdz.b-cdn.net/hz90/02.webp"} alt={"HZ_90"} width={720} height={1000}/>
-										</SwiperSlide>
-										<SwiperSlide>
-											<Image src={"https://gsk-hdz.b-cdn.net/hz90/03.webp"} alt={"HZ_90"} width={720} height={1000}/>
-										</SwiperSlide>
-										<SwiperSlide>
-											<Image src={"https://gsk-hdz.b-cdn.net/hz90/04.webp"} alt={"HZ_90"} width={720} height={1000}/>
-										</SwiperSlide>
-										<SwiperSlide>
-											<Image src={"https://gsk-hdz.b-cdn.net/hz90/05.webp"} alt={"HZ_90"} width={720} height={1000}/>
-										</SwiperSlide>
-									</Swiper>
-								</div>
+								<div className="hz90-carousel w-full lg:w-5/12 xl:w-5/12 2xl:w-3/12 space-y-4">
+									<div className="hz90-carousel w-full">
+										<Swiper slidesPerView={1} spaceBetween={50} loop={true} navigation={true} modules={[EffectFade, Autoplay, Navigation]}>
+											<SwiperSlide>
+												<Image src={"https://gsk-hdz.b-cdn.net/hz90/01.webp"} alt={"HZ_90"} width={720} height={1000}/>
+											</SwiperSlide>
+											<SwiperSlide>
+												<Image src={"https://gsk-hdz.b-cdn.net/hz90/02.webp"} alt={"HZ_90"} width={720} height={1000}/>
+											</SwiperSlide>
+											<SwiperSlide>
+												<Image src={"https://gsk-hdz.b-cdn.net/hz90/03.webp"} alt={"HZ_90"} width={720} height={1000}/>
+											</SwiperSlide>
+											<SwiperSlide>
+												<Image src={"https://gsk-hdz.b-cdn.net/hz90/04.webp"} alt={"HZ_90"} width={720} height={1000}/>
+											</SwiperSlide>
+											<SwiperSlide>
+												<Image src={"https://gsk-hdz.b-cdn.net/hz90/05.webp"} alt={"HZ_90"} width={720} height={1000}/>
+											</SwiperSlide>
+										</Swiper>
+									</div>
 
-								{/*
-								<div className="flex w-full lg:w-4/12 h-[600px] md:h-[720px]">
-									<Carousel>
-										<div className="flex h-full items-center justify-center">
-											<Image src={"/subterraneo.webp"} alt={"HZ90"} width={720} height={1000}/>
-										</div>
-										<div className="flex h-full items-center justify-center">
-											<Image src={"/shopping.webp"} alt={"HZ90"} width={720} height={1000}/>
-										</div>
-									</Carousel>
+									<div className="w-full h-auto">
+										<video className={`w-full h-auto object-cover bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="none" muted={true} width="1080" height="1350" autoPlay={false} controls={true} loop={true}>
+											<source src={`https://gsk-hdz.b-cdn.net/hz90/leds.mp4`} type="video/mp4"/>
+										</video>
+									</div>
+
 								</div>
-									*/}
+							</div>
+
+							<div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
+								<Image src={"https://gsk-hdz.b-cdn.net/hz90/grid-01.webp"} alt={"HZ_90"} width={960} height={720}/>
+								<Image src={"https://gsk-hdz.b-cdn.net/hz90/grid-02.webp"} alt={"HZ_90"} width={960} height={720}/>
+								<Image src={"https://gsk-hdz.b-cdn.net/hz90/grid-03.webp"} alt={"HZ_90"} width={960} height={720}/>
+								<Image src={"https://gsk-hdz.b-cdn.net/hz90/grid-04.webp"} alt={"HZ_90"} width={960} height={720}/>
+								<Image src={"https://gsk-hdz.b-cdn.net/hz90/grid-05.webp"} alt={"HZ_90"} width={960} height={720}/>
+								<Image src={"https://gsk-hdz.b-cdn.net/hz90/grid-06.webp"} alt={"HZ_90"} width={960} height={720}/>
 							</div>
 
 							<div className="flex flex-col justify-center gap-y-5 items-center text-center">
 								<h2 className="text-lg">Para conocer más sobre Herpes Zóster, hacé click acá: </h2>
-								<div className="flex flex-col md:flex-row justify-center items-center gap-2">
+								<div className="flex flex-col md:flex-row justify-center items-center gap-x-0 sm:gap-x-2 gap-y-2">
 									<Link href="https://www.hablemosdezoster.com/#que-es-herpes-zoster" className="text-base text-center text-white hover:text-gsk-orange bg-gsk-orange hover:bg-white border-2 border-transparent hover:border-gsk-orange transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold">
 										<h3>¿Qué es el Herpes Zoster?</h3>
 									</Link>
