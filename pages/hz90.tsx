@@ -34,7 +34,7 @@ const Hz90 = () => {
 			<>
 				<section className="bg-[#00070C] pb-10">
 					<div className="w-full h-auto">
-						<video className={`w-full h-auto object-cover bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="none" muted={true} width="1920" height="420" autoPlay={true} controls={false} loop={true}>
+						<video className={`w-full h-auto object-cover bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="auto" muted={true} width="1920" height="420" autoPlay={true} controls={false} loop={true}>
 							<source src={`https://gsk-hdz.b-cdn.net/hz90/header.mp4`} type="video/mp4"/>
 						</video>
 					</div>
@@ -78,7 +78,7 @@ const Hz90 = () => {
 									</div>
 
 									<div className="w-full h-auto">
-										<video className={`w-full h-auto object-cover bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="none" muted={true} width="1080" height="1350" autoPlay={false} controls={true} loop={true}>
+										<video className={`w-full h-auto object-cover bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="auto" muted={true} width="1080" height="1350" autoPlay={false} controls={true} loop={true} poster={"https://gsk-hdz.b-cdn.net/hz90/leds.webp"}>
 											<source src={`https://gsk-hdz.b-cdn.net/hz90/leds.mp4`} type="video/mp4"/>
 										</video>
 									</div>
