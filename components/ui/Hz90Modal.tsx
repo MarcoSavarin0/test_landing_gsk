@@ -2,12 +2,15 @@ import React, {Fragment, useEffect, useRef, useState} from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import Link from "next/link"
 
+import va from '@vercel/analytics'
+
 const Hz90Modal = () => {
 	const cancelButtonRef = useRef(null)
 	const [visibility, setVisibility] = useState("hidden")
 
 	const closeModalHandler = (): void => {
 		setVisibility("hidden")
+		va.track('CloseModalHZ90')
 	}
 
 	useEffect(() => (
@@ -47,7 +50,7 @@ const Hz90Modal = () => {
 									</svg>
 								</button>
 								<div className="flex flex-col space-y-4">
-									<Link href="/hz90">
+									<Link href="/hz90" onClick={() => va.track('GoToHz90')}>
 										<video poster={"data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAASACADASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAEDBAIF/8QAGhAAAgMBAQAAAAAAAAAAAAAAAAMBAiExEf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBA//EABcRAQEBAQAAAAAAAAAAAAAAAAABESH/2gAMAwEAAhEDEQA/APBqs6svCujSyWYSFcZW18kLgh19C7jZ81Cy6eAAhsjukrAED//Z"} className={`w-full h-auto object-cover bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="none" muted={true} width="1920" height="1080" autoPlay={true} controls={false} loop={false}>
 											<source src={`https://gsk-hdz.b-cdn.net/hz90/hz90.mp4`} type="video/mp4"/>
 										</video>

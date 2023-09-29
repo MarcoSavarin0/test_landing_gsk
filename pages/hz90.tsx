@@ -1,6 +1,8 @@
 import { NextSeo } from "next-seo"
 import Image from 'next/image'
 
+import va from '@vercel/analytics'
+
 import Link from "next/link"
 import {Swiper, SwiperSlide} from "swiper/react"
 import 'swiper/css'
@@ -78,7 +80,7 @@ const Hz90 = () => {
 									</div>
 
 									<div className="w-full h-auto">
-										<video className={`w-full h-auto object-cover bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="auto" muted={true} width="960" height="540" autoPlay={false} controls={true} loop={true} poster={"https://gsk-hdz.b-cdn.net/hz90/leds.webp"}>
+										<video onPlay={() => console.log("Hz90-play")} className={`w-full h-auto object-cover bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="auto" muted={true} width="960" height="540" autoPlay={false} controls={true} loop={true} poster={"https://gsk-hdz.b-cdn.net/hz90/leds.webp"}>
 											<source src={`https://gsk-hdz.b-cdn.net/hz90/obelisco.mp4`} type="video/mp4"/>
 										</video>
 									</div>
@@ -98,15 +100,15 @@ const Hz90 = () => {
 							<div className="flex flex-col justify-center gap-y-5 items-center text-center">
 								<h2 className="text-lg">Para conocer más sobre Herpes Zóster, hacé click acá: </h2>
 								<div className="flex flex-col md:flex-row justify-center items-center gap-x-0 sm:gap-x-2 gap-y-2">
-									<Link href="https://www.hablemosdezoster.com/#que-es-herpes-zoster" className="text-base text-center text-white hover:text-gsk-orange bg-gsk-orange hover:bg-white border-2 border-transparent hover:border-gsk-orange transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold">
+									<Link href="https://www.hablemosdezoster.com/#que-es-herpes-zoster" onClick={() => va.track('Hz90-Cta-queesherpeszoster')} className="text-base text-center text-white hover:text-gsk-orange bg-gsk-orange hover:bg-white border-2 border-transparent hover:border-gsk-orange transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold">
 										<h3>¿Qué es el Herpes Zoster?</h3>
 									</Link>
 
-									<Link href="https://www.hablemosdezoster.com/autotest" className="text-base text-center text-white hover:text-gsk-orange bg-gsk-orange hover:bg-white border-2 border-transparent hover:border-gsk-orange transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold">
+									<Link href="https://www.hablemosdezoster.com/autotest" onClick={() => va.track('Hz90-Cta-autotest')} className="text-base text-center text-white hover:text-gsk-orange bg-gsk-orange hover:bg-white border-2 border-transparent hover:border-gsk-orange transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold">
 										<h3>Conocé tu nivel de riesgo</h3>
 									</Link>
 
-									<Link href="https://gsk-hdz.b-cdn.net/hz90/hablemos-de-zoster.pdf" target="_blank" className="text-base text-center text-white hover:text-gsk-orange bg-gsk-orange hover:bg-white border-2 border-transparent hover:border-gsk-orange transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold">
+									<Link href="https://gsk-hdz.b-cdn.net/hz90/hablemos-de-zoster.pdf" onClick={() => va.track('Hz90-Cta-pdf')} target="_blank" className="text-base text-center text-white hover:text-gsk-orange bg-gsk-orange hover:bg-white border-2 border-transparent hover:border-gsk-orange transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold">
 										<h3>Descargá el folleto</h3>
 									</Link>
 								</div>
