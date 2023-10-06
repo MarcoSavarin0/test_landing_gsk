@@ -35,8 +35,7 @@ const Autotest = () => {
 						<h1 className={`text-gsk-orange font-bold leading-none uppercase text-4xl sm:text-5xl lg:text-6xl xl:text-7xl`}>Herpes Zóster</h1>
 						<H2 title={`TEST: ¿ESTOY EN RIESGO DE TENER HERPES ZÓSTER?`}/>
 						<div className={`${gskPrecisionBold.className} text-white font-bold text-lg bold md:text-xl`}>
-							<p>¿Cuánto sabés sobre el <span className="text-gsk-orange">Herpes Zóster</span>?</p>
-							<p>Completá este test para poner a prueba tu conocimiento.</p>
+							<p>Completá este test para conocer tu nivel de riesgo</p>
 						</div>
 					</div>
 
