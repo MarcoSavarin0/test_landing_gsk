@@ -18,7 +18,6 @@ import H2 from "@/components/ui/H2"
 import Description from "@/components/ui/Description"
 import Spacer from "@/components/ui/Spacer"
 import Share from "@/components/ui/Share"
-import Hz90Modal from "@/components/ui/Hz90Modal"
 
 const Home = () => {
 	const { title, body } = useModal((state) => ({title: state.title, body: state.body,}), shallow)
@@ -79,7 +78,6 @@ const Home = () => {
 				</div>
 			</>
 
-			<Hz90Modal/>
 			<Modal>
 				<H2 title={parse(title) as string}/>
 				<Description title={body} className="text-justify"/>
