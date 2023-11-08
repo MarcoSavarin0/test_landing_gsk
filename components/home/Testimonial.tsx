@@ -36,10 +36,9 @@ const medicos: VideoTestimonio[] = [
 	{
 		name: "Dr. Roberto Rey",
 		img: "robertorey",
-		data: "Neurólogo",
+		data: "Médico Neurólogo",
 		id: "0rBIlJ7FP04",
 	},
-
 ]
 
 const Testimonial = () => {
@@ -61,16 +60,19 @@ const Testimonial = () => {
 				<H2 title={`Herpes Zóster en primera persona`}/>
 			</Element>
 
-			<div className="flex flex-col px-8 sm:px-12 space-y-6 justify-center items-center">
+			<div className="flex flex-col px-8 md:px-24 lg:px-36 space-y-6 justify-center items-center">
 				{/* <button>|</button> */}
 				<VideoplayerSSR id={playerId}/>
 
-				<div className="grid grid-cols-2 md:grid-cols-4 w-full gap-6 justify-between text-center px-0 md:px-2">
-					{medicos.map((video, index) => (
-						<button key={index} onClick={() => selectVideo(video.id, index)}>
-							<ButtonThumbnail name={video.name} img={video.img} alt={video.name} data={video.data} active={activePlayer == index}/>
-						</button>
-					))}
+				<div className="w-full h-auto relative overflow-hidden">
+					<div className="grid grid-cols-none grid-flow-col overflow-x-scroll md:overflow-x-auto md:grid-cols-4 w-full gap-6 justify-start md:justify-between text-center px-0 lg:px-2">
+						{medicos.map((video, index) => (
+							<button key={index} onClick={() => selectVideo(video.id, index)} className="w-full h-auto">
+								<ButtonThumbnail name={video.name} img={video.img} alt={video.name} data={video.data} active={activePlayer == index}/>
+							</button>
+						))}
+					</div>
+					<div className="absolute w-[1px] h-full top-0 right-[-2px] shadow-[-1px_0_4px_2px_rgba(0,0,0,0.5)] z-10 bg-transparent"/>
 				</div>
 			</div>
 		</section>
