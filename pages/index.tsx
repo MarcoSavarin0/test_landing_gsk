@@ -12,6 +12,7 @@ import Sintomas from "@/components/home/Sintomas"
 import Faq from "@/components/home/Faq"
 import Who from "@/components/home/Who"
 import Complication from "@/components/home/Complication"
+import Testimonial from "@/components/home/Testimonial"
 import Blog from "@/components/home/Blog"
 import Banner from "@/components/home/Banner"
 import H2 from "@/components/ui/H2"
@@ -63,10 +64,10 @@ const Home = () => {
 				<Faq/>
 				<Spacer/>
 				<Who/>
-				{/* <Testimonial/> */}
 				<Spacer/>
 				<Complication/>
 				<Spacer/>
+				<Testimonial/>
 				<Blog/>
 				<Banner/>
 
