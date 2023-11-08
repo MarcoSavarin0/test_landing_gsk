@@ -1,5 +1,7 @@
 import {useState, useEffect} from "react"
 import dynamic from 'next/dynamic'
+import { Element } from 'react-scroll'
+
 import H2 from "@/components/ui/H2"
 import ButtonThumbnail from "@/components/home/ui/ButtonThumbnail"
 
@@ -55,9 +57,9 @@ const Testimonial = () => {
 
 	return (
 		<section className="space-y-10 bg-gsk-gray pt-6 pb-10 drop-shadow-[0_0_15px_rgba(0,0,0,0.10)] mb-10">
-			<div className="text-center space-y-3 px-4">
+			<Element className="text-center space-y-3 px-4" name="enprimerapersona">
 				<H2 title={`Herpes Zóster en primera persona`}/>
-			</div>
+			</Element>
 
 			<div className="flex flex-col px-8 sm:px-12 space-y-6 justify-center items-center">
 				{/* <button>|</button> */}

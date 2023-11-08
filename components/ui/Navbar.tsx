@@ -35,6 +35,9 @@ const Navbar = () => {
 									<Link href="/#riesgo" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										¿Quiénes están en riesgo?
 									</Link>
+									<Link href="/#enprimerapersona" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
+										En primera persona
+									</Link>
 									<Link href="/blog" scroll={false}
 										className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										Blog
@@ -78,6 +81,11 @@ const Navbar = () => {
 							<Disclosure.Button as={Fragment}>
 								<Link href="/blog" className="block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
 									Blog
+								</Link>
+							</Disclosure.Button>
+							<Disclosure.Button as={Fragment}>
+								<Link href="/#enprimerapersona" className="block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
+									En primera persona
 								</Link>
 							</Disclosure.Button>
 							<Disclosure.Button as={Fragment}>
