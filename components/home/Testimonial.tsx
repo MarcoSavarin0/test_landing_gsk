@@ -7,34 +7,34 @@ const VideoplayerSSR = dynamic(() => import('../home/ui/Videoplayer'), { ssr: fa
 
 interface VideoTestimonio {
 	name: string
+	img: string
 	data: string
-	active: boolean
 	id: string
 }
 
 const medicos: VideoTestimonio[] = [
 	{
 		name: "Dra. Elena Obieta",
+		img: "elenaobieta",
 		data: "Médica Infectóloga",
-		active: true,
 		id: "dIWt8S179ng",
 	},
 	{
 		name: "Dra. Florencia Cahn",
+		img: "florenciacahn",
 		data: "Médica Infectóloga",
-		active: false,
 		id: "vBruLfIo-FE",
 	},
 	{
 		name: "Dr. Lucio Criado",
+		img: "luciocriado",
 		data: "Médico Clínico",
-		active: false,
 		id: "vgK0G2UWif4",
 	},
 	{
 		name: "Dr. Roberto Rey",
+		img: "robertorey",
 		data: "Neurólogo",
-		active: false,
 		id: "0rBIlJ7FP04",
 	},
 
@@ -42,9 +42,10 @@ const medicos: VideoTestimonio[] = [
 
 const Testimonial = () => {
 	const [playerId, setPlayerId] = useState("dIWt8S179ng")
+	const [activePlayer, setActivePlayer] = useState(0)
 
 	const selectVideo = (playerId: string, indexVideo: number) => {
-		medicos[indexVideo].active = true
+		setActivePlayer(indexVideo)
 		setPlayerId(playerId)
 	}
 
@@ -58,14 +59,14 @@ const Testimonial = () => {
 				<H2 title={`Herpes Zóster en primera persona`}/>
 			</div>
 
-			<div className="flex flex-col px-12 space-y-6 justify-center items-center">
+			<div className="flex flex-col px-8 sm:px-12 space-y-6 justify-center items-center">
 				{/* <button>|</button> */}
 				<VideoplayerSSR id={playerId}/>
 
-				<div className="grid grid-cols-2 md:grid-cols-4 w-full gap-6 justify-between text-center px-2">
+				<div className="grid grid-cols-2 md:grid-cols-4 w-full gap-6 justify-between text-center px-0 md:px-2">
 					{medicos.map((video, index) => (
 						<button key={index} onClick={() => selectVideo(video.id, index)}>
-							<ButtonThumbnail name={video.name} data={video.data} active={video.active}/>
+							<ButtonThumbnail name={video.name} img={video.img} alt={video.name} data={video.data} active={activePlayer == index}/>
 						</button>
 					))}
 				</div>
