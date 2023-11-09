@@ -13,7 +13,7 @@ const ButtonThumbnail = ({name, img, data, active, alt}: VideoTestimonio) => {
 		<article className="group relative
 			overflow-hidden rounded-xl
 			transition ease-out duration-200 hover:shadow-lg
-			w-48 md:w-full h-32 lg:h-44
+			w-48 md:w-full h-32
 			flex flex-col justify-center items-center
 			px-1 md:px-1 lg:px-4
 			py-4 md:py-8"

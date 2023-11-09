@@ -60,7 +60,7 @@ const Testimonial = () => {
 				<H2 title={`Herpes Zóster en primera persona`}/>
 			</Element>
 
-			<div className="flex flex-col px-8 md:px-24 lg:px-36 space-y-6 justify-center items-center">
+			<div className="flex flex-col px-8 md:px-24 lg:px-56 space-y-6 justify-center items-center">
 				{/* <button>|</button> */}
 				<VideoplayerSSR id={playerId}/>
 
@@ -72,7 +72,7 @@ const Testimonial = () => {
 							</button>
 						))}
 					</div>
-					<div className="absolute w-[1px] h-full top-0 right-[-2px] shadow-[-1px_0_4px_2px_rgba(0,0,0,0.5)] z-10 bg-transparent"/>
+					<div className="block md:hidden absolute w-[1px] h-full top-0 right-[-2px] shadow-[-1px_0_4px_2px_rgba(0,0,0,0.5)] z-10 bg-transparent"/>
 				</div>
 			</div>
 		</section>
