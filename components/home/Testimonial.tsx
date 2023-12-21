@@ -61,7 +61,7 @@ const pacientes: VideoTestimonio[] = [
 		id: "HEbhzJtwIMw",
 	},
 	{
-		name: "Eduardo Adolfo Gonzalez",
+		name: "Eduardo Adolfo González",
 		img: "eduardoadolfogonzalez",
 		data: "",
 		id: "Gt29lKyD1TI",
