@@ -114,7 +114,7 @@ const Testimonial = () => {
 					<div className={`${pacientesState ? "visible" : "hidden"} grid grid-cols-none grid-flow-col overflow-x-scroll md:overflow-x-auto md:grid-cols-4 w-full gap-6 justify-start md:justify-between text-center px-0 lg:px-2`}>
 						{pacientes.map((video, index) => (
 							<button key={index} onClick={() => selectVideo(video.id, index)} className="w-full h-auto">
-								<ButtonThumbnail name={video.name} img={video.img} alt={video.name} active={activePlayer == index}/>
+								<ButtonThumbnail name={video.name} img={video.img} alt={video.name} active={activePlayer == index} data={video.data}/>
 							</button>
 						))}
 					</div>
