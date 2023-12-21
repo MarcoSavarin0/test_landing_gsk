@@ -41,13 +41,47 @@ const medicos: VideoTestimonio[] = [
 	},
 ]
 
+const pacientes: VideoTestimonio[] = [
+	{
+		name: "Norma Rut Frost",
+		img: "normarutfrost",
+		data: "",
+		id: "QjgeRBhgaRw",
+	},
+	{
+		name: "Máximo Jorge Fioravanti",
+		img: "maximojorgefioravanti",
+		data: "",
+		id: "yBuRSLW1AhQ-FE",
+	},
+	{
+		name: "Gastón Domingues Caetano",
+		img: "gastondominguescaetano",
+		data: "",
+		id: "HEbhzJtwIMw",
+	},
+	{
+		name: "Eduardo Adolfo Gonzalez",
+		img: "eduardoadolfogonzalez",
+		data: "",
+		id: "Gt29lKyD1TI",
+	},
+]
+
 const Testimonial = () => {
 	const [playerId, setPlayerId] = useState("dIWt8S179ng")
 	const [activePlayer, setActivePlayer] = useState(0)
+	const [pacientesState, setPacientesState] = useState(false)
 
 	const selectVideo = (playerId: string, indexVideo: number) => {
 		setActivePlayer(indexVideo)
 		setPlayerId(playerId)
+	}
+
+	const switchPlayer = (playerId: string, isPaciente: boolean) => {
+		setPlayerId(playerId)
+		setPacientesState(isPaciente)
+
 	}
 
 	useEffect(() => {
@@ -61,14 +95,26 @@ const Testimonial = () => {
 			</Element>
 
 			<div className="flex flex-col px-8 md:px-24 lg:px-56 space-y-6 justify-center items-center">
-				{/* <button>|</button> */}
+				<div className="flex flex-col sm:flex-row">
+					<button className={`rounded-l-none sm:rounded-l-lg text-center text-sm lg:text-lg px-10 py-2 ${pacientesState ? "bg-slate-300 text-gsk-dark" : "bg-gsk-orange text-white"}`} onClick={() => switchPlayer("dIWt8S179ng", false)}>Entrevistas a Médicos</button>
+					<button className={`rounded-r-none sm:rounded-r-lg text-center text-sm lg:text-lg px-10 py-2 ${!pacientesState ? "bg-slate-300 text-gsk-dark" : "bg-gsk-orange text-white"}`} onClick={() => switchPlayer("QjgeRBhgaRw", true)}>Testimoniales de pacientes</button>
+				</div>
+
 				<VideoplayerSSR id={playerId}/>
 
 				<div className="w-full h-auto relative overflow-hidden">
-					<div className="grid grid-cols-none grid-flow-col overflow-x-scroll md:overflow-x-auto md:grid-cols-4 w-full gap-6 justify-start md:justify-between text-center px-0 lg:px-2">
+					<div className={`${pacientesState ? "hidden" : "visible"} grid grid-cols-none grid-flow-col overflow-x-scroll md:overflow-x-auto md:grid-cols-4 w-full gap-6 justify-start md:justify-between text-center px-0 lg:px-2`}>
 						{medicos.map((video, index) => (
 							<button key={index} onClick={() => selectVideo(video.id, index)} className="w-full h-auto">
 								<ButtonThumbnail name={video.name} img={video.img} alt={video.name} data={video.data} active={activePlayer == index}/>
+							</button>
+						))}
+					</div>
+
+					<div className={`${pacientesState ? "visible" : "hidden"} grid grid-cols-none grid-flow-col overflow-x-scroll md:overflow-x-auto md:grid-cols-4 w-full gap-6 justify-start md:justify-between text-center px-0 lg:px-2`}>
+						{pacientes.map((video, index) => (
+							<button key={index} onClick={() => selectVideo(video.id, index)} className="w-full h-auto">
+								<ButtonThumbnail name={video.name} img={video.img} alt={video.name} active={activePlayer == index}/>
 							</button>
 						))}
 					</div>
