@@ -28,6 +28,27 @@ class MyDocument extends Document {
 						<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WL5WP7P" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						`}
 					</Script>
+					{/* <!-- Tealium Universal Tag --> */}
+					<Script id="tealium-tag" strategy="afterInteractive">
+						{`
+					var utag_data={
+						"page_type"     : "section",
+						"site_section"  : "Campaña de concientización y prevención ",
+						"page_name"     : "Hablemos de Zoster",
+						"country_code"  : "AR",
+						"currency_code" : "ARS"};
+						`}
+					</Script>
+					<Script id="tealium-tag" strategy="afterInteractive">
+						{`
+					
+						  (function(a,b,c,d) {
+							  a='//tags.tiqcdn.com/utag/ACCOUNT/PROFILE/ENVIRONMENT/utag.js';
+							  b=document;c='script';d=b.createElement(c);d.src=a;
+							  d.type='text/java'+c;d.async=true;
+							  a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a)})();
+						`}
+					</Script>
 
 					<Main/>
 					<NextScript/>
