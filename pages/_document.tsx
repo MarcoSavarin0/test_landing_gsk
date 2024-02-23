@@ -29,7 +29,7 @@ class MyDocument extends Document {
 						`}
 					</Script>
 					{/* <!-- Tealium Universal Tag --> */}
-					<Script id="tealium-tag" strategy="afterInteractive">
+					<Script id="tealium-tag" strategy="beforeInteractive">
 						{`
 					var utag_data={
 						"page_type"     : "section",
@@ -39,14 +39,13 @@ class MyDocument extends Document {
 						"currency_code" : "ARS"};
 						`}
 					</Script>
-					<Script id="tealium-tag" strategy="afterInteractive">
+					<Script id="tealium-tag" strategy="beforeInteractive">
 						{`
-					
-						  (function(a,b,c,d) {
-							  a='//tags.tiqcdn.com/utag/ACCOUNT/PROFILE/ENVIRONMENT/utag.js';
-							  b=document;c='script';d=b.createElement(c);d.src=a;
-							  d.type='text/java'+c;d.async=true;
-							  a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a)})();
+						  (function(a,b,c,d){
+							a='https://tags.tiqcdn.com/utag/gsk/profile-rx-ar/prod/utag.js';
+							b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+							a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+							})();
 						`}
 					</Script>
 
