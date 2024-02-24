@@ -11,12 +11,12 @@ const Conciencia = () => {
 	return (
 		<>
 			<NextSeo
-				title="Hz 90: Campaña de concientización hZ_90 | Hablemos de Zóster"
-				description="¿Te cruzaste al misterioso hZ_90 en las redes, en la calle o en los shoppings? Conocé todo sobre la campaña hZ_90 e informate sobre Herpes Zóster."
+				title="SAW | Semana de Concientización sobre el Herpes Zóster"
+				description="generar conciencia sobre los riesgos y el impacto de esta patología"
 				canonical={`${process.env.NEXT_PUBLIC_SITE_URL}/acerca-de-herpes-zoster`}
 				openGraph={{
 					url: `${process.env.NEXT_PUBLIC_SITE_URL}/acerca-de-herpes-zoster`,
-					title: 'Hz 90: Campaña de concientización hZ_90 | Hablemos de Zóster',
+					title: 'SAW | Semana de Concientización sobre el Herpes Zóster | Hablemos de Zóster',
 					description: '¿Te cruzaste al misterioso hZ_90 en las redes, en la calle o en los shoppings? Conocé todo sobre la campaña hZ_90 e informate sobre Herpes Zóster.',
 					images: [
 						{
@@ -27,7 +27,7 @@ const Conciencia = () => {
 							type: 'image/jpeg',
 						}
 					],
-					siteName: 'Hz 90: Campaña de concientización hZ_90 | Hablemos de Zóster',
+					siteName: 'SAW | Semana de Concientización sobre el Herpes Zóster',
 				}}
 			/>
 

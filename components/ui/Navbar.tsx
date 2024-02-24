@@ -38,13 +38,17 @@ const Navbar = () => {
 									<Link href="/#enprimerapersona" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										En primera persona
 									</Link>
-									<Link href="/blog" scroll={false}
+									{/* <Link href="/blog" scroll={false}
 										className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										Blog
-									</Link>
-									<Link href="/hz90" scroll={false}
+									</Link> */}
+									{/* <Link href="/hz90" scroll={false}
 										className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										HZ_90
+									</Link> */}
+									<Link href="/conciencia" scroll={false}
+										className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
+										SAW
 									</Link>
 								</div>
 							</nav>
@@ -78,19 +82,24 @@ const Navbar = () => {
 									¿Quiénes están en riesgo?
 								</Link>
 							</Disclosure.Button>
-							<Disclosure.Button as={Fragment}>
+							{/* <Disclosure.Button as={Fragment}>
 								<Link href="/blog" className="block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
 									Blog
 								</Link>
-							</Disclosure.Button>
+							</Disclosure.Button> */}
 							<Disclosure.Button as={Fragment}>
 								<Link href="/#enprimerapersona" className="block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
 									En primera persona
 								</Link>
 							</Disclosure.Button>
-							<Disclosure.Button as={Fragment}>
+							{/* <Disclosure.Button as={Fragment}>
 								<Link href="/hz90" className="block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
 									HZ_90
+								</Link>
+							</Disclosure.Button> */}
+							<Disclosure.Button as={Fragment}>
+								<Link href="/conciencia" className="block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
+									SAW
 								</Link>
 							</Disclosure.Button>
 						</div>
