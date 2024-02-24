@@ -3,7 +3,8 @@ const nextConfig = {
 	reactStrictMode: true,
 	images: {
 		domains: [
-			`gsk-hdz.b-cdn.net`
+			`gsk-hdz.b-cdn.net`,
+			`gsk-hdz-2.b-cdn.net`
 		],
 	},
 }

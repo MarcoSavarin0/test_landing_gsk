@@ -12,6 +12,7 @@ module.exports = {
 				'gsk-orange': '#F36633',
 				'gsk-dark': '#08101E',
 				'gsk-gray': '#F0EFED',
+				'gsk-blue': '#00B8AC'
 			},
 		}
 	},
