@@ -34,7 +34,7 @@ const Conciencia = () => {
 			<>
 				<section className="bg-[##FFFFFF] pb-10 md:pb-20">
 					<div className="w-full h-auto">
-						<Image src={"https://gsk-hdz-2.b-cdn.net/conciencia/bannerGSK.webp"} alt={"Semana de Concientización"} width={720} height={1000} className={`w-full h-auto object-cover bg-gsk-dark`}/>
+						<Image src={"https://gsk-hdz-2.b-cdn.net/conciencia/3_horizontal_1.png"} alt={"Semana de Concientización"} width={720} height={1000} className={`w-full h-auto object-cover bg-gsk-dark`}/>
 
 						{/* <video className={`w-full h-auto object-cover bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="auto" muted={true} width="1920" height="420" autoPlay={true} controls={false} loop={true}>
 							<source src={`https://gsk-hdz-2.b-cdn.net/conciencia/bannerGSK.webp`} type="video/mp4"/>
@@ -44,10 +44,10 @@ const Conciencia = () => {
 					<article className="w-11/12 md:w-10/12 mx-auto about px-8 space-y-14 rounded-xl ">
 						<div className="pt-10 md:pt-20 space-y-12">
 
-							<div className="flex flex-col lg:flex-row gap-y-8 lg:gap-y-0 gap-x-8">
+							<div className="flex flex-col lg:flex-row gap-y-8 lg:gap-y-0 gap-x-8 items-center">
 								<div className="space-y-8 w-full lg:w-7/12 xl:w-7/12 2xl:w-9/12">
 									<h1 className={`text-gsk-blue text-2xl md:text-4xl leading-relaxed  font-bold`}>Semana de Concientización sobre el Herpes Zóster</h1>
-									<div className="space-y-6 text-justify">
+									<div className="space-y-6 text-justify ">
 										<p>En el marco de la Semana de Concientización del Herpes Zóster (Shingles Awareness Week o SAW, por sus siglas en inglés), que se celebra entre el 26 de febrero y el 3 de marzo, buscamos generar conciencia sobre los riesgos y el impacto de esta patología. Se calcula que más del 90% de los adultos mayores de 50 años, han sido infectados por el virus que causa la varicela y, por lo tanto, están en riesgo de que se reactive, desarrollando Herpes Zóster.</p>
 										<p>Cualquier persona que haya tenido varicela puede desarrollar Herpes Zóster, incluso aquellas que llevan un estilo de vida saludable.  </p>
 										{/* <p>Horas después de la aparición de hZ_90 en las redes de ambas figuras, las pantallas que rodean al Obelisco, en la concurrida Avenida 9 de Julio, comenzaron a mostrar un mensaje en simultáneo que se repetía una y otra vez: hz_90 aseguraba que todas esas pantallas ahora eran suyas. Lo mismo pasaba en otras zonas de la Capital Federal, en las líneas de subte de la Ciudad de Buenos Aires y en las pantallas de los principales shoppings del país.</p>
@@ -58,35 +58,36 @@ const Conciencia = () => {
 									</div>
 								</div>
 
-								<div className="hz90-carousel w-full lg:w-5/12 xl:w-5/12 2xl:w-3/12 space-y-4">
-									<div className="hz90-carousel w-full">
-										{/* <Swiper slidesPerView={1} spaceBetween={50} loop={true} navigation={true} modules={[EffectFade, Autoplay, Navigation]}>
-											<SwiperSlide>
-												<Image src={"https://gsk-hdz.b-cdn.net/hz90/01.webp"} alt={"HZ_90"} width={720} height={1000}/>
-											</SwiperSlide>
-											<SwiperSlide>
-												<Image src={"https://gsk-hdz.b-cdn.net/hz90/02.webp"} alt={"HZ_90"} width={720} height={1000}/>
-											</SwiperSlide>
-											<SwiperSlide>
-												<Image src={"https://gsk-hdz.b-cdn.net/hz90/03.webp"} alt={"HZ_90"} width={720} height={1000}/>
-											</SwiperSlide>
-											<SwiperSlide>
-												<Image src={"https://gsk-hdz.b-cdn.net/hz90/04.webp"} alt={"HZ_90"} width={720} height={1000}/>
-											</SwiperSlide>
-											<SwiperSlide>
-												<Image src={"https://gsk-hdz.b-cdn.net/hz90/05.webp"} alt={"HZ_90"} width={720} height={1000}/>
-											</SwiperSlide>
-										</Swiper> */}
-									</div>
-
-									<div className="w-full h-auto">
-										<Image src={"https://gsk-hdz-2.b-cdn.net/conciencia/gsk_image1.webp"} alt={"Semana de Concientización"} width={720} height={1000} className={`w-full h-auto object-cover bg-gsk-dark`}/>
-
+								<div className="w-full lg:w-5/12 xl:w-5/12 2xl:w-3/12 space-y-4">
 									
+									<div className="w-full h-auto">
+										<Image src={"https://gsk-hdz-2.b-cdn.net/conciencia/gsk_saw1.jpeg"} alt={"Semana de Concientización"} width={720} height={1000} className={`w-full h-auto object-cover bg-gsk-dark`}/>
+
+										{/* <div className="hz90-carousel w-full">
+											<Swiper slidesPerView={1} spaceBetween={50} loop={true} navigation={true} modules={[EffectFade, Autoplay, Navigation]}>
+												<SwiperSlide>
+													<Image src={"https://gsk-hdz.b-cdn.net/hz90/01.webp"} alt={"HZ_90"} width={720} height={1000}/>
+												</SwiperSlide>
+												<SwiperSlide>
+													<Image src={"https://gsk-hdz.b-cdn.net/hz90/02.webp"} alt={"HZ_90"} width={720} height={1000}/>
+												</SwiperSlide>
+												<SwiperSlide>
+													<Image src={"https://gsk-hdz.b-cdn.net/hz90/03.webp"} alt={"HZ_90"} width={720} height={1000}/>
+												</SwiperSlide>
+												<SwiperSlide>
+													<Image src={"https://gsk-hdz.b-cdn.net/hz90/04.webp"} alt={"HZ_90"} width={720} height={1000}/>
+												</SwiperSlide>
+												<SwiperSlide>
+													<Image src={"https://gsk-hdz.b-cdn.net/hz90/05.webp"} alt={"HZ_90"} width={720} height={1000}/>
+												</SwiperSlide>
+											</Swiper>
+										</div> */}
+
 										{/* <video onPlay={() => console.log("Hz90-play")} className={`w-full h-auto object-cover bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="auto" muted={true} width="960" height="540" autoPlay={false} controls={true} loop={true} poster={"https://gsk-hdz.b-cdn.net/hz90/leds.webp"}>
-											<source src={`https://gsk-hdz.b-cdn.net/hz90/obelisco.mp4`} type="video/mp4"/>
-										</video> */}
+												<source src={`https://gsk-hdz.b-cdn.net/hz90/obelisco.mp4`} type="video/mp4"/>
+											</video> */}
 									</div>
+										
 
 								</div>
 							</div>
@@ -113,7 +114,7 @@ const Conciencia = () => {
 				<section className="w-full h-auto bg-[#00B8AC] pb-10 md:pb-20">
 					<div className="w-11/12 md:w-10/12 mx-auto about px-8 space-y-14 rounded-xl ">
 						<h2 className="text-white font-bold text-2xl md:text-3xl pt-10 md:pt-20">Queremos concientizar sobre qué es el Herper Zóster</h2>
-						<p>El Herpes Zóster, también conocido como culebrilla, es una enfermedad causada por la reactivación del virus varicela-zóster (VVZ), el mismo virus que causa la varicela. Luego de que una persona contrae Varicela, el virus permanece latente en su sistema nervioso. A mayor edad se produce un debilitamiento del sistema inmune que puede aumentar el riesgo de que el virus se reactive. </p>
+						<p className="text-white">El Herpes Zóster, también conocido como culebrilla, es una enfermedad causada por la reactivación del virus varicela-zóster (VVZ), el mismo virus que causa la varicela. Luego de que una persona contrae Varicela, el virus permanece latente en su sistema nervioso. A mayor edad se produce un debilitamiento del sistema inmune que puede aumentar el riesgo de que el virus se reactive. </p>
 					</div>
 				</section>
 				<section className="w-full h-auto bg-[#F8F8F8] pb-20">
@@ -138,7 +139,7 @@ const Conciencia = () => {
 						</div>
 						<div className="risk bg-[#00B8AC] text-white px-8 py-10 rounded-xl">
 							<h3 className="font-bold text-xl md:text-2xl">Posees enfermedades crónicas</h3>
-							<p>Personas que padencen enfermedades crónicas puede aumentar el riesgo de desarrollar la enfermedad.</p>
+							<p>Personas que padecen enfermedades crónicas puede aumentar el riesgo de desarrollar la enfermedad.</p>
 						</div>
 						<div className="risk bg-[#00B8AC] text-white px-8 py-10 rounded-xl">
 							<h3 className="font-bold text-xl md:text-2xl">Posees enfermedades autoinmunes o tratamientos inmunosupresores</h3>
@@ -159,12 +160,29 @@ const Conciencia = () => {
 								<h3>Conocé tu nivel de riesgo</h3>
 							</Link>
 
-							<Link href="https://gsk-hdz.b-cdn.net/hz90/hablemos-de-zoster.pdf" onClick={() => va.track('Hz90-Cta-pdf')} target="_blank" className="w-full md:w-auto text-base text-center text-white hover:text-gsk-blue bg-gsk-blue hover:bg-white border-2 border-transparent hover:border-gsk-blue transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold">
+							<Link href="https://gsk-hdz-2.b-cdn.net/conciencia/folleto_saw_2024.pdf" onClick={() => va.track('SAW-Cta-pdf')} target="_blank" className="w-full md:w-auto text-base text-center text-white hover:text-gsk-blue bg-gsk-blue hover:bg-white border-2 border-transparent hover:border-gsk-blue transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold">
 								<h3>Descargá el folleto</h3>
 							</Link>
 						</div>
 						<p className="text-gsk-blue text-xl font-bold mt-4">Y consultá con tu médico o médica sobre su prevención y tratamiento. </p>
 					</div>
+				</section>
+				<section className="w-full h-auto  pb-10 md:pb-20">
+
+					{/* <h2 className="text-gsk-black text-center font-bold text-2xl md:text-3xl pt-10 md:pt-20">¿Estás en riesgo de desarrollar Herpes Zóster?</h2> */}
+					<p className="pt-10  text-center text-xl">Referencias </p>
+
+					<p className="w-11/12 md:w-10/12 mx-auto  px-8 space-y-8 text-center flex flex-col justify-center gap-y-5 items-center text-center pt-5 text-xs">
+						*Basado en testimonios reales de pacientes. Los síntomas del Herpes Zóster pueden variar.
+						- Harpaz R, et al. MMWR Recomm Rep. 2008 June;57(RR-5):1-30
+						- Mueller NH et al. Varicella Zoster Virus Infection: Clinical Features, Molecular Pathogenesis of Disease and Latency. -Neurologic Clinics.
+						2008;26;675-697
+						-Chen SY et al. Infection. 2014; 42:325-34. En: https://link.springer.com/content/pdf/10.1007/s15010-013-0550-8.pdf .
+						-Marra F, Parhar K, Huang B, Vadlamudi N. Risk Factors for Herpes Zoster Infection: A Meta-Analysis. Open Forum Infect Dis.
+						2020;7(1):ofaa005. Published 2020 Jan 9. doi:10.1093/ofid/ofaa005
+					</p>
+
+					
 				</section>
 			</>
 		</>
