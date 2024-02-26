@@ -133,17 +133,18 @@ const Conciencia = () => {
 							<p>Todas las personas que tuvieron varicela, ya llevan el virus del Herpes Zóster en su cuerpo. 1 de cada 3 lo manifestará a lo largo de su vida.</p>
 						</div>
 						<div className="risk bg-[#00B8AC] text-white px-8 py-10 rounded-xl">
-							<h3 className="font-bold text-xl md:text-2xl">Posees enfermedades crónicas</h3>
-							<p>Todas las personas que tuvieron varicela, ya llevan el virus del Herpes Zóster en su cuerpo. 1 de cada 3 lo manifestará a lo largo de su vida.</p>
-						</div>
-						<div className="risk bg-[#00B8AC] text-white px-8 py-10 rounded-xl">
 							<h3 className="font-bold text-xl md:text-2xl">Tenés 50 años o más</h3>
 							<p>A partir de los 50 años las células del sistema inmune se debilitan, lo que puede aumentar el riesgo de desarrollar la enfermedad.</p>
+						</div>
+						<div className="risk bg-[#00B8AC] text-white px-8 py-10 rounded-xl">
+							<h3 className="font-bold text-xl md:text-2xl">Posees enfermedades crónicas</h3>
+							<p>Personas que padencen enfermedades crónicas puede aumentar el riesgo de desarrollar la enfermedad.</p>
 						</div>
 						<div className="risk bg-[#00B8AC] text-white px-8 py-10 rounded-xl">
 							<h3 className="font-bold text-xl md:text-2xl">Posees enfermedades autoinmunes o tratamientos inmunosupresores</h3>
 							<p>Si tenés otros factores de riesgo, como por ejemplo enfermedades autoinmunes, tratamientos inmunosupresores, como la quimioterapia o el consumo de corticoides</p>
 						</div>
+						
 					
 					</article>
 
