@@ -34,7 +34,7 @@ const Conciencia = () => {
 			<>
 				<section className="bg-[##FFFFFF] pb-10 md:pb-20">
 					<div className="w-full h-auto">
-						<Image src={"https://gsk-hdz-2.b-cdn.net/conciencia/3_horizontal_1.png"} alt={"Semana de Concientización"} width={720} height={1000} className={`w-full h-auto object-cover bg-gsk-dark`}/>
+						<Image src={"https://gsk-hdz-2.b-cdn.net/conciencia/IMG_6281.PNG"} alt={"Semana de Concientización"} width={720} height={1000} className={`w-full h-auto object-cover bg-gsk-dark`}/>
 
 						{/* <video className={`w-full h-auto object-cover bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="auto" muted={true} width="1920" height="420" autoPlay={true} controls={false} loop={true}>
 							<source src={`https://gsk-hdz-2.b-cdn.net/conciencia/bannerGSK.webp`} type="video/mp4"/>
