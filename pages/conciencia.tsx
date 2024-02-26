@@ -34,7 +34,7 @@ const Conciencia = () => {
 			<>
 				<section className="bg-[##FFFFFF] pb-10 md:pb-20">
 					<div className="w-full h-auto">
-						<Image src={"https://gsk-hdz-2.b-cdn.net/conciencia/gsk_side_final.png"} alt={"Semana de Concientización"} width={720} height={1000} className={`w-full h-auto object-cover bg-gsk-dark`}/>
+						<Image src={"https://gsk-hdz-2.b-cdn.net/conciencia/herobanner.png"} alt={"Semana de Concientización"} width={720} height={1000} className={`w-full h-auto object-cover bg-gsk-dark`}/>
 
 						{/* <video className={`w-full h-auto object-cover bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="auto" muted={true} width="1920" height="420" autoPlay={true} controls={false} loop={true}>
 							<source src={`https://gsk-hdz-2.b-cdn.net/conciencia/bannerGSK.webp`} type="video/mp4"/>
@@ -61,7 +61,7 @@ const Conciencia = () => {
 								<div className="w-full lg:w-5/12 xl:w-5/12 2xl:w-3/12 space-y-4">
 									
 									<div className="w-full h-auto">
-										<Image src={"https://gsk-hdz-2.b-cdn.net/conciencia/gsk_saw1.jpeg"} alt={"Semana de Concientización"} width={720} height={1000} className={`w-full h-auto object-cover bg-gsk-dark`}/>
+										<Image src={"https://gsk-hdz-2.b-cdn.net/conciencia/gsk_side_final.png"} alt={"Semana de Concientización"} width={720} height={1000} className={`w-full h-auto object-cover bg-gsk-dark`}/>
 
 										{/* <div className="hz90-carousel w-full">
 											<Swiper slidesPerView={1} spaceBetween={50} loop={true} navigation={true} modules={[EffectFade, Autoplay, Navigation]}>
