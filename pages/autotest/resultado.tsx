@@ -48,6 +48,7 @@ const Autotest = () => {
 					],
 					siteName: 'Hablemos de Zóster | Campaña de concientización y prevención',
 				}}
+				noindex={true}
 			/>
 			<section className="space-y-20 lg:space-y-6 bg-gsk-dark">
 				<div>

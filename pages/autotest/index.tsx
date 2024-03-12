@@ -14,6 +14,7 @@ const Autotest = () => {
 				description="¿Creés que podrías estar en riesgo de contraer el Herpes Zóster? Realizá este test de riesgo y obtené la información necesaria para hablar con tu médico."
 				canonical={`${process.env.NEXT_PUBLIC_SITE_URL}/autotest`}
 				openGraph={{
+					
 					url: `${process.env.NEXT_PUBLIC_SITE_URL}/autotest`,
 					title: 'Herpes Zóster Diagnóstico. Conocé tu nivel de riesgo | Hablemos de Zóster',
 					description: '¿Creés que podrías estar en riesgo de contraer el Herpes Zóster? Realizá este test de riesgo y obtené la información necesaria para hablar con tu médico.',
@@ -28,6 +29,7 @@ const Autotest = () => {
 					],
 					siteName: 'Hablemos de Zóster | Campaña de concientización y prevención',
 				}}
+				noindex={true}
 			/>
 			<section className="space-y-6 bg-gsk-dark">
 				<div>
