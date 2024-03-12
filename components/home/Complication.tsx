@@ -18,21 +18,21 @@ const complications: Complication[] = [
 		image: `neuralgia-postherpetica`,
 		slug: `neuralgia-postherpetica`,
 		body: `La Neuralgia Postherpética (NPH) es un dolor neurálgico que persiste después de que la erupción se haya curado. La NPH puede durar de tres a seis meses, o incluso persistir por más tiempo. Suele ser más común y grave en personas mayores que en personas más jóvenes. Después de los 50 años, hasta un 30% de los pacientes con Herpes Zóster desarrollarán Neuralgia Postherpética.`,
-		cta: true
+		cta: false
 	},
 	{
 		title: `CAMBIOS EN LA PIEL`,
 		image: `afecciones-piel-herpes-zoster`,
 		slug: `afecciones-piel-herpes-zoster`,
 		body: `Luego de que la erupción por Herpes Zóster haya sanado, pueden quedar cicatrices o incluso desarrollarse cambios en la pigmentación de la piel. Asimismo, en algunos casos es posible manifestar una infección secundaria de la erupción de la culebrilla.`,
-		cta: true
+		cta: false
 	},
 	{
 		title: `HERPES ZÓSTER OFTÁLMICO`,
 		image: `herpes-zoster-oftalmico`,
 		slug: `herpes-zoster-oftalmico`,
 		body: `Ocurre cuando el virus infecta el nervio facial causando erupciones en la frente y una inflamación dolorosa en los tejidos. Los personas pueden desarrollar queratitis , escleritis, uveítis y necrosis retiniana aguda. Las secuelas prolongadas o permanentes del Herpes Zóster Oftálmico pueden dar lugar a pérdida de visión <sup>1</sup>.`,
-		cta: true
+		cta: false
 	},
 	{
 		title: `OTRAS CONSECUENCIAS`,

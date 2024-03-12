@@ -43,8 +43,10 @@ const Home = () => {
 				canonical={process.env.NEXT_PUBLIC_SITE_URL}
 				openGraph={{
 					url: process.env.NEXT_PUBLIC_SITE_URL,
-					title: 'Hablemos de Zóster | Campaña de concientización y prevención',
-					description: '¿Qué es el Herpes Zóster? ¿Cuál es su origen? ¿Cuáles son sus síntomas? Conocé más sobre esta enfermedad e informate para cuidarte a vos y a quienes te rodean.',
+					// title: 'Hablemos de Zóster | Campaña de concientización y prevención',
+					title: 'Herpes Zoster | Todo lo que Necesitás Saber | 2024',
+					// description: '¿Qué es el Herpes Zóster? ¿Cuál es su origen? ¿Cuáles son sus síntomas? Conocé más sobre esta enfermedad e informate para cuidarte a vos y a quienes te rodean.',
+					description: 'No sabes que es el Herpes Zoster? Te contamos todo lo que necesitas saber sobre el virus de la "culebrilla" y cómo prevenirla.',
 					images: [
 						{
 							url: `https://gsk-hdz.b-cdn.net/og.jpg`,
