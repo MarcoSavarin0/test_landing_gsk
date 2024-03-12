@@ -15,8 +15,8 @@ const AcercaDe = () => {
 				canonical={`${process.env.NEXT_PUBLIC_SITE_URL}/acerca-de-herpes-zoster`}
 				openGraph={{
 					url: `${process.env.NEXT_PUBLIC_SITE_URL}/acerca-de-herpes-zoster`,
-					title: '¿Qué es el Herpes Zoster (culebrilla)? | Hablemos de Zóster',
-					description: 'El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento.',
+					title: 'Herpes Zóster | Sintomas y Prevención | 2024',
+					description: 'Necesitas información confiable sobre el Herpes Zóster? Nuestro grupo de médicos respondió las preguntas más importantes que tiene la gente sobre este virus.',
 					images: [
 						{
 							url: `https://gsk-hdz.b-cdn.net/og.jpg`,
