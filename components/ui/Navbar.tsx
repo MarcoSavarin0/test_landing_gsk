@@ -38,10 +38,10 @@ const Navbar = () => {
 									<Link href="/#enprimerapersona" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										En primera persona
 									</Link>
-									{/* <Link href="/blog" scroll={false}
+									<Link href="/biblioteca" scroll={false}
 										className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										Blog
-									</Link> */}
+									</Link>
 									{/* <Link href="/hz90" scroll={false}
 										className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										HZ_90
