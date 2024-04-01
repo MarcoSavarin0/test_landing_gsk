@@ -11,8 +11,8 @@ const Conciencia = () => {
 	return (
 		<>
 			<NextSeo
-				title="SAW | Semana de Concientización sobre el Herpes Zóster"
-				description="generar conciencia sobre los riesgos y el impacto de esta patología"
+				title="Concientización y Prevención | Herpes Zóster ⚠️ SAW"
+				description="Información clave sobre la prevención del herpes zóster y cómo cuidar tu bienestar. ¡Accedé a nuestro sitio web ahora!"
 				canonical={`${process.env.NEXT_PUBLIC_SITE_URL}/acerca-de-herpes-zoster`}
 				openGraph={{
 					url: `${process.env.NEXT_PUBLIC_SITE_URL}/acerca-de-herpes-zoster`,
@@ -27,7 +27,7 @@ const Conciencia = () => {
 							type: 'image/jpeg',
 						}
 					],
-					siteName: 'SAW | Semana de Concientización sobre el Herpes Zóster',
+					siteName: 'Concientización y Prevención | Herpes Zóster ⚠️ SAW',
 				}}
 			/>
 
