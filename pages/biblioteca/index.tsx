@@ -96,6 +96,150 @@ export const getStaticProps: GetStaticProps = async () => {
 					"slug": "artritis-reumatoide"
 				}
 			},
+			{
+				"id": 11,
+				"attributes": {
+					"image": "herpes-zoster-oftalmico",
+					"title": "Herpes Zóster Oftálmico: ¿qué es y cuáles son sus síntomas?",
+					"slug": "herpes-zoster-oftalmico"
+				}
+			},
+			{
+				"id": 12,
+				"attributes": {
+					"image": "neuralgia-postherpetica",
+					"title": "Neuralgia Postherpética: qué es y cómo se relaciona con el Herpes Zóster",
+					"slug": "neuralgia-postherpetica"
+				}
+			},
+			{
+				"id": 13,
+				"attributes": {
+					"image": "afecciones-piel-herpes-zoster",
+					"title": "Afecciones en la piel por complicación del Herpes Zóster: cuáles son y cómo identificarlas",
+					"slug": "afecciones-piel-herpes-zoster"
+				}
+			},
+			{
+				"id": 14,
+				"attributes": {
+					"image": "varicela-sintomas",
+					"title": "¿Qué es la varicela y cuáles son sus síntomas?",
+					"slug": "varicela-sintomas"
+				}
+			},
+			{
+				"id": 15,
+				"attributes": {
+					"image": "herpes-simple",
+					"title": "¿Qué es el Herpes Simple?",
+					"slug": "herpes-simple"
+				}
+			},
+			{
+				"id": 16,
+				"attributes": {
+					"image": "tipos-de-herpes",
+					"title": "¿Qué enfermedades provocadas por el virus del Herpes existen?",
+					"slug": "tipos-de-herpes"
+				}
+			},
+			{
+				"id": 17,
+				"attributes": {
+					"image": "urticaria-que-es",
+					"title": "¿Qué es la Urticaria y qué tipos existen?",
+					"slug": "urticaria-que-es"
+				}
+			},
+			{
+				"id": 18,
+				"attributes": {
+					"image": "que-es-eczema",
+					"title": "¿Qué es el Eczema y cómo detectarlo?",
+					"slug": "que-es-eczema"
+				}
+			},
+			{
+				"id": 19,
+				"attributes": {
+					"image": "prevenir-contagio-herpes-zoster",
+					"title": "¿Cómo prevenir el contagio del Herpes Zóster?",
+					"slug": "prevenir-contagio-herpes-zoster"
+				}
+			},
+			{
+				"id": 20,
+				"attributes": {
+					"image": "dermatitis-atopica",
+					"title": "¿Qué es la dermatitis atópica y cuáles son sus causas y síntomas?",
+					"slug": "dermatitis-atopica"
+				}
+			},
+			{
+				"id": 21,
+				"attributes": {
+					"image": "diferencias-simple-zoster",
+					"title": "Herpes Simple: ¿en qué se diferencia del Herpes Zóster?",
+					"slug": "diferencias-entre-herpes-simple-herpes-zoster"
+				}
+			},
+			{
+				"id": 22,
+				"attributes": {
+					"image": "importancia-controles-medicos",
+					"title": "¿Por qué es importante hacerse controles médicos regulares después de los 50 años?",
+					"slug": "importancia-controles-medicos"
+				}
+			},
+			{
+				"id": 23,
+				"attributes": {
+					"image": "factores-riesgo-herpes-zoster",
+					"title": "Herpes Zóster: ¿por qué las personas con enfermedades crónicas están en mayor riesgo?",
+					"slug": "factores-riesgo-herpes-zoster"
+				}
+			},
+			{
+				"id": 24,
+				"attributes": {
+					"image": "bienestar-emocional-adultos-mayores",
+					"title": "Las mejores formas de mantener el bienestar emocional en los adultos mayores ",
+					"slug": "bienestar-emocional-adultos-mayores"
+				}
+			},
+			{
+				"id": 25,
+				"attributes": {
+					"image": "mantener-cerebro-activo",
+					"title": "¿Hay relación entre el Herpes Zóster y la diabetes? La diabetes como faConsejos para mantener el cerebro activo después de los 60 años ",
+					"slug": "mantener-cerebro-activo"
+				}
+			},
+			{
+				"id": 26,
+				"attributes": {
+					"image": "estrenimiento",
+					"title": "Consejos para mantener una buena salud digestiva en la edad adulta ",
+					"slug": "estrenimiento"
+				}
+			},
+			{
+				"id": 27,
+				"attributes": {
+					"image": "que-es-impetigo",
+					"title": "¿Qué es el Impétigo y cuáles son sus síntomas?",
+					"slug": "que-es-impetigo"
+				}
+			},
+			{
+				"id": 27,
+				"attributes": {
+					"image": "cuidado-piel",
+					"title": "¿Cómo cuidar la piel en adultos mayores y prevenir el envejecimiento prematuro?",
+					"slug": "cuidado-piel"
+				}
+			},
 		]
 	}
 	return {

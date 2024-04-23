@@ -1,0 +1,237 @@
+import Image from 'next/image'
+import { NextSeo } from "next-seo"
+import Markdown from 'markdown-to-jsx'
+
+import Banner from "@/components/home/Banner"
+
+import dynamic from "next/dynamic"
+import { GetStaticProps } from "next"
+import parse from "html-react-parser"
+import Link from "next/link"
+import CollapsibleList from '@/components/biblioteca/Collapsible'
+
+const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), {
+	ssr: false,
+})
+
+
+const info = `
+# Cómo Cuidar la Piel en Adultos Mayores
+
+El cuidado adecuado de la piel en adultos mayores es esencial para prevenir el envejecimiento prematuro y protegerla de afecciones cutáneas. Aquí te proporcionamos información sobre la importancia del cuidado de la piel en esta etapa de la vida y consejos prácticos para mantenerla sana y radiante.
+
+## Importancia del Cuidado de la Piel en Adultos Mayores
+
+El envejecimiento natural de la piel la hace más vulnerable a lesiones, infecciones y otros problemas cutáneos. Además, la piel de los adultos mayores puede ser más sensible a factores externos y propensa a desarrollar ciertas condiciones dermatológicas. Por ello, el cuidado adecuado de la piel en esta etapa de la vida es crucial para mejorar la calidad de vida y prevenir enfermedades.
+
+## Consejos para Prevenir el Envejecimiento de la Piel en Adultos Mayores
+
+1. **Limpieza Diaria:** Lava tu rostro y cuerpo con un limpiador suave para eliminar la suciedad y el exceso de grasa.
+
+2. **Hidratación:** Aplica una crema hidratante específica para tu tipo de piel después de cada limpieza para mantenerla suave y elástica.
+
+3. **Protección Solar:** Usa protector solar con un alto factor de protección (FPS) todos los días para prevenir el envejecimiento prematuro y el cáncer de piel.
+
+4. **Antioxidantes:** Incorpora productos con antioxidantes, como la vitamina C y E, para combatir los radicales libres que dañan las células de la piel.
+
+5. **Evitar el Tabaco y Alcohol:** Estos hábitos pueden acelerar el envejecimiento de la piel y deben ser evitados.
+
+## Relación entre el Herpes Zóster y el Cuidado de la Piel
+
+El Herpes Zóster es una afección viral que produce lesiones en la piel, por lo que está estrechamente relacionado con el cuidado de la piel en adultos mayores. Es importante cuidar adecuadamente la piel durante y después de un episodio de Herpes Zóster para prevenir complicaciones y favorecer una recuperación saludable.
+
+Algunas medidas para cuidar la piel durante y después de la enfermedad incluyen mantenerla limpia y seca, evitar rascar las lesiones, aplicar compresas frías y utilizar cremas recetadas por el médico. Además, es fundamental proteger la piel del sol para evitar irritaciones adicionales.
+
+Recuerda siempre consultar a un profesional de la salud ante cualquier síntoma o inquietud relacionada con tu piel.
+
+
+NP-AR-HZU-WCNT-230014
+
+
+
+`
+
+export const getStaticProps: GetStaticProps = async (context) => {
+	// const res = await fetch(`${process.env.STRAPI_API_URL}/notas?populate=*&filters[slug][$in][0]=${context.params?.slug}`, {
+	// 	headers: {
+	// 		'Accept': 'application/json',
+	// 		'Content-Type': 'application/json',
+	// 		'Authorization': `Bearer ${process.env.STRAPI_API_TOKEN}`
+	// 	}
+	// })
+	// const nota = await res.json()
+	console.log(context)
+	const nota = {
+		"data": [
+			{
+				"id": 1,
+				"attributes": {
+					"title": "¿Cómo cuidar la piel en adultos mayores y prevenir el envejecimiento prematuro?",
+					"image": "cuidado-piel",
+					"metatitle": "La importancia del cuidado de la piel en la adultez",
+					"metadescription": "Conocé cómo cuidar la piel en la adultez. Te damos algunos consejos para prevenir el envejecimiento prematuro. ¡Cuidá tu salud!",
+					"slug": "note-slug",
+					"categoria": "Note Category",
+					"tags": ["tag1", "tag2", "tag3"]
+				}
+			}
+		]
+	}
+	return {
+		props: {
+			nota
+		},
+		revalidate: 10,
+	}
+}
+
+
+const shimmer = (w: number, h: number) => `
+<svg width="${w}" height="${h}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="g">
+      <stop stop-color="#333" offset="20%" />
+      <stop stop-color="#222" offset="50%" />
+      <stop stop-color="#333" offset="70%" />
+    </linearGradient>
+  </defs>
+  <rect width="${w}" height="${h}" fill="#333" />
+  <rect id="r" width="${w}" height="${h}" fill="url(#g)" />
+  <animate xlink:href="#r" attributeName="x" from="-${w}" to="${w}" dur="1s" repeatCount="indefinite"  />
+</svg>`
+
+const toBase64 = (str: string) =>
+	typeof window === 'undefined'
+		? Buffer.from(str).toString('base64')
+		: window.btoa(str)
+
+const Blog = ({ nota }: any) => {
+	const { title, image, metatitle, metadescription, slug } = nota.data[0].attributes
+
+
+	const list = [
+		"May PJ, Tong SYC, Steer AC, Currie BJ, Andrews RM, Carapetis JR, Bowen AC. Treatment, prevention and public health management of impetigo, scabies, crusted scabies and fungal skin infections in endemic populations: a systematic review. Trop Med Int Health. 2019 Mar;24(3):280-293. doi: 10.1111/mi.13198. Epub 2019 Jan 28. PMID: 30582783; PMCID: PMC6850630.",
+		"Bryant AE, Stevens DL. Streptococcus pyogenes. In Bennett J, Dolin R, Blaser M, editors. 8th Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. Philadelphia (PA): Elsevier; 2015:2:2285-300.",
+		"Ehrenstein B. Diagnostik, Therapie und Prophylaxe des Herpes zoster [Diagnosis, treatment and prophylaxis of herpes zoster]. Z Rheumatol. 2020 Dec;79(10):1009-1017. German. doi: 10.1007/00393-020-00915-y. PMID: 33141244.",
+		"Bryant AE, Stevens DL. Streptococcus pyogenes. In Bennett J, Dolin R, Blaser M, editors. 8th Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. Philadelphia (PA): Elsevier; 2015:2:2285-300.",
+		"Ehrenstein B. Diagnostik, Therapie und Prophylaxe des Herpes zoster [Diagnosis, treatment and prophylaxis of herpes zoster]. Z Rheumatol. 2020 Dec; 79(10):1009-1017. German. doi: 10.1007/500393-020-00915-y. PMID: 33141244.",
+		"Bryant AE, Stevens DL. Streptococcus pyogenes. In Bennett J, Dolin R, Blaser M, editors. 8th Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. Philadelphia (PA): Elsevier; 2015:2:2285-300.",
+		"Ehrenstein B. Diagnostik, Therapie und Prophylaxe des Herpes zoster [Diagnosis, treatment and prophylaxis of herpes zoster]. Z Rheumatol. 2020 Dec; 79(10): 1009-1017. German. doi: 10.1007/s00393-020-00915-y. PMID: 33141244.",
+		"John AR, Canaday DH. Herpes Zoster in the Older Adult. Infect Dis Clin North Am. 2017 Dec;31(4):811-826. doi: 10.1016/j.idc.2017.07.016. PMID: 29079160; PMCID: PMC5724974.",
+		"Tommasi C, Breuer J. The Biology of Varicella-Zoster Virus Replication in the Skin. Viruses. 2022 May 6;14(5):982. doi: 10.3390/V14050982. PMID: 35632/23; PMCID: PMC/14/561.",
+		"Bader MS. Herpes zoster: diagnostic, therapeutic, and preventive approaches. Postgrad Med. 2013 Sep; 125(5):78-91. doi: 10.3810/pgm.2013.09.2703. PMID: 24113666."
+	]
+	
+	
+
+	return (
+		<>
+			<NextSeo
+				title={`${metatitle} | Blog | Hablemos de Zoster`}
+				description={`${metadescription}`}
+				canonical={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`}
+				openGraph={{
+					url: `${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`,
+					title: `${metatitle} | Blog |Hablemos de Zoster`,
+					description: `${metadescription}`,
+					images: [
+						{
+							url: `https://gsk-hdz.b-cdn.net/og.jpg`,
+							width: 1200,
+							height: 627,
+							alt: 'Herpes Zóster',
+							type: 'image/jpeg',
+						}
+					],
+					siteName: 'Hablemos de Zóster | Campaña de concientización y prevención',
+				}}
+			/>
+
+			<>
+				<div className="space-y-8 pb-10">
+					<div className="flex w-full h-96 md:h-[25rem] lg:h-[34rem] xl:h-[42rem] overflow-hidden">
+						<Image src={`https://gsk-hdz.b-cdn.net/notas/${image}.webp`}
+							className="w-full h-auto object-cover" alt="Post" width={1920} height={1080}
+							placeholder="blur"
+							blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(1920, 1080))}`}
+							style={{
+								maxWidth: '100%',
+								height: 'auto'
+							}}
+						/>
+					</div>
+
+					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
+						<article className="flex flex-col flex-1 gap-y-4">
+							<header className="space-y-6">
+								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
+
+								<div className="space-y-1">
+									<DynamicSpeechBlog text={parse(title) + " " + parse(info)} />
+
+									<h1 className="text-gsk-orange font-bold leading-none text-4xl sm:text-5xl">{title}</h1>
+									{/* <h2 className="text-gsk-orange text-xl">Ut enim ad minim veniam, quis nostrud exercitation elit.</h2> */}
+								</div>
+							</header>
+
+							<article>
+								<Markdown
+									options={{
+										overrides: {
+											a: ({ href, children }) => {
+												return (
+													<Link href={href}>
+														{children}
+													</Link>
+												)
+											},
+										}
+									}}
+									className="markdown-body">{info}</Markdown>
+							</article>
+
+
+							<CollapsibleList list={list} />
+
+
+
+							{/* <div className="space-y-2 mt-10">
+								<h3 className="text-lg md:text-xl text-gsk-orange">Relacionados</h3>
+								<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+									{releated.map(({id, title, date}: Post) => (
+										<PostComponent key={id} id={id} title={title} date={date}/>
+									))}
+								</div>
+							</div> */}
+							<div className="space-y-2 mt-2">
+								{/* <p>Cuidá la salud de quienes te rodean:</p> */}
+								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
+							</div>
+						</article>
+						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
+							<div className="space-y-2">
+								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
+								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
+									<li>
+										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
+									</li>
+								</ul>
+							</div>
+							<div className="space-y-2">
+								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
+								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
+									<li>
+										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
+									</li>
+								</ul>
+							</div>
+						</aside>
+					</div>
+				</div>
+				<Banner />
+			</>
+		</>
+	)
+}
+
+export default Blog
