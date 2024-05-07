@@ -17,35 +17,46 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 const info = `
 
-# Consejos para Mantener una Buena Salud Digestiva en Edad Avanzada
+Mantener una buena salud digestiva en edad avanzada es fundamental para disfrutar de una vida plena y activa en la tercera edad. A medida que envejecemos, nuestro sistema digestivo puede experimentar cambios que dificultan la absorción de nutrientes y el tránsito intestinal. En esta nota, te ofrecemos consejos prácticos que podés aplicar para cuidar de tu salud digestiva y prevenir problemas comunes en adultos mayores.
 
-Mantener una buena salud digestiva en la tercera edad es fundamental para disfrutar de una vida plena y activa. Aquí te ofrecemos consejos prácticos para cuidar tu salud digestiva y prevenir problemas comunes en adultos mayores.
+## Hábitos Alimenticios para una Buena Salud Digestiva
 
-## Hábitos Alimenticios Saludables
+Una dieta equilibrada y rica en fibra es esencial para mantener una buena salud digestiva en edad avanzada. Por ejemplo, para mejorar el tránsito intestinal y prevenir el estreñimiento, se recomienda incrementar el consumo de los siguientes alimentos: 
+- Frutas
+- Verduras
+- Cereales integrales
+- Legumbres
 
-- **Dieta Equilibrada y Rica en Fibra:** Incrementa el consumo de frutas, verduras, cereales integrales y legumbres para mejorar el tránsito intestinal y prevenir el estreñimiento.
-- **Hidratación Adecuada:** Bebe alrededor de 2 litros de agua al día y evita bebidas azucaradas o con cafeína.
-- **Comidas Más Pequeñas y Frecuentes:** Facilita la digestión y reduce la acidez estomacal.
+Es importante también mantener una hidratación adecuada, tomando alrededor de 2 litros de agua por día y evitando bebidas azucaradas o con cafeína. Además, se recomienda realizar comidas más pequeñas y frecuentes en lugar de pocas y abundantes, ya que esto puede facilitar la digestión y disminuir la acidez estomacal.
 
-## Ejercicios y Técnicas de Relajación
+## Ejercicios y Técnicas de Relajación para Mejorar la Salud Digestiva en Adultos Mayores
 
-- **Actividad Física Regular:** Caminar, nadar o practicar yoga mejora la función intestinal y la salud digestiva.
-- **Técnicas de Relajación:** La meditación y la respiración profunda pueden reducir el estrés y mejorar la digestión.
+La actividad física regular puede mejorar la función intestinal y mantener una buena salud digestiva en adultos mayores. Caminar, nadar o practicar yoga son opciones ideales para mantenerse activo sin someter al cuerpo a un estrés excesivo. Además, aprender técnicas de relajación como la meditación o la respiración profunda puede ayudar a reducir el estrés y mejorar la digestión.
 
-## Prevención de Enfermedades Digestivas Comunes
+## Prevención de Enfermedades Digestivas Comunes en Adultos Mayores
 
-Para prevenir enfermedades como el estreñimiento, la ERGE y la diverticulosis:
+Para mantener una buena salud digestiva en edad avanzada, también hay que prevenir enfermedades que suelen ser comunes en este sector etario. Entre las enfermedades digestivas más comunes en la tercera edad se encuentran:
+- Estreñimiento o constipación
+- Enfermedad por reflujo gastroesofágico (ERGE)
+- Diverticulosis
 
-- **Dieta Rica en Fibra:** Favorece la digestión y el tránsito intestinal.
-- **Evitar Alimentos Picantes o Grasos:** Reduce el riesgo de problemas digestivos.
-- **Mantener un Peso Saludable:** Controla el riesgo de enfermedades digestivas.
-- **Consulta Médica:** Ante síntomas persistentes, consulta a un médico para un diagnóstico y tratamiento adecuados.
+Para prevenir estas afecciones, es fundamental seguir una dieta rica en fibra, evitar alimentos picantes o grasos, reducir el consumo de alcohol y tabaco, y mantener un peso saludable. Además, consultar con un médico ante cualquier síntoma persistente es crucial para un diagnóstico temprano y un tratamiento adecuado.
 
 ## Relación entre el Herpes Zóster y la Salud Digestiva
 
-Aunque no hay una relación directa, la salud digestiva y el sistema inmunológico están vinculados, lo que puede influir en el riesgo de desarrollar Herpes Zóster. Mantener una dieta equilibrada, controlar el estrés, hacer ejercicio físico y llevar un estilo de vida saludable en general puede fortalecer el sistema inmunológico y reducir el riesgo de Herpes Zóster. Si tienes dudas, consulta a tu médico para obtener un diagnóstico adecuado.
+Aunque el Herpes Zóster no está relacionado de forma directa con la salud digestiva, pueden coexistir, particularmente respecto al debilitamiento del sistema inmunológico, que es uno de los factores de riesgo para desarrollar Herpes Zóster. Para entender mejor esta posible conexión, primero es importante explicar que el Herpes Zóster es causado por la reactivación del virus de la varicela-zóster (VZV) cuando el sistema inmunológico se debilita.
 
+La salud digestiva, por otro lado, está vinculada al sistema inmunológico, ya que una gran parte del sistema inmunitario se encuentra en el tracto gastrointestinal. De esta manera, un sistema inmunológico saludable es esencial para prevenir la reactivación del VZV, que deriva en Herpes Zóster.
 
+## Cómo Fortalecer el Sistema Inmunológico y la Salud Digestiva
+
+Un desequilibrio en la flora intestinal (disbiosis o disbacteriosis) puede afectar negativamente la función del sistema inmunológico y, en última instancia, aumentar el riesgo de infecciones y enfermedades, como por ejemplo el Herpes Zóster. Además, el estrés crónico puede afectar la salud digestiva, causando alteraciones en la función gastrointestinal, lo que puede resultar en problemas digestivos como el síndrome del intestino irritable (SII) o la enfermedad inflamatoria intestinal (EII).
+
+En conclusión, una dieta equilibrada y rica en nutrientes es fundamental para mantener la salud digestiva y fortalecer el sistema inmunológico. Mantener una buena salud digestiva a edad avanzada a través de una dieta adecuada, controlar los niveles de estrés, hacer ejercicio físico y mantener un estilo de vida saludable en general puede tener un impacto positivo en el sistema inmunológico y, en última instancia, reducir el riesgo de desarrollar Herpes Zóster.
+
+Ante cualquier duda que tengas, siempre es importante consultar a tu médico de confianza para recibir un diagnóstico adecuado. 
+
+**NP-AR-HZU-WCNT-230014**
 
 
 
@@ -208,7 +219,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -254,24 +265,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

@@ -16,9 +16,10 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 
 const info = `
-# Dermatitis Herpetiforme: Entendiendo la enfermedad cutánea
 
 La dermatitis herpetiforme es una enfermedad crónica de la piel poco común que afecta tanto a hombres como a mujeres. Esta afección se caracteriza por la aparición de ampollas que producen picazón. A pesar de su nombre, no tiene relación con el virus del herpes.
+
+En este artículo, analizaremos en detalle qué es la dermatitis herpetiforme, cuáles son sus causas y cómo se relaciona con otras afecciones médicas.
 
 ## Entendiendo la dermatitis herpetiforme y sus causas
 
@@ -28,23 +29,20 @@ La causa exacta de la dermatitis herpetiforme aún no se comprende completamente
 
 ## Factores de riesgo y diagnóstico de la dermatitis herpetiforme
 
-La dermatitis herpetiforme es considerada una manifestación cutánea de la enfermedad celíaca y como tal, puede asociarse a otras enfermedades autoinmunitarias. Por otra parte, la dermatitis herpetiforme suele afectar a personas entre los 40 y los 50 años en promedio.
-
-El diagnóstico de la dermatitis herpetiforme se realiza a través de una biopsia de piel, en la cual se examina una pequeña muestra de tejido cutáneo bajo un microscopio para identificar la presencia de depósitos de IgA. Además, se pueden realizar pruebas serológicas y biopsias del intestino delgado para confirmar la enfermedad celíaca asociada.
+La dermatitis herpetiforme es considerada una manifestación cutánea de la enfermedad celíaca y como tal, puede asociarse a otras enfermedades autoinmunitarias. Por otra parte, la dermatitis herpetiforme suele afectar a personas entre los 40 y los 50 años en promedio. El diagnóstico de la dermatitis herpetiforme se realiza a través de una biopsia de piel, en la cual se examina una pequeña muestra de tejido cutáneo bajo un microscopio para identificar la presencia de depósitos de IgA. Además, se pueden realizar pruebas serológicas y biopsias del intestino delgado para confirmar la enfermedad celíaca asociada.
 
 ## ¿En qué se relacionan el Herpes Zóster con la Dermatitis Herpetiforme?
 
-El Herpes Zóster y la Dermatitis Herpetiforme son dos afecciones cutáneas distintas, pero comparten algunas similitudes en cuanto a sus síntomas. A pesar de que sus nombres puedan parecer similares, no tienen una relación directa en términos de causa o patología subyacente.
+El Herpes Zóster y la Dermatitis Herpetiforme son dos afecciones cutáneas distintas, pero comparten algunas similitudes en cuanto a sus síntomas. A pesar de que sus nombres puedan parecer similares, no tienen una relación directa en términos de causa o patología subyacente. La principal diferencia de estas enfermedades es su causa:
 
-La principal diferencia de estas enfermedades es su causa:
-
-- Por un lado, el Herpes Zóster es causado por la reactivación del virus de la varicela-zóster (VVZ), que permanece en estado latente en el organismo después de haber sufrido varicela. El Herpes Zóster se manifiesta en forma unilateral, habitualmente en tronco, región lumbar o cara.
+- Por un lado, el Herpes Zóster es causado por la reactivación del virus de la varicela-zóster (VVZ), que permanece en estado latente en el organismo después de haber sufrido varicela. El Herpes Zóster se manifiesta en forma unilateral, habitualmente en el tronco, región lumbar o cara.
 
 - Por el otro, como explicamos arriba, la dermatitis herpetiforme es una enfermedad autoinmunitaria de la piel estrechamente relacionada con la enfermedad celíaca, una intolerancia al gluten, y suele mejorar con una dieta libre de gluten. Se manifiesta habitualmente con lesiones bilaterales distribuidas en superficies extensoras de codos, rodillas y glúteos.
 
-La principal similitud entre el Herpes Zóster y la dermatitis herpetiforme es la presencia de erupciones cutáneas con vesículas o ampollas. Sin embargo, el desarrollo y el tratamiento de ambas enfermedades son diferentes.
+La principal similitud entre el Herpes Zóster y la dermatitis herpetiforme es la presencia de erupciones cutáneas con vesículas o ampollas. Sin embargo, el desarrollo y el tratamiento de ambas enfermedades son diferentes. Si creés que tenés alguna de estas enfermedades, es importante que consultes a un equipo médico para recibir un diagnóstico adecuado y cuidar tu salud.
 
-Si crees que tienes alguna de estas enfermedades, es importante que consultes a un equipo médico para recibir un diagnóstico adecuado y cuidar tu salud.
+**NP-AR-HZU-WCNT-230009**
+
 
 NP-AR-HZU-WCNT-230012.
 
@@ -206,7 +204,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -252,24 +250,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

@@ -17,10 +17,9 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 const info = `
 
+# Relación entre el Herpes Zóster y la Artritis Reumatoide
 
-# Artritis Reumatoide y Herpes Zóster: Explorando sus Vínculos
-
-La Artritis Reumatoide (AR) es una enfermedad autoinmune crónica que afecta las articulaciones, provocando dolor, inflamación y, en última instancia, daño en las mismas. Por otro lado, el Herpes Zóster es una infección viral causada por la reactivación del virus de la varicela-zóster (VVZ). Aunque estas dos condiciones pueden no estar relacionadas, existen vínculos entre ambas que vale la pena explorar.
+La Artritis Reumatoide (AR) es una enfermedad autoinmune crónica que afecta las articulaciones, provocando dolor, inflamación y, en última instancia, daño en las mismas. Por otro lado, el Herpes Zóster es una infección viral causada por la reactivación del virus de la varicela-zóster (VVZ). Aunque estas dos condiciones pueden no estar relacionadas, existen vínculos entre ambas que vale la pena explorar. En este artículo, analizaremos la posible relación entre el Herpes Zóster y la Artritis Reumatoide y además aprenderemos sobre los síntomas y prevención de ambas condiciones para que puedas mejorar tu calidad de vida.
 
 ## Artritis Reumatoide: qué es, síntomas y causas
 
@@ -36,7 +35,7 @@ Existen una serie de factores que relacionan al Herpes Zóster con la Artritis R
 
 ### Sistema inmunológico debilitado
 
-Una posible relación entre el Herpes Zóster y la Artritis Reumatoide radica en que ambas afecciones están relacionadas con un sistema inmunológico debilitado. La Artritis Reumatoide es una enfermedad autoinmune, lo que significa que el sistema inmunológico del cuerpo ataca a sus propias articulaciones, causando inflamación y daño. Como resultado, las personas con AR pueden tener un sistema inmunológico comprometido. El Herpes Zóster, por otro lado, se desarrolla cuando el VVZ se reactiva en el cuerpo, lo que generalmente ocurre cuando el sistema inmunológico está debilitado. Por lo tanto, las personas con AR pueden ser más susceptibles a desarrollar Herpes Zóster debido a su sistema inmunológico comprometido.
+Una posible relación entre el Herpes Zóster y la Artritis Reumatoide radica en que ambas afecciones están relacionadas con un sistema inmunológico debilitado. Por una parte, la Artritis Reumatoide es una enfermedad autoinmune, lo que significa que el sistema inmunológico del cuerpo ataca a sus propias articulaciones, causando inflamación y daño. Como resultado, las personas con AR pueden tener un sistema inmunológico comprometido. El Herpes Zóster, por otro lado, se desarrolla cuando el VVZ se reactiva en el cuerpo, lo que generalmente ocurre cuando el sistema inmunológico está debilitado. Por lo tanto, las personas con AR pueden ser más susceptibles a desarrollar Herpes Zóster debido a su sistema inmunológico comprometido.
 
 ### Efecto de los medicamentos inmunosupresores
 
@@ -46,9 +45,8 @@ Otro factor que contribuye a la relación entre el Herpes Zóster y la Artritis 
 
 Otro de los puntos en común entre ambas enfermedades es la edad. Tanto para el caso del Herpes Zóster como para el caso de la Artritis Reumatoide, la edad avanzada es un factor que presenta mayores riesgos para contraer la afección.
 
-De esta manera, es crucial entender la relación entre el Herpes Zóster y la Artritis Reumatoide, ya que ambos trastornos tienen implicaciones en la salud de quienes los padecen. Comprender cómo interactúan estas condiciones y cómo pueden impactar en la salud es esencial para mejorar la calidad de vida del paciente.
+De esta manera, es crucial entender la relación entre el Herpes Zóster y la Artritis Reumatoide, ya que ambos trastornos tienen implicaciones en la salud de quienes los padecen. Comprender cómo interactúan estas condiciones y cómo pueden impactar en la salud es esencial para mejorar la calidad de vida del paciente. Si experimentás síntomas relacionados con el Herpes Zóster o la Artritis Reumatoide, es fundamental que consultes a un médico para obtener un diagnóstico adecuado y recibir el tratamiento más apropiado para tu caso.
 
-Si experimentás síntomas relacionados con el Herpes Zóster o la Artritis Reumatoide, es fundamental que consultes a un médico para obtener un diagnóstico adecuado y recibir el tratamiento más apropiado para tu caso.
 
 NP-AR-HZU-WCNT-230011.
 
@@ -261,24 +259,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

@@ -16,9 +16,9 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 
 const info = `
-# Herpes Zóster y Lupus: Una posible relación
 
-Herpes Zóster y Lupus son dos condiciones diferentes que pueden afectar la salud de las personas en distintas etapas de su vida. Aunque estas enfermedades tienen sus propias características, existe una posible conexión que puede resultar relevante para quienes padecen Lupus. A continuación, analizaremos en profundidad la potencial relación entre Herpes Zóster y Lupus, cómo afecta a quienes las padecen y qué hacer para prevenir estas enfermedades.
+
+El Herpes Zóster y el Lupus son dos condiciones diferentes que pueden afectar la salud de las personas en distintas etapas de su vida. Aunque estas enfermedades tienen sus propias características, existe una posible conexión que puede resultar relevante para quienes padecen Lupus. A continuación, analizaremos en profundidad la potencial relación entre Herpes Zóster y Lupus, cómo afecta a quienes las padecen y qué hacer para prevenir estas enfermedades.
 
 ## ¿Qué es el Herpes Zóster y qué es el Lupus?
 
@@ -40,7 +40,7 @@ Por lo tanto, la relación entre Herpes Zóster y Lupus se encuentra en el hecho
 
 Es crucial que las personas con Lupus estén al tanto de su mayor riesgo de desarrollar Herpes Zóster y tomen medidas preventivas. Para ello, se recomienda mantener un estilo de vida saludable, informarse sobre los síntomas de ambas afecciones, realizar visitas regulares al médico para monitorear el Lupus y consultar sobre las opciones adecuadas de prevención y tratamiento del Herpes Zóster.
 
-NP-AR-HZU-WCNT-230011.
+**NP-AR-HZU-WCNT-230011**
 
 
 `
@@ -200,7 +200,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -246,24 +246,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

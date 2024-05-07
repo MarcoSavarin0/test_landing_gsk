@@ -16,35 +16,26 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 
 const info = `
-# Diferencias entre Herpes Simple y Herpes Zóster
 
-El herpes es una infección viral que afecta a muchas personas en todo el mundo, pero ¿cuál es la diferencia entre el Herpes Simple y el Herpes Zóster? En este artículo, exploraremos las causas, transmisión y síntomas de ambas afecciones.
+El herpes es una infección viral que afecta a muchas personas en todo el mundo. Aunque es posible que hayas oído hablar de los términos "Herpes Simple" y "Herpes Zóster", puede que no sepas exactamente cuál es la diferencia entre estos dos tipos de afecciones. En este artículo, te contamos en profundidad cuáles son las diferencias entre Herpes Zóster y Herpes Simple, abordando sus causas y síntomas.
 
-## Causas
+## Causas del Herpes Simple y del Herpes Zóster
 
-- **Herpes Simple:** Causado por dos tipos de virus: HSV-1 (herpes labial) y HSV-2 (herpes genital). Se transmiten principalmente por contacto directo con piel, mucosas o fluidos corporales de una persona infectada.
-  
-- **Herpes Zóster:** Causado por el virus de la varicela-zóster (VVZ), el mismo que causa la varicela. Se produce por la reactivación del virus latente en el cuerpo después de la infección inicial de varicela.
+La diferencia entre Herpes Zóster y Herpes Simple comienza con las causas de la enfermedad. El Herpes Simple es causado por dos tipos de virus: el Herpes Simple tipo 1 (HSV-1) y el Herpes Simple tipo 2 (HSV-2). El Herpes Simple tipo 1 suele causar herpes labial o úlceras bucales, mientras que el Herpes Simple tipo 2 está asociado con el herpes genital. Ambos virus son altamente contagiosos y se transmiten principalmente a través del contacto directo con la piel, las mucosas o los fluidos corporales de una persona infectada.
 
-## Transmisión y contagio
+Por otro lado, el Herpes Zóster, también conocido como culebrilla, es causado por el virus de la varicela-zóster (VVZ), el mismo virus que causa la varicela. Después de la infección inicial, el virus permanece latente en el cuerpo y, posteriormente, puede reactivarse en forma de Herpes Zóster.
 
-- **Herpes Simple:** Se transmite por contacto directo con piel o mucosas de una persona infectada.
-  
-- **Herpes Zóster:** Puede transmitirse a través del contacto con el líquido de las lesiones, pero contagia el virus de la varicela, no el Herpes Zóster en sí mismo.
+## Transmisión y contagio del Herpes Simple y del Herpes Zóster
 
-## Síntomas
+Otra diferencia entre Herpes Zóster y Herpes Simple es la forma en que se transmiten y contagian. Mientras que el Herpes Simple se propaga a través del contacto directo con la piel o las mucosas de una persona infectada, el Herpes Zóster no se contagia de la misma manera. Aunque el Herpes Zóster puede transmitirse a través del contacto directo con el líquido de las lesiones de una persona con esta enfermedad, lo que se contagia es el virus de la varicela, no el Herpes Zóster en sí mismo. De esta manera, la persona expuesta desarrollará varicela si no ha sido previamente infectada o vacunada contra ella.
 
-- **Herpes Simple:** Úlceras o ampollas dolorosas en boca, labios o zona genital, acompañadas de fiebre, dolor de cabeza y malestar general.
-  
-- **Herpes Zóster:** Erupción cutánea con ampollas en un área específica del cuerpo, acompañada de dolor intenso, hormigueo o ardor.
+## Síntomas y manifestaciones clínicas del Herpes Simple y del Herpes Zóster
 
-Aunque comparten algunas similitudes, es importante entender las diferencias entre estas afecciones y buscar atención médica para un diagnóstico y tratamiento adecuados.
+Los síntomas del Herpes Simple y del Herpes Zóster también presentan diferencias. En el caso del Herpes Simple, pueden aparecer úlceras o ampollas dolorosas en la boca, los labios o la zona genital, acompañadas de fiebre, dolor de cabeza y malestar general. Por otro lado, el Herpes Zóster se caracteriza por la aparición de una erupción cutánea con ampollas en un área específica de un lado del cuerpo, a menudo acompañada de dolor intenso, hormigueo o ardor.
 
-Recuerda consultar a tu médico de cabecera si sospechas que puedes estar sufriendo alguna de estas afecciones.
+En resumen, aunque el Herpes Simple y el Herpes Zóster comparten algunas similitudes, presentan diferencias notables en cuanto a sus causas, transmisión y manifestaciones clínicas. Es esencial recordar que ambas condiciones requieren la atención de un profesional médico para un diagnóstico adecuado y la prescripción del tratamiento más apropiado. Si sospechás que podés estar sufriendo de alguna de estas afecciones, te recomendamos acudir a tu médico de cabecera para obtener el mejor diagnóstico y orientación sobre cómo manejar tu situación específica.
 
 **NP-AR-HZU-WCNT-230008**
-
-
 
 
 
@@ -204,7 +195,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -250,24 +241,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

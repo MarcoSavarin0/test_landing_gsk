@@ -17,39 +17,48 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 const info = `
 
-# Todo lo que Necesitas Saber sobre el Impétigo
 
-El Impétigo es una infección cutánea común que afecta principalmente a niños y jóvenes, causada por bacterias como el estafilococo y el estreptococo. Aquí te proporcionamos información detallada sobre sus causas, síntomas, formas de presentación y prevención.
+
+El Impétigo es una infección de la piel bastante común, especialmente en niños y jóvenes, aunque también puede afectar a adultos. Esta afección, que suele ser superficial y de rápida propagación, es provocada principalmente por dos tipos de bacterias: el estafilococo y el estreptococo. En este artículo, te contaremos todo lo que necesitas saber sobre el Impétigo, sus síntomas y cómo reconocerlo. Recordá consultar con tu médico ante cualquier duda para obtener información y un diagnóstico adecuado.
 
 ## Causas del Impétigo
 
-El Impétigo se produce cuando las bacterias ingresan a la piel a través de lesiones, contacto directo con personas infectadas u objetos contaminados, o en personas con sistemas inmunológicos debilitados.
+El Impétigo se produce cuando las bacterias, ya sean estafilococos o estreptococos, encuentran una entrada en la piel. Este ingreso puede ser a través de: 
+- Lesiones en la piel: Las bacterias que causan el impétigo generalmente ingresan a la piel a través de un pequeño corte, herida, una picadura de insecto, un sarpullido o áreas de la piel previamente afectadas por otras condiciones como eccema o dermatitis.
+- Contacto directo: El impétigo puede propagarse a través del contacto directo con una persona infectada o por objetos contaminados, como toallas, ropa o juguetes, también por participar en deportes en los que hay contacto de piel a piel.
+- Otras afecciones médicas: Las personas mayores, los diabéticos o las personas que tienen el sistema inmunitario debilitado también son más propensos a contraerlo.
 
-## Formas en que se presenta la enfermedad
-
-- **Ampollas o Pústulas:** Vesículas llenas de pus alrededor de la nariz, la boca, las manos y los brazos, que forman costras al romperse.
-- **Lesiones Eritematosas:** Áreas planas y enrojecidas en la piel que pueden crecer con el tiempo.
-- **Descamación y Úlceras:** La piel afectada puede descamarse y formar úlceras poco profundas.
+Formas en las que se presenta la enfermedad:
+- Ampollas o pústulas: Son pequeñas vesículas llenas de pus que suelen aparecer alrededor de la nariz, la boca, las manos y los brazos. Las ampollas pueden ser de diferentes tamaños y, a medida que se rompen, liberan un líquido amarillento que forma costras de color miel o marrón.
+- Lesiones eritematosas: Estas lesiones son áreas planas y enrojecidas en la piel que pueden ser sensibles al tacto y provocar picazón. Con el tiempo, las lesiones pueden volverse más grandes, dejando áreas extensas de piel enrojecida e irritada.
+- Descamación y formación de úlceras: En algunos casos, la piel afectada puede comenzar a descamarse y formar úlceras poco profundas.
 
 ## Síntomas del Impétigo
 
-- **Dolor y Picazón:** Molestias y comezón en la zona afectada.
-- **Fiebre:** Algunas personas pueden experimentar fiebre, especialmente en casos graves.
-- **Ganglios Linfáticos Inflamados:** Inflamación y sensibilidad en los ganglios linfáticos cercanos.
+Los síntomas del impétigo varían según la forma y la gravedad de la infección. A continuación, los detallamos de manera más específica:
+- Dolor y prurito: El Impétigo puede causar molestias y picazón en la zona afectada. Es importante no rascar las lesiones para evitar la propagación de la infección y la aparición de cicatrices.
+- Fiebre: Aunque no es un síntoma común, algunas personas con Impétigo pueden experimentar fiebre, especialmente en casos más graves o si la infección se disemina a otras partes del cuerpo.
+- Ganglios linfáticos inflamados: Los ganglios linfáticos cercanos a las lesiones pueden inflamarse y volverse sensibles al tacto como resultado de la infección.
 
 ## Prevención del Impétigo
 
-- **Buena Higiene Personal:** Lavar heridas con agua y jabón.
-- **Evitar Contacto Directo:** No compartir objetos personales y evitar rascarse las lesiones.
-- **Lavado de Manos Regular:** Promover una buena higiene en general.
+Para prevenir el Impétigo, es importante mantener una buena higiene personal y lavar las heridas o raspaduras con agua y jabón para evitar que las bacterias ingresen en la piel. También se recomienda no compartir toallas, ropa de cama o elementos de uso personal con personas infectadas. Además, es importante no rascarse las lesiones para evitar la propagación de la infección a otras áreas del cuerpo o a otras personas y fomentar el lavado de manos regular y a consciencia, y la buena higiene en general.
 
 ## Relación entre el Impétigo y el Herpes Zóster
 
-El Impétigo y el Herpes Zóster son afecciones cutáneas distintas en términos de causa, apariencia y tratamiento. Mientras que el Impétigo es causado por bacterias, el Herpes Zóster es resultado de la reactivación del virus varicela-zóster. Ambas condiciones pueden causar molestias y requerir atención médica, por lo que es importante buscar un diagnóstico y tratamiento adecuados si se sospecha de su presencia.
+El Impétigo y el Herpes Zóster son dos afecciones de la piel, y aunque pueden parecer similares, tienen algunas diferencias fundamentales. La principal diferencia entre el Impétigo y el Herpes Zóster radica en la causa. El Impétigo es causado por bacterias (generalmente estafilococos o estreptococos), mientras que el Herpes Zóster es causado por la reactivación del virus varicela-zóster, el mismo virus responsable de la varicela.
 
+Otra de las diferencias entre ambas afecciones es que el Impétigo es más común en niños, aunque también puede afectar a adultos, y se propaga fácilmente a través del contacto cercano y objetos contaminados. El Herpes Zóster afecta con mayor frecuencia a personas mayores de 50 años o a aquellas con un sistema inmunológico debilitado.
 
-NP-AR-HZU-WCNT-230014
+Por otra parte, ambas afecciones provocan lesiones en la piel, pero son distintas. En el Impétigo, se observan ampollas y pústulas que por lo general se observan alrededor de la nariz o la boca, aunque pueden aparecer en otras partes del cuerpo. Éstas contienen un líquido y cuando se rompen forman costras color miel o marrón. 
 
+Otra diferencia entre estas afecciones es que el Impétigo puede afectar diversas áreas del cuerpo, como la cara, las manos y los brazos, y suele aparecer en áreas donde la piel se ha lesionado debido a cortes, raspaduras o picaduras de insectos. 
+
+Por su parte, en el Herpes Zóster, las lesiones se presentan como un sarpullido rojo con ampollas llenas de líquido que también pueden romperse y formar costras. A su vez, el Herpes Zóster aparece en un área específica del cuerpo siguiendo el recorrido de un nervio, lo que se conoce como dermatoma. El Herpes Zóster es común en el tronco y la cara, y las lesiones suelen ser unilaterales (solo en un lado del cuerpo).
+
+Aunque el Impétigo y el Herpes Zóster son diferentes en términos de causa, apariencia y tratamiento, ambas son afecciones cutáneas que pueden causar molestias y requerir atención médica. Si sospechás que vos o alguien cercano tiene Impétigo o Herpes Zóster, consultá a un especialista para recibir el diagnóstico y el tratamiento adecuado.
+
+**NP-AR-HZU-WCNT-230014**
 
 
 
@@ -168,7 +177,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -214,24 +223,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

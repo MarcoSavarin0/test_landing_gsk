@@ -17,39 +17,47 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 const info = `
 
-# Eczema: Síntomas, Causas y Relación con el Herpes Zóster
-
-El eczema es una afección cutánea inflamatoria crónica que puede generar incomodidad y picazón. En esta nota, te explicamos qué es el eczema, sus síntomas, causas y su relación con el herpes zóster.
+El Eczema es una irritación en la piel que genera incomodidad y picazón. ¿Sabés cuáles son los síntomas y cómo identificarlos? En esta nota explicaremos todo lo que necesitás saber sobre el Eczema.
 
 ## ¿Qué es el Eczema?
 
-El eczema es una enfermedad inflamatoria crónica de la piel que se caracteriza por erupciones rojas, descamación, picazón e inflamación. Aunque más común en niños, también puede afectar a adultos, y su causa exacta aún no se conoce completamente.
+El Eczema es una enfermedad inflamatoria crónica de la piel que afecta a millones de personas en todo el mundo. Se caracteriza por la aparición de erupciones rojas, descamación, picazón e inflamación. Aunque es más común en niños, también puede afectar a adultos. La causa del Eczema aún no se conoce con exactitud, pero se cree que es una combinación de factores genéticos y ambientales.
 
 ## Síntomas del Eczema
 
+El Eczema puede manifestarse de diferentes maneras en cada persona. Debés tener en cuenta los síntomas del Eczema más comunes:
 - Piel seca y sensible
 - Enrojecimiento e inflamación
 - Picazón intensa
-- Erupciones que pueden aparecer y desaparecer
+- Erupciones en la piel que pueden aparecer y desaparecer
 - Descamación o costras en las áreas afectadas
 
-## Gravedad del Eczema
+## ¿Qué tan grave es el eczema?
 
-La gravedad puede variar, desde una molestia leve hasta una afección debilitante que afecta la calidad de vida. En casos extremos, pueden desarrollarse infecciones bacterianas secundarias.
+La gravedad del Eczema varía de persona a persona. Para algunos, puede ser una molestia menor que se controla fácilmente y para otros, el Eczema puede ser debilitante, afectando su calidad de vida y requiriendo tratamientos más intensivos. En casos extremos, las infecciones bacterianas secundarias pueden complicar aún más la situación.
 
-## Diagnóstico y Causas
+## ¿Cómo saber si tenés Eczema?
 
-El diagnóstico se realiza mediante la observación de los síntomas y la historia clínica del paciente, a veces complementado con pruebas adicionales. Las causas pueden ser genéticas, alérgicas, ambientales, relacionadas con cambios climáticos, estrés, condiciones de la piel y el sistema inmunológico.
+Para conocer si tenés o no Eczema, el especialista al cual acudís debe realizar un diagnóstico. El diagnóstico del Eczema se basa en la observación de los síntomas y en la historia clínica del paciente por parte de un médico. En algunos casos, se pueden realizar pruebas adicionales, como biopsias de piel o análisis de sangre, para descartar otras condiciones de la piel o identificar posibles desencadenantes.
 
-## Relación con el Herpes Zóster
+## Causas del Eczema
 
-Aunque distintos, el eczema y el herpes zóster pueden compartir algunos síntomas. El herpes zóster, causado por el virus varicela-zóster, se presenta con dolor y picazón en la piel seguidos de ampollas agrupadas. Por otro lado, el eczema es una afección común y molesta que afecta tanto a niños como a adultos.
+El Eczema es una afección cutánea inflamatoria crónica cuyas causas pueden ser diversas y, en muchos casos, difíciles de identificar. No obstante, se ha observado que existen factores que pueden contribuir al desarrollo del Eczema. Algunas de las causas y factores de riesgo más comunes incluyen:
+- Genética
+- Alergias
+- Factores ambientales
+- Cambios climáticos
+- Estrés
+- Condiciones de la piel
+- Sistema inmunológico
 
-Si sospechas que padeces eczema, es importante buscar atención médica para recibir un diagnóstico y tratamiento adecuados.
+## ¿En qué se relaciona el Eczema con el Herpes Zóster?
+
+Aunque el Eczema y el Herpes Zóster son dos afecciones cutáneas distintas, pueden compartir algunos síntomas. Por un lado, el herpes zóster, también conocido como culebrilla, es una infección causada por el virus varicela-zóster, el mismo que provoca la varicela. En la etapa aguda de esta enfermedad luego de una persistente sensación de dolor y picazón en la piel, aparecen ampollas agrupadas rodeadas de enrojecimiento. Por el otro, el Eczema es una condición de la piel común y molesta que puede afectar tanto a niños como a adultos.
+
+Si sospechás que tenés Eczema, es importante buscar la atención de un profesional de la salud para recibir el diagnóstico y tratamiento adecuado. Cuanto antes se detecte esta enfermedad, más fácil será tratarla y controlar sus síntomas.
 
 **NP-AR-HZU-WCNT-230006**
-
-
 
 
 
@@ -208,7 +216,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -254,24 +262,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

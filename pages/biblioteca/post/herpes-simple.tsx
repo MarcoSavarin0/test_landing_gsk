@@ -17,38 +17,35 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 const info = `
 
+## El Herpes Simple: Tipos, Síntomas y Prevención
 
-# Herpes Simple: Tipos, Síntomas y Prevención
+El Herpes Simple es una infección viral común, denominada habitualmente como Herpes, que afecta a millones de personas en todo el mundo. Es muy común confundir al Herpes Zóster con el Herpes Simple, sin embargo, la principal diferencia radica en el tipo de virus que los causa y en sus manifestaciones clínicas. En esta nota, vamos a explorar en detalle qué es el Herpes Simple, sus tipos, síntomas y prevención.
 
-El Herpes Simple es una infección viral común que afecta a millones de personas en todo el mundo. Aunque es común confundirlo con el Herpes Zóster, la principal diferencia radica en el tipo de virus que los causa y en sus manifestaciones clínicas. En esta nota, exploraremos en detalle qué es el Herpes Simple, sus tipos, síntomas y prevención.
+### ¿Qué es el Herpes Simple?
+El Herpes Simple es un virus que pertenece a la familia Herpesviridae, misma familia de virus que el virus que causa el Herpes Zóster, y existen dos tipos: el Herpes Simple tipo 1 (HSV-1) y el Herpes Simple tipo 2 (HSV-2). Si bien ambos tipos pueden causar infecciones orales y genitales, el HSV-1 suele estar asociado con el herpes labial, mientras que el HSV-2 se relaciona principalmente con el herpes genital.
 
-## ¿Qué es el Herpes Simple?
+### Síntomas del Herpes Simple: ¿cómo reconocerlos?
+Las lesiones del herpes generalmente se manifiestan como una o múltiples ampollas en la boca (herpes labial u oral) o en los genitales o el recto (herpes genital). Las ampollas se rompen, dejando úlceras dolorosas que pueden demorar una semana o más en sanar. También pueden presentarse síntomas similares a los de la gripe, por ejemplo, fiebre, malestar corporal o inflamación de los ganglios linfáticos. Tras la desaparición de los síntomas, tanto el VHS-1 como el VHS-2 permanecen en el organismo en un estado inactivo, aunque pueden reactivarse y provocar síntomas de nuevo.
 
-El Herpes Simple es un virus que pertenece a la familia Herpesviridae, al igual que el virus que causa el Herpes Zóster. Hay dos tipos principales: el Herpes Simple tipo 1 (HSV-1) y el Herpes Simple tipo 2 (HSV-2). El HSV-1 está asociado principalmente con el herpes labial, mientras que el HSV-2 se relaciona con el herpes genital.
+### ¿Cómo se contagia el Herpes Simple?
+El Herpes Simple se propaga principalmente a través del contacto directo con las lesiones de una persona infectada. Esto puede ocurrir durante las relaciones sexuales en el contacto piel a piel.
 
-## Síntomas del Herpes Simple
+### Tratamiento del Herpes Simple: ¿cómo controlar los síntomas?
+Dado que el virus permanece latente en los ganglios nerviosos, no existe una cura definitiva para el Herpes Simple, se cuenta con tratamientos antivirales que pueden ayudar a reducir la gravedad y la duración de los síntomas. Además, el uso de analgésicos y cremas tópicas puede aliviar el dolor y la picazón de las lesiones que el herpes simple provoca en la piel.
 
-Las lesiones del herpes suelen manifestarse como una o múltiples ampollas en la boca (herpes labial u oral) o en los genitales o el recto (herpes genital). Estas ampollas se rompen, formando úlceras dolorosas que pueden tardar una semana o más en sanar. También pueden aparecer síntomas similares a los de la gripe, como fiebre, malestar corporal o inflamación de los ganglios linfáticos. Después de la desaparición de los síntomas, tanto el VHS-1 como el VHS-2 permanecen en el organismo en un estado inactivo y pueden reactivarse.
+### Prevención del Herpes Simple: ¿cómo protegerse?
+Para prevenir el contagio del herpes simple, te recomendamos que sigas estas prácticas:
 
-## ¿Cómo se contagia el Herpes Simple?
+- Evita el contacto directo con las lesiones de personas infectadas.
+- Usa preservativos durante las relaciones sexuales.
+- No compartas objetos personales como toallas, cepillos de dientes o utensilios de comida.
+- Lávate las manos con frecuencia y evita tocar tus ojos, nariz y boca.
 
-El Herpes Simple se propaga principalmente a través del contacto directo con las lesiones de una persona infectada, como durante las relaciones sexuales. El uso de preservativos puede ayudar a reducir el riesgo de transmisión.
+El Herpes Simple es una infección viral común que puede causar síntomas incómodos y dolorosos. Aunque no existe una cura, el tratamiento y la prevención adecuados pueden ayudar a controlar los síntomas y reducir el riesgo de propagación del virus. Recordá consultar a un profesional médico para obtener un diagnóstico y tratamiento adecuados.
 
-## Tratamiento del Herpes Simple
+---
 
-Aunque no existe una cura definitiva para el Herpes Simple, se pueden utilizar tratamientos antivirales para reducir la gravedad y la duración de los síntomas. Los analgésicos y las cremas tópicas también pueden ayudar a aliviar el dolor y la picazón de las lesiones.
-
-## Prevención del Herpes Simple
-
-Para prevenir el contagio del herpes simple, se recomienda evitar el contacto directo con las lesiones de personas infectadas, usar preservativos durante las relaciones sexuales, no compartir objetos personales y lavarse las manos con frecuencia.
-
-El Herpes Simple es una infección viral común que puede causar síntomas incómodos y dolorosos. Aunque no tiene cura, el tratamiento y la prevención adecuados pueden ayudar a controlar los síntomas y reducir el riesgo de propagación del virus. No dudes en consultar a un profesional médico para obtener un diagnóstico y tratamiento adecuados.
-
-Para mayor información consulte a su médico. GSK Biopharma Argentina S.A. Av del Libertador 7202, Piso 4, CABA, Buenos Aires, Argentina. Para consultas sobre nuestros productos, consultas de calidad o reporte de eventos adversos puede comunicarse al 0800-222-4752.
-
-NP-AR-HZU-WCNT-230005 – Mayo 2023.
-
-
+**NP-AR-HZU-WCNT-230005 – Mayo 2023.** Para mayor información consulte a su médico.GSK Biopharma Argentina S.A. Av del Libertador 7202, Piso 4, CABA, Buenos Aires, Argentina. Para consultas sobre nuestros productos, consultas de calidad o reporte de eventos adversos puede comunicarse al 0800-222-4752.
 
 
 `
@@ -203,7 +200,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -249,24 +246,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

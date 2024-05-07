@@ -16,89 +16,84 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 
 const info = `
-
-# Varicela y Herpes Zóster: Conexión, Síntomas y Complicaciones
-
-La varicela es una enfermedad muy común y altamente contagiosa que suele afectar a niños y adultos en algún momento de sus vidas. Aunque es generalmente benigna, en algunos casos puede presentar complicaciones graves. Esta afección está íntimamente relacionada con el Herpes Zóster. Aunque las enfermedades presentan síntomas diferentes y afectan a las personas en diferentes etapas de la vida, comparten un vínculo común debido a su origen viral.
+## La varicela es una enfermedad muy común y altamente contagiosa que suele afectar a niños y adultos en algún momento de sus vidas. Aunque es generalmente benigna, en algunos casos puede presentar complicaciones graves 
+Esta afección está íntimamente relacionada con el Herpes Zóster. Aunque las enfermedades presentan síntomas diferentes y afectan a las personas en diferentes etapas de la vida, comparten un vínculo común debido a su origen viral.
+En este artículo, abordaremos qué es la varicela, sus síntomas, posibles complicaciones y cómo se relaciona con el Herpes Zóster.
 
 ## ¿Qué es la varicela y cuál es su origen?
-
-La varicela es una enfermedad infecciosa causada por el virus varicela-zóster (VVZ), que pertenece a la familia de los herpesvirus. Esta enfermedad es muy común en la infancia, aunque también puede afectar a adultos. La varicela se propaga de persona a persona a través del contacto con las lesiones cutáneas, la saliva o el aire, especialmente cuando alguien infectado tose o estornuda.
-
-## Signos y síntomas de la varicela
-
-Los síntomas de la varicela suelen aparecer entre 10 y 21 días después de la exposición al virus. Algunos de los síntomas más frecuentes son:
-- Erupciones cutáneas.
-- Fiebre.
+La varicela es una enfermedad infecciosa causada por el virus varicela-zóster (VVZ), que pertenece a la familia de los herpesvirus. Esta enfermedad es muy común en la infancia, aunque también puede afectar a adultos. 
+La varicela se propaga de persona a persona a través del contacto con las lesiones cutáneas, la saliva o el aire, especialmente cuando alguien infectado tose o estornuda. Este contagio ocurre desde uno a dos días antes de la erupción y durante toda la forma vesiculosa. Termina el periodo de diseminación del virus cuando el paciente presenta todas las lesiones en etapa costrosa.
+Signos y síntomas de la varicela
+Los síntomas de la varicela suelen aparecer entre 10 y 21 días después de la exposición al virus. Algunos de los síntomas más frecuentes :
+- Erupciones cutáneas: la varicela se caracteriza por la aparición de pequeñas ampollas llenas de líquido que, al cabo de unos días, se secan y forman costras. Estas erupciones pueden aparecer a raíz de brotes y aparecer en oleadas durante varios días.
+- Fiebre: suele ser el primer síntoma de la varicela y puede variar desde leve hasta alta.
 - Cansancio.
-- Pérdida de apetito.
+- Pérdida de apetito: puede ser un síntoma temprano de la enfermedad y generalmente precede a la aparición de las erupciones.
 
 ## ¿Qué complicaciones puede ocasionar la varicela?
-
-Aunque la varicela es generalmente una enfermedad leve, en algunos casos puede causar complicaciones, especialmente en personas con sistemas inmunológicos debilitados, adultos y mujeres embarazadas. Algunas de estas complicaciones incluyen infecciones bacterianas, neumonía, encefalitis y problemas durante el embarazo.
+Aunque la varicela es generalmente una enfermedad leve, en algunos casos puede causar complicaciones, especialmente en personas con sistemas inmunológicos debilitados, adultos y mujeres embarazadas. Algunas de estas complicaciones incluyen:
+- Infecciones bacterianas: las lesiones cutáneas pueden infectarse con bacterias, lo que puede conducir a celulitis, impétigo o incluso septicemia.
+- Neumonía: la infección por varicela puede extenderse a los pulmones, causando neumonía, una inflamación del tejido pulmonar.
+- Encefalitis: en casos raros, la varicela puede causar inflamación del cerebro, conocida como encefalitis, lo que puede provocar convulsiones, pérdida de conciencia o incluso daño cerebral permanente.
+- Problemas durante el embarazo: las mujeres embarazadas que contraen varicela tienen un mayor riesgo de complicaciones para ellas y sus bebés, como parto prematuro, bajo peso al nacer o malformaciones congénitas.
 
 ## ¿Qué relación tiene la varicela con el Herpes Zóster?
-
-La varicela y el Herpes Zóster están estrechamente relacionados porque ambos son causados por el mismo virus: el virus varicela-zóster (VVZ). La varicela es la infección primaria causada por el VVZ y, después de la infección inicial, el virus queda latente en el organismo y puede reactivarse años más tarde, causando Herpes Zóster.
-
-El Herpes Zóster se manifiesta como una erupción dolorosa, con ampollas que generalmente aparecen en un área específica de la piel, siguiendo el trayecto de un nervio. Puede ser más grave que la varicela y causar complicaciones a largo plazo, como la neuralgia posherpética.
-
-## Consulta médica
-
-Si presentas algún síntoma relacionado con la varicela o el Herpes Zóster, no dudes en consultar con tu médico o médica para recibir el tratamiento adecuado.
+La varicela y el Herpes Zóster están estrechamente relacionados porque ambos son causados por el mismo virus: el virus varicela-zóster (VVZ). Aunque las enfermedades presentan distintos síntomas y afectan a las personas en diferentes momentos, comparten un vínculo común debido a su origen viral.
+La varicela es la infección primaria causada por el VVZ y, como mencionamos anteriormente, suele afectar a niños y adultos que no han sido vacunados ni han tenido contacto con el virus previamente. 
+Después de la infección inicial con el VVZ, el virus queda latente en el organismo. Es decir que queda inactivo en las células nerviosas y puede reactivarse años o incluso décadas más tarde, causando Herpes Zóster, también conocido como culebrilla. 
+Por su parte, el Herpes Zóster se manifiesta como una erupción dolorosa, con ampollas que generalmente aparece en un área específica de la piel, siguiendo el trayecto de un nervio. 
+El Herpes Zóster puede ser más grave que la varicela y causar complicaciones a largo plazo, como la neuralgia posherpética. El riesgo de desarrollar Herpes Zóster aumenta con la edad, especialmente en personas mayores de 50 años, y en aquellos con sistemas inmunológicos debilitados. 
+Si presentas algún síntoma relacionado a la varicela o al Herpes Zóster, no dudes en consultar con tu médico o médica para recibir el tratamiento adecuado.
 
 NP-AR-HZU-WCNT-230003
 
-# Varicela: Síntomas y Complicaciones
 
-La varicela es una enfermedad infecciosa muy contagiosa causada por el virus varicela-zóster (VVZ). Aunque suele ser más común en niños, también puede afectar a adultos y personas con sistemas inmunológicos debilitados. En este artículo, te contamos en profundidad los síntomas típicos de la varicela y sus posibles complicaciones. Recuerda que ante la aparición de cualquiera de ellos, es recomendable que acudas a un equipo médico para recibir el tratamiento adecuado.
+## Síntomas de la varicela y sus posibles complicaciones
+La varicela es una enfermedad infecciosa muy contagiosa causada por el virus varicela-zóster (VVZ). Aunque suele ser más común en niños, también puede afectar a adultos y personas con sistemas inmunológicos debilitados. 
+En este artículo, te contamos en profundidad los síntomas típicos de la varicela y sus posibles complicaciones. Recordá que ante la aparición de cualquiera de ellos, es recomendable que acudas a un equipo médico para recibir el tratamiento adecuado. 
 
-## Síntomas Típicos de la Varicela
+## Erupción cutánea
+La erupción cutánea es uno de los síntomas más característicos de la varicela. Comienza como pequeñas protuberancias rojas que luego se convierten en ampollas llenas de líquido. Con el tiempo, las ampollas se rompen y forman costras que finalmente se caen. 
+Las lesiones en la piel suelen aparecer primero en la cabeza y el tronco y luego extenderse a brazos y piernas. Estas erupciones pueden causar picazón intensa, y es importante evitar rascarse para prevenir infecciones secundarias en la piel así como posibles cicatrices a largo plazo.
+Por otra parte, es importante destacar que estas lesiones son la principal fuente de transmisión de la enfermedad. Esto sucede debido a que las secreciones que producen las ampollas, tienen partículas virales, por lo cual se recomienda aislar a los pacientes que tienen varicela ya que pueden contagiar la enfermedad a personas que no han tenido contacto previo con el virus que la causa. 
 
-### Erupción cutánea
+## Fiebre y malestar general
+La fiebre es otro síntoma común de la varicela. Puede variar desde una temperatura ligeramente elevada hasta fiebre alta. Por lo general, la fiebre aparece antes o al mismo tiempo que las erupciones cutáneas. 
+Este síntoma de la varicela puede hacer que el paciente se sienta cansado y debilitado, y puede ser necesario el uso de medicamentos antipiréticos para controlarla.
+De esta manera, las personas con varicela pueden experimentar malestar general, que puede incluir cansancio, debilidad y pérdida de apetito. Este malestar puede dificultar la realización de actividades diarias y hacer que el paciente desee descansar hasta que los síntomas de la varicela mejoren.
 
-La erupción cutánea es uno de los síntomas más característicos de la varicela. Comienza como pequeñas protuberancias rojas que luego se convierten en ampollas llenas de líquido. Con el tiempo, las ampollas se rompen y forman costras que finalmente se caen. Estas lesiones suelen aparecer primero en la cabeza y el tronco y luego extenderse a brazos y piernas. Es importante evitar rascarse para prevenir infecciones secundarias en la piel y posibles cicatrices a largo plazo.
+## La varicela en personas vacunadas
+Si bien algunas personas pueden contraer la enfermedad, a pesar de haber recibido la vacuna contra la varicela, los síntomas habitualmente son más leves, con menos lesiones en piel o ninguna, febrícula o fiebre de menor intensidad y una duración más corta de los síntomas.
 
-### Fiebre y malestar general
+## Posibles complicaciones de la varicela
+Aunque la mayoría de los casos de varicela son leves, pueden presentarse complicaciones en algunas personas, especialmente en adolescentes y adultos, en recién nacidos o hijos de madres que no tuvieron varicela ni recibieron la vacuna y en personas con sistemas inmunológicos debilitados.
+A continuación, te contamos cuáles son algunas de las posibles complicaciones de la varicela:
 
-La fiebre es otro síntoma común de la varicela, que puede variar en intensidad. Por lo general, aparece antes o al mismo tiempo que las erupciones cutáneas. Este síntoma puede hacer que el paciente se sienta cansado y debilitado, y puede ser necesario el uso de medicamentos antipiréticos para controlarla.
+- Infecciones bacterianas de la piel 
+El rascado de las ampollas y las costras puede provocar infecciones bacterianas en la piel, como celulitis o impétigo. Estas infecciones pueden requerir tratamiento con antibióticos y, en casos graves, pueden provocar la formación de abscesos o la propagación de la infección a otras partes del cuerpo
 
-## Complicaciones de la Varicela
+- Neumonía 
+La varicela puede causar neumonía, especialmente en adultos y personas con sistemas inmunológicos debilitados. La neumonía por varicela puede ser grave y requerir hospitalización y tratamiento con medicamentos antivirales y antibióticos.
 
-Aunque la mayoría de los casos de varicela son leves, pueden presentarse complicaciones en algunas personas:
+- Infecciones del sistema nervioso
+En pocos casos, y sobre todo en niños, la varicela puede afectar el sistema nervioso y causar complicaciones como meningitis, encefalitis o mielitis. En la mayoría de los pacientes que padecen de estas complicaciones, la recuperación es completa   
 
-### Infecciones bacterianas de la piel
+- Sepsis 
+En casos raros, la varicela puede causar sepsis, una respuesta extrema del cuerpo a una infección que puede provocar insuficiencia de órganos y, en casos graves, la muerte. Generalmente, esta complicación de la varicela se presenta en pacientes inmunodeprimidos.
 
-El rascado de las lesiones puede provocar infecciones bacterianas en la piel, como celulitis o impétigo. Estas infecciones pueden requerir tratamiento con antibióticos.
+- Complicaciones en el embarazo
+Si una mujer embarazada contrae varicela, existe un riesgo de complicaciones para el feto y la madre. Estas complicaciones pueden incluir infecciones congénitas, parto prematuro y, en algunos casos, muerte fetal o neonatal. 
+Es importante que las mujeres embarazadas que nunca han tenido varicela ni han recibido la vacuna, eviten el contacto con personas con varicela y consulten a su médico si sospechan que han estado expuestas al virus.
 
-### Neumonía
+- Herpes zóster
+Después de recuperarse de la varicela, el virus varicela-zóster permanece latente en el cuerpo y puede reactivarse en el futuro, causando herpes zóster o "culebrilla". 
+El herpes zóster se caracteriza por una erupción dolorosa en un área del cuerpo y puede afectar a personas de cualquier edad, aunque es más común en adultos mayores y personas con sistemas inmunológicos debilitados.
 
-La varicela puede causar neumonía, especialmente en adultos y personas con sistemas inmunológicos debilitados. La neumonía por varicela puede ser grave y requerir hospitalización y tratamiento con medicamentos.
-
-### Infecciones del sistema nervioso
-
-En casos raros, la varicela puede afectar el sistema nervioso y causar complicaciones como meningitis, encefalitis o mielitis.
-
-### Sepsis
-
-En casos raros, la varicela puede causar sepsis, una respuesta extrema del cuerpo a una infección que puede provocar insuficiencia de órganos y, en casos graves, la muerte.
-
-### Complicaciones en el embarazo
-
-Si una mujer embarazada contrae varicela, existe un riesgo de complicaciones para el feto y la madre. Es importante que las mujeres embarazadas eviten el contacto con personas con varicela y consulten a su médico si sospechan que han estado expuestas al virus.
-
-### Herpes Zóster
-
-Después de recuperarse de la varicela, el virus varicela-zóster puede reactivarse en el futuro, causando herpes zóster o "culebrilla". Esta enfermedad se caracteriza por una erupción dolorosa en un área del cuerpo.
-
-## Reconocer los Síntomas y Buscar Atención Médica
-
-Reconocer los síntomas de la varicela es importante para buscar atención médica si se presentan complicaciones o si la persona afectada pertenece a un grupo de alto riesgo.
-
-Para mayor información consulte a su médico. GSK Biopharma Argentina S.A. Av del Libertador 7202, Piso 4, CABA, Buenos Aires, Argentina. Para consultas sobre nuestros productos, consultas de calidad o reporte de eventos adversos puede comunicarse al 0800-222-4752.
+Reconocer los síntomas de la varicela es sumamente importante para detectarlos y buscar atención médica si se presentan complicaciones o si la persona afectada pertenece a un grupo de alto riesgo.
 
 NP-AR-HZU-WCNT-230004 – Abril 2023.
 
+Para mayor información consulte a su médico.GSK Biopharma Argentina S.A. Av del Libertador 7202, Piso 4, CABA, Buenos Aires, Argentina.Para consultas sobre nuestros productos, consultas de calidad o reporte de eventos adversos puede comunicarse al 0800-222-4752.
 
 `
 
@@ -253,7 +248,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -299,24 +294,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

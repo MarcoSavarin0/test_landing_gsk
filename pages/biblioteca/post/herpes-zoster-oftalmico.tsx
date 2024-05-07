@@ -16,17 +16,15 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 
 const info = `
-# Herpes Zóster Oftálmico: Síntomas, Factores de Riesgo y Prevención
-
-El Virus Varicela Zóster es el causante del Herpes Zóster, una infección viral que produce una erupción dolorosa en la piel. Una de sus complicaciones es el Herpes Zóster Oftálmico que, en el peor de los casos, puede derivar en una pérdida parcial o total de la visión.
-
+## El Virus Varicela Zóster es el causante del Herpes Zóster, una infección viral que produce una erupción dolorosa en la piel. Una de sus complicaciones es el Herpes Zóster Oftálmico que, en el peor de los casos, puede derivar en una pérdida parcial o total de la visión.
+En esta nota, veremos cuáles son los síntomas del Herpes Zóster Oftálmico, quiénes son más propensos a contraerlo y qué posibles tratamientos se pueden llevar a cabo.
+Si pensás que estás sufriendo esta enfermedad, no dudes en consultar a tu médico o médica.
 ## ¿Qué es el Herpes Zóster Oftálmico?
-
-El Herpes Zóster Oftálmico es una complicación del virus del Herpes Zóster que afecta al nervio trigémino, uno de los nervios craneales que se ubica en la cara y la región ocular. Se manifiesta mediante una erupción cutánea dolorosa en la frente, el cuero cabelludo, la nariz y el ojo, lo que puede provocar una serie de síntomas oculares graves que pueden afectar la vista. Es una afección que se presenta en hasta un 25% de las personas que desarrollan esta enfermedad y debe ser tratada lo antes posible. Si identificás alguno de sus síntomas en tu cuerpo, acudí a tu médico o médica.
-
+El Herpes Zóster Oftálmico es una complicación del virus del Herpes Zóster que afecta al nervio trigémino, uno de los nervios craneales que se ubica en la cara y la región ocular.
+Se manifiesta mediante una erupción cutánea dolorosa en la frente, el cuero cabelludo, la nariz y el ojo, lo que puede provocar una serie de síntomas oculares graves que pueden afectar la vista. 
+Es una afección que se presenta en hasta un 25%  de las personas que desarrollan esta enfermedad y debe ser tratada lo antes posible. Si identificás alguno de sus síntomas en tu cuerpo, acudí a tu médico o médica. 
 ## 8 síntomas del Herpes Zóster Oftálmico
-
-El Herpes Zóster Oftálmico se presenta en una variedad de síntomas que incluyen:
+El Herpes Zóster Oftálmico se presenta en una variedad de síntomas que incluyen: 
 - Dolor intenso y punzante en la frente y alrededor del ojo.
 - Sensación de ardor y enrojecimiento ocular.
 - Inflamación de la córnea, también conocida como queratitis.
@@ -35,16 +33,16 @@ El Herpes Zóster Oftálmico se presenta en una variedad de síntomas que incluy
 - Ampollas y costras en la piel de la frente y la nariz.
 - Fotofobia (sensibilidad a la luz).
 - Escleritis.
-
 ## ¿Qué población está considerada como factor de riesgo del Herpes Zóster Oftálmico?
-
-El Herpes Zóster Oftálmico puede desarrollarse cuando las lesiones se producen en la cara. El riesgo de desarrollar Herpes Zóster aumenta con la edad, aunque otros factores que pueden aumentar el riesgo incluyen el estrés, el debilitamiento del sistema inmunológico y ciertas enfermedades crónicas.
-
+El Herpes Zóster Oftálmico puede desarrollarse cuando las lesiones se producen en la cara. El riesgo de desarrollar Herpes Zóster aumenta con la edad, aunque otros factores que pueden aumentar el riesgo incluyen:
+- El estrés.
+- El debilitamiento del sistema inmunológico.
+- Ciertas enfermedades crónicas.
 ## Prevención del Herpes Zóster Oftálmico
-
-Se recomienda consultar con el profesional de salud de cabecera para conocer las opciones de prevención y tratamiento del Herpes Zóster y, consecuentemente, evitar su complicación oftálmica.
+Se recomienda consultar con el profesional de salud de cabecera para conocer las opciones de prevención y tratamiento del Herpes Zóster y, consecuentemente, evitar su complicación  oftálmica. 
 
 NP-AR-HZU-WCNT-230001
+
 
 
 
@@ -217,7 +215,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -263,24 +261,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

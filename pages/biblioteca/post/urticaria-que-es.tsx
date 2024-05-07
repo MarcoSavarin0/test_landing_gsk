@@ -17,39 +17,40 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 const info = `
 
-# Urticaria: Tipos, Síntomas y Relación con el Herpes Zóster
 
-La urticaria es una afección cutánea que puede ser molesta y afectar a muchas personas. En esta nota, te explicamos en detalle qué es la urticaria, sus diferentes tipos y cómo reconocerlos, además de su posible relación con el herpes zóster.
+La Urticaria es una condición de la piel que afecta a muchas personas y puede ser bastante molesta. Pero, ¿sabes exactamente qué es y cuántos tipos de urticaria existen? En esta nota te contamos en detalle qué es la Urticaria, sus diferentes tipos y cómo reconocerlos, para que puedas estar informado y preparado en caso de experimentar esta afección cutánea.
 
-## ¿Qué es la Urticaria?
+## Síntomas de la Urticaria
 
-La urticaria se caracteriza por la aparición de ronchas rojas, elevadas y con picazón en la piel. Estas ronchas pueden variar en tamaño y forma, y suelen desaparecer en pocas horas. Además de picazón, pueden causar ardor y en ocasiones, hinchazón en áreas como labios, lengua y párpados.
+La Urticaria se caracteriza por la aparición de ronchas rojas, elevadas y que generan picazón en la piel. Estas ronchas pueden variar en tamaño y forma, y a menudo se unen entre sí para formar áreas más grandes. Además, pueden aparecer y desaparecer en cuestión de horas. Otros síntomas asociados a la Urticaria incluyen ardor y en algunos casos, hinchazón en áreas del cuerpo como labios, lengua y párpados.
 
 ## Causas de la Urticaria
 
-Las causas pueden ser diversas:
-- **Alergias**: a alimentos, medicamentos, picaduras de insectos, entre otros.
-- **Infecciones**: virales, bacterianas o fúngicas.
-- **Factores físicos**: exposición a estímulos como presión, calor, frío o luz solar.
-- **Estrés**: ansiedad y estrés pueden desencadenarla.
+Existen varias causas de Urticaria, algunas de las más comunes son:
+- **Alergias:** La Urticaria puede ser causada por una reacción alérgica a alimentos, medicamentos, picaduras de insectos, entre otros.
+- **Infecciones:** Algunas infecciones virales, bacterianas o fúngicas pueden provocar Urticaria.
+- **Factores físicos:** La exposición a estímulos físicos como la presión, el calor, el frío o la luz solar puede desencadenar la aparición de ronchas en la piel.
+- **Estrés:** La ansiedad y el estrés también pueden ser causantes de Urticaria en algunas personas.
+
+## ¿Cuándo la Urticaria es grave?
+
+La Urticaria puede ser grave cuando, en el contexto de una Urticaria de causa alérgica, se acompaña de dificultad para respirar, hinchazón en la cara, la lengua o la garganta, mareos o desmayos. Estos síntomas pueden indicar una reacción alérgica grave llamada anafilaxia, que requiere atención médica de urgencia.
 
 ## Tipos de Urticaria
 
-1. **Urticaria aguda**: dura menos de seis semanas y suele ser causada por alergias.
-2. **Urticaria crónica**: persiste por más de seis semanas, sin una causa identificada.
-3. **Urticaria física**: resultado de la exposición a estímulos físicos.
-4. **Urticaria por estrés**: desencadenada por ansiedad o estrés.
+Existen varios tipos de Urticaria, y a continuación, te explicaremos en detalle los más comunes:
+- **Urticaria aguda:** Este tipo de Urticaria es la forma más común y suele durar menos de seis semanas. Por lo general, se debe a una reacción alérgica a ciertos alimentos, medicamentos o picaduras de insectos.
+- **Urticaria crónica:** La Urticaria crónica es aquella que persiste por más de seis semanas. A menudo, no se puede identificar una causa específica, lo que dificulta su tratamiento.
+- **Urticaria física:** Se produce como resultado de la exposición a estímulos físicos, como la presión, el calor, el frío o la luz solar.
+- **Urticaria por estrés:** También conocida como Urticaria nerviosa, se presenta cuando la ansiedad o el estrés desencadenan la aparición de ronchas en la piel.
+
+## ¿Cómo saber qué tipo de urticaria tengo?
+
+Para determinar qué tipo de Urticaria tienes, es fundamental prestar atención a los síntomas y su duración, así como a los posibles desencadenantes. Si experimentas síntomas de Urticaria, no dudes en consultar con tu médico de cabecera para obtener un diagnóstico y tratamiento adecuados.
 
 ## Relación con el Herpes Zóster
 
-Aunque son afecciones cutáneas distintas, pueden estar relacionadas:
-- La urticaria puede ser causada por infecciones virales, aunque menos común que las alérgicas.
-- Los síntomas de ambas afecciones pueden confundirse, ya que presentan erupciones cutáneas y picazón.
-
-Si experimentas síntomas de urticaria o herpes zóster, es fundamental consultar a un equipo médico para un diagnóstico adecuado.
-
-**NP-AR-HZU-WCNT-230006**
-
+La Urticaria y el Herpes Zóster son dos afecciones cutáneas diferentes, pero pueden estar relacionadas en algunos casos debido a sus síntomas. Si experimentas síntomas de cualquiera de estas afecciones, es fundamental que consultes a un equipo médico.
 
 
 

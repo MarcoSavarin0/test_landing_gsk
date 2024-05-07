@@ -16,40 +16,55 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 
 const info = `
+# La Familia de Virus del Herpes Humano: Tipos, Síntomas y Prevención
 
-# Virus del Herpes Humano: Tipos, Síntomas y Prevención
+La familia de virus del herpes humano (HHV) es causa de varias infecciones muy comunes en la población. Aunque muchas personas pueden no ser conscientes de ello, existen varios tipos diferentes, cada uno con sus propias características y manifestaciones clínicas. Conocer estos diferentes tipos de enfermedades es esencial para aprender a identificar los síntomas específicos de cada uno y buscar atención médica adecuada cuando sea necesario. Además, entender las diferencias entre las diferentes manifestaciones puede ayudar a prevenir la transmisión del virus a otras personas. En esta nota te contamos acerca de las 6 enfermedades más importantes de esta familia de virus:
 
-La familia de virus del herpes humano (HHV) causa varias infecciones comunes en la población. Cada tipo tiene características y manifestaciones clínicas específicas, conocerlas es esencial para identificar los síntomas y buscar atención médica adecuada. En esta nota, te contamos acerca de las 6 enfermedades más importantes de esta familia de virus:
+## Virus del Herpes Simple Tipo 1
 
-## 1. Virus del Herpes Simple Tipo 1 (VHS-1)
-- **Causa**: Infecciones orales, como el herpes labial.
-- **Transmisión**: Contacto cercano con una persona infectada.
-- **Síntomas**: Ampollas o úlceras dolorosas en la boca o alrededor de los labios.
+El VHS-1 o Virus de Herpes Simple tipo 1 es más conocido por causar infecciones orales, como el Herpes Labial. La transmisión ocurre principalmente a través del contacto cercano con una persona infectada. Aunque es más común en la región oral, también puede causar infecciones genitales a través del contacto oral-genital. 
 
-## 2. Virus del Herpes Simple Tipo 2 (VHS-2)
-- **Causa**: Herpes genital, transmitido sexualmente.
-- **Transmisión**: Contacto sexual, incluido sexo oral, vaginal y anal.
-- **Síntomas**: Lesiones ampollares o ulceradas en el área genital o anal.
+### Síntomas del Herpes Simple tipo 1
 
-## 3. Virus de la Varicela-Zóster (VVZ)
-- **Causa**: Varicela y Herpes Zóster.
-- **Síntomas**: Sarpullido doloroso y vesículas en un área específica del cuerpo.
+Los síntomas del VHS-1 pueden variar desde leves hasta severos y pueden incluir ampollas o úlceras dolorosas en la boca o alrededor de los labios.
 
-## 4. Virus de Epstein-Barr (VEB)
-- **Causa**: Mononucleosis infecciosa.
-- **Transmisión**: Principalmente a través de la saliva.
-- **Síntomas**: Fiebre, inflamación de ganglios linfáticos, fatiga, dolor de garganta.
+## Virus del Herpes Simple Tipo 2
 
-## 5. Citomegalovirus (CMV)
-- **Causa**: Síntomas similares a la mononucleosis en algunas personas.
-- **Transmisión**: Contacto cercano, transfusiones de sangre, trasplantes de órganos, de madre a hijo durante el embarazo.
-- **Síntomas**: Pueden ser asintomáticos o causar enfermedades graves en personas inmunodeprimidas.
+El VHS-2 o Herpes Simple del tipo 2 es el principal causante del Herpes Genital, una infección de transmisión sexual que se contagia mediante el contacto sexual, incluidos el sexo oral, vaginal y anal. Es importante saber que se puede contraer el herpes genital de una pareja sexual que no tenga una lesión visible o que no sepa de su infección, al ser un paciente asintomático.
 
-## 6. Herpesvirus Humano Tipo 6 (HHV-6)
-- **Causa**: Roséola infantil.
-- **Síntomas**: Fiebre alta seguida de erupción cutánea rosa o roja.
+### Síntomas del Herpes Simple tipo 2
 
-Estar informados acerca de estas enfermedades nos permite identificar los signos y síntomas tempranos, buscar atención médica adecuada y prevenir la transmisión del virus. Si experimentas síntomas, es crucial consultar con un equipo médico para recibir el diagnóstico y tratamiento adecuados.
+Las personas infectadas pueden experimentar la aparición de lesiones tipo ampollares o ulceradas, con picazón e irritación en el área genital o anal.
+
+## Virus de la Varicela-Zóster
+
+Es muy común confundir al Herpes Zóster con el Herpes Simple, sin embargo, la principal diferencia radica en el tipo de virus que los causa y en sus manifestaciones clínicas. El Virus Varicela Zóster causa la varicela.
+
+### Síntomas del Virus de la Varicela-Zóster
+
+El Herpes Zóster se presenta como un sarpullido doloroso y vesículas en un área específica del cuerpo, generalmente afecta un solo lado. En su evolución, puede causar complicaciones como la neuralgia postherpética, que se manifiesta como dolor crónico en el área afectada.
+
+## Virus de Epstein-Barr (VEB)
+
+El Virus de Epstein-Barr es el principal causante de la mononucleosis infecciosa, también conocida como "enfermedad del beso". La transmisión de este tipo de Herpes ocurre principalmente a través de la saliva.
+
+### Síntomas del Virus de Epstein-Barr
+
+Los síntomas pueden incluir fiebre, inflamación de los ganglios linfáticos, fatiga, dolor de garganta y agrandamiento del bazo. La mayoría de las personas se infectan con este tipo de Herpes en algún momento de su vida, pero no todas desarrollan síntomas.
+
+## Citomegalovirus (CMV)
+
+El Citomegalovirus puede causar síntomas similares a los de la mononucleosis en algunas personas, aunque muchas personas infectadas no presentan síntomas. La transmisión del Citomegalovirus puede ocurrir a través de contacto cercano con una persona infectada, transfusiones de sangre, trasplantes de órganos y de madre a hijo durante el embarazo. En personas con sistemas inmunológicos debilitados, el CMV puede causar enfermedades graves, como neumonía o retinitis.
+
+## Herpesvirus Humano Tipo 6 (HHV-6)
+
+El HHV-6 es el principal causante de la roséola infantil, también conocida como sexta enfermedad o exantema súbito post febril, una enfermedad viral que afecta principalmente a niños menores de 2 años.
+
+### Síntomas del Herpesvirus Humano Tipo 6
+
+La infección por este tipo de virus se caracteriza por una fiebre alta que dura de 3 a 5 días, seguida de la aparición de una erupción cutánea de color rosa o rojo. Esta erupción generalmente comienza en el tronco y luego se extiende a los brazos y las piernas. Otros síntomas pueden incluir irritabilidad, hinchazón de los ganglios linfáticos y diarrea. La mayoría de los casos de roséola son leves y se resuelven sin tratamiento específico, pero en raras ocasiones puede causar complicaciones como convulsiones febriles o encefalitis.
+
+Al estar informados acerca de todas estas enfermedades causadas por virus de la familia herpes, podemos estar mejor preparados para identificar los signos y síntomas tempranos de la infección, lo que nos permite buscar atención médica adecuada cuando sea necesario. Además, al comprender las diferencias entre los tipos de Herpes, podemos tomar medidas para prevenir la transmisión del virus a otras personas. Al seguir estos pasos, no solo protegemos nuestra salud, sino también la salud de aquellos a nuestro alrededor. Si sospechás que puedes estar experimentando alguno de los síntomas descriptos en esta nota, es crucial que consultes con un equipo médico para recibir el diagnóstico y tratamiento adecuados.
 
 **NP-AR-HZU-WCNT-230006**
 
@@ -212,7 +227,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -258,24 +273,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

@@ -16,37 +16,35 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 
 const info = `
-# Importancia de los Controles Médicos Regulares Después de los 50 años
 
-A medida que envejecemos, el riesgo de desarrollar enfermedades crónicas aumenta, por lo que realizar controles médicos regulares después de los 50 años es fundamental. En este artículo, exploraremos la importancia y beneficios de estos controles, así como las pruebas médicas clave para los adultos mayores.
+A medida que envejecemos, el riesgo de padecer diversas enfermedades crónicas y afecciones médicas aumenta. Por ello, es fundamental realizar controles médicos regulares después de los 50 años. Estos controles pueden ayudar a detectar problemas de salud en etapas tempranas y permiten el tratamiento adecuado, lo que mejora la calidad de vida.
 
-## Beneficios de los controles médicos regulares después de los 50 años
+## Beneficios de los Controles Médicos Regulares Después de los 50 Años
 
-- **Prevención y detección temprana de enfermedades:** Detectar enfermedades en etapas tempranas aumenta las posibilidades de un tratamiento exitoso.
-  
-- **Control de enfermedades crónicas:** Ayudan a gestionar condiciones como la diabetes, hipertensión y colesterol alto.
-  
-- **Mantenimiento de un estilo de vida saludable:** Proporcionan información vital para tomar decisiones informadas sobre hábitos de vida saludables.
+Los controles médicos regulares son esenciales para mantener una buena salud a medida que envejecemos. Algunos de los beneficios de realizar controles médicos regulares después de los 50 años incluyen:
 
-## Pruebas médicas importantes para adultos mayores
+- **Prevención y detección temprana de enfermedades:** Detectar enfermedades en etapas tempranas aumenta las posibilidades de un tratamiento con mejores resultados.
+- **Control de enfermedades crónicas:** Ayudan a controlar enfermedades como la diabetes, la hipertensión y el colesterol alto.
+- **Mantenimiento de un estilo de vida saludable:** Proporcionan información sobre nuestro estado de salud y nos ayudan a tomar decisiones informadas para mantener un estilo de vida saludable.
 
-- **Análisis de sangre:** Detecta problemas como anemia, infecciones y enfermedades cardiovasculares.
-  
-- **Pruebas de detección de cáncer:** Importantes para detectar cáncer en etapas tempranas, como cáncer de mama, colon y próstata.
-  
+## Pruebas Médicas Importantes para Adultos Mayores
+
+En los controles médicos regulares se pueden realizar pruebas específicas que permitan detectar diversas condiciones médicas a tiempo. Algunas de las pruebas importantes incluyen:
+
+- **Análisis de sangre:** Indica problemas como anemia, infecciones, enfermedades del corazón, riñón y hígado, y diabetes.
+- **Pruebas de detección de cáncer:** Ayudan a detectar el cáncer en etapas tempranas, como el cáncer de mama, el cáncer de colon y el cáncer de próstata.
 - **Exámenes cardiológicos:** Evalúan la función cardíaca y detectan enfermedades cardiovasculares.
-  
-- **Exámenes de la vista y audición:** Detectan problemas de visión y audición para un tratamiento adecuado.
-  
-- **Pruebas de densidad ósea:** Identifican osteoporosis y riesgo de fracturas óseas.
+- **Exámenes de la vista y audición:** Detectan problemas de visión y audición para proporcionar tratamientos adecuados.
+- **Pruebas de densidad ósea:** Identifican la osteoporosis y determinan el riesgo de fracturas óseas.
 
-## Importancia de la prevención y diagnóstico temprano
+## Importancia de la Prevención y el Diagnóstico Temprano de Enfermedades Crónicas
 
-La detección temprana de enfermedades es crucial para mejorar el pronóstico y calidad de vida, especialmente en condiciones como cáncer, diabetes y enfermedades del corazón. Los controles médicos regulares permiten un diagnóstico y tratamiento oportunos, así como el control de factores de riesgo.
+La detección temprana de enfermedades es fundamental para mejorar el pronóstico y la calidad de vida de los pacientes. Los controles médicos regulares permiten un mayor reconocimiento y tratamiento de enfermedades crónicas y control de factores de riesgo.
 
-No esperes a tener síntomas, la prevención y diagnóstico temprano son esenciales para el bienestar físico y emocional. Consulta a tu médico para recibir la atención adecuada.
+No esperes a que aparezcan síntomas o problemas de salud, la prevención y el diagnóstico temprano son la clave para mantener el bienestar físico y emocional. Consultá a tu médico de confianza para recibir la atención adecuada.
 
 **NP-AR-HZU-WCNT-230008**
+
 
 
 
@@ -198,7 +196,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -244,24 +242,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

@@ -16,23 +16,26 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 
 const info = `
-# Dermatitis Atópica vs. Herpes Zóster: Diferencias y Similitudes
 
-La dermatitis atópica, comúnmente conocida como eczema, y el Herpes Zóster son dos afecciones cutáneas diferentes, pero comparten algunas características relacionadas con el sistema inmune. Aquí exploramos en detalle la dermatitis atópica, sus causas y síntomas, y cómo se relaciona con el Herpes Zóster.
+La dermatitis atópica es una afección cutánea crónica que suele aparecer con frecuencia y que afecta a personas de todas las edades. Comúnmente conocida como eczema, puede ser una condición incómoda y, a veces, dolorosa. Pero, ¿qué es exactamente la dermatitis atópica y qué la provoca? En este artículo hablaremos de las diferencias entre esta patología y el Herpes Zóster y también abordaremos en profundidad la dermatitis atópica, sus causas y cómo manejar esta afección de la piel.
 
-## Causas de la dermatitis atópica
+## Causas de la Dermatitis Atópica
 
-La dermatitis atópica es una enfermedad crónica inflamatoria de la piel, cuyas causas incluyen:
+La dermatitis atópica es una forma de eczema que se caracteriza por la inflamación crónica de la piel, provocando enrojecimiento, sequedad, picazón y, en ocasiones, descamación. Afecta principalmente a bebés y niños, aunque también puede presentarse en adultos. La Dermatitis Atópica es una enfermedad compleja con un amplio espectro de presentaciones clínicas y combinaciones de síntomas. Las primeras manifestaciones de la Dermatitis Atópica suelen aparecer a una edad temprana y a menudo preceden a otras enfermedades alérgicas como el asma o la rinitis alérgica. Sin embargo, se ha identificado una serie de factores que contribuyen a su desarrollo:
 
-- **Genética:** La predisposición genética juega un papel fundamental.
-- **Sistema inmunológico:** Un sistema inmunológico hiperactivo puede desencadenar respuestas inflamatorias exageradas.
-- **Barrera cutánea:** La alteración de la barrera cutánea permite la entrada de alérgenos e irritantes.
-- **Factores ambientales:** La exposición a irritantes y alérgenos ambientales puede desencadenar o empeorar los síntomas.
-- **Estrés:** Aunque no causa directamente la dermatitis, puede empeorar los síntomas al afectar el sistema inmunológico.
+- **Genética:** La predisposición genética juega un papel fundamental en la dermatitis atópica. Si un padre o ambos padecen eczema o alergias, es más probable que sus hijos también desarrollen dermatitis atópica.
 
-## Síntomas de la dermatitis atópica
+- **Sistema inmunológico:** Se cree que las personas con dermatitis atópica tienen un sistema inmunológico hiperactivo que responde de manera exagerada a ciertos estímulos, lo que provoca inflamación en la piel.
 
-Los síntomas comunes incluyen:
+- **Barrera cutánea:** Las personas con dermatitis atópica a menudo tienen una alteración o deterioro de la barrera cutánea, lo que permite la entrada de alérgenos e irritantes y la pérdida de humedad, lo que a su vez provoca la inflamación y el enrojecimiento asociados con el eczema.
+
+- **Factores ambientales:** La exposición a irritantes y alérgenos presentes en el entorno, como el polen, el moho, los ácaros del polvo, los productos químicos y los detergentes, puede desencadenar o agravar la dermatitis atópica.
+
+- **Estrés:** Si bien el estrés no causa directamente la dermatitis atópica, puede empeorar los síntomas en algunas personas, ya que afecta el sistema inmunológico y puede provocar brotes de eczema.
+
+## Síntomas de la Dermatitis Atópica
+
+Algunos de los síntomas más comunes de la dermatitis atópica incluyen:
 
 - Picazón intensa
 - Piel seca y escamosa
@@ -41,24 +44,20 @@ Los síntomas comunes incluyen:
 
 ## Relación con el Herpes Zóster
 
-Ambas afecciones están relacionadas con la desregulación del sistema inmune. Aunque son distintas, los síntomas pueden confundirse, ya que ambas presentan erupciones cutáneas y picazón.
+La dermatitis atópica y el Herpes Zóster son dos afecciones cutáneas diferentes, pero están relacionadas debido a la desregulación y debilitación del sistema inmune. Si experimentás síntomas de cualquiera de estas afecciones, es fundamental consultar a un médico o dermatólogo para obtener un diagnóstico y tratamiento adecuados.
 
-## Consecuencias y Gravedad
+## Consecuencias y Gravedad de la Dermatitis Atópica
 
-La dermatitis atópica puede tener un impacto significativo en la calidad de vida y puede causar:
+Si bien la dermatitis atópica no es una enfermedad potencialmente mortal, puede tener un impacto significativo en la calidad de vida de quienes la padecen. Algunas de las consecuencias de la dermatitis atópica pueden incluir:
 
-- Infecciones secundarias
-- Trastornos del sueño
-- Ansiedad y depresión
-- Efectos secundarios del tratamiento
+- Infecciones secundarias: El rascado constante puede causar lesiones en la piel, lo que aumenta el riesgo de infecciones bacterianas, virales o fúngicas.
+- Trastornos del sueño: La picazón intensa puede provocar insomnio y dificultad para dormir, lo que puede llevar a problemas de salud adicionales.
+- Ansiedad y depresión: Lidiar con una enfermedad crónica de la piel puede afectar la autoestima y provocar ansiedad o depresión en algunas personas.
+- Efectos secundarios del tratamiento: Algunos tratamientos para la dermatitis atópica, como corticosteroides tópicos, pueden causar efectos secundarios a largo plazo si se usan en exceso.
 
-La situación se considera grave cuando afecta más del 10% del cuerpo, áreas específicas como la cara o tiene un gran efecto en la calidad de vida.
-
-En resumen, la dermatitis atópica es una afección compleja que requiere manejo adecuado. Si sospechas que tienes alguno de los síntomas, consulta a un médico para un diagnóstico adecuado.
+Si creés que tenés alguno de los síntomas mencionados, consultá a un médico o médica para tener un diagnóstico adecuado.
 
 **NP-AR-HZU-WCNT-230007**
-
-
 
 
 
@@ -217,7 +216,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -263,24 +262,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

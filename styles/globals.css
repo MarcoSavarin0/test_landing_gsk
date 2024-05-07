@@ -86,3 +86,8 @@ a {
 .hz90-carousel .swiper-button-next, .hz90-carousel .swiper-button-prev {
     @apply text-white !important;
 }
+.texto{
+    max-width: 1000px;
+    margin: auto;
+    /* text-align: center; */
+}

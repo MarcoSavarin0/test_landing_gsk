@@ -16,9 +16,10 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 
 const info = `
-# El Síndrome de Ramsay Hunt
 
 El Síndrome de Ramsay Hunt es un tipo de culebrilla (Herpes Zóster Ótico) que ocurre cuando el brote afecta al nervio facial, muy cerca de uno de los oídos. Se trata de una condición médica que afecta a muchas personas alrededor del mundo, pero, a pesar de su prevalencia, sigue siendo desconocida. Esta enfermedad presenta una serie de síntomas que pueden afectar la calidad de vida de quienes la padecen, por lo cual, conocer los detalles de la misma es clave para detectarla a tiempo.
+
+En este artículo, te contaremos qué es el Síndrome de Ramsay Hunt, cómo se manifiesta en el cuerpo y cuánto dura, para que aprendas a identificar los síntomas y acudas a un equipo médico en caso de ser necesario.
 
 ## ¿Qué es el Síndrome de Ramsay Hunt y qué provoca?
 
@@ -40,11 +41,10 @@ Cabe destacar que no todos los pacientes con Síndrome de Ramsay Hunt presentar�
 
 ## ¿Cuál es la duración del Síndrome de Ramsay Hunt?
 
-La duración del Síndrome de Ramsay Hunt varía según la severidad de la afección y la respuesta al tratamiento. En algunos casos, la recuperación puede ser rápida, mientras que en otros, puede llevar meses.
-
-La detección temprana y el tratamiento adecuado son fundamentales para mejorar el pronóstico y reducir las posibles secuelas.
+La duración del Síndrome de Ramsay Hunt varía según la severidad de la afección y la respuesta al tratamiento. En algunos casos, la recuperación puede ser rápida, mientras que en otros, puede llevar meses. La detección temprana y el tratamiento adecuado son fundamentales para mejorar el pronóstico y reducir las posibles secuelas.
 
 Ahora ya conocés cuáles son los síntomas y la importancia de un diagnóstico temprano, esencial para una recuperación adecuada del Síndrome de Ramsay Hunt. Si sospechás que vos o alguien cercano padece Herpes Zóster, no dudes en consultar a un médico o médica para recibir el tratamiento adecuado y conocer las opciones de prevención.
+
 
 NP-AR-HZU-WCNT-230012.
 
@@ -200,7 +200,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -246,24 +246,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

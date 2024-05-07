@@ -18,53 +18,56 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 const info = `
 
 
-
-# Dermatitis de contacto: Causas y Síntomas
-
-La dermatitis de contacto es una afección común de la piel que se presenta cuando una persona entra en contacto con sustancias irritantes o alergénicas. Aunque puede ser molesta y causar incomodidad, generalmente no es una enfermedad grave.
+La dermatitis de contacto es una afección común de la piel que se presenta cuando una persona entra en contacto con sustancias irritantes o alergénicas. Aunque puede ser molesta y causar incomodidad, generalmente no es una enfermedad grave. En este artículo, veremos cuáles son las causas y síntomas de la dermatitis de contacto y cómo podemos identificarla. Recuerda que ante la duda, siempre es recomendable acudir a un equipo médico para obtener la atención adecuada.
 
 ## Causas de la dermatitis de contacto
 
 Existen dos tipos principales de dermatitis de contacto: la dermatitis de contacto irritativa y la dermatitis de contacto alérgica. Ambas tienen causas diferentes, pero sus síntomas pueden ser similares. A continuación te mostramos con detalle cada tipo:
 
-1. **Dermatitis de contacto irritativa:** Este tipo de dermatitis de contacto es la forma más común y se produce cuando la piel entra en contacto con sustancias irritantes, como por ejemplo:
-   - Productos químicos
-   - Detergentes
-   - Jabones
-   - Disolventes
-   - Incluso agua caliente
-   
+### Dermatitis de contacto irritativa
+
+Este tipo de dermatitis de contacto es la forma más común y se produce cuando la piel entra en contacto con sustancias irritantes, como por ejemplo:
+
+- Productos químicos
+- Detergentes
+- Jabones
+- Disolventes 
+- Incluso agua caliente
+
 Cabe destacar que las personas con piel sensible son más propensas a desarrollar dermatitis de contacto irritativa.
 
-2. **Dermatitis de contacto alérgica:** A diferencia de la irritativa, la dermatitis de contacto alérgica es una reacción alérgica a una sustancia específica. Algunas de las sustancias más comunes que causan esta reacción incluyen:
-   - Níquel
-   - Látex
-   - Fragancias
-   - Conservantes en productos cosméticos
+### Dermatitis de contacto alérgica
+
+A diferencia de la irritativa, la dermatitis de contacto alérgica es una reacción alérgica a una sustancia específica. Algunas de las sustancias más comunes que causan esta reacción incluyen:
+
+- Níquel
+- Látex 
+- Fragancias
+- Conservantes en productos cosméticos
 
 ## Síntomas de la dermatitis de contacto
 
 La dermatitis de contacto puede presentar una variedad de síntomas, y estos pueden variar en intensidad y apariencia dependiendo de la causa y la sensibilidad de la persona afectada. A continuación, te contamos con más detalle cuáles son los síntomas más comunes de la dermatitis de contacto:
-- Enrojecimiento e hinchazón de la piel
-- Picazón intensa
-- Ardor o dolor en la zona afectada
-- Piel seca, agrietada o escamosa
-- Ampollas o vesículas
-- Cambios en la pigmentación de la piel
+
+- **Enrojecimiento e hinchazón de la piel:** La zona de la piel que ha estado en contacto con el irritante o alérgeno puede volverse roja e inflamada. Esta inflamación puede ser leve o intensa, y puede extenderse más allá del área de contacto directo.
+- **Picazón intensa:** Uno de los síntomas más notables y molestos de la dermatitis de contacto es la picazón intensa. La picazón puede ser constante o intermitente y puede empeorar al rascarse.
+- **Ardor o dolor en la zona afectada:** Además de la picazón, la piel afectada por la dermatitis de contacto puede experimentar una sensación de ardor o dolor. Este síntoma puede ser más notable cuando se toca o se aplica presión sobre la zona.
+- **Piel seca, agrietada o escamosa:** La dermatitis de contacto puede causar que la piel se reseque, lo que puede llevar a la aparición de grietas o descamación. Esto puede ser más común en casos de dermatitis de contacto irritativa.
+- **Ampollas o vesículas:** En algunos casos, la dermatitis de contacto puede causar la formación de ampollas o vesículas pequeñas en la piel. Estas ampollas pueden estar llenas de líquido y pueden supurar o formar costras al romperse.
+- **Cambios en la pigmentación de la piel:** A medida que la dermatitis de contacto mejora, puede haber cambios temporales en la pigmentación de la piel, como oscurecimiento o aclaramiento en el área afectada.
 
 Es importante tener en cuenta que los síntomas de la dermatitis de contacto pueden tardar horas o incluso días en aparecer después del contacto con el irritante o alérgeno, y su duración puede variar desde unos pocos días hasta varias semanas, dependiendo de la gravedad de la reacción.
 
 ## ¿Existe una relación entre la dermatitis de contacto y el Herpes Zóster?
 
-La dermatitis de contacto y el Herpes Zóster son dos afecciones cutáneas distintas, pero pueden presentar ciertas similitudes en cuanto a síntomas y apariencia, y es por esta razón que muchas personas las confunden.
+La dermatitis de contacto y el Herpes Zóster son dos afecciones cutáneas distintas, pero pueden presentar ciertas similitudes en cuanto a síntomas y apariencia, y es por esta razón que muchas personas las confunden. A continuación, te contamos algunas de las similitudes que pueden presentar a simple vista entre estas dos condiciones:
 
-A continuación, te contamos algunas de las similitudes que pueden presentar a simple vista entre estas dos condiciones:
-- Síntomas cutáneos parecidos
-- Causas de origen diferentes
+- **Síntomas cutáneos parecidos:** Ambas afecciones pueden causar enrojecimiento. Sin embargo, la distribución y el patrón de las lesiones suelen ser diferentes. Por un lado, la dermatitis de contacto generalmente afecta las áreas de la piel que han estado en contacto directo con el irritante o alérgeno, mientras que el Herpes Zóster aparece en un área del cuerpo siguiendo el trayecto de un nervio, lo que se conoce como dermatoma.
+- **Causas de origen diferentes:** Como mencionamos anteriormente, la dermatitis de contacto es una reacción inflamatoria de la piel provocada por el contacto con sustancias irritantes o alérgenas. Por otro lado, el Herpes Zóster es una enfermedad infecciosa causada por la reactivación del virus de la varicela-zóster, que permanece latente en el cuerpo después de haber padecido varicela.
 
-Si sospechás que tenés dermatitis de contacto o Herpes Zóster, te recomendamos consultar a un equipo médico para obtener un diagnóstico preciso y recibir el tratamiento adecuado.
+Si sospechas que tienes dermatitis de contacto o Herpes Zóster, te recomendamos consultar a un equipo médico para obtener un diagnóstico preciso y recibir el tratamiento adecuado.
 
-NP-AR-HZU-WCNT-230013.
+**NP-AR-HZU-WCNT-230013**
 
 
 
@@ -229,7 +232,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -275,24 +278,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

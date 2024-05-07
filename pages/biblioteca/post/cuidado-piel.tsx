@@ -16,36 +16,64 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 
 const info = `
-# Cómo Cuidar la Piel en Adultos Mayores
 
-El cuidado adecuado de la piel en adultos mayores es esencial para prevenir el envejecimiento prematuro y protegerla de afecciones cutáneas. Aquí te proporcionamos información sobre la importancia del cuidado de la piel en esta etapa de la vida y consejos prácticos para mantenerla sana y radiante.
+Aprender a cuidar la piel en adultos mayores es fundamental para prevenir el envejecimiento prematuro y también para protegerla de cualquier afección o enfermedad cutánea. No solo se trata de cuidar el aspecto físico, sino también de cuidar la salud cutánea en esta etapa de la vida.
 
-## Importancia del Cuidado de la Piel en Adultos Mayores
+En este artículo, te enseñamos cómo cuidar la piel en la adultez brindándote algunos consejos para prevenir el envejecimiento cutáneo, mantener una piel sana y enfrentar los cambios que el paso del tiempo ocasionan.
 
-El envejecimiento natural de la piel la hace más vulnerable a lesiones, infecciones y otros problemas cutáneos. Además, la piel de los adultos mayores puede ser más sensible a factores externos y propensa a desarrollar ciertas condiciones dermatológicas. Por ello, el cuidado adecuado de la piel en esta etapa de la vida es crucial para mejorar la calidad de vida y prevenir enfermedades.
+## Importancia del cuidado de la piel en adultos mayores
 
-## Consejos para Prevenir el Envejecimiento de la Piel en Adultos Mayores
+El paso del tiempo genera cambios naturales en la piel, como la disminución de colágeno y elastina, lo que provoca flacidez y arrugas. También puede haber una menor producción de aceites naturales, lo que resulta en sequedad y pérdida de elasticidad. Ser consciente de estos cambios te ayudará a adaptar tu rutina de cuidado de la piel adecuadamente.
 
-1. **Limpieza Diaria:** Lava tu rostro y cuerpo con un limpiador suave para eliminar la suciedad y el exceso de grasa.
+Es importante consultar con un médico o dermatólogo ante cualquier síntoma o problema cutáneo para recibir el tratamiento adecuado y prevenir complicaciones. Cuidar la piel en adultos mayores es importante por varias razones:
 
-2. **Hidratación:** Aplica una crema hidratante específica para tu tipo de piel después de cada limpieza para mantenerla suave y elástica.
+- **Cambios en la piel debido al envejecimiento:** al envejecer, la piel pierde elasticidad y se vuelve más delgada y seca, lo que la hace más vulnerable a lesiones, infecciones y otros problemas cutáneos. Además, la capacidad de cicatrización disminuye con la edad, lo que hace que cualquier herida o lesión tome más tiempo en sanar.
+  
+- **Mayor sensibilidad:** la piel de los adultos mayores puede ser más sensible a factores externos, como la exposición al sol, productos químicos y cambios de temperatura. Esto puede aumentar el riesgo de irritaciones, quemaduras solares y otros problemas cutáneos.
+  
+- **Prevención de enfermedades y condiciones cutáneas:** los adultos mayores pueden ser más propensos a desarrollar ciertas afecciones de la piel, como dermatitis, infecciones por hongos, úlceras por presión o cáncer de piel. El cuidado adecuado de la piel puede ayudar a prevenir y detectar tempranamente estos problemas.
+  
+- **Mejora de la calidad de vida:** una piel sana y bien cuidada contribuye a una mayor comodidad y bienestar en la adultez. Las afecciones cutáneas pueden causar malestar, picazón, dolor y afectar la autoestima, lo que puede interferir en la calidad de vida.
+  
+- **Estímulo del sistema circulatorio:** el cuidado de la piel, como masajes suaves y la aplicación de cremas hidratantes, puede ayudar a estimular la circulación sanguínea, lo que es beneficioso para la salud en general y la prevención de enfermedades.
 
-3. **Protección Solar:** Usa protector solar con un alto factor de protección (FPS) todos los días para prevenir el envejecimiento prematuro y el cáncer de piel.
+## Consejos para prevenir el envejecimiento de la piel en adultos mayores
 
-4. **Antioxidantes:** Incorpora productos con antioxidantes, como la vitamina C y E, para combatir los radicales libres que dañan las células de la piel.
+A medida que envejecemos, todo nuestro cuerpo experimenta cambios y el cuidado de la piel se vuelve aún más importante. Te dejamos algunos consejos sobre cómo cuidar la piel en esta etapa y prevenir el envejecimiento prematuro:
 
-5. **Evitar el Tabaco y Alcohol:** Estos hábitos pueden acelerar el envejecimiento de la piel y deben ser evitados.
+- **Limpieza diaria:** Lavá tu rostro con un limpiador suave dos veces al día para eliminar la suciedad y el exceso de grasa. Asimismo, procurá higienizar diariamente tu cuerpo con productos beneficiosos para tu piel.
 
-## Relación entre el Herpes Zóster y el Cuidado de la Piel
+- **Hidratación:** Aplicá una crema hidratante específica para tu tipo de piel después de cada limpieza para mantenerla suave y elástica.
 
-El Herpes Zóster es una afección viral que produce lesiones en la piel, por lo que está estrechamente relacionado con el cuidado de la piel en adultos mayores. Es importante cuidar adecuadamente la piel durante y después de un episodio de Herpes Zóster para prevenir complicaciones y favorecer una recuperación saludable.
+- **Protección solar:** Usá protector solar con un factor de protección (FPS) alto todos los días, incluso en días nublados, para prevenir el envejecimiento prematuro y el cáncer de piel.
 
-Algunas medidas para cuidar la piel durante y después de la enfermedad incluyen mantenerla limpia y seca, evitar rascar las lesiones, aplicar compresas frías y utilizar cremas recetadas por el médico. Además, es fundamental proteger la piel del sol para evitar irritaciones adicionales.
+- **Antioxidantes:** Incorporá productos con antioxidantes, como la vitamina C y E, para combatir los radicales libres que dañan las células de la piel es un cuidado extra que podés incorporar en tu rutina.
 
-Recuerda siempre consultar a un profesional de la salud ante cualquier síntoma o inquietud relacionada con tu piel.
+- **Evitar el tabaco y limitar el consumo de alcohol:** Ambos hábitos pueden dañar la piel y acelerar el envejecimiento.
 
+## Relación entre el Herpes Zóster y el cuidado de la piel
 
-NP-AR-HZU-WCNT-230014
+Cuando hablamos de Herpes Zóster, nos referimos a una afección viral que produce lesiones en la piel, por lo tanto está estrechamente relacionada con el cuidado de la piel, sobre todo cuando se reactiva esta enfermedad desarrollando las lesiones en la piel. 
+
+Esta condición, también conocida como culebrilla, es causada por el virus de la varicela zóster, el mismo que provoca la varicela. Después de haber padecido varicela, el virus permanece latente en el organismo y puede reactivarse años más tarde, ocasionando la aparición de Herpes Zóster.
+
+El Herpes Zóster se manifiesta a través de una erupción cutánea dolorosa, que generalmente se presenta en forma de una banda en un lado del cuerpo o en el rostro. Esta erupción puede causar ampollas, enrojecimiento e inflamación en la piel. Por lo tanto, es importante cuidar la piel adecuadamente durante el episodio de Herpes Zóster y también después de la infección para prevenir complicaciones y favorecer la recuperación.
+
+Algunas medidas para cuidar la piel durante y después de la enfermedad incluyen:
+
+- Mantener la piel limpia y seca: Lavá suavemente la zona afectada con agua y jabón neutro, y sécala con cuidado para evitar irritaciones.
+
+- Evitar rascar o tocar las lesiones: Rascar las ampollas puede provocar infecciones bacterianas y aumentar el riesgo de cicatrices.
+
+- Aplicar compresas frías: Las compresas frías pueden ayudar a aliviar la inflamación, el enrojecimiento y la picazón.
+
+- Utilizar cremas y ungüentos recetados por el médico: Estos productos pueden ayudar a aliviar los síntomas y a acelerar la curación.
+
+- Proteger la piel del sol: La piel afectada por el Herpes Zóster puede ser más sensible al sol, por lo que es fundamental protegerla de la exposición solar utilizando protector solar, ropa adecuada y sombreros.
+
+Cuidar la piel durante y después de un episodio de Herpes Zóster es fundamental para prevenir complicaciones y favorecer una recuperación más rápida y saludable. Recordá que siempre es importante consultar a un profesional de la salud para recibir un diagnóstico adecuado, ante cualquier síntoma o inquietud que tengas.
+
+**NP-AR-HZU-WCNT-230014**
 
 
 
@@ -162,7 +190,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -208,24 +236,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

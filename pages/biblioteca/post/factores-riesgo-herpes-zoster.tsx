@@ -18,36 +18,33 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 const info = `
 
 
-# Factores de Riesgo para el Desarrollo de Herpes Zóster
 
-El Herpes Zóster, conocido como culebrilla, es una infección viral causada por el virus varicela-zóster. Aunque cualquier persona que haya tenido varicela puede desarrollarla, ciertos factores aumentan el riesgo. En este artículo, exploraremos quiénes están en mayor riesgo y cómo algunas enfermedades crónicas pueden aumentar la susceptibilidad al Herpes Zóster.
+El Herpes Zóster, también conocido como culebrilla, es una infección causada por el virus varicela-zóster, el mismo virus que causa la varicela. Si tuviste varicela en algún momento de tu vida, el virus puede reactivarse como Herpes Zóster.
 
-## Factores de Riesgo Frecuentes para Herpes Zóster
+## Factores de Riesgo para el Herpes Zóster
 
-### Edad Avanzada
-El riesgo de desarrollar Herpes Zóster aumenta significativamente después de los 50 años.
+Los principales factores de riesgo para el Herpes Zóster son la edad y tener un sistema inmunológico debilitado. El riesgo aumenta con la edad, especialmente después de los 50 años. Además, las personas con un sistema inmunológico debilitado tienen un mayor riesgo de desarrollar culebrilla.
 
-### Sistema Inmunológico Debilitado
-Las personas con un sistema inmunológico debilitado tienen un mayor riesgo de desarrollar Herpes Zóster.
-
-## Relación entre Enfermedades Crónicas y Herpes Zóster
+## Enfermedades Crónicas y su Relación con el Herpes Zóster
 
 ### Lupus y Herpes Zóster
-El lupus, una enfermedad autoinmune, aumenta el riesgo de infecciones, incluido el Herpes Zóster, debido a la naturaleza de la enfermedad y los medicamentos inmunosupresores utilizados en su tratamiento.
+
+El lupus es una enfermedad autoinmune que puede aumentar el riesgo de infecciones, incluyendo el Herpes Zóster, debido a la naturaleza de la enfermedad y los medicamentos utilizados para tratarla. Los medicamentos inmunosupresores pueden disminuir la capacidad del cuerpo para combatir infecciones.
 
 ### Artritis Reumatoide y Herpes Zóster
-La artritis reumatoide, otra enfermedad autoinmune, puede provocar un sistema inmunológico deteriorado, aumentando el riesgo de Herpes Zóster, especialmente debido al uso de medicamentos inmunosupresores.
 
-### EPOC y Herpes Zóster
-La enfermedad pulmonar obstructiva crónica (EPOC) puede debilitar el sistema inmunológico, aumentando la susceptibilidad al Herpes Zóster, especialmente con el uso de corticoides inhalados o sistémicos.
+La Artritis Reumatoide (AR) es una enfermedad autoinmune que puede provocar un sistema inmunológico deteriorado. Además, los medicamentos inmunosupresores utilizados para tratar la AR pueden aumentar el riesgo de Herpes Zóster.
 
-### Diabetes y Herpes Zóster
-La diabetes, especialmente la tipo 2, puede causar inmunosupresión y aumentar el riesgo de Herpes Zóster, exacerbando el dolor asociado.
+### Otras Enfermedades Relacionadas con el Riesgo de Herpes Zóster
 
-En conclusión, las enfermedades que debilitan el sistema inmunológico aumentan el riesgo de Herpes Zóster. Es crucial manejar estas condiciones efectivamente y discutir con un médico las opciones de tratamiento y prevención. Si estás en un grupo de riesgo, como personas mayores de 50 años o con condiciones médicas que debilitan el sistema inmunológico, es importante buscar orientación médica.
+- **EPOC:** La enfermedad pulmonar obstructiva crónica puede debilitar el sistema inmunológico, aumentando la susceptibilidad al Herpes Zóster.
+- **Diabetes:** La diabetes puede causar inmunosupresión, aumentando el riesgo de infecciones, incluyendo el Herpes Zóster. La neuropatía diabética también puede agravar el dolor asociado con el Herpes Zóster.
+
+En conclusión, las enfermedades que debilitan el sistema inmunológico pueden aumentar el riesgo de desarrollar Herpes Zóster. Es importante manejar estas condiciones de manera efectiva y hablar con un médico sobre el tratamiento y la prevención del Herpes Zóster.
+
+Si estás en un grupo de riesgo, como personas mayores de 50 años o tienes una condición médica que debilita tu sistema inmunológico, es importante hablar con tu médico sobre las opciones de tratamiento y prevención del Herpes Zóster.
 
 **NP-AR-HZU-WCNT-230009**
-
 
 
 
@@ -207,7 +204,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -253,24 +250,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

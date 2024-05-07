@@ -16,29 +16,45 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 
 const info = `
-# Mantener el Cerebro Activo Después de los 60: Consejos y Beneficios
+# Mantener el cerebro activo después de los 60 años
 
-Mantener el cerebro activo después de los 60 años es esencial para prevenir el deterioro cognitivo y disfrutar de una buena calidad de vida. Aquí te ofrecemos una serie de consejos para mantener tu mente en forma y los beneficios de la actividad física, la alimentación adecuada, la socialización, el aprendizaje continuo y un sueño reparador.
+Mantener el cerebro activo después de los 60 años es fundamental para prevenir el deterioro cognitivo y disfrutar de una buena calidad de vida. ¿Te preguntás cómo mantener el cerebro activo y prevenir el deterioro cognitivo? A continuación, te ofrecemos una serie de consejos para mantener tu mente en forma.
 
-## Ejercicios Cognitivos para Prevenir el Deterioro Mental
+## Ejercicios cognitivos para prevenir el deterioro mental
 
-Realizar ejercicios cognitivos, como juegos de memoria, crucigramas, lectura y cálculo mental, estimula diferentes áreas del cerebro y contribuye a mantenerlo en forma.
+Realizar ejercicios cognitivos es una excelente manera de mantener el cerebro activo después de los 60 años y mejorar nuestras habilidades mentales. Entre las actividades que pueden ayudarnos a mantener la mente ágil se encuentran:
+- Juegos de memoria
+- Pasatiempos como crucigramas o sudokus
+- Leer libros
+- Practicar habilidades de cálculo mental
 
-## Beneficios de la Actividad Física y la Alimentación
+Estas actividades estimulan diferentes áreas del cerebro y contribuyen a mantenerlo en forma.
 
-El ejercicio físico mejora la circulación sanguínea y aporta oxígeno al cerebro. Una dieta rica en antioxidantes, ácidos grasos omega-3 y vitaminas B protege el cerebro y previene el deterioro cognitivo. Algunos alimentos recomendados incluyen frutos rojos, frutos secos, pescados grasos, vegetales de hoja verde oscuro, frutas cítricas, legumbres y granos enteros.
+## Los beneficios de la actividad física y la alimentación para prevenir el deterioro cognitivo
 
-## Socialización y Aprendizaje Continuo
+La actividad física y una alimentación adecuada también juegan un papel fundamental para mantener el cerebro activo después de los 60 años. El ejercicio físico, como caminar, nadar o practicar yoga, mejora la circulación sanguínea y aporta oxígeno al cerebro. Por otro lado, una dieta rica en antioxidantes, ácidos grasos omega-3 y vitaminas del grupo B es clave para proteger el cerebro y prevenir el deterioro cognitivo.
 
-La socialización y el aprendizaje continuo ejercitan habilidades cognitivas y favorecen la plasticidad cerebral. Mantener el contacto con otras personas y aprender nuevas habilidades estimula el cerebro y contribuye a su salud cognitiva.
+Algunos de los alimentos que contienen estos ingredientes son:
+- Frutos Rojos: arándanos, frambuesas, fresas y moras
+- Frutos Secos: nueces, semillas de chía y semillas de lino
+- Pescados grasos: salmón, caballa, atún, trucha y sardinas
+- Vegetales de hoja verde oscuro: espinaca, repollo rizado (kale), brócoli y acelga
+- Frutas cítricas: naranjas, limas, limones y mandarinas
+- Legumbres y granos enteros: lentejas, garbanzos, arroz, quinoa y porotos
 
-## Importancia del Sueño Reparador
+## El papel de la socialización y el aprendizaje continuo en la prevención del deterioro cognitivo
 
-El sueño es fundamental para la limpieza y consolidación de la memoria, esencial para mantener una buena salud cognitiva. Es importante asegurar una cantidad adecuada de sueño de calidad cada noche y mantener una rutina regular para optimizar el descanso.
+Por su parte, la socialización y el aprendizaje continuo son aspectos cruciales para mantener el cerebro activo. El contacto con otras personas nos permite ejercitar habilidades cognitivas como la memoria, el lenguaje y la atención. Además, el aprendizaje de nuevas habilidades o la práctica de actividades creativas, como la pintura o la música, estimulan el cerebro y favorecen su plasticidad.
 
-## Relación entre el Herpes Zóster y la Salud Cognitiva
+## La importancia de un sueño reparador para la salud cognitiva después de los 60 años
 
-Aunque no hay una relación directa, tanto el Herpes Zóster como mantener el cerebro activo pueden ser influenciados por la salud del sistema inmunológico y el bienestar general. La reactivación del virus de la varicela-zóster puede ocurrir cuando el sistema inmunológico se debilita. Si crees que puedes tener Herpes Zóster o deseas obtener más información sobre el cuidado de tu salud después de los 60 años, te recomendamos consultar a tu médico de cabecera.
+El sueño es un factor clave para mantener el cerebro activo y prevenir el deterioro cognitivo. Durante el sueño, nuestro cerebro realiza procesos de limpieza y consolidación de la memoria, lo que es esencial para mantener una buena salud cognitiva. En consecuencia, es importante asegurar una cantidad adecuada de sueño de calidad cada noche y mantener una rutina regular para optimizar el descanso.
+
+## ¿En qué se relaciona el Herpes Zóster con mantener el cerebro activo?
+
+Aunque no existe una relación directa entre el Herpes Zóster y mantener el cerebro activo, ambos aspectos pueden verse influenciados por la salud del sistema inmunológico y el bienestar general. El Herpes Zóster es causado por la reactivación del virus de la varicela-zóster en personas que han tenido varicela. El virus puede reactivarse cuando el sistema inmunológico se debilita debido a la edad, el estrés, ciertas enfermedades o tratamientos médicos.
+
+Si creés que tenés Herpes Zóster o querés conocer cómo cuidar tu salud después de los 60 años, te recomendamos consultar a tu médico de cabecera.
 
 
 

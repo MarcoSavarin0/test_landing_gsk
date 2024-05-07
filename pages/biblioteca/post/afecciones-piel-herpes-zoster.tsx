@@ -17,34 +17,28 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 const info = `
 
-# Afecciones en la piel por complicación del Herpes Zóster: Cuáles son y cómo identificarlas
-
-El Herpes Zóster es una infección causada por el virus varicela zóster que puede provocar complicaciones graves en la piel, especialmente si no se trata adecuadamente. Algunas de estas afecciones pueden presentarse en la etapa aguda y, en algunos casos, también se pueden presentar como secuelas de la infección del Herpes Zóster.
+## El Herpes Zóster es una infección causada por el virus varicela zóster que puede provocar complicaciones graves en la piel, especialmente si no se trata adecuadamente. Algunas de estas afecciones pueden presentarse en la etapa aguda y, en algunos casos, también se pueden presentar como secuelas de la infección del Herpes Zóster.
+En esta nota te contamos cuáles son las afecciones en la piel más comunes y cómo prevenirlas. Recordá consultar con tu médico o tu médica para conocer los tratamientos adecuados ante la sospecha de Herpes Zóster. 
 
 ## Infecciones secundarias causadas por Herpes Zóster
-
-En la etapa aguda de la enfermedad aparece la erupción cutánea, con vesículas en las zonas afectadas, acompañadas de un dolor agudo. Al cabo de unos 10 días, las vesículas se convierten en costras que, normalmente, duran entre 2 y 4 semanas.
-
-Una complicación frecuente es la sobreinfección bacteriana de las lesiones cutáneas. Éstas pueden presentarse como impétigo o celulitis. Se suele producir más frecuentemente en personas ancianas y diabéticas. Si esto ocurre, es necesario recibir un tratamiento adecuado para prevenir una infección secundaria.
+En la etapa aguda de la enfermedad aparece la erupción cutánea, con vesículas en las zonas afectadas, acompañadas de un dolor agudo. Al cabo de unos 10 días, las vesículas se convierten en costras que, normalmente, duran entre 2 y 4 semanas,.
+Una complicación frecuente es la sobreinfección bacteriana de las lesiones cutáneas. Éstas pueden presentarse como impétigo o celulitis. Se suele producir más frecuentemente en personas ancianas y diabéticas.
+Si esto ocurre, es necesario recibir un tratamiento adecuado para prevenir una infección secundaria.
 
 ## ¿El Herpes Zoster puede generar cicatrices y cambios en la pigmentación?
-
-El Herpes Zóster puede provocar cicatrices y cambios en la pigmentación de la piel en la zona afectada después de que la erupción cutánea haya desaparecido. Estas cicatrices pueden ser permanentes y afectar la apariencia de la piel. Además, los cambios en la pigmentación pueden hacer que la piel se vea más oscura o más clara de lo normal. Aproximadamente el 10 % de los pacientes con herpes zoster grave presentan cicatrices 6 meses después de que haya desaparecido la erupción.
-
+El Herpes Zóster puede provocar cicatrices y cambios en la pigmentación de la piel en la zona afectada después de que la erupción cutánea haya desaparecido. Estas cicatrices pueden ser permanentes y afectar la apariencia de la piel. Además, los cambios en la pigmentación pueden hacer que la piel se vea más oscura o más clara de lo normal. Aproximadamente el 10 % de los pacientes con herpes zoster grave presentan cicatrices 6 meses después de que haya desaparecido la erupción,.
 Es importante cuidar adecuadamente la piel afectada por el Herpes Zóster para minimizar el riesgo de complicaciones. Esto incluye:
 - Mantener la zona limpia y seca.
 - Evitar rascar o frotar la piel.
 - Aplicar cremas hidratantes y calmantes recomendadas por el médico.
 
 ## Caso de Herpes diseminado
-
-El Herpes Zóster diseminado se caracteriza por la presencia de 20 o más lesiones en áreas alejadas del dermatoma afectado. Es una patología que suele presentarse en pacientes con deterioro del sistema inmunológico, como pacientes en tratamiento con inmunosupresores, infecciones por VIH, tratamiento crónico con esteroides, etc. En estos casos, hay un alto grado de afectación sistémica, principalmente afectación pulmonar, hepática y cerebral.
-
-Esta complicación del Herpes Zóster únicamente puede ser diagnosticada por un equipo médico, quien sugerirá el tratamiento adecuado. Si presentas síntomas de Herpes Zóster, consultá con tu médico o médica lo antes posible.
+El Herpes Zóster diseminado se caracteriza por la presencia de 20 o más lesiones en áreas alejadas del dermatoma afectado.
+Es una patología que suele presentarse en pacientes con deterioro del sistema inmunológico (por ejemplo, pacientes en tratamiento con inmunosupresores, infecciones por VIH, tratamiento crónico con esteroides, etc.). En estos casos hay un alto grado de afectación sistémica, principalmente afectación pulmonar, hepática y cerebral.
+Esta complicación del Herpes Zóster únicamente puede ser diagnosticada por un equipo médico, quien sugerirá el tratamiento adecuado. 
+Si presentas síntomas de Herpes Zóster, consultá con tu médico o médica lo antes posible.
 
 NP-AR-HZU-WCNT-230003
-
-
 
 `
 
@@ -68,8 +62,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 					"metatitle": "¿Qué afecciones en la piel puede producir el Herpes Zóster?",
 					"metadescription": "¿Sabías que el Herpes Zóster puede generar afecciones en la piel? Ingresá e informate sobre esta complicación del virus.",
 					"slug": "note-slug",
-					"categoria": "Note Category",
-					"tags": ["tag1", "tag2", "tag3"]
+				
 				}
 			}
 		]
@@ -199,8 +192,8 @@ const Blog = ({ nota }: any) => {
 						/>
 					</div>
 
-					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+					<div className="flex flex-col lg:flex-row px-12 gap-x-14 ">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -246,24 +239,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

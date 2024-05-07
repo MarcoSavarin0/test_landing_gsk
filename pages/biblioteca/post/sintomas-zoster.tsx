@@ -17,17 +17,15 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 const info = `
 
-## El Herpes Zóster es una infección viral que puede ser muy dolorosa e incómoda para quienes la padecen
+El Herpes Zóster es una infección viral que puede ser muy dolorosa e incómoda para quienes la padecen. Los síntomas pueden ser bastante variados y afectar diferentes partes del cuerpo, por lo que es importante estar atentos a cualquier señal que indique su presencia. 
 
-Los síntomas pueden ser bastante variados y afectar diferentes partes del cuerpo, por lo que es importante estar atentos a cualquier señal que indique su presencia.
+Hoy vamos a hablar sobre los síntomas del Herpes Zóster de manera detallada para que puedas reconocerlos y actuar de manera oportuna en caso de que sea necesario. Además, explicaremos cómo es la evolución del Herpes Zóster y qué tipo de complicaciones puede traer una vez que pasa su etapa aguda. 
 
-### Origen del Herpes Zóster
+## Origen del Herpes Zóster
 
-Antes de conocer los síntomas de esta enfermedad, es importante conocer cómo se origina y quiénes pueden padecerla.
+Antes de conocer los síntomas de esta enfermedad, es importante conocer cómo se origina y quiénes pueden padecerla. La culebrilla o Herpes Zóster es una enfermedad provocada por la reactivación del Virus Varicela Zóster (VVZ), el mismo que causa la varicela. Luego de contraer esta enfermedad, el virus permanece inactivo en el sistema nervioso del cuerpo, sin generar síntomas, hasta que se reactiva y deriva en el conocido Herpes Zóster. De esta manera, sólo las personas que tuvieron varicela pueden padecer de Herpes Zóster. 
 
-La culebrilla o Herpes Zóster es una enfermedad provocada por la reactivación del Virus Varicela Zóster (VVZ), el mismo que causa la varicela. Luego de contraer esta enfermedad, el virus permanece inactivo en el sistema nervioso del cuerpo, sin generar síntomas, hasta que se reactiva y deriva en el conocido Herpes Zóster. Solo las personas que tuvieron varicela pueden padecer de Herpes Zóster.
-
-### ¿Cuáles son los síntomas del Herpes Zóster?
+## ¿Cuáles son los síntomas del Herpes Zóster?
 
 El Herpes Zóster se caracteriza por un sarpullido doloroso en la piel que se presenta en forma de ampollas agrupadas en una sola área del cuerpo. Este sarpullido suele estar precedido por síntomas como dolor, ardor, picazón o sensibilidad en la piel. Otros síntomas comunes del Herpes Zóster incluyen:
 
@@ -38,32 +36,26 @@ El Herpes Zóster se caracteriza por un sarpullido doloroso en la piel que se pr
 - Sensibilidad a la luz.
 - Problemas de visión, si el Herpes Zóster afecta la zona alrededor del ojo.
 
-Es importante destacar que los síntomas del Herpes Zóster pueden variar de una persona a otra, y que algunas personas pueden presentar síntomas leves.
+Es importante destacar que los síntomas del Herpes Zóster pueden variar de una persona a otra, y que algunas personas pueden presentar síntomas leves . Si sospechas que tenés Herpes Zóster, te recomendamos consultar con un médico para recibir un diagnóstico preciso y un tratamiento adecuado.
 
-Si sospechas que tienes Herpes Zóster, te recomendamos consultar con un médico para recibir un diagnóstico preciso y un tratamiento adecuado.
+## ¿Cómo es la evolución del Herpes Zóster?
 
-### ¿Cómo es la evolución del Herpes Zóster?
+La culebrilla o Herpes Zóster comienza con una sensación de picor o dolor en un área determinada de la piel, especialmente en la parte superior del cuerpo, seguida por la aparición de ampollas rodeadas de enrojecimiento. Durante esta etapa, las lesiones son altamente contagiosas debido a que el virus se encuentra en el líquido de las vesículas. Tras 7-10 días, las ampollas se secan y forman costras que finalmente se desprenden, dejando cicatrices. Las áreas del cuerpo más afectadas son el tronco y la cara, dentro de esta última localización, si afecta el ojo, existe el riesgo de comprometer la visión, pudiendo producir inclusive ceguera.
 
-La culebrilla o Herpes Zóster comienza con una sensación de picor o dolor en un área determinada de la piel, especialmente en la parte superior del cuerpo, seguida por la aparición de ampollas rodeadas de enrojecimiento. Durante esta etapa, las lesiones son altamente contagiosas debido a que el virus se encuentra en el líquido de las vesículas.
+## ¿Existen complicaciones del Herpes Zóster?
 
-Tras 7-10 días, las ampollas se secan y forman costras que finalmente se desprenden, dejando cicatrices. Las áreas del cuerpo más afectadas son el tronco y la cara, dentro de esta última localización, si afecta el ojo, existe el riesgo de comprometer la visión, pudiendo producir inclusive ceguera.
+Aunque la mayoría de las personas se recuperan completamente, algunas pueden experimentar complicaciones graves. La complicación más común del Zóster es la Neuralgia Postherpética (NPH), un dolor nervioso que persiste después de que la erupción se ha curado. La NPH puede durar de tres a seis meses, o incluso más tiempo, y es más común y grave en personas mayores de 50 años, afectando aproximadamente a entre un 5% y 30% de los pacientes con culebrilla o Herpes Zóster.
 
-### ¿Existen complicaciones del Herpes Zóster?
-
-Aunque la mayoría de las personas se recuperan completamente, algunas pueden experimentar complicaciones graves. La complicación más común del Zóster es la Neuralgia Postherpética (NPH), un dolor nervioso que persiste después de que la erupción se ha curado.
-
-La NPH puede durar de tres a seis meses, o incluso más tiempo, y es más común y grave en personas mayores de 50 años, afectando aproximadamente a entre un 5% y 30% de los pacientes con culebrilla o Herpes Zóster.
-
-Otras complicaciones pueden incluir:
-
+Otras complicaciones pueden incluir: 
 - Cambios en la piel, como cicatrices o cambios en la pigmentación después de que la erupción haya sanado.
 - Sobreinfección de las lesiones en la piel que puede requerir el tratamiento con antibióticos y en casos de mayor gravedad, internación.
 - Herpes Zóster Oftálmico que se produce hasta en el 25% de los casos de Herpes Zóster y puede ocurrir cuando el virus afecta el nervio facial.
-- Complicaciones del sistema nervioso periférico y central, complicaciones cardiovasculares.
+- Complicaciones del sistema nervioso periférico y central, complicaciones cardiovasculares
 
-En caso de que el paciente presente alguna de las complicaciones mencionadas, puede haber un impacto negativo en la calidad de vida. Por ello, es fundamental conocer los síntomas de esta infección viral para tratarla a tiempo. No dudes en consultar con un médico para conocer los modos de prevenir y tratar el Herpes Zóster.
+En caso de que el paciente, presente alguna de las complicaciones mencionadas, puede haber un impacto negativo en la calidad de vida. Por ello, es fundamental conocer los síntomas de esta infección viral para tratarla a tiempo. No dudes en consultar con un médico para conocer los modos de prevenir y tratar el Herpes Zóster.
 
-NP-AR-HZU-WCNT-230013.
+**NP-AR-HZU-WCNT-230013**
+
 
 `
 
@@ -221,7 +213,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -267,24 +259,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

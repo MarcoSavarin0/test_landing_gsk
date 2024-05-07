@@ -16,11 +16,8 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 
 const info = `
-# Prevenir enfermedades crónicas en los adultos mayores
 
-Prevenir enfermedades crónicas en los adultos mayores se vuelve especialmente importante para quienes quieren mantener una vida activa y saludable. A través de la adopción de hábitos saludables y la realización de chequeos médicos regulares, es posible reducir el riesgo de padecer enfermedades crónicas. 
-
-En este artículo, veremos cómo la prevención primaria y secundaria pueden ayudar a prevenir enfermedades crónicas en los adultos mayores y también pueden beneficiar la calidad de vida de las personas.
+Prevenir enfermedades crónicas en los adultos mayores se vuelve especialmente importante para quienes quieren mantener una vida activa y saludable. A través de la adopción de hábitos saludables y la realización de chequeos médicos regulares, es posible reducir el riesgo de padecer enfermedades crónicas. En este artículo, veremos cómo la prevención primaria y secundaria pueden ayudar a prevenir enfermedades crónicas en los adultos mayores y también pueden beneficiar la calidad de vida de las personas.
 
 ## Los beneficios de la prevención primaria para evitar enfermedades crónicas
 
@@ -32,22 +29,19 @@ La prevención primaria se enfoca en adoptar hábitos saludables que reduzcan el
 - Alimentación equilibrada y actividad física
 
 Estos hábitos tienen un impacto significativo en la salud en los adultos mayores y pueden prevenir enfermedades crónicas como:
+
 - Diabetes
 - Enfermedades cardiovasculares
 - Cáncer
 - Enfermedades pulmonares
 
-### ¿Cómo la dieta y el ejercicio pueden prevenir enfermedades crónicas en los adultos mayores?
+## ¿Cómo la dieta y el ejercicio pueden prevenir enfermedades crónicas en los adultos mayores?
 
-Una alimentación equilibrada y la práctica regular de actividad física son fundamentales para prevenir enfermedades crónicas en los adultos mayores. La dieta debe ser rica en frutas, verduras, proteínas magras y granos enteros, mientras que se deben evitar las grasas saturadas, el azúcar y la sal en exceso.
-
-Por otro lado, realizar ejercicio moderado de forma regular, como caminar, nadar o practicar yoga, ayuda a mantener un peso saludable, fortalecer los músculos y mejorar la función cardiovascular en los adultos mayores.
+Una alimentación equilibrada y la práctica regular de actividad física son fundamentales para prevenir enfermedades crónicas en los adultos mayores. La dieta debe ser rica en frutas, verduras, proteínas magras y granos enteros, mientras que se deben evitar las grasas saturadas, el azúcar y la sal en exceso. Por otro lado, realizar ejercicio moderado de forma regular, como caminar, nadar o practicar yoga, ayuda a mantener un peso saludable, fortalecer los músculos y mejorar la función cardiovascular en los adultos mayores.
 
 ## Prevención secundaria: la importancia de los chequeos médicos regulares en los adultos mayores
 
-La prevención secundaria se enfoca en la detección temprana y el tratamiento de enfermedades crónicas en los adultos mayores para evitar su progresión y complicaciones. Los chequeos médicos regulares son fundamentales, ya que permiten detectar problemas de salud antes de que se vuelvan más graves.
-
-Los adultos mayores deben realizarse pruebas de detección como análisis de sangre, pruebas de presión arterial y mamografías, entre otras, según las indicaciones de su médico. Por eso, es importante realizar una consulta con el médico de forma regular y así prevenir cualquier tipo de enfermedad crónica.
+La prevención secundaria se enfoca en la detección temprana y el tratamiento de enfermedades crónicas en los adultos mayores para evitar su progresión y complicaciones. Los chequeos médicos regulares son fundamentales, ya que permiten detectar problemas de salud antes de que se vuelvan más graves. Los adultos mayores deben realizarse pruebas de detección como análisis de sangre, pruebas de presión arterial y mamografías, entre otras, según las indicaciones de su médico. Por eso, es importante realizar una consulta con el médico de forma regular y así prevenir cualquier tipo de enfermedad crónica.
 
 ## ¿Cuáles son las enfermedades crónicas más comunes en los adultos mayores?
 
@@ -58,11 +52,8 @@ En esta etapa de la vida, hay que prestar especial cuidado a la salud y fundamen
 - Enfermedades cardiovasculares
 - Osteoporosis
 
-Existen riesgos de contraer enfermedades, relacionados al debilitamiento del sistema inmunológico y como resultado, quedar expuesto a afecciones tales como el Herpes Zóster. De esta manera, prevenir enfermedades crónicas en los adultos mayores es esencial para disfrutar de una vida plena y saludable.
+Existen riesgos de contraer enfermedades, relacionados al debilitamiento del sistema inmunológico y como resultado, quedar expuesto a afecciones tales como el Herpes Zóster. De esta manera, prevenir enfermedades crónicas en los adultos mayores es esencial para disfrutar de una vida plena y saludable. La adopción de hábitos saludables, la práctica de ejercicio regular y una alimentación equilibrada, junto con la realización de chequeos médicos regulares, pueden reducir significativamente el riesgo de padecer enfermedades crónicas. Consulta a tu médico para conocer cuáles son los métodos de prevención adecuados para tu caso.
 
-La adopción de hábitos saludables, la práctica de ejercicio regular y una alimentación equilibrada, junto con la realización de chequeos médicos regulares, pueden reducir significativamente el riesgo de padecer enfermedades crónicas.
-
-Consulta a tu médico para conocer cuáles son los métodos de prevención adecuados para tu caso.
 
 NP-AR-HZU-WCNT-230011.
 
@@ -226,7 +217,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -272,24 +263,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

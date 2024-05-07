@@ -17,28 +17,23 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 const info = `
 
-# Prevención del Herpes Zóster: Medidas para Evitar la Transmisión del Virus
+El Herpes Zóster, también conocido como culebrilla, es una infección causada por la reactivación del virus varicela-zóster, el mismo que provoca la varicela. Aunque el Herpes Zóster no es directamente contagioso, si una persona tiene Herpes Zóster, el contacto directo con las secreciones de las vesículas del sarpullido puede propagar el virus varicela-zóster (VVZ) a personas que nunca han tenido varicela, causándoles la infección primaria de varicela. Por lo tanto, es esencial saber cómo prevenir el contagio del Herpes Zóster en estos casos. En este artículo, te contamos cuáles son las medidas que se pueden tomar para evitar la propagación del virus.
 
-El Herpes Zóster, una infección causada por el virus varicela-zóster, puede ser una enfermedad dolorosa y contagiosa, especialmente para personas que nunca han tenido varicela. Aquí te presentamos algunas medidas para prevenir la propagación del virus:
+## Medidas para Prevenir el Contagio del Herpes Zóster
 
-## Cubrir las lesiones
+El Herpes Zóster puede ser una enfermedad dolorosa y, aunque en general no es contagiosa, es importante tomar medidas para evitar la transmisión del virus a personas que no hayan tenido contacto con la varicela. Algunas de las medidas para prevenir el contagio del Herpes Zóster son:
 
-Cubre las áreas afectadas con un vendaje limpio y seco para evitar que el líquido de las vesículas entre en contacto con otras personas, reduciendo así el riesgo de contagio del Herpes Zóster.
+1. **Cubrir las lesiones:** Para minimizar la propagación del virus, te recomendamos cubrir las áreas afectadas con un vendaje limpio y seco. Esto ayuda a evitar que el líquido de las vesículas entre en contacto con otras personas y, en consecuencia, previene el contagio del Herpes Zóster.
 
-## Evitar el contacto cercano con personas en riesgo
+2. **Evitar el contacto cercano con personas en riesgo:** Tratar de evitar el contacto con personas en riesgo es una medida para prevenir el contagio del Herpes Zóster. Estos grupos incluyen a aquellos que nunca han tenido varicela, mujeres embarazadas, recién nacidos, personas con sistemas inmunológicos debilitados y personas mayores. Estos grupos son más susceptibles a contraer el virus y pueden desarrollar complicaciones graves si se infectan. Y, aquellas personas que nunca tuvieron varicela, desarrollarán esta enfermedad al contagiarse de una persona con Herpes Zóster.
 
-Evita el contacto con personas en riesgo, como aquellos que nunca han tenido varicela, mujeres embarazadas, recién nacidos, personas con sistemas inmunológicos debilitados y personas mayores. Estos grupos son más susceptibles a contraer el virus y pueden desarrollar complicaciones graves si se infectan.
+3. **No rascar ni tocar las lesiones:** Evitar tocarse o rascarse las lesiones producidas por el Herpes Zóster es otra de las maneras de prevenir su contagio a personas que no tuvieron varicela. Además, es importante saber que el Herpes Zóster no es contagioso antes de que aparezcan las lesiones, o luego de que se forman las costras. Por eso, evitar tocarlas es una de las mejores maneras de prevenir el contagio.
 
-## No rascar ni tocar las lesiones
+Al seguir las pautas mencionadas anteriormente, como cubrir las lesiones, mantener una buena higiene personal, evitar el contacto cercano con personas en riesgo y no compartir objetos personales, se puede prevenir eficazmente el contagio del Herpes Zóster y proteger a aquellos que nos rodean.
 
-Evita rascarte o tocar las lesiones producidas por el Herpes Zóster, ya que esto puede propagar el virus a otras personas. Es importante recordar que el Herpes Zóster no es contagioso antes de que aparezcan las lesiones o después de que se formen las costras.
-
-Al seguir estas medidas, como cubrir las lesiones, mantener una buena higiene personal, evitar el contacto cercano con personas en riesgo y no compartir objetos personales, se puede prevenir eficazmente el contagio del Herpes Zóster y proteger a quienes nos rodean.
-
-Si sospechas que tú o alguien cercano tiene Herpes Zóster, no dudes en consultar con un equipo médico para obtener el diagnóstico y tratamiento adecuados.
+Si sospechás que vos o alguien de tu entorno cercano tiene Herpes Zóster, no dudes en consultar con un equipo médico para obtener el diagnóstico y tratamiento adecuado.
 
 **NP-AR-HZU-WCNT-230007**
-
 
 
 `
@@ -195,7 +190,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -241,24 +236,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

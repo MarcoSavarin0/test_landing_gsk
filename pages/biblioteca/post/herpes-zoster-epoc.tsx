@@ -17,27 +17,26 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 const info = `
 
-# Relación entre la EPOC y el Herpes Zóster
 
-El Herpes Zóster y la Enfermedad Pulmonar Obstructiva Crónica (EPOC) son condiciones de salud distintas, pero pueden coexistir y afectar negativamente a una persona. En este artículo, exploraremos la posible relación entre la EPOC y el Herpes Zóster y cómo estas afecciones pueden impactar en la calidad de vida.
+El Herpes Zóster, también conocido como culebrilla, es una afección causada por la reactivación del virus varicela-zóster, el mismo que provoca la varicela. Por otro lado, la enfermedad pulmonar obstructiva crónica (EPOC) es una afección respiratoria crónica que afecta a los pulmones y las vías respiratorias. Aunque estas dos condiciones son diferentes, pueden coexistir en una misma persona y afectarla de manera negativa. En este artículo, veremos en detalle cuál es la posible relación entre la EPOC y el Herpes Zóster y cómo estas dos afecciones pueden tener un impacto en tu calidad de vida.
 
-## Consecuencias de un Sistema Inmunológico Debilitado
+## Las consecuencias de un sistema inmunológico debilitado 
 
-La EPOC es un grupo de enfermedades respiratorias crónicas que pueden comprometer el sistema inmunológico de una persona. Aunque no hay datos específicos sobre la incidencia de Herpes Zóster en personas con EPOC, se sabe que las enfermedades crónicas, como la EPOC, pueden debilitar el sistema inmunológico, aumentando el riesgo de enfermedades como el Herpes Zóster.
+La Enfermedad Pulmonar Obstructiva Crónica o EPOC, es un grupo de enfermedades que causan obstrucción de la circulación del aire y generan problemas relacionados con la respiración. Entre estas enfermedades se encuentran el enfisema, la bronquitis crónica y, en algunos casos, el asma. Aunque no existen datos específicos que indiquen la incidencia exacta de Herpes Zóster en personas con EPOC, se sabe que las personas con enfermedades crónicas como la EPOC pueden tener un sistema inmunológico comprometido, lo que aumenta el riesgo de enfermedades, incluido el Herpes Zóster.
 
-Por otro lado, el Herpes Zóster es una reactivación del virus varicela-zóster, que puede permanecer inactivo en el cuerpo y reactivarse años después, especialmente en personas con sistemas inmunológicos debilitados.
+Por su parte, el Herpes Zóster es una reactivación del virus varicela-zóster, el mismo virus que causa la varicela. Después de que una persona se recupera de la varicela, el virus puede permanecer inactivo en el cuerpo y reactivarse años después, causando Herpes Zóster. Este riesgo es mayor en personas con sistemas inmunológicos debilitados.
 
-Las personas con EPOC a menudo tienen un sistema inmunológico comprometido debido a la enfermedad en sí y a los medicamentos utilizados para tratarla, como los corticosteroides, que pueden suprimir la respuesta inmunológica del cuerpo.
+En esta línea, las personas con EPOC a menudo tienen un sistema inmunológico debilitado debido a la enfermedad en sí y a los medicamentos utilizados para tratarla, como los corticosteroides, que pueden suprimir la respuesta inmunológica del cuerpo. 
 
-## Inflamación Crónica como Factor de Riesgo de la EPOC
+## La inflamación crónica como factor de riesgo de la EPOC
 
-La EPOC puede causar inflamación crónica en el cuerpo, lo que aumenta el riesgo de otras enfermedades. Esta inflamación sistémica puede contribuir a una mayor susceptibilidad a enfermedades como el Herpes Zóster.
+Muchas enfermedades crónicas causan inflamación a largo plazo en el cuerpo, lo que puede dañar los tejidos y órganos y aumentar el riesgo de otras enfermedades. Por su parte, la EPOC puede provocar una inflamación sistémica, lo que puede contribuir a una mayor susceptibilidad a enfermedades, incluido el Herpes Zóster.
 
-## Estrés como Agravante de las Enfermedades Crónicas
+## El estrés como agravante de las enfermedades crónicas
 
-El estrés y la fatiga asociados con la progresión de la EPOC también pueden contribuir al desarrollo de otras enfermedades, como el Herpes Zóster.
+Además, el estrés y la fatiga asociados con la progresión de una enfermedad crónica como la EPOC también pueden contribuir a la generación de otras enfermedades, siendo posible el desarrollo del Herpes Zóster.
 
-Si tienes EPOC y experimentas síntomas de Herpes Zóster, es crucial hablar con tu médico para obtener un diagnóstico adecuado y discutir las opciones de tratamiento.
+Si tenés EPOC y experimentás síntomas de Herpes Zóster, es importante hablar con tu médico para obtener un diagnóstico adecuado y discutir las opciones de tratamiento.
 
 **NP-AR-HZU-WCNT-230009**
 
@@ -190,7 +189,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -236,24 +235,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

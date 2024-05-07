@@ -16,32 +16,27 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 
 const info = `
-# Neuralgia Postherpética: Síntomas, Factores de Riesgo y Tratamiento
-
-El Herpes Zóster es una infección viral que produce una erupción dolorosa en la piel y que es causada por la reactivación del Virus Varicela-Zóster, el mismo virus que ocasiona la varicela. Una vez que la erupción cutánea desaparece, entre el 5% y el 30% de todos los casos de Herpes Zóster, pueden experimentar un dolor neuropático que puede persistir por meses o incluso años, y es lo que se conoce como Neuralgia Postherpética.
+## El Herpes Zóster es una infección viral que produce una erupción dolorosa en la piel y que es causada por la reactivación del Virus Varicela-Zóster, el mismo virus que ocasiona la varicela. Una vez que la erupción cutánea desaparece, entre el 5% y el 30% de todos los casos de Herpes Zóster, pueden experimentar un dolor neuropático que puede persistir por meses o incluso años, y es lo que se conoce como Neuralgia Postherpética.
+Esta afección puede ser muy debilitante y afectar significativamente la calidad de vida de quienes la padecen. En esta nota, hablaremos sobre qué es la Neuralgia Postherpética, cuáles son sus síntomas, su posible tratamiento y la prevención de esta complicación del Herpes Zóster. 
 
 ## ¿Qué es la Neuralgia Postherpética y por qué se genera?
-
-La Neuralgia Postherpética (NPH) es un dolor neuropático crónico, originado por una lesión o disfunción del sistema nervioso, que puede aparecer después de una infección por Herpes Zóster, enfermedad conocida coloquialmente como culebrilla. Es decir que, si bien la erupción superficial en la piel desaparece, el dolor persiste. En algunos casos, la Neuralgia Postherpética puede generar grandes complicaciones en la calidad de vida de la persona afectada.
+La Neuralgia Postherpética (NPH) es un dolor neuropático crónico, originado por una lesión o disfunción del sistema nervioso, que puede aparecer después de una infección por Herpes Zóster, enfermedad conocida coloquialmente como culebrilla. 
+Es decir que, si bien la erupción superficial en la piel desaparece, el dolor persiste. En algunos casos, la Neuralgia Postherpética puede generar grandes complicaciones en la calidad de vida de la persona afectada. 
 
 ## Síntomas de la Neuralgia Postherpética a los que debes prestar atención
-
-La Neuralgia Postherpética se caracteriza por un dolor que persiste más allá de los 3 meses luego de la desaparición de las lesiones en la piel y que suele ser descrito como quemante, punzante o pulsátil. El dolor se localiza en la zona afectada por el Herpes Zóster y puede llegar a ser muy intenso. Generalmente, afecta al tren superior del cuerpo humano, incluyendo cuello y rostro. Además del dolor, otras posibles manifestaciones de la NPH pueden incluir:
+La Neuralgia Postherpética se caracteriza por un dolor que persiste más allá de los 3 meses luego de la desaparición de las lesiones en la piel y que suele ser descrito como quemante, punzante o pulsátil. El dolor se localiza en la zona afectada por el Herpes Zóster y puede llegar a ser muy intenso. Generalmente, afecta al tren superior del cuerpo humano, incluyendo cuello y rostro. 
+Además del dolor, otras posibles manifestaciones de la NPH pueden incluir:
 - Sensación de picazón.
 - Entumecimiento.
 - Hipersensibilidad al tacto o ausencia de sensibilidad.
 - Debilidad muscular.
 
 ## Factores de riesgo de la Neuralgia Postherpética: quiénes tienen más riesgo de desarrollarla
+El principal factor de riesgo para desarrollar Neuralgia Postherpética es la edad avanzada, especialmente a partir de los 60 años. 
 
-El principal factor de riesgo para desarrollar Neuralgia Postherpética es la edad avanzada, especialmente a partir de los 60 años.
-
-## Posibles tratamientos de la Neuralgia Postherpética
-
-El tratamiento de la Neuralgia Postherpética puede ser largo, por lo que siempre se recomienda consultar con el médico especialista la alternativa más adecuada.
-
+## Posibles tratamiento de la Neuralgia Postherpética
+El tratamiento de la Neuralgia Postherpética puede ser largo, por lo que siempre se recomienda consultar con el médico especialista la alternativa más adecuada. 
 En conclusión, los dolores crónicos ocasionados por la Neuralgia Postherpética pueden afectar entre el 5% y el 30% de las personas que desarrollan Herpes Zóster, aunque es más frecuente en las personas de mayor edad, especialmente a partir de los 60 años. No olvides consultar con tu médico antes de iniciar cualquier tratamiento.
-
 
 NP-AR-HZU-WCNT-230001
 
@@ -215,7 +210,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -261,24 +256,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

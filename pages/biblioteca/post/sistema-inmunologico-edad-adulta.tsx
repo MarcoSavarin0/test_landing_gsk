@@ -17,7 +17,9 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 const info = `
 
-## Alimentos y suplementos para mantener un sistema inmunológico saludable en la edad adulta
+A medida que envejecemos, nuestro sistema inmunológico puede debilitarse, haciéndonos más susceptibles a infecciones y enfermedades. Es por eso que mantener una buena salud del sistema inmunológico en la edad adulta es fundamental para disfrutar de una vida plena y saludable. En este artículo, exploraremos diferentes estrategias que se pueden implementar para mantener tu sistema inmunológico fuerte y protegido.
+
+## Alimentos y Suplementos para un Sistema Inmunológico Saludable
 
 Una alimentación equilibrada es esencial para mantener un sistema inmunológico fuerte. Incluye en tu dieta alimentos ricos en vitaminas A, C y E, así como minerales como zinc y selenio. Algunos de estos alimentos incluyen:
 
@@ -27,27 +29,21 @@ Una alimentación equilibrada es esencial para mantener un sistema inmunológico
 - Frutos secos
 - Semillas
 
-Además, puedes considerar la ingesta de suplementos con el asesoramiento de tu médico.
+Además, podés considerar la ingesta de suplementos con el asesoramiento de tu médico.
 
-## Ejercicio y sueño: cómo mantener un sistema inmunológico fuerte en la edad adulta
+## Ejercicio y Sueño
 
-Realizar actividad física regularmente impacta positivamente en el sistema inmune. Trata de realizar ejercicios aeróbicos, como caminar o nadar, y combínalos con actividades de fuerza y flexibilidad.
+Realizar actividad física regularmente impacta positivamente en el sistema inmune. Tratá de realizar ejercicios aeróbicos, como caminar o nadar, y combínalos con actividades de fuerza y flexibilidad. Además, asegurate de dormir lo suficiente, ya que el sueño reparador es fundamental para la recuperación del organismo y la función inmunitaria.
 
-Además, asegúrate de dormir lo suficiente, ya que el sueño reparador es fundamental para la recuperación del organismo y la función inmunitaria.
+## Evitar Hábitos que Debilitan el Sistema Inmunológico
 
-## ¿Cómo evitar hábitos que debilitan el sistema inmunológico en la edad adulta?
+Algunos hábitos pueden debilitar tu sistema inmunológico, como el consumo excesivo de alcohol, fumar y llevar una vida sedentaria. Es importante tratar de reducir estos comportamientos y adoptar un estilo de vida más saludable para proteger tu sistema inmunológico. Asimismo, la soledad y el estrés crónico pueden tener un impacto negativo en tu sistema inmunológico. Te recomendamos mantener una vida social activa, así como aprender técnicas de manejo del estrés, como la meditación, el yoga o la respiración profunda.
 
-Algunos hábitos pueden debilitar tu sistema inmunológico, por ejemplo, el consumo excesivo de alcohol, fumar y llevar una vida sedentaria. Es importante tratar de reducir estos comportamientos y adoptar un estilo de vida más saludable para proteger tu sistema inmunológico.
+## Relación entre el Herpes Zóster y la Salud del Sistema Inmunológico
 
-Asimismo, la soledad y el estrés crónico pueden tener un impacto negativo en tu sistema inmunológico. Te recomendamos mantener una vida social activa, así como aprender técnicas de manejo del estrés, como la meditación, el yoga o la respiración profunda.
+El Herpes Zóster está directamente relacionado con la salud del sistema inmunológico, ya que la reactivación del virus de la varicela-zóster (VVZ), que provoca el Herpes Zóster, ocurre cuando el sistema inmunológico se debilita. Cuando una persona se infecta con varicela, el virus VVZ permanece en el organismo en estado latente, alojándose en los ganglios nerviosos. En algunas personas, especialmente aquellas con un sistema inmunológico mayormente debilitado, el virus puede reactivarse y causar el Herpes Zóster.
 
-## ¿En qué se relaciona el Herpes Zóster con la salud del sistema inmunológico?
-
-El Herpes Zóster está directamente relacionado con la salud del sistema inmunológico, ya que la reactivación del virus de la varicela-zóster (VVZ), que provoca el Herpes Zóster, ocurre cuando el sistema inmunológico se debilita.
-
-Cuando una persona se infecta con varicela, el virus VVZ permanece en el organismo en estado latente, alojándose en los ganglios nerviosos. En algunas personas, especialmente aquellas con un sistema inmunológico mayormente debilitado, el virus puede reactivarse y causar el Herpes Zóster.
-
-Tal como lo mencionamos anteriormente, el sistema inmunológico puede debilitarse por diversas razones, como:
+El sistema inmunológico puede debilitarse por diversas razones, como:
 
 - Envejecimiento
 - Estrés
@@ -56,9 +52,9 @@ Tal como lo mencionamos anteriormente, el sistema inmunológico puede debilitars
 - Cáncer
 - Tratamientos médicos como la quimioterapia y la radioterapia, entre otros.
 
-Cuando el sistema inmunológico no funciona de manera óptima, el cuerpo tiene dificultades para combatir infecciones y enfermedades.
+Cuando el sistema inmunológico no funciona de manera óptima, el cuerpo tiene dificultades para combatir infecciones y enfermedades. Si sospechás que tenés algún síntoma de Herpes Zóster o tu sistema inmunológico está debilitado, no dudes en consultar a un médico.
 
-Si sospechas que tienes algún síntoma de Herpes Zóster o tu sistema inmunológico está debilitado, no dudes en consultar a un médico.
+**NP-AR-HZU-WCNT-230013**
 
 `
 
@@ -212,7 +208,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -258,24 +254,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

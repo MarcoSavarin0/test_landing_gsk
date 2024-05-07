@@ -17,53 +17,44 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 const info = `
 
-# Cuidado del Bienestar Emocional en Adultos Mayores
 
-A medida que envejecemos, es crucial abordar diversos aspectos para mantener nuestro bienestar emocional y cognitivo. En este artículo, exploraremos prácticas y consejos para cuidar la salud emocional en adultos mayores, incluyendo la actividad física, las relaciones sociales, la alimentación, el sueño y el ejercicio mental.
+A medida que envejecemos, enfrentamos diversos desafíos que pueden afectar nuestro bienestar emocional y cognitivo. En este artículo, exploraremos las mejores prácticas y consejos para cuidar el bienestar emocional en los adultos mayores, abordando temas como la actividad física, las relaciones sociales, la alimentación, el sueño y la importancia de ejercitar la mente.
 
 ## Importancia de la Actividad Física y Mental
 
-### Actividad Física
-El ejercicio regular libera endorfinas, sustancias químicas que promueven el bienestar emocional y la salud cardiovascular, influyendo positivamente en nuestro estado emocional.
+La actividad física es esencial para mantener el bienestar emocional. El ejercicio regular ayuda a liberar endorfinas, sustancias químicas que generan sensación de bienestar y felicidad. Además, favorece la salud cardiovascular y el control del peso, influyendo directamente en nuestro estado emocional. Mantener la mente activa es igualmente importante para preservar las habilidades mentales y retrasar el deterioro cognitivo.
 
-### Ejercicio Mental
-Mantener la mente activa, a través de actividades como resolver puzzles o aprender cosas nuevas, preserva las habilidades mentales y ayuda a retrasar el deterioro cognitivo.
-
-## Ejercicios Mentales Recomendados
+### Ejercicios Mentales Recomendados
 
 - Resolver puzzles y rompecabezas
 - Practicar habilidades matemáticas básicas
 - Aprender un nuevo idioma o habilidad
 - Leer y discutir libros o artículos
-- Jugar juegos de mesa que impliquen estrategia y memoria
+- Jugar a juegos de mesa o cartas que impliquen estrategia y memoria
 
-## Impacto de las Relaciones Sociales
+## Relaciones Sociales y Bienestar Emocional
 
-Las relaciones sociales son fundamentales para combatir la soledad y el aislamiento, contribuyendo al bienestar emocional.
+Las relaciones sociales juegan un papel fundamental en el bienestar emocional de los adultos mayores. Mantener vínculos afectivos y establecer nuevas amistades ayuda a combatir la soledad y el aislamiento, factores que pueden afectar negativamente el bienestar emocional.
 
-## Efectos Negativos de la Soledad
+## Alimentación y Sueño
 
-La soledad puede aumentar el riesgo de depresión y ansiedad en adultos mayores, por lo que es importante mantenerse socialmente activo y buscar apoyo emocional.
-
-## Importancia de la Alimentación y el Sueño
-
-- Una dieta equilibrada rica en nutrientes esenciales contribuye a mantener el cerebro en óptimas condiciones.
-- Dormir lo suficiente mejora la memoria y las funciones cognitivas.
+Una dieta equilibrada, rica en nutrientes esenciales, contribuye a mantener el cerebro en óptimas condiciones y prevenir enfermedades degenerativas. Además, dormir lo suficiente es fundamental para el bienestar emocional, permitiendo al cerebro descansar y regenerarse, mejorando la memoria y las funciones cognitivas.
 
 ## Relación entre Bienestar Emocional y Herpes Zóster
 
-Aunque no existe una relación directa, el bienestar emocional puede influir en la capacidad del cuerpo para enfrentar enfermedades como el Herpes Zóster.
+Aunque no existe una relación directa entre el bienestar emocional y el Herpes Zóster, mantenerse saludable en general puede contribuir a un sistema inmunológico más fuerte y una mejor capacidad para prevenir y manejar la enfermedad.
 
 ### Fortalecimiento del Sistema Inmunológico
-El manejo del estrés y el bienestar emocional pueden fortalecer el sistema inmunológico, ayudando a prevenir la aparición o recurrencia del Herpes Zóster.
+
+El estrés crónico, la ansiedad y la depresión pueden debilitar el sistema inmunológico, haciendo que el cuerpo sea más susceptible a infecciones y enfermedades, incluido el Herpes Zóster. Practicar técnicas de manejo del estrés y mantener el bienestar emocional puede contribuir a un sistema inmunológico más fuerte.
 
 ### Reducción del Dolor Crónico
-El bienestar emocional puede contribuir a reducir el dolor crónico asociado con complicaciones del Herpes Zóster.
 
-En resumen, cuidar el bienestar emocional en general puede contribuir a una mejor salud física y mental en adultos mayores. Si necesitas apoyo emocional, no dudes en consultar a un médico para recibir el tratamiento adecuado.
+El Herpes Zóster puede causar una complicación llamada neuralgia postherpética, un dolor crónico que persiste después de la desaparición de las lesiones cutáneas.
+
+En resumen, cuidar el bienestar emocional en adultos mayores es esencial para mantener una buena salud en general y puede influir en la capacidad del cuerpo para enfrentar enfermedades como el Herpes Zóster. Si necesitas apoyo para mejorar tu bienestar emocional, consulta a tu médico para recibir el tratamiento adecuado.
 
 **NP-AR-HZU-WCNT-230009**
-
 
 
 
@@ -226,7 +217,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -272,24 +263,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />

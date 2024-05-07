@@ -16,38 +16,38 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 
 const info = `
-# Relación entre la Diabetes y el Herpes Zóster
 
-La diabetes y el Herpes Zóster son dos condiciones de salud distintas, pero en algunos casos, pueden estar relacionadas. En este artículo, exploraremos esta conexión y cómo las personas con diabetes pueden estar en mayor riesgo de desarrollar Herpes Zóster.
+La diabetes es una enfermedad crónica que afecta a millones de personas en todo el mundo, y el Herpes Zóster es una infección viral que provoca una erupción dolorosa en la piel. Aunque a primera vista, estas dos condiciones parecen no tener conexión, en algunos casos, puede existir una relación entre el Herpes Zóster y la diabetes. En este artículo, desarrollaremos esta posible relación y cómo las personas con diabetes pueden estar en mayor riesgo de desarrollar Herpes Zóster.
 
 ## ¿Qué es la Diabetes?
 
-La diabetes es una enfermedad crónica que afecta la capacidad del cuerpo para regular los niveles de azúcar en la sangre. Existen dos tipos principales de diabetes:
+Antes de ver en qué punto se relacionan la diabetes con el Herpes Zóster, entendamos un poco más sobre esta enfermedad. La diabetes es una enfermedad crónica que se produce cuando el cuerpo no es capaz de regular adecuadamente los niveles de azúcar (glucosa) en la sangre. La glucosa es la principal fuente de energía para las células del cuerpo y proviene de los alimentos que consumimos. Este proceso está directamente relacionado a la insulina, una hormona producida por el páncreas, ayuda a que la glucosa entre en las células para ser utilizada como energía.
 
-### Diabetes Tipo 1
-- Enfermedad autoinmune que destruye las células productoras de insulina.
-- Requiere inyecciones de insulina para regular los niveles de glucosa en la sangre.
+## ¿Cuáles son los Tipos de Diabetes?
 
-### Diabetes Tipo 2
-- El cuerpo no utiliza la insulina de manera eficiente o no produce suficiente insulina.
-- Puede ser manejada con cambios en la dieta, actividad física y, en algunos casos, medicamentos.
+Existen dos tipos principales de diabetes: la diabetes tipo 1 y la diabetes tipo 2. La diabetes tipo 1 es una enfermedad autoinmune en la cual el sistema inmunológico ataca y destruye las células productoras de insulina en el páncreas. Las personas con diabetes tipo 1 necesitan inyecciones de insulina de por vida para regular sus niveles de glucosa en la sangre. Por su parte, la diabetes tipo 2 es la forma más común de diabetes y ocurre cuando el cuerpo no utiliza la insulina de manera eficiente, es decir que provoca una resistencia a la insulina, o cuando el páncreas no produce suficiente insulina para mantener los niveles de glucosa en la sangre dentro de un rango normal. La diabetes tipo 2 puede ser manejada mediante cambios en la dieta, actividad física, medicamentos y, en algunos casos, también con inyecciones de insulina.
 
-## Consecuencias de la Diabetes
+## ¿Cuáles son las Consecuencias de la Diabetes?
 
-La diabetes mal controlada puede tener graves complicaciones a largo plazo, incluyendo enfermedades cardiovasculares, daño renal, problemas de visión y daño en los nervios.
+La diabetes mal controlada puede tener serias complicaciones a largo plazo:
+- Enfermedades cardiovasculares
+- Daño renal
+- Problemas de visión
+- Daño en los nervios
 
-## Influencia de la Diabetes en el Riesgo de Herpes Zóster
+Por lo tanto, es fundamental para las personas con diabetes llevar un control adecuado de sus niveles de glucosa en sangre y seguir las recomendaciones médicas para reducir el riesgo de complicaciones.
 
-La diabetes puede debilitar el sistema inmunitario, lo que aumenta la susceptibilidad a enfermedades como el Herpes Zóster. Estudios han demostrado que las personas con diabetes tienen un 20% más de riesgo de desarrollar Herpes Zóster que aquellas sin diabetes.
+## Influencia de la Diabetes en el Riesgo de Desarrollar Herpes Zóster
+
+La relación entre el Herpes Zóster y la diabetes se debe principalmente al efecto que tiene la diabetes en el sistema inmunológico. La diabetes puede debilitar el sistema inmunitario, lo que hace que las personas con diabetes sean más susceptibles a enfermedades como por ejemplo el Herpes Zóster. Algunos estudios han demostrado que las personas con diabetes tienen un 20% más de riesgo de desarrollar Herpes Zóster que las personas sin diabetes.
 
 ## Control de la Diabetes y Prevención del Herpes Zóster
 
-Mantener un buen control de la diabetes es crucial para reducir el riesgo de desarrollar Herpes Zóster. Al mantener los niveles de azúcar en sangre bajo control, se fortalece el sistema inmunológico y se reduce la probabilidad de infecciones. Además, llevar un estilo de vida saludable, como mantener una dieta equilibrada y hacer ejercicio regularmente, también puede ayudar a prevenir el Herpes Zóster.
+Mantener un buen control de la diabetes es esencial para reducir el riesgo de desarrollar Herpes Zóster. Al mantener los niveles de azúcar en sangre bajo control, las personas con diabetes pueden fortalecer su sistema inmunológico y disminuir la probabilidad de infecciones. Además, llevar un estilo de vida saludable, como mantener una dieta equilibrada y hacer ejercicio regularmente, también puede ayudar a fortalecer el sistema inmunológico y prevenir el Herpes Zóster.
 
-En conclusión, la relación entre la diabetes y el Herpes Zóster se debe al efecto debilitante que la diabetes tiene en el sistema inmunológico. Si tienes diabetes, es esencial hablar con tu médico sobre las medidas preventivas para mantener una buena salud y prevenir el desarrollo de Herpes Zóster.
+De esta manera, la relación entre el Herpes Zóster y la diabetes se debe al efecto debilitante que tiene la diabetes en el sistema inmunológico, lo que aumenta el riesgo de tener otras infecciones y enfermedades. Si tenés diabetes, es fundamental hablar con tu médico acerca de las medidas que podés tomar para prevenir el Herpes Zóster y mantener una buena salud en general.
 
 **NP-AR-HZU-WCNT-230009**
-
 
 
 
@@ -197,7 +197,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -243,24 +243,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />
