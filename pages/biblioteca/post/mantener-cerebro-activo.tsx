@@ -78,7 +78,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 			{
 				"id": 1,
 				"attributes": {
-					"title": "¿Hay relación entre el Herpes Zóster y la diabetes? La diabetes como faConsejos para mantener el cerebro activo después de los 60 años",
+					"title": "Consejos para mantener el cerebro activo después de los 60 años",
 					"image": "mantener-cerebro-activo",
 					"metatitle": "¿Cómo mantener el cerebro activo después de los 60 años? ",
 					"metadescription": "Descubrí cómo mantener el cerebro activo después de los 60 años y aprendé a prevenir el deterioro cognitivo. ¡Disfrutá una vida plena!",
