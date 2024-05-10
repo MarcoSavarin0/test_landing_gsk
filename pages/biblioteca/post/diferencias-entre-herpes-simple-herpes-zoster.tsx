@@ -59,7 +59,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 				"id": 1,
 				"attributes": {
 					"title": "Herpes Simple: ¿en qué se diferencia del Herpes Zóster?",
-					"image": "diferencias-entre-herpes-simple-herpes-zoster",
+					"image": "herpessimple",
 					"metatitle": "Diferencias entre el Herpes Zóster y el Herpes Simple",
 					"metadescription": "Conocé las diferencias entre el Herpes Simple y el Herpes Zóster. Te contamos sus causas y síntomas. ¡Aprendé más y cuidá tu salud!",
 					"slug": "note-slug",
@@ -138,7 +138,7 @@ const toBase64 = (str: string) =>
 		: window.btoa(str)
 
 const Blog = ({ nota }: any) => {
-	const { title, image, metatitle, metadescription, slug } = nota.data[0].attributes
+	const { title, metatitle, metadescription, slug } = nota.data[0].attributes
 
 	
 
@@ -183,7 +183,7 @@ const Blog = ({ nota }: any) => {
 			<>
 				<div className="space-y-8 pb-10">
 					<div className="flex w-full h-96 md:h-[25rem] lg:h-[34rem] xl:h-[42rem] overflow-hidden">
-						<Image src={`https://gsk-hdz.b-cdn.net/notas/${image}.webp`}
+						<Image src={`https://gsk-hdz-2.b-cdn.net/posts/herpessimple.jpeg`}
 							className="w-full h-auto object-cover" alt="Post" width={1920} height={1080}
 							placeholder="blur"
 							blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(1920, 1080))}`}

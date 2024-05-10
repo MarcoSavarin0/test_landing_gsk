@@ -213,7 +213,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 

@@ -31,17 +31,34 @@ const Post = ({image, title, slug}: Post) => {
 		<Link href={`/biblioteca/post/${slug}`}>
 			<article className="group w-full h-auto sm:h-full rounded-xl shadow-md hover:shadow-xl active:shadow-md space-y-3 pb-4 bg-white hover:bg-gsk-orange transition ease-out duration-300 overflow-hidden">
 				<div className="overflow-hidden flex">
-					<Image src={`https://gsk-hdz.b-cdn.net/notas/${image}.webp`}
-						className="w-full group-hover:scale-105 transition-transform ease-in-out duration-500" alt={title} width={600} height={337}
-						placeholder="blur"
-						blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(600, 337))}`}
-					/>
+					{image === 'https://gsk-hdz-2.b-cdn.net/posts/herpessimple.jpeg' ? (
+						<Image
+							src={`https://gsk-hdz-2.b-cdn.net/posts/herpessimple.jpeg`}
+							className="w-full group-hover:scale-105 transition-transform ease-in-out duration-500"
+							alt={title}
+							width={600}
+							height={337}
+							placeholder="blur"
+							blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(600, 337))}`}
+						/>
+					) : (
+						<Image
+							src={`https://gsk-hdz.b-cdn.net/notas/${image}.webp`}
+							className="w-full group-hover:scale-105 transition-transform ease-in-out duration-500"
+							alt={title}
+							width={600}
+							height={337}
+							placeholder="blur"
+							blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(600, 337))}`}
+						/>
+					)}
 				</div>
 				<div className="px-4 text-gsk-orange group-hover:text-white transition-colors ease-out duration-100">
 					{/* <span className="text-xs">DATE</span> */}
 					<h3 className="text-xl">{title}</h3>
 				</div>
 			</article>
+
 		</Link>
 	)
 }

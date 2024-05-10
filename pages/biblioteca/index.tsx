@@ -179,7 +179,7 @@ export const getStaticProps: GetStaticProps = async () => {
 			{
 				"id": 21,
 				"attributes": {
-					"image": "diferencias-simple-zoster",
+					"image": "https://gsk-hdz-2.b-cdn.net/posts/herpessimple.jpeg",
 					"title": "Herpes Simple: ¿en qué se diferencia del Herpes Zóster?",
 					"slug": "diferencias-entre-herpes-simple-herpes-zoster"
 				}
@@ -212,7 +212,7 @@ export const getStaticProps: GetStaticProps = async () => {
 				"id": 25,
 				"attributes": {
 					"image": "mantener-cerebro-activo",
-					"title": "¿Hay relación entre el Herpes Zóster y la diabetes? La diabetes como faConsejos para mantener el cerebro activo después de los 60 años ",
+					"title": "Consejos para mantener el cerebro activo después de los 60 años ",
 					"slug": "mantener-cerebro-activo"
 				}
 			},

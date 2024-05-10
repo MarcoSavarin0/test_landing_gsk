@@ -213,7 +213,7 @@ const Blog = ({ nota }: any) => {
 					</div>
 
 					<div className="flex flex-col lg:flex-row px-12 gap-x-14">
-						<article className="flex flex-col flex-1 gap-y-4">
+						<article className="flex flex-col flex-1 gap-y-4 texto">
 							<header className="space-y-6">
 								{/* <span className="text-xs">01/04/2023 · 8 MINUTOS DE LECTURA</span> */}
 
@@ -259,24 +259,7 @@ const Blog = ({ nota }: any) => {
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
 						</article>
-						<aside className="md:w-2/12 mt-10 border-l-0 lg:border-l pl-0 lg:pl-6 h-fit pb-4 space-y-8">
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Categorías</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={categoria.data.attributes.title} slug={categoria.data.attributes.slug} param={`categoria`}/> */}
-									</li>
-								</ul>
-							</div>
-							<div className="space-y-2">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Tags</h3>
-								<ul className="flex flex-row lg:flex-col gap-4 flex-nowrap lg:flex-wrap">
-									<li>
-										{/* <CategoryButton title={tags.data[0].attributes.tag} slug={tags.data[0].attributes.slug} param={`tags`}/> */}
-									</li>
-								</ul>
-							</div>
-						</aside>
+						
 					</div>
 				</div>
 				<Banner />
