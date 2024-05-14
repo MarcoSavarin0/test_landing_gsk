@@ -16,8 +16,10 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 
 const info = `
-## El Virus Varicela Zóster es el causante del Herpes Zóster, una infección viral que produce una erupción dolorosa en la piel. Una de sus complicaciones es el Herpes Zóster Oftálmico que, en el peor de los casos, puede derivar en una pérdida parcial o total de la visión.
+El Virus Varicela Zóster es el causante del Herpes Zóster, una infección viral que produce una erupción dolorosa en la piel. Una de sus complicaciones es el Herpes Zóster Oftálmico que, en el peor de los casos, puede derivar en una pérdida parcial o total de la visión.
+
 En esta nota, veremos cuáles son los síntomas del Herpes Zóster Oftálmico, quiénes son más propensos a contraerlo y qué posibles tratamientos se pueden llevar a cabo.
+
 Si pensás que estás sufriendo esta enfermedad, no dudes en consultar a tu médico o médica.
 ## ¿Qué es el Herpes Zóster Oftálmico?
 El Herpes Zóster Oftálmico es una complicación del virus del Herpes Zóster que afecta al nervio trigémino, uno de los nervios craneales que se ubica en la cara y la región ocular.
@@ -33,11 +35,13 @@ El Herpes Zóster Oftálmico se presenta en una variedad de síntomas que incluy
 - Ampollas y costras en la piel de la frente y la nariz.
 - Fotofobia (sensibilidad a la luz).
 - Escleritis.
+
 ## ¿Qué población está considerada como factor de riesgo del Herpes Zóster Oftálmico?
 El Herpes Zóster Oftálmico puede desarrollarse cuando las lesiones se producen en la cara. El riesgo de desarrollar Herpes Zóster aumenta con la edad, aunque otros factores que pueden aumentar el riesgo incluyen:
 - El estrés.
 - El debilitamiento del sistema inmunológico.
 - Ciertas enfermedades crónicas.
+
 ## Prevención del Herpes Zóster Oftálmico
 Se recomienda consultar con el profesional de salud de cabecera para conocer las opciones de prevención y tratamiento del Herpes Zóster y, consecuentemente, evitar su complicación  oftálmica. 
 

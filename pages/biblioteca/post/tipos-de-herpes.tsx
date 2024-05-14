@@ -16,13 +16,24 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 
 const info = `
-# La Familia de Virus del Herpes Humano: Tipos, Síntomas y Prevención
+La familia de virus del herpes humano (HHV) es causa de varias infecciones muy comunes en la población. Aunque muchas personas pueden no ser conscientes de ello, existen varios tipos diferentes, cada uno con sus propias características y manifestaciones clínicas. 
 
-La familia de virus del herpes humano (HHV) es causa de varias infecciones muy comunes en la población. Aunque muchas personas pueden no ser conscientes de ello, existen varios tipos diferentes, cada uno con sus propias características y manifestaciones clínicas. Conocer estos diferentes tipos de enfermedades es esencial para aprender a identificar los síntomas específicos de cada uno y buscar atención médica adecuada cuando sea necesario. Además, entender las diferencias entre las diferentes manifestaciones puede ayudar a prevenir la transmisión del virus a otras personas. En esta nota te contamos acerca de las 6 enfermedades más importantes de esta familia de virus:
+Conocer estos diferentes tipos de enfermedades es esencial para aprender a identificar los síntomas específicos de cada uno y buscar atención médica adecuada cuando sea necesario. 
+
+Además, entender las diferencias entre las diferentes manifestaciones puede ayudar a prevenir la transmisión del virus a otras personas. En esta nota te contamos acerca de las 6 enfermedades más importantes de esta familia de virus:
+- Virus del Herpes Simple Tipo 1
+- Virus del Herpes Simple Tipo 2
+- Virus de la Varicela-Zóster
+- Virus de Epstein-Barr
+- Citomegalovirus
+- Herpesvirus humano tipo 6
+
 
 ## Virus del Herpes Simple Tipo 1
 
-El VHS-1 o Virus de Herpes Simple tipo 1 es más conocido por causar infecciones orales, como el Herpes Labial. La transmisión ocurre principalmente a través del contacto cercano con una persona infectada. Aunque es más común en la región oral, también puede causar infecciones genitales a través del contacto oral-genital. 
+El VHS-1 o Virus de Herpes Simple tipo 1 es más conocido por causar infecciones orales, como el Herpes Labial. La transmisión ocurre principalmente a través del contacto cercano con una persona infectada. 
+
+Aunque es más común en la región oral, también puede causar infecciones genitales a través del contacto oral-genital. 
 
 ### Síntomas del Herpes Simple tipo 1
 
@@ -30,7 +41,9 @@ Los síntomas del VHS-1 pueden variar desde leves hasta severos y pueden incluir
 
 ## Virus del Herpes Simple Tipo 2
 
-El VHS-2 o Herpes Simple del tipo 2 es el principal causante del Herpes Genital, una infección de transmisión sexual que se contagia mediante el contacto sexual, incluidos el sexo oral, vaginal y anal. Es importante saber que se puede contraer el herpes genital de una pareja sexual que no tenga una lesión visible o que no sepa de su infección, al ser un paciente asintomático.
+El VHS-2 o Herpes Simple del tipo 2 es el principal causante del Herpes Genital, una infección de transmisión sexual que se contagia mediante el contacto sexual, incluidos el sexo oral, vaginal y anal. 
+
+Es importante saber que se puede contraer el herpes genital de una pareja sexual que no tenga una lesión visible o que no sepa de su infección, al ser un paciente asintomático.
 
 ### Síntomas del Herpes Simple tipo 2
 
@@ -38,9 +51,11 @@ Las personas infectadas pueden experimentar la aparición de lesiones tipo ampol
 
 ## Virus de la Varicela-Zóster
 
-Es muy común confundir al Herpes Zóster con el Herpes Simple, sin embargo, la principal diferencia radica en el tipo de virus que los causa y en sus manifestaciones clínicas. El Virus Varicela Zóster causa la varicela.
+Es muy común confundir al Herpes Zóster con el Herpes Simple, sin embargo, la principal diferencia radica en el tipo de virus que los causa y en sus manifestaciones clínicas. 
 
-### Síntomas del Virus de la Varicela-Zóster
+El Virus Varicela Zóster causa la varicela.
+
+### ¿Cuáles son los síntomas de este tipo de Herpes? 
 
 El Herpes Zóster se presenta como un sarpullido doloroso y vesículas en un área específica del cuerpo, generalmente afecta un solo lado. En su evolución, puede causar complicaciones como la neuralgia postherpética, que se manifiesta como dolor crónico en el área afectada.
 
@@ -54,17 +69,27 @@ Los síntomas pueden incluir fiebre, inflamación de los ganglios linfáticos, f
 
 ## Citomegalovirus (CMV)
 
-El Citomegalovirus puede causar síntomas similares a los de la mononucleosis en algunas personas, aunque muchas personas infectadas no presentan síntomas. La transmisión del Citomegalovirus puede ocurrir a través de contacto cercano con una persona infectada, transfusiones de sangre, trasplantes de órganos y de madre a hijo durante el embarazo. En personas con sistemas inmunológicos debilitados, el CMV puede causar enfermedades graves, como neumonía o retinitis.
+El Citomegalovirus puede causar síntomas similares a los de la mononucleosis en algunas personas, aunque muchas personas infectadas no presentan síntomas. 
+
+La transmisión del Citomegalovirus puede ocurrir a través de contacto cercano con una persona infectada, transfusiones de sangre, trasplantes de órganos y de madre a hijo durante el embarazo. 
+
+En personas con sistemas inmunológicos debilitados, el CMV puede causar enfermedades graves, como neumonía o retinitis.
 
 ## Herpesvirus Humano Tipo 6 (HHV-6)
 
 El HHV-6 es el principal causante de la roséola infantil, también conocida como sexta enfermedad o exantema súbito post febril, una enfermedad viral que afecta principalmente a niños menores de 2 años.
 
-### Síntomas del Herpesvirus Humano Tipo 6
+### ¿Cuáles son los síntomas de este tipo de Herpes? 
 
-La infección por este tipo de virus se caracteriza por una fiebre alta que dura de 3 a 5 días, seguida de la aparición de una erupción cutánea de color rosa o rojo. Esta erupción generalmente comienza en el tronco y luego se extiende a los brazos y las piernas. Otros síntomas pueden incluir irritabilidad, hinchazón de los ganglios linfáticos y diarrea. La mayoría de los casos de roséola son leves y se resuelven sin tratamiento específico, pero en raras ocasiones puede causar complicaciones como convulsiones febriles o encefalitis.
+La infección por este tipo de virus se caracteriza por una fiebre alta que dura de 3 a 5 días, seguida de la aparición de una erupción cutánea de color rosa o rojo. Esta erupción generalmente comienza en el tronco y luego se extiende a los brazos y las piernas. Otros síntomas pueden incluir irritabilidad, hinchazón de los ganglios linfáticos y diarrea. 
 
-Al estar informados acerca de todas estas enfermedades causadas por virus de la familia herpes, podemos estar mejor preparados para identificar los signos y síntomas tempranos de la infección, lo que nos permite buscar atención médica adecuada cuando sea necesario. Además, al comprender las diferencias entre los tipos de Herpes, podemos tomar medidas para prevenir la transmisión del virus a otras personas. Al seguir estos pasos, no solo protegemos nuestra salud, sino también la salud de aquellos a nuestro alrededor. Si sospechás que puedes estar experimentando alguno de los síntomas descriptos en esta nota, es crucial que consultes con un equipo médico para recibir el diagnóstico y tratamiento adecuados.
+La mayoría de los casos de roséola son leves y se resuelven sin tratamiento específico, pero en raras ocasiones puede causar complicaciones como convulsiones febriles o encefalitis.
+
+Al estar informados acerca de todas estas enfermedades causadas por virus de la familia herpes, podemos estar mejor preparados para identificar los signos y síntomas tempranos de la infección, lo que nos permite buscar atención médica adecuada cuando sea necesario. 
+
+Además, al comprender las diferencias entre los tipos de Herpes, podemos tomar medidas para prevenir la transmisión del virus a otras personas. Al seguir estos pasos, no solo protegemos nuestra salud, sino también la salud de aquellos a nuestro alrededor. 
+
+Si sospechás que puedes estar experimentando alguno de los síntomas descriptos en esta nota, es crucial que consultes con un equipo médico para recibir el diagnóstico y tratamiento adecuados.
 
 **NP-AR-HZU-WCNT-230006**
 

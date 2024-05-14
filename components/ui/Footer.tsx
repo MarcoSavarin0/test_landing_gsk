@@ -55,7 +55,7 @@ const Footer = () => {
 								/>
 							</svg>
 						</Link>
-						<Link href={`https://www.instagram.com/hablemosdezoster/`} target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
+						<Link href={`https://youtube.com/playlist?list=PLvDyxtKlIcniM9DFjtI0Oipm4hfzKHdfT&si=W2bwALEZ3dn0jfDT`} target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
 							<span className="sr-only">Youtube</span>
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-9 md:h-7 w-9 md:w-7" aria-hidden="true">
 								<path

@@ -6,7 +6,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const Navbar = () => {
 	const [showDropdown, setShowDropdown] = useState(false)
-
+	const closeDropdown = () => {
+		setShowDropdown(false)
+	}
 	return (
 		<Disclosure as="header" className="bg-gsk-dark" id="nav">
 			{({ open }) => (
@@ -43,7 +45,7 @@ const Navbar = () => {
 										En primera persona
 									</Link>
 									<div className="relative">
-										<div className="cursor-pointer text-white md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300 dropdown" onClick={() => setShowDropdown(!showDropdown)}>
+										<div className="cursor-pointer text-white md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300 dropdown" onMouseOver={() => setShowDropdown(!showDropdown)}>
 											Iniciativas
 											<svg className="-mr-1 ml-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 												<path fillRule="evenodd" d="M6.293 7.293a1 1 0 011.414 0L10 9.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -51,8 +53,21 @@ const Navbar = () => {
 										</div>
 										{showDropdown && (
 											<div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg z-10">
-												<Link href="/conciencia" scroll={false} className="block px-4 py-2 text-gray-800 hover:text-gsk-orange hover:underline">
+												<Link
+													href="/conciencia"
+													scroll={false}
+													className="block px-4 py-2 text-gray-800 hover:text-gsk-orange hover:underline"
+													onClick={closeDropdown}
+												>
 													Semana de la Concientización
+												</Link>
+												<Link
+													href="/hz90"
+													scroll={false}
+													className="block px-4 py-2 text-gray-800 hover:text-gsk-orange hover:underline"
+													onClick={closeDropdown}
+												>
+													HZ_90
 												</Link>
 											</div>
 										)}
@@ -60,10 +75,6 @@ const Navbar = () => {
 									<Link href="/biblioteca" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										Blog
 									</Link>
-									{/* <Link href="/hz90" scroll={false}
-            className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
-            HZ_90
-        </Link> */}
 								</div>
 							</nav>
 

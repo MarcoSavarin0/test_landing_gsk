@@ -21,7 +21,9 @@ El Eczema es una irritación en la piel que genera incomodidad y picazón. ¿Sab
 
 ## ¿Qué es el Eczema?
 
-El Eczema es una enfermedad inflamatoria crónica de la piel que afecta a millones de personas en todo el mundo. Se caracteriza por la aparición de erupciones rojas, descamación, picazón e inflamación. Aunque es más común en niños, también puede afectar a adultos. La causa del Eczema aún no se conoce con exactitud, pero se cree que es una combinación de factores genéticos y ambientales.
+El Eczema es una enfermedad inflamatoria crónica de la piel que afecta a millones de personas en todo el mundo. Se caracteriza por la aparición de erupciones rojas, descamación, picazón e inflamación. 
+
+Aunque es más común en niños, también puede afectar a adultos. La causa del Eczema aún no se conoce con exactitud, pero se cree que es una combinación de factores genéticos y ambientales.
 
 ## Síntomas del Eczema
 
@@ -42,23 +44,29 @@ Para conocer si tenés o no Eczema, el especialista al cual acudís debe realiza
 
 ## Causas del Eczema
 
-El Eczema es una afección cutánea inflamatoria crónica cuyas causas pueden ser diversas y, en muchos casos, difíciles de identificar. No obstante, se ha observado que existen factores que pueden contribuir al desarrollo del Eczema. Algunas de las causas y factores de riesgo más comunes incluyen:
-- Genética
-- Alergias
-- Factores ambientales
-- Cambios climáticos
-- Estrés
-- Condiciones de la piel
-- Sistema inmunológico
+El Eczema es una afección cutánea inflamatoria crónica cuyas causas pueden ser diversas y, en muchos casos, difíciles de identificar. 
+
+No obstante, se ha observado que existen factores que pueden contribuir al desarrollo del Eczema. Algunas de las causas y factores de riesgo más comunes incluyen:
+- Genética: La predisposición genética juega un papel importante en el Eczema. Si uno o ambos padres tienen Eczema, asma o rinitis alérgica, es más probable que sus hijos también padezcan Eczema.
+- Alergias: Las alergias a ciertos alimentos, sustancias químicas o materiales pueden desencadenar brotes de Eczema en algunas personas.
+- Factores ambientales: El contacto con irritantes como detergentes, jabones, perfumes, sustancias químicas y polvo, puede provocar la aparición de Eczema en individuos susceptibles.
+- Cambios climáticos: Los cambios bruscos de temperatura, la humedad y la exposición al calor o al frío extremo pueden agravar el Eczema.
+- Estrés: Si bien el estrés no es una causa directa del Eczema, puede empeorar los síntomas en algunas personas, ya que puede afectar el sistema inmunológico.
+- Condiciones de la piel: Algunas personas con piel seca o con otras enfermedades cutáneas como la dermatitis atópica tienen mayor riesgo de desarrollar Eczema.
+- Sistema inmunológico: El Eczema puede estar relacionado con un sistema inmunológico que responde de manera exagerada a ciertos estímulos, provocando inflamación en la piel.
+
 
 ## ¿En qué se relaciona el Eczema con el Herpes Zóster?
 
-Aunque el Eczema y el Herpes Zóster son dos afecciones cutáneas distintas, pueden compartir algunos síntomas. Por un lado, el herpes zóster, también conocido como culebrilla, es una infección causada por el virus varicela-zóster, el mismo que provoca la varicela. En la etapa aguda de esta enfermedad luego de una persistente sensación de dolor y picazón en la piel, aparecen ampollas agrupadas rodeadas de enrojecimiento. Por el otro, el Eczema es una condición de la piel común y molesta que puede afectar tanto a niños como a adultos.
+Aunque el Eczema y el Herpes Zóster son dos afecciones cutáneas distintas, pueden compartir algunos síntomas. 
+
+Por un lado, el herpes zóster, también conocido como culebrilla, es una infección causada por el virus varicela-zóster, el mismo que provoca la varicela. En la etapa aguda de esta enfermedad luego de una persistente sensación de dolor y picazón en la piel, aparecen ampollas agrupadas rodeadas de enrojecimiento. 
+
+Por el otro, el Eczema es una condición de la piel común y molesta que puede afectar tanto a niños como a adultos.
 
 Si sospechás que tenés Eczema, es importante buscar la atención de un profesional de la salud para recibir el diagnóstico y tratamiento adecuado. Cuanto antes se detecte esta enfermedad, más fácil será tratarla y controlar sus síntomas.
 
 **NP-AR-HZU-WCNT-230006**
-
 
 
 `

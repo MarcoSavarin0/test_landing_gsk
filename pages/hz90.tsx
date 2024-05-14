@@ -37,7 +37,7 @@ const Hz90 = () => {
 				<section className="bg-[#00070C] pb-10">
 					<div className="w-full h-auto">
 						<video className={`w-full h-auto object-cover bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="auto" muted={true} width="1920" height="420" autoPlay={true} controls={false} loop={true}>
-							<source src={`https://gsk-hdz.b-cdn.net/hz90/header.mp4`} type="video/mp4"/>
+							<source src={`https://gsk-hdz-2.b-cdn.net/hz90/header.mp4`} type="video/mp4"/>
 						</video>
 					</div>
 
@@ -62,26 +62,26 @@ const Hz90 = () => {
 									<div className="hz90-carousel w-full">
 										<Swiper slidesPerView={1} spaceBetween={50} loop={true} navigation={true} modules={[EffectFade, Autoplay, Navigation]}>
 											<SwiperSlide>
-												<Image src={"https://gsk-hdz.b-cdn.net/hz90/01.webp"} alt={"HZ_90"} width={720} height={1000}/>
+												<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/01.webp"} alt={"HZ_90"} width={720} height={1000}/>
 											</SwiperSlide>
 											<SwiperSlide>
-												<Image src={"https://gsk-hdz.b-cdn.net/hz90/02.webp"} alt={"HZ_90"} width={720} height={1000}/>
+												<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/02.webp"} alt={"HZ_90"} width={720} height={1000}/>
 											</SwiperSlide>
 											<SwiperSlide>
-												<Image src={"https://gsk-hdz.b-cdn.net/hz90/03.webp"} alt={"HZ_90"} width={720} height={1000}/>
+												<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/03.webp"} alt={"HZ_90"} width={720} height={1000}/>
 											</SwiperSlide>
 											<SwiperSlide>
-												<Image src={"https://gsk-hdz.b-cdn.net/hz90/04.webp"} alt={"HZ_90"} width={720} height={1000}/>
+												<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/04.webp"} alt={"HZ_90"} width={720} height={1000}/>
 											</SwiperSlide>
 											<SwiperSlide>
-												<Image src={"https://gsk-hdz.b-cdn.net/hz90/05.webp"} alt={"HZ_90"} width={720} height={1000}/>
+												<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/05.webp"} alt={"HZ_90"} width={720} height={1000}/>
 											</SwiperSlide>
 										</Swiper>
 									</div>
 
 									<div className="w-full h-auto">
-										<video onPlay={() => console.log("Hz90-play")} className={`w-full h-auto object-cover bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="auto" muted={true} width="960" height="540" autoPlay={false} controls={true} loop={true} poster={"https://gsk-hdz.b-cdn.net/hz90/leds.webp"}>
-											<source src={`https://gsk-hdz.b-cdn.net/hz90/obelisco.mp4`} type="video/mp4"/>
+										<video onPlay={() => console.log("Hz90-play")} className={`w-full h-auto object-cover bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="auto" muted={true} width="960" height="540" autoPlay={false} controls={true} loop={true} poster={"https://gsk-hdz-2.b-cdn.net/hz90/leds.webp"}>
+											<source src={`https://gsk-hdz-2.b-cdn.net/hz90/obelisco.mp4`} type="video/mp4"/>
 										</video>
 									</div>
 
@@ -89,12 +89,12 @@ const Hz90 = () => {
 							</div>
 
 							<div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
-								<Image src={"https://gsk-hdz.b-cdn.net/hz90/grid-01.webp"} alt={"HZ_90"} width={960} height={720}/>
-								<Image src={"https://gsk-hdz.b-cdn.net/hz90/grid-02.webp"} alt={"HZ_90"} width={960} height={720}/>
-								<Image src={"https://gsk-hdz.b-cdn.net/hz90/grid-03.webp"} alt={"HZ_90"} width={960} height={720}/>
-								<Image src={"https://gsk-hdz.b-cdn.net/hz90/grid-04.webp"} alt={"HZ_90"} width={960} height={720}/>
-								<Image src={"https://gsk-hdz.b-cdn.net/hz90/grid-05.webp"} alt={"HZ_90"} width={960} height={720}/>
-								<Image src={"https://gsk-hdz.b-cdn.net/hz90/grid-06.webp"} alt={"HZ_90"} width={960} height={720}/>
+								<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/grid-01.webp"} alt={"HZ_90"} width={960} height={720}/>
+								<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/grid-02.webp"} alt={"HZ_90"} width={960} height={720}/>
+								<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/grid-03.webp"} alt={"HZ_90"} width={960} height={720}/>
+								<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/grid-04.webp"} alt={"HZ_90"} width={960} height={720}/>
+								<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/grid-05.webp"} alt={"HZ_90"} width={960} height={720}/>
+								<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/grid-06.webp"} alt={"HZ_90"} width={960} height={720}/>
 							</div>
 
 							<div className="flex flex-col justify-center gap-y-5 items-center text-center">
@@ -108,7 +108,7 @@ const Hz90 = () => {
 										<h3>Conocé tu nivel de riesgo</h3>
 									</Link>
 
-									<Link href="https://gsk-hdz.b-cdn.net/hz90/hablemos-de-zoster.pdf" onClick={() => va.track('Hz90-Cta-pdf')} target="_blank" className="text-base text-center text-white hover:text-gsk-orange bg-gsk-orange hover:bg-white border-2 border-transparent hover:border-gsk-orange transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold">
+									<Link href="https://gsk-hdz-2.b-cdn.net/hz90/hablemos-de-zoster.pdf" onClick={() => va.track('Hz90-Cta-pdf')} target="_blank" className="text-base text-center text-white hover:text-gsk-orange bg-gsk-orange hover:bg-white border-2 border-transparent hover:border-gsk-orange transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold">
 										<h3>Descargá el folleto</h3>
 									</Link>
 								</div>
@@ -116,7 +116,7 @@ const Hz90 = () => {
 							</div>
 
 							<div className="flex justify-center items-center w-11/12 md:w-10/12 lg:w-8/12 mx-auto">
-								<Image src={"https://gsk-hdz.b-cdn.net/hz90/window.webp"} alt={"HZ90"} width={1018} height={396}/>
+								<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/window.webp"} alt={"HZ90"} width={1018} height={396}/>
 							</div>
 						</div>
 					</article>

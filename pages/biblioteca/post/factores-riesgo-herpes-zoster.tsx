@@ -19,30 +19,47 @@ const info = `
 
 
 
-El Herpes Zóster, también conocido como culebrilla, es una infección causada por el virus varicela-zóster, el mismo virus que causa la varicela. Si tuviste varicela en algún momento de tu vida, el virus puede reactivarse como Herpes Zóster.
+El Herpes Zóster, también conocido como culebrilla, es una infección causada por el virus varicela-zóster, el mismo virus que causa la varicela. Si tuviste varicela en algún momento de tu vida, el virus puede reactivarse como Herpes Zóster. 
 
-## Factores de Riesgo para el Herpes Zóster
+Aunque cualquier persona que haya tenido varicela puede desarrollar culebrilla, existen ciertos factores que pueden incrementar el riesgo. En este artículo, te contamos quiénes están en mayor riesgo 
 
-Los principales factores de riesgo para el Herpes Zóster son la edad y tener un sistema inmunológico debilitado. El riesgo aumenta con la edad, especialmente después de los 50 años. Además, las personas con un sistema inmunológico debilitado tienen un mayor riesgo de desarrollar culebrilla.
+## Factores de riesgo más frecuentes para contraer Herpes Zóster
 
-## Enfermedades Crónicas y su Relación con el Herpes Zóster
+Los principales factores de riesgo para el Herpes Zóster son la edad y tener un sistema inmunológico debilitado.
+
+El riesgo de desarrollar Herpes Zóster aumenta con la edad, especialmente después de los 50 años. Además, las personas con un sistema inmunológico debilitado, ya sea debido a enfermedades crónicas, a tratamiento médico o a una infección, tienen un riesgo mayor de desarrollar culebrilla.
+
+## Enfermedades crónicas, ¿cómo aumentan el riesgo del Herpes Zóster?
+
+Existen ciertas condiciones médicas que pueden aumentar el riesgo de una persona de desarrollar Herpes Zóster, sobre todo aquellas que afectan al sistema inmunitario de la persona. A continuación, analizaremos algunas de las más comunes:
 
 ### Lupus y Herpes Zóster
 
-El lupus es una enfermedad autoinmune que puede aumentar el riesgo de infecciones, incluyendo el Herpes Zóster, debido a la naturaleza de la enfermedad y los medicamentos utilizados para tratarla. Los medicamentos inmunosupresores pueden disminuir la capacidad del cuerpo para combatir infecciones.
+El lupus es una enfermedad autoinmune, es decir, que el propio sistema inmunitario daña las células y tejidos sanos por error. Esto puede afectar a muchas partes del cuerpo, incluyendo articulaciones, piel, riñones, corazón, pulmón, vasos sanguíneos y el cerebro. Las personas con lupus están en mayor riesgo de desarrollar infecciones, incluyendo el Herpes Zóster, debido a la naturaleza de la enfermedad y los medicamentos que se utilizan para tratarla. 
+
+En este sentido, los medicamentos inmunosupresores, pueden disminuir la capacidad del cuerpo para combatir infecciones, lo que puede aumentar el riesgo de Herpes Zóster.
 
 ### Artritis Reumatoide y Herpes Zóster
 
-La Artritis Reumatoide (AR) es una enfermedad autoinmune que puede provocar un sistema inmunológico deteriorado. Además, los medicamentos inmunosupresores utilizados para tratar la AR pueden aumentar el riesgo de Herpes Zóster.
+La Artritis Reumatoide (AR) es una enfermedad autoinmune crónica que afecta las articulaciones, provocando dolor, inflamación y, en última instancia, daño en las mismas. 
 
-### Otras Enfermedades Relacionadas con el Riesgo de Herpes Zóster
+Por su parte, la Artritis Reumatoide es una condición autoinmune, lo que indica que el sistema inmunológico del individuo ataca a sus propias articulaciones, provocando inflamación y daño. En consecuencia, las personas con esta enfermedad podrían presentar un sistema inmunológico deteriorado.
 
-- **EPOC:** La enfermedad pulmonar obstructiva crónica puede debilitar el sistema inmunológico, aumentando la susceptibilidad al Herpes Zóster.
-- **Diabetes:** La diabetes puede causar inmunosupresión, aumentando el riesgo de infecciones, incluyendo el Herpes Zóster. La neuropatía diabética también puede agravar el dolor asociado con el Herpes Zóster.
+Un aspecto adicional que podría explicar la relación entre el Herpes Zóster y la Artritis Reumatoide es la administración de medicamentos inmunosupresores para tratar la Artritis Reumatoide, como los corticosteroides y los medicamentos antirreumáticos que modifican el curso de la enfermedad (conocidos como FAME).
 
-En conclusión, las enfermedades que debilitan el sistema inmunológico pueden aumentar el riesgo de desarrollar Herpes Zóster. Es importante manejar estas condiciones de manera efectiva y hablar con un médico sobre el tratamiento y la prevención del Herpes Zóster.
+## Otras Enfermedades Relacionadas con el Riesgo de Herpes Zóster
 
-Si estás en un grupo de riesgo, como personas mayores de 50 años o tienes una condición médica que debilita tu sistema inmunológico, es importante hablar con tu médico sobre las opciones de tratamiento y prevención del Herpes Zóster.
+### **EPOC y Herpes Zóster** 
+La enfermedad pulmonar obstructiva crónica (EPOC) no solo afecta los pulmones, sino que también puede debilitar el sistema inmunológico, lo que aumenta la susceptibilidad a contraer enfermedades. 
+
+Por otra parte, la alteración o desregulación inmunológica en los pacientes con EPOC puede aumentar el riesgo de desarrollar Herpes Zóster. Además, el uso de corticoides inhalados o sistémicos para manejar esta patología, puede aumentar la susceptibilidad al Herpes Zoster al suprimir la función inmune. 
+
+### **Diabetes y Herpes Zóster** 
+La diabetes puede causar un estado de inmunosupresión en el cuerpo, lo que significa que el sistema inmunológico no funciona tan eficientemente como debería. Las personas con diabetes, especialmente diabetes tipo 2, están en mayor riesgo de infecciones, incluyendo el Herpes Zóster. Además, se ha observado que la neuropatía diabética puede agravar el dolor asociado con el Herpes Zóster.
+
+En conclusión, gran cantidad de las enfermedades o afecciones que debiliten el sistema inmunológico pueden aumentar el riesgo de desarrollar Herpes Zóster. Por lo tanto, es clave manejar estas condiciones de manera efectiva y hablar con un médico sobre el mejor tratamiento para reducir el riesgo de Herpes Zóster.
+
+Si estás en un grupo de riesgo, como personas mayores de 50 años, o tenés una condición médica que debilita tu sistema inmunológico, es importante que hables con tu médico sobre las opciones de tratamiento y prevención del Herpes Zóster.
 
 **NP-AR-HZU-WCNT-230009**
 

@@ -240,6 +240,14 @@ export const getStaticProps: GetStaticProps = async () => {
 					"slug": "cuidado-piel"
 				}
 			},
+			{
+				"id": 27,
+				"attributes": {
+					"image": "varicela-sintomas",
+					"title": "Síntomas de la varicela ",
+					"slug": "sintomas-varicela"
+				}
+			},
 		]
 	}
 	return {

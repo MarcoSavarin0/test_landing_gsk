@@ -18,11 +18,15 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 const info = `
 
 
-La Urticaria es una condición de la piel que afecta a muchas personas y puede ser bastante molesta. Pero, ¿sabes exactamente qué es y cuántos tipos de urticaria existen? En esta nota te contamos en detalle qué es la Urticaria, sus diferentes tipos y cómo reconocerlos, para que puedas estar informado y preparado en caso de experimentar esta afección cutánea.
+La Urticaria es una condición de la piel que afecta a muchas personas y puede ser bastante molesta. Pero, ¿sabes exactamente qué es y cuántos tipos de urticaria existen? 
+
+En esta nota te contamos en detalle qué es la Urticaria, sus diferentes tipos y cómo reconocerlos, para que puedas estar informado y preparado en caso de experimentar esta afección cutánea.
 
 ## Síntomas de la Urticaria
 
-La Urticaria se caracteriza por la aparición de ronchas rojas, elevadas y que generan picazón en la piel. Estas ronchas pueden variar en tamaño y forma, y a menudo se unen entre sí para formar áreas más grandes. Además, pueden aparecer y desaparecer en cuestión de horas. Otros síntomas asociados a la Urticaria incluyen ardor y en algunos casos, hinchazón en áreas del cuerpo como labios, lengua y párpados.
+La Urticaria se caracteriza por la aparición de ronchas rojas, elevadas y que generan picazón en la piel. Estas ronchas pueden variar en tamaño y forma, y a menudo se unen entre sí para formar áreas más grandes. 
+
+Además, pueden aparecer y desaparecer en cuestión de horas. Otros síntomas asociados a la Urticaria incluyen ardor y en algunos casos, hinchazón en áreas del cuerpo como labios, lengua y párpados.
 
 ## Causas de la Urticaria
 
@@ -48,9 +52,18 @@ Existen varios tipos de Urticaria, y a continuación, te explicaremos en detalle
 
 Para determinar qué tipo de Urticaria tienes, es fundamental prestar atención a los síntomas y su duración, así como a los posibles desencadenantes. Si experimentas síntomas de Urticaria, no dudes en consultar con tu médico de cabecera para obtener un diagnóstico y tratamiento adecuados.
 
-## Relación con el Herpes Zóster
+Comprender los distintos tipos de Urticaria y sus desencadenantes es fundamental para poder abordar esta condición de manera efectiva y mejorar la calidad de vida de quienes la padecen. 
 
-La Urticaria y el Herpes Zóster son dos afecciones cutáneas diferentes, pero pueden estar relacionadas en algunos casos debido a sus síntomas. Si experimentas síntomas de cualquiera de estas afecciones, es fundamental que consultes a un equipo médico.
+
+## ¿En qué se relaciona la Urticaria con el Herpes Zóster?
+
+La Urticaria y el Herpes Zóster son dos afecciones cutáneas diferentes, pero pueden estar relacionadas en algunos casos debido a sus síntomas.
+
+En algunos casos, la Urticaria puede ser causada por una infección viral, aunque es menos común que las causas alérgicas. Por otro lado, aunque el Herpes Zóster no causa Urticaria directamente, los síntomas de ambas afecciones pueden confundirse, ya que ambas presentan erupciones cutáneas y picazón.
+
+Si experimentas síntomas de cualquiera de estas afecciones, es fundamental que consultes a un equipo médico.
+
+NP-AR-HZU-WCNT-230006
 
 
 

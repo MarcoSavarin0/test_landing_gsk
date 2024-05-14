@@ -17,16 +17,20 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 const info = `
 
-## El Herpes Zóster es una infección causada por el virus varicela zóster que puede provocar complicaciones graves en la piel, especialmente si no se trata adecuadamente. Algunas de estas afecciones pueden presentarse en la etapa aguda y, en algunos casos, también se pueden presentar como secuelas de la infección del Herpes Zóster.
+El Herpes Zóster es una infección causada por el virus varicela zóster que puede provocar complicaciones graves en la piel, especialmente si no se trata adecuadamente. Algunas de estas afecciones pueden presentarse en la etapa aguda y, en algunos casos, también se pueden presentar como secuelas de la infección del Herpes Zóster.
+
 En esta nota te contamos cuáles son las afecciones en la piel más comunes y cómo prevenirlas. Recordá consultar con tu médico o tu médica para conocer los tratamientos adecuados ante la sospecha de Herpes Zóster. 
 
 ## Infecciones secundarias causadas por Herpes Zóster
 En la etapa aguda de la enfermedad aparece la erupción cutánea, con vesículas en las zonas afectadas, acompañadas de un dolor agudo. Al cabo de unos 10 días, las vesículas se convierten en costras que, normalmente, duran entre 2 y 4 semanas,.
+
 Una complicación frecuente es la sobreinfección bacteriana de las lesiones cutáneas. Éstas pueden presentarse como impétigo o celulitis. Se suele producir más frecuentemente en personas ancianas y diabéticas.
+
 Si esto ocurre, es necesario recibir un tratamiento adecuado para prevenir una infección secundaria.
 
 ## ¿El Herpes Zoster puede generar cicatrices y cambios en la pigmentación?
 El Herpes Zóster puede provocar cicatrices y cambios en la pigmentación de la piel en la zona afectada después de que la erupción cutánea haya desaparecido. Estas cicatrices pueden ser permanentes y afectar la apariencia de la piel. Además, los cambios en la pigmentación pueden hacer que la piel se vea más oscura o más clara de lo normal. Aproximadamente el 10 % de los pacientes con herpes zoster grave presentan cicatrices 6 meses después de que haya desaparecido la erupción,.
+
 Es importante cuidar adecuadamente la piel afectada por el Herpes Zóster para minimizar el riesgo de complicaciones. Esto incluye:
 - Mantener la zona limpia y seca.
 - Evitar rascar o frotar la piel.
@@ -34,8 +38,11 @@ Es importante cuidar adecuadamente la piel afectada por el Herpes Zóster para m
 
 ## Caso de Herpes diseminado
 El Herpes Zóster diseminado se caracteriza por la presencia de 20 o más lesiones en áreas alejadas del dermatoma afectado.
+
 Es una patología que suele presentarse en pacientes con deterioro del sistema inmunológico (por ejemplo, pacientes en tratamiento con inmunosupresores, infecciones por VIH, tratamiento crónico con esteroides, etc.). En estos casos hay un alto grado de afectación sistémica, principalmente afectación pulmonar, hepática y cerebral.
+
 Esta complicación del Herpes Zóster únicamente puede ser diagnosticada por un equipo médico, quien sugerirá el tratamiento adecuado. 
+
 Si presentas síntomas de Herpes Zóster, consultá con tu médico o médica lo antes posible.
 
 NP-AR-HZU-WCNT-230003

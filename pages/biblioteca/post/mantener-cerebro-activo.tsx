@@ -16,7 +16,6 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 
 const info = `
-# Mantener el cerebro activo después de los 60 años
 
 Mantener el cerebro activo después de los 60 años es fundamental para prevenir el deterioro cognitivo y disfrutar de una buena calidad de vida. ¿Te preguntás cómo mantener el cerebro activo y prevenir el deterioro cognitivo? A continuación, te ofrecemos una serie de consejos para mantener tu mente en forma.
 

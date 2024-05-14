@@ -19,21 +19,31 @@ const info = `
 
 ## El Herpes Simple: Tipos, Síntomas y Prevención
 
-El Herpes Simple es una infección viral común, denominada habitualmente como Herpes, que afecta a millones de personas en todo el mundo. Es muy común confundir al Herpes Zóster con el Herpes Simple, sin embargo, la principal diferencia radica en el tipo de virus que los causa y en sus manifestaciones clínicas. En esta nota, vamos a explorar en detalle qué es el Herpes Simple, sus tipos, síntomas y prevención.
+El Herpes Simple es una infección viral común, denominada habitualmente como Herpes, que afecta a millones de personas en todo el mundo. Es muy común confundir al Herpes Zóster con el Herpes Simple, sin embargo, la principal diferencia radica en el tipo de virus que los causa y en sus manifestaciones clínicas. 
 
-### ¿Qué es el Herpes Simple?
-El Herpes Simple es un virus que pertenece a la familia Herpesviridae, misma familia de virus que el virus que causa el Herpes Zóster, y existen dos tipos: el Herpes Simple tipo 1 (HSV-1) y el Herpes Simple tipo 2 (HSV-2). Si bien ambos tipos pueden causar infecciones orales y genitales, el HSV-1 suele estar asociado con el herpes labial, mientras que el HSV-2 se relaciona principalmente con el herpes genital.
+En esta nota, vamos a explorar en detalle qué es el Herpes Simple, sus tipos, síntomas y prevención.
 
-### Síntomas del Herpes Simple: ¿cómo reconocerlos?
-Las lesiones del herpes generalmente se manifiestan como una o múltiples ampollas en la boca (herpes labial u oral) o en los genitales o el recto (herpes genital). Las ampollas se rompen, dejando úlceras dolorosas que pueden demorar una semana o más en sanar. También pueden presentarse síntomas similares a los de la gripe, por ejemplo, fiebre, malestar corporal o inflamación de los ganglios linfáticos. Tras la desaparición de los síntomas, tanto el VHS-1 como el VHS-2 permanecen en el organismo en un estado inactivo, aunque pueden reactivarse y provocar síntomas de nuevo.
+## ¿Qué es el Herpes Simple?
+El Herpes Simple es un virus que pertenece a la familia Herpesviridae, misma familia de virus que el virus que causa el Herpes Zóster, y existen dos tipos: el Herpes Simple tipo 1 (HSV-1) y el Herpes Simple tipo 2 (HSV-2). 
 
-### ¿Cómo se contagia el Herpes Simple?
+Si bien ambos tipos pueden causar infecciones orales y genitales, el HSV-1 suele estar asociado con el herpes labial, mientras que el HSV-2 se relaciona principalmente con el herpes genital.
+
+## Síntomas del Herpes Simple: ¿cómo reconocerlos?
+Las lesiones del herpes generalmente se manifiestan como una o múltiples ampollas en la boca (herpes labial u oral) o en los genitales o el recto (herpes genital). 
+
+Las ampollas se rompen, dejando úlceras dolorosas que pueden demorar una semana o más en sanar. También pueden presentarse síntomas similares a los de la gripe, por ejemplo, fiebre, malestar corporal o inflamación de los ganglios linfáticos. 
+
+Tras la desaparición de los síntomas, tanto el VHS-1 como el VHS-2 permanecen en el organismo en un estado inactivo, aunque pueden reactivarse y provocar síntomas de nuevo.
+
+## ¿Cómo se contagia el Herpes Simple?
 El Herpes Simple se propaga principalmente a través del contacto directo con las lesiones de una persona infectada. Esto puede ocurrir durante las relaciones sexuales en el contacto piel a piel.
 
-### Tratamiento del Herpes Simple: ¿cómo controlar los síntomas?
-Dado que el virus permanece latente en los ganglios nerviosos, no existe una cura definitiva para el Herpes Simple, se cuenta con tratamientos antivirales que pueden ayudar a reducir la gravedad y la duración de los síntomas. Además, el uso de analgésicos y cremas tópicas puede aliviar el dolor y la picazón de las lesiones que el herpes simple provoca en la piel.
+## Tratamiento del Herpes Simple: ¿cómo controlar los síntomas?
+Dado que el virus permanece latente en los ganglios nerviosos, no existe una cura definitiva para el Herpes Simple, se cuenta con tratamientos antivirales que pueden ayudar a reducir la gravedad y la duración de los síntomas. 
 
-### Prevención del Herpes Simple: ¿cómo protegerse?
+Además, el uso de analgésicos y cremas tópicas puede aliviar el dolor y la picazón de las lesiones que el herpes simple provoca en la piel.
+
+## Prevención del Herpes Simple: ¿cómo protegerse?
 Para prevenir el contagio del herpes simple, te recomendamos que sigas estas prácticas:
 
 - Evita el contacto directo con las lesiones de personas infectadas.
@@ -45,7 +55,9 @@ El Herpes Simple es una infección viral común que puede causar síntomas incó
 
 ---
 
-**NP-AR-HZU-WCNT-230005 – Mayo 2023.** Para mayor información consulte a su médico.GSK Biopharma Argentina S.A. Av del Libertador 7202, Piso 4, CABA, Buenos Aires, Argentina. Para consultas sobre nuestros productos, consultas de calidad o reporte de eventos adversos puede comunicarse al 0800-222-4752.
+**NP-AR-HZU-WCNT-230005 – Mayo 2023.** 
+
+Para mayor información consulte a su médico.GSK Biopharma Argentina S.A. Av del Libertador 7202, Piso 4, CABA, Buenos Aires, Argentina. Para consultas sobre nuestros productos, consultas de calidad o reporte de eventos adversos puede comunicarse al 0800-222-4752.
 
 
 `

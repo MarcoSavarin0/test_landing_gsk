@@ -17,23 +17,33 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 const info = `
 
-El herpes es una infección viral que afecta a muchas personas en todo el mundo. Aunque es posible que hayas oído hablar de los términos "Herpes Simple" y "Herpes Zóster", puede que no sepas exactamente cuál es la diferencia entre estos dos tipos de afecciones. En este artículo, te contamos en profundidad cuáles son las diferencias entre Herpes Zóster y Herpes Simple, abordando sus causas y síntomas.
+El herpes es una infección viral que afecta a muchas personas en todo el mundo. Aunque es posible que hayas oído hablar de los términos "Herpes Simple" y "Herpes Zóster", puede que no sepas exactamente cuál es la diferencia entre estos dos tipos de afecciones. 
+
+En este artículo, te contamos en profundidad cuáles son las diferencias entre Herpes Zóster y Herpes Simple, abordando sus causas y síntomas.
 
 ## Causas del Herpes Simple y del Herpes Zóster
 
-La diferencia entre Herpes Zóster y Herpes Simple comienza con las causas de la enfermedad. El Herpes Simple es causado por dos tipos de virus: el Herpes Simple tipo 1 (HSV-1) y el Herpes Simple tipo 2 (HSV-2). El Herpes Simple tipo 1 suele causar herpes labial o úlceras bucales, mientras que el Herpes Simple tipo 2 está asociado con el herpes genital. Ambos virus son altamente contagiosos y se transmiten principalmente a través del contacto directo con la piel, las mucosas o los fluidos corporales de una persona infectada.
+La diferencia entre Herpes Zóster y Herpes Simple comienza con las causas de la enfermedad. El Herpes Simple es causado por dos tipos de virus: el Herpes Simple tipo 1 (HSV-1) y el Herpes Simple tipo 2 (HSV-2). El Herpes Simple tipo 1 suele causar herpes labial o úlceras bucales, mientras que el Herpes Simple tipo 2 está asociado con el herpes genital. 
+
+Ambos virus son altamente contagiosos y se transmiten principalmente a través del contacto directo con la piel, las mucosas o los fluidos corporales de una persona infectada.
 
 Por otro lado, el Herpes Zóster, también conocido como culebrilla, es causado por el virus de la varicela-zóster (VVZ), el mismo virus que causa la varicela. Después de la infección inicial, el virus permanece latente en el cuerpo y, posteriormente, puede reactivarse en forma de Herpes Zóster.
 
 ## Transmisión y contagio del Herpes Simple y del Herpes Zóster
 
-Otra diferencia entre Herpes Zóster y Herpes Simple es la forma en que se transmiten y contagian. Mientras que el Herpes Simple se propaga a través del contacto directo con la piel o las mucosas de una persona infectada, el Herpes Zóster no se contagia de la misma manera. Aunque el Herpes Zóster puede transmitirse a través del contacto directo con el líquido de las lesiones de una persona con esta enfermedad, lo que se contagia es el virus de la varicela, no el Herpes Zóster en sí mismo. De esta manera, la persona expuesta desarrollará varicela si no ha sido previamente infectada o vacunada contra ella.
+Otra diferencia entre Herpes Zóster y Herpes Simple es la forma en que se transmiten y contagian. Mientras que el Herpes Simple se propaga a través del contacto directo con la piel o las mucosas de una persona infectada, el Herpes Zóster no se contagia de la misma manera. 
+
+Aunque el Herpes Zóster puede transmitirse a través del contacto directo con el líquido de las lesiones de una persona con esta enfermedad, lo que se contagia es el virus de la varicela, no el Herpes Zóster en sí mismo. De esta manera, la persona expuesta desarrollará varicela si no ha sido previamente infectada o vacunada contra ella.
 
 ## Síntomas y manifestaciones clínicas del Herpes Simple y del Herpes Zóster
 
-Los síntomas del Herpes Simple y del Herpes Zóster también presentan diferencias. En el caso del Herpes Simple, pueden aparecer úlceras o ampollas dolorosas en la boca, los labios o la zona genital, acompañadas de fiebre, dolor de cabeza y malestar general. Por otro lado, el Herpes Zóster se caracteriza por la aparición de una erupción cutánea con ampollas en un área específica de un lado del cuerpo, a menudo acompañada de dolor intenso, hormigueo o ardor.
+Los síntomas del Herpes Simple y del Herpes Zóster también presentan diferencias. En el caso del Herpes Simple, pueden aparecer úlceras o ampollas dolorosas en la boca, los labios o la zona genital, acompañadas de fiebre, dolor de cabeza y malestar general. 
 
-En resumen, aunque el Herpes Simple y el Herpes Zóster comparten algunas similitudes, presentan diferencias notables en cuanto a sus causas, transmisión y manifestaciones clínicas. Es esencial recordar que ambas condiciones requieren la atención de un profesional médico para un diagnóstico adecuado y la prescripción del tratamiento más apropiado. Si sospechás que podés estar sufriendo de alguna de estas afecciones, te recomendamos acudir a tu médico de cabecera para obtener el mejor diagnóstico y orientación sobre cómo manejar tu situación específica.
+Por otro lado, el Herpes Zóster se caracteriza por la aparición de una erupción cutánea con ampollas en un área específica de un lado del cuerpo, a menudo acompañada de dolor intenso, hormigueo o ardor.
+
+En resumen, aunque el Herpes Simple y el Herpes Zóster comparten algunas similitudes, presentan diferencias notables en cuanto a sus causas, transmisión y manifestaciones clínicas. Es esencial recordar que ambas condiciones requieren la atención de un profesional médico para un diagnóstico adecuado y la prescripción del tratamiento más apropiado. 
+
+Si sospechás que podés estar sufriendo de alguna de estas afecciones, te recomendamos acudir a tu médico de cabecera para obtener el mejor diagnóstico y orientación sobre cómo manejar tu situación específica.
 
 **NP-AR-HZU-WCNT-230008**
 

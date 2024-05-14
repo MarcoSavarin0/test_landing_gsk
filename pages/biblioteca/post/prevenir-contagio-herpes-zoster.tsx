@@ -17,17 +17,24 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 
 const info = `
 
-El Herpes Zóster, también conocido como culebrilla, es una infección causada por la reactivación del virus varicela-zóster, el mismo que provoca la varicela. Aunque el Herpes Zóster no es directamente contagioso, si una persona tiene Herpes Zóster, el contacto directo con las secreciones de las vesículas del sarpullido puede propagar el virus varicela-zóster (VVZ) a personas que nunca han tenido varicela, causándoles la infección primaria de varicela. Por lo tanto, es esencial saber cómo prevenir el contagio del Herpes Zóster en estos casos. En este artículo, te contamos cuáles son las medidas que se pueden tomar para evitar la propagación del virus.
+El Herpes Zóster, también conocido como culebrilla, es una infección causada por la reactivación del virus varicela-zóster, el mismo que provoca la varicela. 
 
-## Medidas para Prevenir el Contagio del Herpes Zóster
+Aunque el Herpes Zóster no es directamente contagioso, si una persona tiene Herpes Zóster, el contacto directo con las secreciones de las vesículas del sarpullido puede propagar el virus varicela-zóster (VVZ) a personas que nunca han tenido varicela, causándoles la infección primaria de varicela. 
+
+Por lo tanto, es esencial saber cómo prevenir el contagio del Herpes Zóster en estos casos. En este artículo, te contamos cuáles son las medidas que se pueden tomar para evitar la propagación del virus.
 
 El Herpes Zóster puede ser una enfermedad dolorosa y, aunque en general no es contagiosa, es importante tomar medidas para evitar la transmisión del virus a personas que no hayan tenido contacto con la varicela. Algunas de las medidas para prevenir el contagio del Herpes Zóster son:
 
-1. **Cubrir las lesiones:** Para minimizar la propagación del virus, te recomendamos cubrir las áreas afectadas con un vendaje limpio y seco. Esto ayuda a evitar que el líquido de las vesículas entre en contacto con otras personas y, en consecuencia, previene el contagio del Herpes Zóster.
+### **1. Cubrir las lesiones:** 
+Para minimizar la propagación del virus, te recomendamos cubrir las áreas afectadas con un vendaje limpio y seco. Esto ayuda a evitar que el líquido de las vesículas entre en contacto con otras personas y, en consecuencia, previene el contagio del Herpes Zóster.
 
-2. **Evitar el contacto cercano con personas en riesgo:** Tratar de evitar el contacto con personas en riesgo es una medida para prevenir el contagio del Herpes Zóster. Estos grupos incluyen a aquellos que nunca han tenido varicela, mujeres embarazadas, recién nacidos, personas con sistemas inmunológicos debilitados y personas mayores. Estos grupos son más susceptibles a contraer el virus y pueden desarrollar complicaciones graves si se infectan. Y, aquellas personas que nunca tuvieron varicela, desarrollarán esta enfermedad al contagiarse de una persona con Herpes Zóster.
+### **2. Evitar el contacto cercano con personas en riesgo:** 
+Tratar de evitar el contacto con personas en riesgo es una medida para prevenir el contagio del Herpes Zóster. Estos grupos incluyen a aquellos que nunca han tenido varicela, mujeres embarazadas, recién nacidos, personas con sistemas inmunológicos debilitados y personas mayores. 
 
-3. **No rascar ni tocar las lesiones:** Evitar tocarse o rascarse las lesiones producidas por el Herpes Zóster es otra de las maneras de prevenir su contagio a personas que no tuvieron varicela. Además, es importante saber que el Herpes Zóster no es contagioso antes de que aparezcan las lesiones, o luego de que se forman las costras. Por eso, evitar tocarlas es una de las mejores maneras de prevenir el contagio.
+Estos grupos son más susceptibles a contraer el virus y pueden desarrollar complicaciones graves si se infectan. Y, aquellas personas que nunca tuvieron varicela, desarrollarán esta enfermedad al contagiarse de una persona con Herpes Zóster.
+
+### **3. No rascar ni tocar las lesiones:** 
+Evitar tocarse o rascarse las lesiones producidas por el Herpes Zóster es otra de las maneras de prevenir su contagio a personas que no tuvieron varicela. Además, es importante saber que el Herpes Zóster no es contagioso antes de que aparezcan las lesiones, o luego de que se forman las costras. Por eso, evitar tocarlas es una de las mejores maneras de prevenir el contagio.
 
 Al seguir las pautas mencionadas anteriormente, como cubrir las lesiones, mantener una buena higiene personal, evitar el contacto cercano con personas en riesgo y no compartir objetos personales, se puede prevenir eficazmente el contagio del Herpes Zóster y proteger a aquellos que nos rodean.
 

@@ -23,25 +23,31 @@ En este artículo, analizaremos en detalle qué es la dermatitis herpetiforme, c
 
 ## Entendiendo la dermatitis herpetiforme y sus causas
 
-La dermatitis herpetiforme es una enfermedad autoinmunitaria en la que el sistema inmunológico del cuerpo ataca a las células sanas de la piel, provocando la aparición de ampollas y erupciones. Esta afección se relaciona estrechamente con la enfermedad celíaca, una intolerancia al gluten que afecta al intestino delgado. Aproximadamente hasta un 13% de las personas con enfermedad celíaca desarrollan dermatitis herpetiforme en algún momento de sus vidas.
+La dermatitis herpetiforme es una enfermedad autoinmunitaria en la que el sistema inmunológico del cuerpo ataca a las células sanas de la piel, provocando la aparición de ampollas y erupciones.
 
-La causa exacta de la dermatitis herpetiforme aún no se comprende completamente. Sin embargo, se sabe que el consumo de gluten (una proteína presente en el trigo, la cebada y el centeno) puede desencadenar una respuesta autoinmunitaria en personas susceptibles. Esta reacción lleva a la formación de depósitos de inmunoglobulina A (IgA) en la piel, lo que provoca la inflamación y las ampollas características de la dermatitis herpetiforme.
+Esta afección se relaciona estrechamente con la enfermedad celíaca, una intolerancia al gluten que afecta al intestino delgado. Aproximadamente hasta un 13% de las personas con enfermedad celíaca desarrollan dermatits herpetiforme en algún momento de sus vida.
+
+La causa exacta de la dermatitis herpetiforme aún no se comprende completamente. Sin embargo, se sabe que el consumo de gluten (una proteína presente en el trigo, la cebada y el centeno) puede desencadenar una respuesta autoinmunitaria en personas susceptibles. 
+
+Esta reacción lleva a la formación de depósitos de inmunoglobulina A (IgA) en la piel, lo que provoca la inflamación y las ampollas características de la dermatitis herpetiforme.
 
 ## Factores de riesgo y diagnóstico de la dermatitis herpetiforme
 
-La dermatitis herpetiforme es considerada una manifestación cutánea de la enfermedad celíaca y como tal, puede asociarse a otras enfermedades autoinmunitarias. Por otra parte, la dermatitis herpetiforme suele afectar a personas entre los 40 y los 50 años en promedio. El diagnóstico de la dermatitis herpetiforme se realiza a través de una biopsia de piel, en la cual se examina una pequeña muestra de tejido cutáneo bajo un microscopio para identificar la presencia de depósitos de IgA. Además, se pueden realizar pruebas serológicas y biopsias del intestino delgado para confirmar la enfermedad celíaca asociada.
+La dermatitis herpetiforme es considerada una manifestación cutánea de la enfermedad celíaca y como tal, puede asociarse a otras enfermedades autoinmunitarias. Por otra parte, la dermatitis herpetiforme suele afectar a personas entre los 40 y los 50 años en promedio
+
+El diagnóstico de la dermatitis herpetiforme se realiza a través de una biopsia de piel, en la cual se examina una pequeña muestra de tejido cutáneo bajo un microscopio para identificar la presencia de depósitos de IgA. Además, se pueden realizar pruebas serológicas y biopsias del intestino delgado para confirmar la enfermedad celíaca asociada.
 
 ## ¿En qué se relacionan el Herpes Zóster con la Dermatitis Herpetiforme?
 
-El Herpes Zóster y la Dermatitis Herpetiforme son dos afecciones cutáneas distintas, pero comparten algunas similitudes en cuanto a sus síntomas. A pesar de que sus nombres puedan parecer similares, no tienen una relación directa en términos de causa o patología subyacente. La principal diferencia de estas enfermedades es su causa:
+El Herpes Zóster y la Dermatitis Herpetiforme son dos afecciones cutáneas distintas, pero comparten algunas similitudes en cuanto a sus síntomas. A pesar de que sus nombres puedan parecer similares, no tienen una relación directa en términos de causa o patología subyacente.
 
-- Por un lado, el Herpes Zóster es causado por la reactivación del virus de la varicela-zóster (VVZ), que permanece en estado latente en el organismo después de haber sufrido varicela. El Herpes Zóster se manifiesta en forma unilateral, habitualmente en el tronco, región lumbar o cara.
-
+La principal diferencia de estas enfermedades es su causa:
+- Por un lado, el Herpes Zóster es causado por la reactivación del virus de la varicela-zóster (VVZ), que permanece en estado latente en el organismo después de haber sufrido varicela. El Herpes Zóster se manifiesta en forma unilateral, habitualmente en tronco, región lumbar o cara.
 - Por el otro, como explicamos arriba, la dermatitis herpetiforme es una enfermedad autoinmunitaria de la piel estrechamente relacionada con la enfermedad celíaca, una intolerancia al gluten, y suele mejorar con una dieta libre de gluten. Se manifiesta habitualmente con lesiones bilaterales distribuidas en superficies extensoras de codos, rodillas y glúteos.
 
-La principal similitud entre el Herpes Zóster y la dermatitis herpetiforme es la presencia de erupciones cutáneas con vesículas o ampollas. Sin embargo, el desarrollo y el tratamiento de ambas enfermedades son diferentes. Si creés que tenés alguna de estas enfermedades, es importante que consultes a un equipo médico para recibir un diagnóstico adecuado y cuidar tu salud.
+La principal similitud entre el Herpes Zóster y la dermatitis herpetiforme es la presencia de erupciones cutáneas con vesículas o ampollas. Sin embargo, el desarrollo y el tratamiento de ambas enfermedades son diferentes. 
 
-**NP-AR-HZU-WCNT-230009**
+Si creés que tenés alguna de estas enfermedades, es importante que consultes a un equipo médico para recibir un diagnóstico adecuado y cuidar tu salud. 
 
 
 NP-AR-HZU-WCNT-230012.
