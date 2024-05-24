@@ -69,6 +69,14 @@ const Navbar = () => {
 												>
 													HZ_90
 												</Link>
+												{/* <Link
+													href="/enfermedades-cronicas"
+													scroll={false}
+													className="block px-4 py-2 text-gray-800 hover:text-gsk-orange hover:underline"
+													onClick={closeDropdown}
+												>
+													Enfermedades Cronicas
+												</Link> */}
 											</div>
 										)}
 									</div>
@@ -124,6 +132,13 @@ const Navbar = () => {
 												<Link href="/conciencia" className="block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
 													Semana de la Concientización
 												</Link>
+												<Link href="/hz90" className="block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
+													HZ_90
+												</Link>
+												{/* <Link href="/enfermedades-cronicas" className="block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
+												Enfermedades Cronicas
+												</Link> */}
+												
 											</Disclosure.Panel>
 										</>
 									)}
