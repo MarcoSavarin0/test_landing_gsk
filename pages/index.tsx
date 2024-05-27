@@ -11,8 +11,7 @@ import Hero from "@/components/home/Hero"
 import Sintomas from "@/components/home/Sintomas"
 import Faq from "@/components/home/Faq"
 import Who from "@/components/home/Who"
-import Comorbilidad from "@/components/home/Comorbilidad"
-import Enfermedades from "@/components/home/Enfermedades"
+import Complication from "@/components/home/Complication"
 import Testimonial from "@/components/home/Testimonial"
 import Blog from "@/components/home/Blog"
 import Banner from "@/components/home/Banner"
@@ -68,9 +67,7 @@ const Home = () => {
 				<Spacer/>
 				<Who/>
 				<Spacer/>
-				<Comorbilidad/>
-				<Spacer/>
-				<Enfermedades/>
+				<Complication/>
 				<Spacer/>
 				<Testimonial/>
 				<Blog/>
