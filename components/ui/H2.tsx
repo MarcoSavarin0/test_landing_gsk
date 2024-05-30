@@ -7,7 +7,7 @@ interface Header2 {
 
 const H2 = ({title}: Header2) => {
 	return (
-		<h2 className={`${gskPrecisionBold.className} uppercase text-gsk-orange font-bold text-center text-2xl md:text-3xl`}>{title}</h2>
+		<h2 className={`${gskPrecisionBold.className} uppercase text-gsk-orange font-bold text-center text-3xl`}>{title}</h2>
 	)
 }
 
