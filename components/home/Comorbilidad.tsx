@@ -1,9 +1,10 @@
 import { Element } from 'react-scroll'
 
-import H2 from "@/components/ui/H2"
 import CardIconBackground from "@/components/home/ui/CardIconBackground"
 import Description from "@/components/ui/Description"
-// import Link from "next/link"
+import H2 from '../ui/H2'
+import Link from "next/link"
+import SpacerNew from '../ui/SpacerNew'
 
 interface Card {
 	title: string
@@ -34,8 +35,9 @@ const Who = () => {
 	return (
 		<section className="text-center space-y-10 relative bg-gsk-gray pt-10 pb-10">
 			<Element className="space-y-3 px-4" name="riesgo">
-				<H2 title={`Las comorbilidades pueden aumentar el riesgo de contraer Herpes Zoster`}/>
-				<Description title={` Descubrí cómo estas enfermedades subyacentes pueden comprometer tu sistema inmunológico, dejándote vulnerable al virus que espera silenciosamente una oportunidad para reactivarse.`}/>
+				<H2 title={`Las enfermedades crónicas pueden aumentar el riesgo de contraer Herpes Zoster`}/>
+				<Description title={` ¿Sabías que determinadas enfermedades afectan al sistema inmune dando lugar a infecciones como el Herpes Zóster?`}/>
+				<Description className="text-strong" title={`Conocé cuáles son.`}/>
 			</Element>
 
 			<div className="grid grid-cols-1 lg:grid-cols-3 content-start gap-x-0 lg:gap-x-10 gap-y-8 lg:gap-y-0 px-8 md:px-20 lg:px-12">
@@ -45,8 +47,10 @@ const Who = () => {
 			</div>
 
 			<div>
-				{/* <Link href={`/enfermedades-cronicas`} className="underline text-gsk-orange text-xl"> Conocé más sobre las enfermedades crónicas y el Herpes Zóster </Link> */}
+				<Link href={`/enfermedades-cronicas`} className="text-footer-link"> Conocé más sobre las enfermedades crónicas y el Herpes Zóster </Link>
 			</div>
+			<SpacerNew/>
+
 		</section>
 	)
 }

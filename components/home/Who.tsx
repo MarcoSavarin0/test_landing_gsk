@@ -31,7 +31,7 @@ const cards: Card[] = [
 
 const Who = () => {
 	return (
-		<section className="text-center space-y-10 relative">
+		<section className="text-center space-y-10 relative pb-20">
 			<Element className="space-y-3 px-4" name="riesgo">
 				<H2 title={`¿Quiénes están en riesgo?`}/>
 				<Description title={`Enterate si vos o alguien de tu círculo cercano está en riesgo de contraer Herpes Zóster.`}/>

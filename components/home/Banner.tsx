@@ -16,7 +16,7 @@ const Banner = ({color}: TypeShape) => {
 			</div>
 			<div className="space-y-2 px-3 sm:px-6">
 				<h2 className={`${barlowSemicondensedItalic.className} text-2xl md:text-4xl leading-relaxed uppercase font-bold`}><span className={`${barlowSemicondensedBoldItalic.className} text-4xl md:text-5xl`}>Activemos</span> <span className="block">antes de que el <span className={`${barlowSemicondensedBoldItalic.className}`}>virus se reactive</span></span></h2>
-				<p className="text-lg md:text-xl">¿Ya consultaste con tu médico o médica sobre el Herpes Zóster?</p>
+				<p className="text-lg md:text-xl">Consultá con tu médico o médica acerca de la prevención y el tratamiento del Herpes Zóster.</p>
 			</div>
 		</section>
 	)

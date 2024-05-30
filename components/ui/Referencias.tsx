@@ -32,6 +32,10 @@ const referenciasDetail: Referencia[] = [
 		id: 7,
 		title: `Grupo de Trabajo de Vacunación frente al Herpes Zóster (GT-HZ) de la Ponencia de programa y Registro de Vacunaciones. Recomendaciones de vacunación frente a Herpes Zóster [Internet].`,
 	},
+	{
+		id: 8,
+		title: `Kim J, Kim BE, Leung DYM. Pathophysiology of atopic dermatitis: Clinical implications. Allergy Asthma Proc. 2019 Mar 1;40(2):84-92. doi: 10.2500/aap.2019.40.4202. PMID: 30819278; PMCID: PMC6399565.`,
+	},
 ]
 
 const Referencias = () => {

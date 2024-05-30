@@ -10,21 +10,37 @@ interface CardIcon {
 	title: string
 	body: string
 	image: string
+	// link: string
 }
 
-const CardIcon = ({ title, image, body }: CardIcon) => {
+const CardIcon = ({ title, image, body}: CardIcon) => {
 	const [flipped, setFlipped] = useState(false)
 	// const indexForVa = index + 1
 
-	const doFlip = (bool: boolean) => {
-		// va.track(`CardFlip ${indexForVa} ${bool ? "Open" : "Close"}`)
-		setFlipped(bool)
+	const handleMouseEnterFront = () => {
+		setFlipped(true)
 	}
+
+	const handleMouseLeaveBack = () => {
+		setFlipped(false)
+	}
+	let link = ''
+
+	if(title == 'NEURALGIA POSTHERPÉTICA'){
+		link = '/biblioteca/post/neuralgia-postherpetica'
+	}else if(title == 'HERPES ZÓSTER OFTÁLMICO'){
+		link = '/biblioteca/post/herpes-zoster-oftalmico'
+	}else if(title == 'CAMBIOS EN LA PIEL'){
+		link = '/biblioteca/post/afecciones-piel-herpes-zoster'
+	}else if(title == 'OTRAS CONSECUENCIAS'){
+		link = ''
+	}
+		
 
 	return (
 		<ReactCardFlip isFlipped={flipped} flipDirection="horizontal">
 			<article
-				onClick={() => doFlip(true)}
+				onMouseEnter={handleMouseEnterFront}
 				className="cursor-pointer relative flex flex-col justify-center mx-auto w-11/12 sm:w-9/12 md:w-9/12 lg:w-full min-h-[400px] gap-y-6 items-center border border-gsk-gray rounded-xl shadow-md px-10 md:px-6 xl:px-10 py-14 text-gsk-orange group mt-4"
 			>
 				<div
@@ -37,9 +53,9 @@ const CardIcon = ({ title, image, body }: CardIcon) => {
 					<H3 title={title} />
 				</div>
 			</article>
-	
+
 			<article
-				onClick={() => doFlip(false)}
+				onMouseLeave={handleMouseLeaveBack}
 				className="cursor-pointer relative flex flex-col justify-center mx-auto w-11/12 sm:w-9/12 md:w-9/12 lg:w-full min-h-[400px] gap-y-6 items-center bg-orange border border-gsk-gray rounded-xl shadow-md px-10 md:px-6 xl:px-10 py-14 card-flipped text-white group mt-4"
 			>
 				<div
@@ -51,16 +67,13 @@ const CardIcon = ({ title, image, body }: CardIcon) => {
 				<div className="relative z-10 text-center text-white text-lg">
 					<H3 title={title} />
 					<p className="text-white text-lg">{parse(body)}</p>
-					<Link href={`/conciencia`}>Leer más {">"}</Link>
+					{link !='' ?
+						<Link className="cursor" href={link}>Leer más {">"}</Link>
+						: <></>}
 				</div>
 			</article>
 		</ReactCardFlip>
-	
-
-
-
-
 	)
 }
-
+	
 export default CardIcon
