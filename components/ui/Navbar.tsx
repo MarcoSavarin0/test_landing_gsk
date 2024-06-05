@@ -35,11 +35,14 @@ const Navbar = () => {
 									<Link href="/#que-es-herpes-zoster" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										¿Qué es Herpes Zóster?
 									</Link>
-									<Link href="/#sintomas" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
+									{/* <Link href="/#sintomas" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										Síntomas
-									</Link>
-									<Link href="/#riesgo" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
+									</Link> */}
+									<Link href="/#risk-who" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										¿Quiénes están en riesgo?
+									</Link>
+									<Link href="/enfermedades-cronicas" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
+									TENGO UNA ENFERMEDAD CRÓNICA
 									</Link>
 									<Link href="/#enprimerapersona" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										En primera persona
@@ -107,13 +110,18 @@ const Navbar = () => {
 								</Link>
 							</Disclosure.Button>
 							<Disclosure.Button as={Fragment}>
-								<Link href="/#sintomas" scroll={false} className="cursor-pointer block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
-									Síntomas
+								<Link href="/#riesgo" scroll={false} className="cursor-pointer block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
+									¿Quiénes están en riesgo?
 								</Link>
 							</Disclosure.Button>
 							<Disclosure.Button as={Fragment}>
-								<Link href="/#riesgo" scroll={false} className="cursor-pointer block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
-									¿Quiénes están en riesgo?
+								<Link href="/enfermedades-cronicas" scroll={false} className="cursor-pointer block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
+								TENGO UNA ENFERMEDAD CRÓNICA
+								</Link>
+							</Disclosure.Button>
+							<Disclosure.Button as={Fragment}>
+								<Link href="/#enprimerapersona" className="block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
+									En primera persona
 								</Link>
 							</Disclosure.Button>
 							<div className="space-y-1">
@@ -144,11 +152,7 @@ const Navbar = () => {
 									)}
 								</Disclosure>
 							</div>
-							<Disclosure.Button as={Fragment}>
-								<Link href="/#enprimerapersona" className="block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
-									En primera persona
-								</Link>
-							</Disclosure.Button>
+							
 						</div>
 					</Disclosure.Panel>
 

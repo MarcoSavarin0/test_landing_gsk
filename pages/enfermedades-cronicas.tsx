@@ -34,7 +34,6 @@ const Conciencia = () => {
 				<section className="bg-[##FFFFFF]">
 					
 					<HeroNew />
-
 					<ComplicationNew />
 					<FooterNew />
 				</section>

@@ -51,7 +51,7 @@ const Enfermedades = () => {
 				{/* <Description title={` Descubrí cómo estas enfermedades subyacentes pueden comprometer tu sistema inmunológico, dejándote vulnerable al virus que espera silenciosamente una oportunidad para reactivarse.`} /> */}
 			</Element>
 
-			<div className="grid grid-cols-1 lg:grid-cols-2 content-start gap-x-0 lg:gap-x-10 lg:gap-y-6 gap-y-8 lg:gap-y-0 px-8 md:px-20 lg:px-12 ">
+			<div className="grid grid-cols-1 lg:grid-cols-4 content-start gap-x-0 lg:gap-x-10 lg:gap-y-6 gap-y-8 lg:gap-y-0 px-8 md:px-20 lg:px-12 ">
 				{cards.map(({ title, body, image }, index) => (
 					<CardIconBackground key={index} index={index} title={title} body={body} image={image}/>
 				))}

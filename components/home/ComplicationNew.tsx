@@ -1,7 +1,6 @@
 import {useEffect, useRef} from "react"
 import {motion, useAnimation, useInView} from "framer-motion"
 
-import H2 from "@/components/ui/H2"
 import MirrorContentNew from "./ui/MirrorContentNew"
 
 interface Complication {
@@ -15,7 +14,7 @@ interface Complication {
 
 const complications: Complication[] = [
 	{
-		title: `EPOC Y ASMA`,
+		title: `(ASMA Y EPOC)`,
 		image: `herpes-zoster-epoc`,
 		slug: `epoc`,
 		body: `Las enfermedades respiratorias crónicas, como el asma y la Enfermedad Pulmonar Obstructiva Crónica (EPOC), afectan significativamente al sistema inmunológico haciéndolo más susceptible a infecciones como el Herpes Zóster. Una reactivación del virus varicela - zóster.`,
@@ -126,10 +125,11 @@ const ComplicationNew = () => {
 					animate={controls}
 					variants={containerVariant}
 				>
-					<H2 title="ENFERMEDADES RESPIRATORIAS"/>
+					<h3 className="text-gsk-orange font-bold text-2xl text-center w-full text-new-title">ENFERMEDADES RESPIRATORIAS</h3>
+
 					{complications.map((item: Complication, index: number) => (
 						<>
-							<h3 className="text-gsk-orange font-bold text-2xl text-center w-full">{item.title}</h3>
+							<h3 className="text-gsk-orange font-bold text-2xl text-center w-full text-new-title">{item.title}</h3>
 
 							<motion.article className="flex flex-col md:flex-row justify-between gap-x-8 gap-y-5 md:gap-y-0 py-12" key={index} variants={complicationVariant} custom={index} >
 								<MirrorContentNew title={item.title} body={item.body} image={`${item.image}.webp`} slug={item.slug} index={index} cta={item.cta}/>

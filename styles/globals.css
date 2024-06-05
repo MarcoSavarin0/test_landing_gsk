@@ -119,3 +119,56 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+.title-card{
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+}
+.cursor{
+    text-decoration-line: underline;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.text-card{
+    padding-bottom: 10px;
+}
+.card-flip-container{
+    height: 400px;
+    p{
+        
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+.text-new-title{
+    color: #F36632;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.cta-button-orange{
+    color: #F8F8F8;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    border-radius: 4px;
+    background: #F36632;
+    padding: 8px 16px;
+}
+.cronica-container{
+    p{
+        
+        padding-bottom: 20px;
+    }
+}

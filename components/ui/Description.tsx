@@ -11,7 +11,7 @@ interface Paragraph {
 
 const Description = ({title, color, className}: Paragraph) => {
 	return (
-		<div className={`${gskPrecisionRegular.className} text-lg md:text-xl ${color} ${className}`}>{parse(title)}</div>
+		<div className={`${gskPrecisionRegular.className} text-md md:text-lg ${color} ${className}`}>{parse(title)}</div>
 	)
 }
 
