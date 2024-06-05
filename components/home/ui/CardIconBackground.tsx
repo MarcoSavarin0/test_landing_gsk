@@ -39,6 +39,7 @@ const CardIcon = ({ title, image, body}: CardIcon) => {
 	return (
 		<ReactCardFlip isFlipped={flipped} flipDirection="horizontal">
 			<article
+				onClick={() => setFlipped(true)}
 				onMouseEnter={handleMouseEnterFront}
 				className="card-flip-container cursor-pointer relative flex flex-col justify-center mx-auto w-11/12 sm:w-9/12 md:w-9/12 lg:w-full min-h-[400px] gap-y-6 items-center border border-gsk-gray rounded-xl shadow-md px-10 md:px-6 xl:px-10 py-14 text-gsk-orange group mt-4"
 			>
@@ -54,6 +55,7 @@ const CardIcon = ({ title, image, body}: CardIcon) => {
 			</article>
 
 			<article
+				onClick={() => setFlipped(false)}
 				onMouseLeave={handleMouseLeaveBack}
 				className="card-flip-container cursor-pointer relative flex flex-col justify-center mx-auto w-11/12 sm:w-9/12 md:w-9/12 lg:w-full min-h-[400px] gap-y-6 items-center bg-orange border border-gsk-gray rounded-xl shadow-md px-10 md:px-6 xl:px-10 py-14 card-flipped text-white group mt-4"
 			>
