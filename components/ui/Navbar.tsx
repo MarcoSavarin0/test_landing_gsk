@@ -116,7 +116,7 @@ const Navbar = () => {
 							</Disclosure.Button>
 							<Disclosure.Button as={Fragment}>
 								<Link href="/enfermedades-cronicas" scroll={false} className="cursor-pointer block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
-								TENGO UNA ENFERMEDAD CRÓNICA
+								Tengo una enfermedad crónica
 								</Link>
 							</Disclosure.Button>
 							<Disclosure.Button as={Fragment}>
