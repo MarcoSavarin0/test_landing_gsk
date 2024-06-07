@@ -41,9 +41,9 @@ const Navbar = () => {
 									<Link href="/#risk-who" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										¿Quiénes están en riesgo?
 									</Link>
-									<Link href="/enfermedades-cronicas" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
+									{/* <Link href="/enfermedades-cronicas" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 									TENGO UNA ENFERMEDAD CRÓNICA
-									</Link>
+									</Link> */}
 									<Link href="/#enprimerapersona" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										En primera persona
 									</Link>
@@ -114,11 +114,11 @@ const Navbar = () => {
 									¿Quiénes están en riesgo?
 								</Link>
 							</Disclosure.Button>
-							<Disclosure.Button as={Fragment}>
+							{/* <Disclosure.Button as={Fragment}>
 								<Link href="/enfermedades-cronicas" scroll={false} className="cursor-pointer block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
 								Tengo una enfermedad crónica
 								</Link>
-							</Disclosure.Button>
+							</Disclosure.Button> */}
 							<Disclosure.Button as={Fragment}>
 								<Link href="/#enprimerapersona" className="block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
 									En primera persona

@@ -41,7 +41,7 @@ const faqs: Faq[] = [
 		title: `¿Cuál es la diferencia entre Herpes Zóster y Herpes Simple?`,
 		body: `<p>Aunque el Herpes Simple y el Herpes Zóster comparten algunas similitudes, presentan diferencias notables en cuanto a sus causas, transmisión y manifestaciones clínicas. 
 		En el caso del Herpes Simple, pueden aparecer úlceras o ampollas dolorosas en la boca, los labios o la zona genital, acompañadas de fiebre, dolor de cabeza y malestar general.
-		Por otro lado, el Herpes Zóster se caracteriza por la aparición de una erupción cutánea con ampollas en un área específica de un lado del cuerpo, a menudo acompañada de dolor intenso, hormigueo o ardor.8</p>`
+		Por otro lado, el Herpes Zóster se caracteriza por la aparición de una erupción cutánea con ampollas en un área específica de un lado del cuerpo, a menudo acompañada de dolor intenso, hormigueo o ardor.</p>`
 	}
 	,
 	{
