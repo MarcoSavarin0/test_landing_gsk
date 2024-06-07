@@ -1,7 +1,6 @@
 import {useRef} from "react"
 import {Swiper, SwiperSlide} from "swiper/react"
 import {EffectFade, Autoplay} from "swiper/modules"
-import parse from "html-react-parser"
 
 import IntroNew from "@/components/home/IntroNew"
 
@@ -86,7 +85,7 @@ const HeroNew = () => {
 					})
 				}}
 			>
-				{dolores.map(({title, top}: Dolor, index: number) => (
+				{dolores.map(({top}: Dolor, index: number) => (
 					<SwiperSlide key={index}>
 						<div className="relative w-full flex flex-col bg-gsk-dark h-[21rem] md:h-[27rem] lg:h-[34rem] xl:h-[46rem] 2xl:h-[54rem] overflow-hidden">
 							<div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-b from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 z-10"/>
@@ -99,11 +98,11 @@ const HeroNew = () => {
 
 							</div>
 
-							<article className="order-first absolute top-4 md:top-[12%] lg:top-[20%] text-right right-8 md:right-10 lg:right-14 xl:right-18 2xl:right-24 w-10/12 md:w-7/12 lg:w-6/12 xl:w-7/12 pt-6 md:pt-0">
-								<p className={` uppercase inline text-white w-full sm:w-fit text-2xl sm:text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl md:leading-[2rem]`}>
-								¿SABÍAS QUE LAS
+							<article className="order-first absolute top-4 md:top-[12%] lg:top-[30%] text-left left-8 md:left-10 lg:left-14 xl:left-18 2xl:left-24 w-10/12 md:w-7/12 lg:w-6/12 xl:w-7/12 pt-6 md:pt-0 text-hero-new">
+								<p className={` uppercase inline text-white w-full sm:w-fit text-2xl sm:text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl md:leading-[2rem] `}>
+									¿SABÍAS QUE LAS <br /><span className="bold">ENFERMEDADES CRÓNICAS</span> <br />AFECTAN EL SISTEMA INMUNE, <span className="bold"> DANDO LUGAR A INFECCIONES COMO EL HERPES ZÓSTER?</span>
 								</p>
-								{(
+								{/* {(
 									<h1 className={` text-white leading-none uppercase text-4xl sm:text-6xl lg:text-7xl xl:text-8xl`}>
 										ENFERMEDADES CRÓNICAS
 									</h1>
@@ -111,14 +110,14 @@ const HeroNew = () => {
 								<div className="space-y-2 sm:space-y-4">
 									<p className={` uppercase inline text-white w-full sm:w-fit text-2xl sm:text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl md:leading-[2rem]`}>
 										{parse(title)}
-									</p>
-									{/* <div className={`${gskPrecisionLight} hidden md:block text-gsk-orange text-xl 2xl:text-3xl font-light space-y-3`}>
+									</p> */}
+								{/* <div className={`${gskPrecisionLight} hidden md:block text-gsk-orange text-xl 2xl:text-3xl font-light space-y-3`}>
 										<div>
 											<p>Conocé más sobre la enfermedad, sus síntomas <span className="lg:block">y las opciones de prevención y tratamiento.</span></p>
 											<p><Button activeClass="active" className="hover:text-white transition ease-out duration-300 cursor-pointer" type="submit" value="Hablemos de Zóster" to="que-es-herpes-zoster" spy={true} smooth={true} offset={0} duration={800} />.</p>
 										</div>
 									</div> */}
-								</div>
+								{/* </div> */}
 							</article>
 
 							{/* <span className="absolute bottom-6 md:bottom-10 xl:bottom-14 right-8 md:right-10 lg:right-14 2xl:right-24 text-white z-20 text-[0.50rem] text-right w-fit leading-tight">*BASADO EN TESTIMONIOS REALES DE PACIENTES. <span className="block lg:inline">LOS SÍNTOMAS DEL HERPES ZOSTER PUEDEN VARIAR.</span></span> */}

@@ -172,3 +172,13 @@ line-height: normal;
         padding-bottom: 20px;
     }
 }
+.bold{
+    font-weight: bold;
+}
+.text-hero-new{
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px; /* 104% */
+}

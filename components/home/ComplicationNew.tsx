@@ -119,7 +119,7 @@ const ComplicationNew = () => {
 
 			<div className="space-y-6">
 
-				<motion.div className="space-y-10 md:space-y-12 px-8 sm:px-12 py-4 overflow-hidden"
+				<motion.div className="space-b-10 md:space-b-12 px-8 sm:px-12 pb-4 overflow-hidden"
 					ref={ref}
 					initial="hidden"
 					animate={controls}
@@ -131,7 +131,7 @@ const ComplicationNew = () => {
 						<>
 							<h3 className="text-gsk-orange font-bold text-2xl text-center w-full text-new-title">{item.title}</h3>
 
-							<motion.article className="flex flex-col md:flex-row justify-between gap-x-8 gap-y-5 md:gap-y-0 py-12" key={index} variants={complicationVariant} custom={index} >
+							<motion.article className="flex flex-col md:flex-row justify-between gap-x-8 gap-y-5 md:gap-y-0 py-20" key={index} variants={complicationVariant} custom={index} >
 								<MirrorContentNew title={item.title} body={item.body} image={`${item.image}.webp`} slug={item.slug} index={index} cta={item.cta}/>
 							</motion.article>
 						</>
