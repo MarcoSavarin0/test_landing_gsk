@@ -15,7 +15,7 @@ interface Card {
 const cards: Card[] = [
 	{
 		title: "ENFERMEDADES RESPIRATORIAS",
-		body: "Los pacientes con enfermedades respiratorias tienen un 30% más de riesgo de desarrollar Herpes Zóster. Explorá como esta enfermedad crónica puede afectar el sistema inmunológico, dando lugar a infecciones virales<sup>9<sup/>.",
+		body: "Los pacientes con enfermedades respiratorias tienen un 30% más de riesgo de desarrollar Herpes Zóster. Explorá como esta enfermedad crónica puede afectar el sistema inmunológico, dando lugar a infecciones virales.",
 		image: "herpes-zoster-epoc",
 	},
 	{
