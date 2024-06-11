@@ -46,7 +46,7 @@ const referenciasDetail: Referencia[] = [
 	},
 	{
 		id: 11,
-		title: `Erskine N, Tran H, Levin L, Ulbricht C, Fingeroth J, Kiefe C, Goldberg RJ, Singh S. A systematic review and meta-analysis on herpes zoster and the risk of cardiac and cerebrovascular events. PLoS One. 2017 Jul 27;12(7):e0181565. doi: 10.1371/journal.pone.0181565. PMID: 28749981; PMCID: PMC5531458​`,
+		title: `Erskine N, Tran H, Levin L, Ulbricht C, Fingeroth J, Kiefe C, Goldberg RJ, Singh S. A systematic review and meta-analysis on herpes zoster and the risk of cardiac and cerebrovascular events. PLoS One. 2017 Jul 27;12(7):e0181565. doi: 10.1371/journal.pone.0181565. PMID: 28749981; PMCID: PMC5531458.`,
 	},
 ]
 
