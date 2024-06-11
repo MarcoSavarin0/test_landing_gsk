@@ -17,7 +17,7 @@ const complications: Complication[] = [
 		title: `(ASMA Y EPOC)`,
 		image: `herpes-zoster-epoc`,
 		slug: `epoc`,
-		body: `Las enfermedades respiratorias crónicas, como el asma y la Enfermedad Pulmonar Obstructiva Crónica (EPOC), afectan significativamente al sistema inmunológico haciéndolo más susceptible a infecciones como el Herpes Zóster. Una reactivación del virus varicela - zóster.`,
+		body: `Las enfermedades respiratorias crónicas, como el asma y la Enfermedad Pulmonar Obstructiva Crónica (EPOC), afectan significativamente al sistema inmunológico haciéndolo más susceptible a infecciones como el Herpes Zóster.`,
 		cta: true,
 		categoryTitle: 'ENFERMEDADES  RESPIRATORIAS'
 	},
@@ -34,7 +34,7 @@ const complications: Complication[] = [
 		title: `ENFERMEDADES  CARDIOVASCULARES`,
 		image: `corazon`,
 		slug: `corazon`,
-		body: `Las enfermedades cardiovasculares como la hipertensión arterial, los accidentes cerebro vasculares y las enfermedades coronarias, pueden comprometer la salud general y debilitar el sistema inmunológico. Esto puede aumentar la susceptibilidad a infecciones como el Herpes Zóster, una reactivación del virus varicela - zóster.`,
+		body: `Las enfermedades cardiovasculares como la hipertensión arterial, los accidentes cerebro vasculares y las enfermedades coronarias, pueden comprometer la salud general y debilitar el sistema inmunológico. Esto puede aumentar la susceptibilidad a infecciones como el Herpes Zóster.`,
 		cta: true,
 		categoryTitle: 'ENFERMEDADES  CARDIOVASCULARES'
 
