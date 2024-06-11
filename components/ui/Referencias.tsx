@@ -36,6 +36,14 @@ const referenciasDetail: Referencia[] = [
 		id: 8,
 		title: `Kim J, Kim BE, Leung DYM. Pathophysiology of atopic dermatitis: Clinical implications. Allergy Asthma Proc. 2019 Mar 1;40(2):84-92. doi: 10.2500/aap.2019.40.4202. PMID: 30819278; PMCID: PMC6399565.`,
 	},
+	{
+		id: 9,
+		title: `Muñoz-Quiles C. BMC Infect Dis. 2018 May 3;18(1):203. doi: 10.1186/s12879-018-3121-x. PMID: 29724175; PMCID: PMC5934818. . Forbes HJ. Neurology.2016 Jul 5;87(1):94-102. doi: 10.1212/WNL.0000000000002808 Epub 2016 Jun 10. PMID: 27287218; PMCID: PMC4932239`,
+	},
+	{
+		id: 10,
+		title: `Marra F, Parhar K, Huang B, Vadlamudi N. Risk Factors for Herpes Zoster Infection: A Meta-Analysis. Open Forum Infect Dis. 2020 Jan 9;7(1):ofaa005. doi: 10.1093/ofid/ofaa005. PMID: 32010734; PMCID: PMC6984676`,
+	},
 ]
 
 const Referencias = () => {
