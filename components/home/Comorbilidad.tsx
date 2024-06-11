@@ -25,7 +25,7 @@ const cards: Card[] = [
 	},
 	{
 		title: "ENFERMEDADES CARDIOVASCULARES",
-		body: "Los pacientes con enfermedades cardiovasculares tienen hasta un 30% más de riesgo de desarrollar Herpes Zóster. Explorá como esta enfermedad crónica puede afectar el sistema inmunológico, dando lugar a infecciones virales<sup>11<sup/>.",
+		body: "Los pacientes con enfermedades cardiovasculares tienen hasta un 30% más de riesgo de desarrollar Herpes Zóster. Explorá como esta enfermedad crónica puede afectar el sistema inmunológico, dando lugar a infecciones virales<sup>10<sup/>.",
 		image: "corazon",
 	},
 	
