@@ -35,7 +35,7 @@ const cards: Card[] = [
 	},
 	{
 		title: "OTRAS CONSECUENCIAS",
-		body: "Los pacientes con enfermedades cardiovasculares tienen hasta un 30% más de riesgo de desarrollar Herpes Zóster. Explorá como esta enfermedad crónica puede afectar el sistema inmunológico, dando lugar a infecciones virales.",
+		body: "El Herpes Zóster y sus complicaciones pueden provocar ​dolor persistente, discapacidad auditiva, pérdida de visión y mayor riesgo de infarto de miocardio.​",
 		image: "otras-consecuencias",
 		url: "/"
 
