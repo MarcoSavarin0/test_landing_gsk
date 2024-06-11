@@ -35,7 +35,7 @@ const cards: Card[] = [
 	},
 	{
 		title: "OTRAS CONSECUENCIAS",
-		body: "El Herpes Zóster y sus complicaciones pueden provocar ​dolor persistente, discapacidad auditiva, pérdida de visión y mayor riesgo de infarto de miocardio.​",
+		body: "El Herpes Zóster y sus complicaciones pueden provocar ​dolor persistente, discapacidad auditiva, pérdida de visión y mayor riesgo de infarto de miocardio<sup>11<sup/>.​",
 		image: "otras-consecuencias",
 		url: "/"
 
