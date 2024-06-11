@@ -21,9 +21,7 @@ const faqs: Faq[] = [
 	},
 	{
 		title: `¿Cuál es la diferencia entre Herpes Zóster y Herpes Simple?`,
-		body: `<p>Aunque el Herpes Simple y el Herpes Zóster comparten algunas similitudes, presentan diferencias notables en cuanto a sus causas, transmisión y manifestaciones clínicas. 
-		En el caso del Herpes Simple, pueden aparecer úlceras o ampollas dolorosas en la boca, los labios o la zona genital, acompañadas de fiebre, dolor de cabeza y malestar general.
-		Por otro lado, el Herpes Zóster se caracteriza por la aparición de una erupción cutánea con ampollas en un área específica de un lado del cuerpo, a menudo acompañada de dolor intenso, hormigueo o ardor.<sup>8<sup/></p>`
+		body: `<p>Aunque el Herpes Simple y el Herpes Zóster comparten algunas similitudes, presentan diferencias notables en cuanto a sus causas, transmisión y manifestaciones clínicas. La principal distinción radica en su contagiosidad. El Herpes Simple, causado por los virus HSV-1 y HSV-2, se transmite a través del contacto directo con lesiones, mucosas o fluidos, resultando en úlceras dolorosas en boca o genitales, fiebre y malestar general. En contraste, el Herpes Zóster, aunque derivado del virus varicela-zóster, no se contagia como tal. En vez de ello, el contacto con las lesiones puede transmitir varicela a quienes no poseen inmunidad previa, manifestándose típicamente como una erupción dolorosa y localizada en un lado del cuerpo. Además, los síntomas del Herpes Zóster a menudo incluyen un dolor más intenso, sensación de ardor o hormigueo, diferenciándose claramente en su impacto y localización respecto a las manifestaciones del Herpes Simple.<sup>8<sup/></p>`
 	}
 ]
 
