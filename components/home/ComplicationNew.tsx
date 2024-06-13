@@ -6,37 +6,49 @@ import MirrorContentNew from "./ui/MirrorContentNew"
 interface Complication {
 	categoryTitle: string
 	title: string
+	title2: string
 	image: string
 	slug: string
 	body: string
+	bgColor: string
 	cta: boolean
+	doubleTitle:boolean,
 }
 
 const complications: Complication[] = [
 	{
-		title: `(ASMA Y EPOC)`,
+		title: `ENFERMEDADES RESPIRATORIAS`,
+		title2: `(ASMA Y EPOC)`,
 		image: `herpes-zoster-epoc`,
 		slug: `epoc`,
 		body: `Las enfermedades respiratorias crónicas, como el asma y la Enfermedad Pulmonar Obstructiva Crónica (EPOC), afectan significativamente al sistema inmunológico haciéndolo más susceptible a infecciones como el Herpes Zóster.`,
 		cta: true,
-		categoryTitle: 'ENFERMEDADES  RESPIRATORIAS'
+		bgColor: "none",
+		categoryTitle: 'ENFERMEDADES  RESPIRATORIAS',
+		doubleTitle: true
 	},
 	{
 		title: `DIABETES`,
+		title2: `DIABETES`,
 		image: `relacion-entre-diabetes-herpes-zoster`,
 		slug: `diabetes`,
 		body: `La diabetes es una enfermedad crónica que afecta a millones de personas en todo el mundo y el Herpes Zóster es una infección viral que provoca una erupción dolorosa en la piel. Aunque a primera vista, estas dos condiciones parecen no tener conexión, en algunos casos, puede existir una relación entre el Herpes Zóster y la diabetes. Informate acerca de esta posible relación y cómo las personas con diabetes pueden estar en mayor riesgo de desarrollar Herpes Zóster.`,
 		cta: true,
-		categoryTitle: 'DIABETES'
+		bgColor: "gray",
+		categoryTitle: 'DIABETES',
+		doubleTitle: false
 
 	},
 	{
 		title: `ENFERMEDADES  CARDIOVASCULARES`,
+		title2: `ENFERMEDADES  CARDIOVASCULARES`,
 		image: `corazon`,
 		slug: `corazon`,
 		body: `Las enfermedades cardiovasculares como la hipertensión arterial, los accidentes cerebro vasculares y las enfermedades coronarias, pueden comprometer la salud general y debilitar el sistema inmunológico. Esto puede aumentar la susceptibilidad a infecciones como el Herpes Zóster.`,
 		cta: true,
-		categoryTitle: 'ENFERMEDADES  CARDIOVASCULARES'
+		bgColor: "none",
+		categoryTitle: 'ENFERMEDADES  CARDIOVASCULARES',
+		doubleTitle: false
 
 	},
 	
@@ -88,7 +100,7 @@ const ComplicationNew = () => {
 
 
 	return (
-		<section className="px-4 relative">
+		<section className="px-4 relative ">
 			{/* <div className="bg-shape top-8 opacity-80">
 				<Image
 					alt=""
@@ -118,27 +130,47 @@ const ComplicationNew = () => {
 			</div> */}
 
 			<div className="space-y-6">
-
-				<motion.div className="space-b-10 md:space-b-12 px-8 sm:px-12 pb-4 overflow-hidden"
+				<motion.div
+					className="space-b-10 md:space-b-12 px-8 sm:px-12 lg:px-0 pb-4 overflow-hidden"
 					ref={ref}
 					initial="hidden"
 					animate={controls}
 					variants={containerVariant}
 				>
-					<h3 className="text-gsk-orange font-bold text-2xl text-center w-full text-new-title">ENFERMEDADES RESPIRATORIAS</h3>
+					{/* <h3 className="pt-,
+					two-lines-title:boolean,20 text-gsk-orange font-bold text-2xl text-center w-full text-new-title">ENFERMEDADES RESPIRATORIAS</h3> */}
 
 					{complications.map((item: Complication, index: number) => (
-						<>
-							<h3 className="text-gsk-orange font-bold text-2xl text-center w-full text-new-title">{item.title}</h3>
-
-							<motion.article className="flex flex-col md:flex-row justify-between gap-x-8 gap-y-5 md:gap-y-0 py-20" key={index} variants={complicationVariant} custom={index} >
-								<MirrorContentNew title={item.title} body={item.body} image={`${item.image}.webp`} slug={item.slug} index={index} cta={item.cta}/>
+						<div className={item.bgColor === 'gray' ? "gray-bg px-8 sm:px-12" : " px-8 sm:px-12"} key={index}>
+							<h3 className="text-gsk-orange font-bold text-2xl text-center w-full text-new-title pt-20">
+								{item.title}
+								{item.doubleTitle && (
+									<>
+										<br />
+										{item.title2}
+									</>
+								)}
+							</h3>
+							<motion.article
+								className="flex flex-col md:flex-row justify-between gap-x-8 gap-y-5 md:gap-y-0 py-20"
+								key={index}
+								variants={complicationVariant}
+								custom={index}
+							>
+								<MirrorContentNew
+									title={item.title}
+									body={item.body}
+									image={`${item.image}.webp`}
+									slug={item.slug}
+									index={index}
+									cta={item.cta}
+								/>
 							</motion.article>
-						</>
-						
+						</div>
 					))}
 				</motion.div>
 			</div>
+
 		</section>
 	)
 }

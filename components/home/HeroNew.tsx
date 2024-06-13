@@ -87,7 +87,7 @@ const HeroNew = () => {
 			>
 				{dolores.map(({top}: Dolor, index: number) => (
 					<SwiperSlide key={index}>
-						<div className="relative w-full flex flex-col bg-gsk-dark h-[21rem] md:h-[27rem] lg:h-[34rem] xl:h-[46rem] 2xl:h-[54rem] overflow-hidden">
+						<div className="relative w-full flex flex-col bg-gsk-dark h-[21rem] md:h-[27rem] lg:h-[34rem] xl:h-[38rem] 2xl:h-[45rem] overflow-hidden hero-text">
 							<div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-b from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 z-10"/>
 
 							<div className="absolute bottom-auto md:bottom-0 md:left-0 w-full h-fit">

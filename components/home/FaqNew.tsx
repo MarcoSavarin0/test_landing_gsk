@@ -21,7 +21,8 @@ const faqs: Faq[] = [
 	},
 	{
 		title: `¿Cuál es la diferencia entre Herpes Zóster y Herpes Simple?`,
-		body: `<p>Aunque el Herpes Simple y el Herpes Zóster comparten algunas similitudes, presentan diferencias notables en cuanto a sus causas, transmisión y manifestaciones clínicas. La principal distinción radica en su contagiosidad. El Herpes Simple, causado por los virus HSV-1 y HSV-2, se transmite a través del contacto directo con lesiones, mucosas o fluidos, resultando en úlceras dolorosas en boca o genitales, fiebre y malestar general. En contraste, el Herpes Zóster, aunque derivado del virus varicela-zóster, no se contagia como tal. En vez de ello, el contacto con las lesiones puede transmitir varicela a quienes no poseen inmunidad previa, manifestándose típicamente como una erupción dolorosa y localizada en un lado del cuerpo. Además, los síntomas del Herpes Zóster a menudo incluyen un dolor más intenso, sensación de ardor o hormigueo, diferenciándose claramente en su impacto y localización respecto a las manifestaciones del Herpes Simple.<sup>8<sup/></p>`
+		body: `<p>La diferencia entre Herpes Zóster y Herpes Simple comienza con las causas de la enfermedad. El Herpes Simple es causado por dos tipos de virus: el Herpes Simple tipo 1 (HSV-1) y el Herpes Simple tipo 2 (HSV-2). El Herpes Simple tipo 1 suele causar herpes labial o úlceras bucales, mientras que el Herpes Simple tipo 2 está asociado con el herpes genital. Ambos virus son altamente contagiosos y se transmiten principalmente a través del contacto directo con la piel, las mucosas o los fluidos corporales de una persona infectada.
+		Por otro lado, el Herpes Zóster, es causado por el virus de la varicela-zóster (VVZ), el mismo virus que causa la varicela. Después de la infección inicial (varicela), el virus permanece latente en el cuerpo y, posteriormente, puede reactivarse en cualquier momento de la vida en forma de Herpes Zóster.<sup>8<sup/></p>`
 	}
 ]
 

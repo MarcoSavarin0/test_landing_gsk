@@ -1,8 +1,6 @@
 import { Element } from 'react-scroll'
 
 import CardIconBackground from "@/components/home/ui/CardIconBackground"
-import Description from "@/components/ui/Description"
-import H2 from '../ui/H2'
 import Link from "next/link"
 import SpacerNew from '../ui/SpacerNew'
 
@@ -35,8 +33,13 @@ const Who = () => {
 	return (
 		<section className="text-center space-y-10 relative bg-gsk-gray pt-10 pb-10">
 			<Element className="space-y-3 px-4" name="riesgo">
-				<H2 title={`Las enfermedades crónicas pueden aumentar el riesgo de contraer Herpes Zoster`}/>
-				<Description title={` ¿Sabías que determinadas enfermedades afectan al sistema inmune dando lugar a infecciones como el Herpes Zóster? Conocé cuáles son.`}/>
+				<div className="container-mid">
+
+					<div className="title-new-big mx-auto">Las enfermedades crónicas pueden aumentar el riesgo de contraer Herpes Zoster</div>
+				</div>
+
+				<div className={`text-md md:text-lg`}>¿Sabías que determinadas enfermedades afectan al sistema inmune dando lugar a infecciones como el Herpes Zóster? <span className="bold"> Conocé cuáles son.</span></div>
+
 			</Element>
 
 			<div className="grid grid-cols-1 lg:grid-cols-3 content-start gap-x-0 lg:gap-x-10 gap-y-8 lg:gap-y-0 px-8 md:px-20 lg:px-12">

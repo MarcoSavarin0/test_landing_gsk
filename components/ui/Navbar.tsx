@@ -6,9 +6,10 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const Navbar = () => {
 	const [showDropdown, setShowDropdown] = useState(false)
-	const closeDropdown = () => {
-		setShowDropdown(false)
-	}
+
+	const handleMouseEnter = () => setShowDropdown(true)
+	const handleMouseLeave = () => setShowDropdown(false)
+
 	return (
 		<Disclosure as="header" className="bg-gsk-dark" id="nav">
 			{({ open }) => (
@@ -29,38 +30,38 @@ const Navbar = () => {
 								</div>
 							</div>
 
-
 							<nav className="hidden sm:ml-6 md:block">
 								<div className="flex items-center">
 									<Link href="/#que-es-herpes-zoster" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										¿Qué es Herpes Zóster?
 									</Link>
-									{/* <Link href="/#sintomas" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
-										Síntomas
-									</Link> */}
 									<Link href="/#risk-who" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										¿Quiénes están en riesgo?
 									</Link>
-									{/* <Link href="/enfermedades-cronicas" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
-									TENGO UNA ENFERMEDAD CRÓNICA
-									</Link> */}
 									<Link href="/#enprimerapersona" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										En primera persona
 									</Link>
-									<div className="relative">
-										<div className="cursor-pointer text-white md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300 dropdown" onMouseOver={() => setShowDropdown(!showDropdown)}>
+									<div
+										className="relative"
+										onMouseOver={handleMouseEnter}
+									>
+										<div className="cursor-pointer text-white md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300 dropdown">
 											Iniciativas
 											<svg className="-mr-1 ml-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 												<path fillRule="evenodd" d="M6.293 7.293a1 1 0 011.414 0L10 9.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
 											</svg>
 										</div>
 										{showDropdown && (
-											<div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg z-10">
+											<div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg z-10"
+												o	nMouseOver={handleMouseEnter}
+
+												onMouseOut={handleMouseLeave}
+											>
 												<Link
 													href="/conciencia"
 													scroll={false}
 													className="block px-4 py-2 text-gray-800 hover:text-gsk-orange hover:underline"
-													onClick={closeDropdown}
+													onClick={() => setShowDropdown(false)}
 												>
 													Semana de la Concientización
 												</Link>
@@ -68,18 +69,10 @@ const Navbar = () => {
 													href="/hz90"
 													scroll={false}
 													className="block px-4 py-2 text-gray-800 hover:text-gsk-orange hover:underline"
-													onClick={closeDropdown}
+													onClick={() => setShowDropdown(false)}
 												>
 													HZ_90
 												</Link>
-												{/* <Link
-													href="/enfermedades-cronicas"
-													scroll={false}
-													className="block px-4 py-2 text-gray-800 hover:text-gsk-orange hover:underline"
-													onClick={closeDropdown}
-												>
-													Enfermedades Cronicas
-												</Link> */}
 											</div>
 										)}
 									</div>
@@ -114,11 +107,6 @@ const Navbar = () => {
 									¿Quiénes están en riesgo?
 								</Link>
 							</Disclosure.Button>
-							{/* <Disclosure.Button as={Fragment}>
-								<Link href="/enfermedades-cronicas" scroll={false} className="cursor-pointer block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
-								Tengo una enfermedad crónica
-								</Link>
-							</Disclosure.Button> */}
 							<Disclosure.Button as={Fragment}>
 								<Link href="/#enprimerapersona" className="block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
 									En primera persona
@@ -143,10 +131,6 @@ const Navbar = () => {
 												<Link href="/hz90" className="block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
 													HZ_90
 												</Link>
-												{/* <Link href="/enfermedades-cronicas" className="block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
-												Enfermedades Cronicas
-												</Link> */}
-												
 											</Disclosure.Panel>
 										</>
 									)}
@@ -155,7 +139,6 @@ const Navbar = () => {
 							
 						</div>
 					</Disclosure.Panel>
-
 				</>
 			)}
 		</Disclosure>
