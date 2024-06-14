@@ -22,7 +22,7 @@ const faqs: Faq[] = [
 	{
 		title: `¿Cuál es la diferencia entre Herpes Zóster y Herpes Simple?`,
 		body: `<p>La diferencia entre Herpes Zóster y Herpes Simple comienza con las causas de la enfermedad. El Herpes Simple es causado por dos tipos de virus: el Herpes Simple tipo 1 (HSV-1) y el Herpes Simple tipo 2 (HSV-2). El Herpes Simple tipo 1 suele causar herpes labial o úlceras bucales, mientras que el Herpes Simple tipo 2 está asociado con el herpes genital. Ambos virus son altamente contagiosos y se transmiten principalmente a través del contacto directo con la piel, las mucosas o los fluidos corporales de una persona infectada.
-		Por otro lado, el Herpes Zóster, es causado por el virus de la varicela-zóster (VVZ), el mismo virus que causa la varicela. Después de la infección inicial (varicela), el virus permanece latente en el cuerpo y, posteriormente, puede reactivarse en cualquier momento de la vida en forma de Herpes Zóster.<sup>8<sup/></p>`
+Por otro lado, el Herpes Zóster, es causado por el virus de la varicela-zóster (VVZ), el mismo virus que causa la varicela. Después de la infección inicial (varicela), el virus permanece latente en el cuerpo y, posteriormente, puede reactivarse en cualquier momento de la vida en forma de Herpes Zóster.<sup>8<sup/></p>`
 	}
 ]
 
