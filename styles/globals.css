@@ -222,9 +222,7 @@ width: 60%;
 background-color:#F8F8F8;
 }
 
-@media (min-width: 1536px) {
-    .\32xl\:h-\[54rem\] {
-        height: 47rem;
-    }
+.relative.w-full.flex.flex-col.bg-gsk-dark.h-\[21rem\].md\:h-\[27rem\].lg\:h-\[34rem\].xl\:h-\[46rem\].\32 xl\:h-\[54rem\].overflow-hidden {
+    height: 47em;
 }
 
