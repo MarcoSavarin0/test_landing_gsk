@@ -221,3 +221,10 @@ width: 60%;
 .gray-bg{
 background-color:#F8F8F8;
 }
+
+@media (min-width: 1536px) {
+    .\32xl\:h-\[54rem\] {
+        height: 47rem;
+    }
+}
+
