@@ -53,7 +53,7 @@ const Navbar = () => {
 										</div>
 										{showDropdown && (
 											<div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg z-10"
-												o	nMouseOver={handleMouseEnter}
+												onMouseOver={handleMouseEnter}
 
 												onMouseOut={handleMouseLeave}
 											>
