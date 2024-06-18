@@ -129,7 +129,7 @@ const Hero = () => {
 			>
 				{dolores.map(({title, type, top}: Dolor, index: number) => (
 					<SwiperSlide key={index}>
-						<div className="relative w-full flex flex-col bg-gsk-dark h-[21rem] md:h-[24rem] lg:h-[32rem] xl:h-[40rem] 2xl:h-[44rem] overflow-hidden">
+						<div className="relative w-full flex flex-col bg-gsk-dark h-[21rem] md:h-[24rem] lg:h-[32rem] xl:h-[40rem] 2xl:h-[38rem] overflow-hidden">
 							<div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-b from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 z-10"/>
 
 							<div className="absolute bottom-auto md:bottom-0 md:left-0 w-full h-fit">
