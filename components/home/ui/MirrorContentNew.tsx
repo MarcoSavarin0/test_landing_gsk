@@ -6,9 +6,9 @@ interface Complication {
 	title: string
 	body: string
 	image: string
-	slug: string
+	//slug: string
 	index: number
-	cta: boolean
+	//cta: boolean
 }
 
 const shimmer = (w: number, h: number) => `
@@ -49,7 +49,7 @@ const MirrorContentNew = ({title, image, slug, body, cta}: Complication) => {
 
 			<div className="w-full md:w-8/12 cronica-container">
 				<p className="text-lg md:text-xl text-justify">{parse(body)}</p>
-				{cta ? <Link href={`/biblioteca/post/${slug}`} className="text-lg underline text-gsk-orange hover:text-gsk-dark transition-colors duration-200 ease-out cta-button-orange">Leer más {">"}</Link> : ""}
+				{/* {cta ? <Link href={`/biblioteca/post/${slug}`} className="text-lg underline text-gsk-orange hover:text-gsk-dark transition-colors duration-200 ease-out cta-button-orange">Leer más {">"}</Link> : ""} */}
 			</div>
 		</>
 	)
