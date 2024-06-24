@@ -48,7 +48,7 @@ const MirrorContent = ({title, image, index, slug, body, cta}: Complication) => 
 			<div className="w-full md:w-8/12">
 				<h3 className="text-gsk-orange font-bold text-2xl">{title}</h3>
 				<p className="text-lg md:text-xl text-justify">{parse(body)}</p>
-				{cta ? <Link href={`/biblioteca/post/${slug}`} className="text-lg underline text-gsk-orange hover:text-gsk-dark transition-colors duration-200 ease-out">Conocé más</Link> : ""}
+				/*{cta ? <Link href={`/biblioteca/post/${slug}`} className="text-lg underline text-gsk-orange hover:text-gsk-dark transition-colors duration-200 ease-out">Conocé más</Link> : ""}*/
 			</div>
 		</>
 	)
