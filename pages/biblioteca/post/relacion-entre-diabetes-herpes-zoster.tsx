@@ -14,8 +14,7 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 	ssr: false,
 })
 
-
-const info =`
+const info = `
 ## ¿Sabías que los pacientes con diabetes tienen hasta un 40% más de riesgo de desarrollar Herpes Zóster?
 La diabetes es una enfermedad crónica que afecta a 540 millones de personas en todo el mundo<sup>[1]</sup>. En Argentina, la prevalencia de glucemia elevada/diabetes en la población adulta por autoreporte fue de un 12%<sup>[2]</sup>. El Herpes Zóster es una infección viral que provoca una erupción dolorosa en la piel<sup>[3]</sup>. En este artículo vamos a conocer cómo influye la diabetes con el desarrollo del Herpes Zóster.
 
@@ -161,8 +160,6 @@ const toBase64 = (str: string) =>
 const Blog = ({ nota }: any) => {
 	const { title, image, metatitle, metadescription, slug } = nota.data[0].attributes
 
-	
-
 	const list = [
 		`<sup>1</sup> <a href="https://idf.org/aboutdiabetes/what-is-diabetes/facts-figures.html" target="_blank">Datos y cifras sobre la diabetes | Federación Internacional de Diabetes (idf.org)</a>`,
 		
@@ -180,7 +177,6 @@ const Blog = ({ nota }: any) => {
 		`<sup>13</sup> Liesegang, T. J. (2008). Herpes Zoster Ophthalmicus Natural History, Risk Factors, Clinical Presentation, and Morbidity. Ophthalmology, 115(2 Suppl), S3-S12. doi:10.1016/j.ophtha.2007.10.006`,
 		`<sup>14</sup> Saadatian-Elahi M, Bauduceau B, Del-Signore C, Vanhems P. Diabetes as a risk factor for herpes zoster in adults: A synthetic literature review. Diabetes Res Clin Pract. 2020 Jan;159:107983. doi: 10.1016/j.diabres.2019.107983. Epub 2019 Dec 14. PMID: 31846665.`
 	];
-	
 
 	return (
 		<>
@@ -248,10 +244,7 @@ const Blog = ({ nota }: any) => {
 									className="markdown-body">{info}</Markdown>
 							</article>
 
-
 							<CollapsibleList list={list} />
-
-
 
 							{/* <div className="space-y-2 mt-10">
 								<h3 className="text-lg md:text-xl text-gsk-orange">Relacionados</h3>
