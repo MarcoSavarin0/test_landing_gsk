@@ -15,7 +15,7 @@ const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), 
 })
 
 
-const info = const info = `
+const info =`
 ## ¿Sabías que los pacientes con diabetes tienen hasta un 40% más de riesgo de desarrollar Herpes Zóster?
 La diabetes es una enfermedad crónica que afecta a 540 millones de personas en todo el mundo<sup>[1]</sup>. En Argentina, la prevalencia de glucemia elevada/diabetes en la población adulta por autoreporte fue de un 12%<sup>[2]</sup>. El Herpes Zóster es una infección viral que provoca una erupción dolorosa en la piel<sup>[3]</sup>. En este artículo vamos a conocer cómo influye la diabetes con el desarrollo del Herpes Zóster.
 
