@@ -75,7 +75,7 @@ export const getStaticProps: GetStaticProps = async () => {
 			{
 				"id": 8,
 				"attributes": {
-					"image": "https://gsk-hdz-2.b-cdn.net/notas/DIABETES.png",
+					"image": "relacion-entre-diabetes-herpes-zoster",
 					"title": "¿Hay relación entre el Herpes Zóster y la diabetes? La diabetes como factor de riesgo",
 					"slug": "relacion-entre-diabetes-herpes-zoster"
 				}
