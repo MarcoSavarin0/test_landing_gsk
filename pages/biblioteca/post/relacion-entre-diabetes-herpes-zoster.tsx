@@ -176,7 +176,7 @@ const Blog = ({ nota }: any) => {
 		`<sup>12</sup> P Sampathkumar, LA Drage, DP Martin - Mayo Clinic Proceedings. 2009`,
 		`<sup>13</sup> Liesegang, T. J. (2008). Herpes Zoster Ophthalmicus Natural History, Risk Factors, Clinical Presentation, and Morbidity. Ophthalmology, 115(2 Suppl), S3-S12. doi:10.1016/j.ophtha.2007.10.006`,
 		`<sup>14</sup> Saadatian-Elahi M, Bauduceau B, Del-Signore C, Vanhems P. Diabetes as a risk factor for herpes zoster in adults: A synthetic literature review. Diabetes Res Clin Pract. 2020 Jan;159:107983. doi: 10.1016/j.diabres.2019.107983. Epub 2019 Dec 14. PMID: 31846665.`
-	];
+	]
 
 	return (
 		<>
