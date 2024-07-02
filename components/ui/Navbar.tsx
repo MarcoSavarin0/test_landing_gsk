@@ -1,14 +1,14 @@
-import { Fragment, useState } from "react"
-import Link from "next/link"
-import Image from "next/image"
-import { Disclosure } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Fragment, useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { Disclosure } from '@headlessui/react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 const Navbar = () => {
-	const [showDropdown, setShowDropdown] = useState(false)
+	const [showDropdown, setShowDropdown] = useState(false);
 
-	const handleMouseEnter = () => setShowDropdown(true)
-	const handleMouseLeave = () => setShowDropdown(false)
+	const handleMouseEnter = () => setShowDropdown(true);
+	const handleMouseLeave = () => setShowDropdown(false);
 
 	return (
 		<Disclosure as="header" className="bg-gsk-dark" id="nav">
@@ -38,6 +38,10 @@ const Navbar = () => {
 									<Link href="/#risk-who" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										¿Quiénes están en riesgo?
 									</Link>
+									{/* Nuevo elemento de menú */}
+									<Link href="https://www.hablemosdezoster.com/enfermedades-cronicas" className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
+										Tengo una enfermedad crónica
+									</Link>
 									<Link href="/#enprimerapersona" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										En primera persona
 									</Link>
@@ -48,13 +52,12 @@ const Navbar = () => {
 										<div className="cursor-pointer text-white md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300 dropdown">
 											Iniciativas
 											<svg className="-mr-1 ml-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-												<path fillRule="evenodd" d="M6.293 7.293a1 1 0 011.414 0L10 9.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
+												<path fillRule="evenodd" d="M6.293 7.293a1 1 0 011.414 0L10 9.586l2.293-2.293a1 1 111.414 1.414l-3 3a1 1 01-1.414 0l-3-3a1 1 010-1.414z" clipRule="evenodd" />
 											</svg>
 										</div>
 										{showDropdown && (
 											<div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg z-10"
 												onMouseOver={handleMouseEnter}
-
 												onMouseOut={handleMouseLeave}
 											>
 												<Link
@@ -107,6 +110,12 @@ const Navbar = () => {
 									¿Quiénes están en riesgo?
 								</Link>
 							</Disclosure.Button>
+							{/* Nuevo elemento de menú */}
+							<Disclosure.Button as={Fragment}>
+								<Link href="/enfermedades-cronicas" className="cursor-pointer block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
+									Tengo una enfermedad crónica
+								</Link>
+							</Disclosure.Button>
 							<Disclosure.Button as={Fragment}>
 								<Link href="/#enprimerapersona" className="block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
 									En primera persona
@@ -120,7 +129,7 @@ const Navbar = () => {
 												<button className="cursor-pointer block rounded-md px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white">
 													Iniciativas
 													<svg className={`${open ? 'transform rotate-180' : ''} -mr-1 ml-1 h-5 w-5 inline-block`} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-														<path fillRule="evenodd" d="M6.293 7.293a1 1 0 011.414 0L10 9.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
+														<path fillRule="evenodd" d="M6.293 7.293a1 1 0 011.414 0L10 9.586l2.293-2.293a1 1 111.414 1.414l-3 3a1 1 01-1.414 0l-3-3a1 1 010-1.414z" clipRule="evenodd" />
 													</svg>
 												</button>
 											</Disclosure.Button>
@@ -136,7 +145,6 @@ const Navbar = () => {
 									)}
 								</Disclosure>
 							</div>
-							
 						</div>
 					</Disclosure.Panel>
 				</>
@@ -145,4 +153,4 @@ const Navbar = () => {
 	)
 }
 
-export default Navbar
+export default Navbar;
