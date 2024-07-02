@@ -38,6 +38,11 @@ const Navbar = () => {
 									<Link href="/#risk-who" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										¿Quiénes están en riesgo?
 									</Link>
+									
+									<Link href="/enfermedades-cronicas" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
+										Tengo una enfermedad crónica
+									</Link>
+									
 									<Link href="/#enprimerapersona" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										En primera persona
 									</Link>
