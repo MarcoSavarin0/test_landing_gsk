@@ -22,7 +22,7 @@ const complications: Complication[] = [
 		image: `herpes-zoster-epoc`,
 		slug: `epoc`,
 		body: `Las enfermedades respiratorias crónicas, como el asma y la Enfermedad Pulmonar Obstructiva Crónica (EPOC), afectan significativamente al sistema inmunológico haciéndolo más susceptible a infecciones como el Herpes Zóster.`,
-		cta: true,
+		cta: false,
 		bgColor: "none",
 		categoryTitle: 'ENFERMEDADES  RESPIRATORIAS',
 		doubleTitle: true
@@ -33,7 +33,7 @@ const complications: Complication[] = [
 		image: `relacion-entre-diabetes-herpes-zoster`,
 		slug: `diabetes`,
 		body: `La diabetes es una enfermedad crónica que afecta a millones de personas en todo el mundo y el Herpes Zóster es una infección viral que provoca una erupción dolorosa en la piel. Aunque a primera vista, estas dos condiciones parecen no tener conexión, en algunos casos, puede existir una relación entre el Herpes Zóster y la diabetes. Informate acerca de esta posible relación y cómo las personas con diabetes pueden estar en mayor riesgo de desarrollar Herpes Zóster.`,
-		cta: true,
+		cta: false,
 		bgColor: "gray",
 		categoryTitle: 'DIABETES',
 		doubleTitle: false
@@ -45,7 +45,7 @@ const complications: Complication[] = [
 		image: `corazon`,
 		slug: `corazon`,
 		body: `Las enfermedades cardiovasculares como la hipertensión arterial, los accidentes cerebro vasculares y las enfermedades coronarias, pueden comprometer la salud general y debilitar el sistema inmunológico. Esto puede aumentar la susceptibilidad a infecciones como el Herpes Zóster.`,
-		cta: true,
+		cta: false,
 		bgColor: "none",
 		categoryTitle: 'ENFERMEDADES  CARDIOVASCULARES',
 		doubleTitle: false
