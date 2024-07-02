@@ -76,10 +76,10 @@ export const getStaticProps: GetStaticProps = async (context) => {
 	const nota = {
 		"data": [
 			{
-				"id": 8,
+				"id": 1,
 				"attributes": {
 					"title": "¿Hay relación entre el Herpes Zóster y la diabetes? La diabetes como factor de riesgo",
-					"image": "diabetes",
+					"image": "relacion-entre-diabetes-herpes-zoster",
 					"metatitle": "Relación entre el Herpes Zóster y la diabetes",
 					"metadescription": "Explora la conexión entre la diabetes y el Herpes Zóster y cómo un buen control de la diabetes puede reducir el riesgo de esta dolorosa infección.",
 					"slug": "note-slug",
