@@ -50,7 +50,7 @@ const Home = () => {
 					description: 'No sabes que es el Herpes Zoster? Te contamos todo lo que necesitas saber sobre el virus de la "culebrilla" y cómo prevenirla.',
 					images: [
 						{
-							url: `https://gsk-hdz.b-cdn.net/og.jpg`,
+							url: `https://gsk-hdz-2.b-cdn.net/og.jpg`,
 							width: 1200,
 							height: 627,
 							alt: 'Herpes Zóster',

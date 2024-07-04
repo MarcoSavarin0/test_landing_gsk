@@ -43,7 +43,7 @@ const Post = ({image, title, slug}: Post) => {
 						/>
 					) : (
 						<Image
-							src={`https://gsk-hdz.b-cdn.net/notas/${image}.webp`}
+							src={`https://gsk-hdz-2.b-cdn.net/notas/${image}.webp`}
 							className="w-full group-hover:scale-105 transition-transform ease-in-out duration-500"
 							alt={title}
 							width={600}

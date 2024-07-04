@@ -39,7 +39,7 @@ const Autotest = () => {
 					description: '¿Creés que podrías estar en riesgo de contraer el Herpes Zóster? Realizá este test de riesgo y obtené la información necesaria para hablar con tu médico.',
 					images: [
 						{
-							url: `https://gsk-hdz.b-cdn.net/og.jpg`,
+							url: `https://gsk-hdz-2.b-cdn.net/og.jpg`,
 							width: 1200,
 							height: 627,
 							alt: 'Herpes Zóster',

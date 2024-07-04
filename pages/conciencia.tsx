@@ -20,7 +20,7 @@ const Conciencia = () => {
 					description: '¿Te cruzaste al misterioso hZ_90 en las redes, en la calle o en los shoppings? Conocé todo sobre la campaña hZ_90 e informate sobre Herpes Zóster.',
 					images: [
 						{
-							url: `https://gsk-hdz.b-cdn.net/og.jpg`,
+							url: `https://gsk-hdz-2.b-cdn.net/og.jpg`,
 							width: 1200,
 							height: 627,
 							alt: 'Herpes Zóster',
@@ -66,25 +66,25 @@ const Conciencia = () => {
 										{/* <div className="hz90-carousel w-full">
 											<Swiper slidesPerView={1} spaceBetween={50} loop={true} navigation={true} modules={[EffectFade, Autoplay, Navigation]}>
 												<SwiperSlide>
-													<Image src={"https://gsk-hdz.b-cdn.net/hz90/01.webp"} alt={"HZ_90"} width={720} height={1000}/>
+													<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/01.webp"} alt={"HZ_90"} width={720} height={1000}/>
 												</SwiperSlide>
 												<SwiperSlide>
-													<Image src={"https://gsk-hdz.b-cdn.net/hz90/02.webp"} alt={"HZ_90"} width={720} height={1000}/>
+													<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/02.webp"} alt={"HZ_90"} width={720} height={1000}/>
 												</SwiperSlide>
 												<SwiperSlide>
-													<Image src={"https://gsk-hdz.b-cdn.net/hz90/03.webp"} alt={"HZ_90"} width={720} height={1000}/>
+													<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/03.webp"} alt={"HZ_90"} width={720} height={1000}/>
 												</SwiperSlide>
 												<SwiperSlide>
-													<Image src={"https://gsk-hdz.b-cdn.net/hz90/04.webp"} alt={"HZ_90"} width={720} height={1000}/>
+													<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/04.webp"} alt={"HZ_90"} width={720} height={1000}/>
 												</SwiperSlide>
 												<SwiperSlide>
-													<Image src={"https://gsk-hdz.b-cdn.net/hz90/05.webp"} alt={"HZ_90"} width={720} height={1000}/>
+													<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/05.webp"} alt={"HZ_90"} width={720} height={1000}/>
 												</SwiperSlide>
 											</Swiper>
 										</div> */}
 
-										{/* <video onPlay={() => console.log("Hz90-play")} className={`w-full h-auto object-cover bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="auto" muted={true} width="960" height="540" autoPlay={false} controls={true} loop={true} poster={"https://gsk-hdz.b-cdn.net/hz90/leds.webp"}>
-												<source src={`https://gsk-hdz.b-cdn.net/hz90/obelisco.mp4`} type="video/mp4"/>
+										{/* <video onPlay={() => console.log("Hz90-play")} className={`w-full h-auto object-cover bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="auto" muted={true} width="960" height="540" autoPlay={false} controls={true} loop={true} poster={"https://gsk-hdz-2.b-cdn.net/hz90/leds.webp"}>
+												<source src={`https://gsk-hdz-2.b-cdn.net/hz90/obelisco.mp4`} type="video/mp4"/>
 											</video> */}
 									</div>
 										
@@ -94,18 +94,18 @@ const Conciencia = () => {
 							
 
 							{/* <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
-								<Image src={"https://gsk-hdz.b-cdn.net/hz90/grid-01.webp"} alt={"HZ_90"} width={960} height={720}/>
-								<Image src={"https://gsk-hdz.b-cdn.net/hz90/grid-02.webp"} alt={"HZ_90"} width={960} height={720}/>
-								<Image src={"https://gsk-hdz.b-cdn.net/hz90/grid-03.webp"} alt={"HZ_90"} width={960} height={720}/>
-								<Image src={"https://gsk-hdz.b-cdn.net/hz90/grid-04.webp"} alt={"HZ_90"} width={960} height={720}/>
-								<Image src={"https://gsk-hdz.b-cdn.net/hz90/grid-05.webp"} alt={"HZ_90"} width={960} height={720}/>
-								<Image src={"https://gsk-hdz.b-cdn.net/hz90/grid-06.webp"} alt={"HZ_90"} width={960} height={720}/>
+								<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/grid-01.webp"} alt={"HZ_90"} width={960} height={720}/>
+								<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/grid-02.webp"} alt={"HZ_90"} width={960} height={720}/>
+								<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/grid-03.webp"} alt={"HZ_90"} width={960} height={720}/>
+								<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/grid-04.webp"} alt={"HZ_90"} width={960} height={720}/>
+								<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/grid-05.webp"} alt={"HZ_90"} width={960} height={720}/>
+								<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/grid-06.webp"} alt={"HZ_90"} width={960} height={720}/>
 							</div> */}
 
 							
 
 							{/* <div className="flex justify-center items-center w-11/12 md:w-10/12 lg:w-8/12 mx-auto">
-								<Image src={"https://gsk-hdz.b-cdn.net/hz90/window.webp"} alt={"HZ90"} width={1018} height={396}/>
+								<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/window.webp"} alt={"HZ90"} width={1018} height={396}/>
 							</div> */}
 						</div>
 					</article>

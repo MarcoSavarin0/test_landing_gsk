@@ -19,7 +19,7 @@ const AcercaDe = () => {
 					description: 'Necesitas información confiable sobre el Herpes Zóster? Nuestro grupo de médicos respondió las preguntas más importantes que tiene la gente sobre este virus.',
 					images: [
 						{
-							url: `https://gsk-hdz.b-cdn.net/og.jpg`,
+							url: `https://gsk-hdz-2.b-cdn.net/og.jpg`,
 							width: 1200,
 							height: 627,
 							alt: 'Herpes Zóster',

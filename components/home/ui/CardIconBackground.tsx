@@ -33,7 +33,14 @@ const CardIcon = ({ title, image, body}: CardIcon) => {
 		link = '/biblioteca/post/afecciones-piel-herpes-zoster'
 	}else if(title == 'OTRAS CONSECUENCIAS'){
 		link = ''
+	} else if(title == 'ENFERMEDADES RESPIRATORIAS'){
+		link = '/biblioteca/post/enfermedades-respiratorias-zoster'
+	}else if(title == 'DIABETES'){
+		link = '/biblioteca/post/relacion-entre-diabetes-herpes-zoster'
+	}else if(title == 'ENFERMEDADES CARDIOVASCULARES'){
+		link = '/biblioteca/post/enfermedades-cardiovasculares-zoster'
 	}
+	
 		
 
 	return (

@@ -75,8 +75,8 @@ export const getStaticProps: GetStaticProps = async () => {
 			{
 				"id": 8,
 				"attributes": {
-					"image": "relacion-entre-diabetes-herpes-zoster",
-					"title": "¿Hay relación entre el Herpes Zóster y la diabetes? La diabetes como factor de riesgo",
+					"image": "DIABETES",
+					"title": "¿Sabías que los pacientes con diabetes tienen hasta un 40% más de riesgo de desarrollar Herpes Zóster?",
 					"slug": "relacion-entre-diabetes-herpes-zoster"
 				}
 			},
@@ -248,6 +248,23 @@ export const getStaticProps: GetStaticProps = async () => {
 					"slug": "sintomas-varicela"
 				}
 			},
+			{
+				"id": 28,
+				"attributes": {
+					"image": "RESPI",
+					"title": "¿Sabías que las personas con enfermedades respiratorias tienen hasta un 30% más de riesgo de desarrollar Herpes Zóster?",
+					"slug": "enfermedades-respiratorias-zoster"
+				}
+			},
+			{
+				"id": 29,
+				"attributes": {
+					"image": "CARDIO",
+					"title": "¿Sabías que las personas con enfermedades cardiovasculares tienen hasta un 30% más de riesgo de desarrollar Herpes Zóster?",
+					"slug": "enfermedades-cardiovasculares-zoster"
+				}
+			},
+			
 		]
 	}
 	return {
@@ -273,7 +290,7 @@ const Blog = ({ notas }: any) => {
 					description: 'El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento.',
 					images: [
 						{
-							url: `https://gsk-hdz.b-cdn.net/og.jpg`,
+							url: `https://gsk-hdz-2.b-cdn.net/og.jpg`,
 							width: 1200,
 							height: 627,
 							alt: 'Herpes Zóster',

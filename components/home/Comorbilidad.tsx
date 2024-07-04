@@ -5,16 +5,20 @@ import Link from "next/link"
 import SpacerNew from '../ui/SpacerNew'
 
 interface Card {
-	title: string
-	body: string
-	image: string
+	title: string,
+	body: string,
+	image: string,
+	
 }
 
 const cards: Card[] = [
 	{
 		title: "ENFERMEDADES RESPIRATORIAS",
 		body: "Los pacientes con enfermedades respiratorias tienen un 30% más de riesgo de desarrollar Herpes Zóster. Explorá como esta enfermedad crónica puede afectar el sistema inmunológico, dando lugar a infecciones virales<sup>9<sup/>.",
-		image: "herpes-zoster-epoc",
+		image: "RESPI",
+		
+		
+
 	},
 	{
 		title: "DIABETES",
@@ -24,7 +28,9 @@ const cards: Card[] = [
 	{
 		title: "ENFERMEDADES CARDIOVASCULARES",
 		body: "Los pacientes con enfermedades cardiovasculares tienen hasta un 30% más de riesgo de desarrollar Herpes Zóster. Explorá como esta enfermedad crónica puede afectar el sistema inmunológico, dando lugar a infecciones virales<sup>10<sup/>.",
-		image: "corazon",
+		image: "CARDIO",
+		
+		
 	},
 	
 ]
@@ -34,7 +40,7 @@ const Who = () => {
 		<section className="text-center space-y-10 relative bg-gsk-gray pt-10 pb-10">
 			<Element className="space-y-3 px-4" name="riesgo">
 				<div className="container-mid">
-
+							
 					<div className="title-new-big mx-auto">Las enfermedades crónicas pueden aumentar el riesgo de contraer Herpes Zoster</div>
 				</div>
 
