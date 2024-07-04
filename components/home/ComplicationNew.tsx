@@ -30,7 +30,7 @@ const complications: Complication[] = [
 	{
 		title: `DIABETES`,
 		title2: `DIABETES`,
-		image: `relacion-entre-diabetes-herpes-zoster`,
+		image: `diabetes`,
 		slug: `relacion-entre-diabetes-herpes-zoster`,
 		body: `La diabetes es una enfermedad crónica que afecta a millones de personas en todo el mundo y el Herpes Zóster es una infección viral que provoca una erupción dolorosa en la piel. Aunque a primera vista, estas dos condiciones parecen no tener conexión, en algunos casos, puede existir una relación entre el Herpes Zóster y la diabetes. Informate acerca de esta posible relación y cómo las personas con diabetes pueden estar en mayor riesgo de desarrollar Herpes Zóster.`,
 		cta: true,
