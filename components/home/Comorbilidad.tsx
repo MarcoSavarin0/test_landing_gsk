@@ -41,7 +41,7 @@ const Who = () => {
 			<Element className="space-y-3 px-4" name="riesgo">
 				<div className="container-mid">
 							
-					<div className="title-new-big mx-auto">Las enfermedades crónicas pueden aumentar el riesgo de contraer Herpes Zoster</div>
+					<div className="title-new-big mx-auto">Las enfermedades crónicas pueden aumentar el riesgo de contraer Herpes Zóster</div>
 				</div>
 
 				<div className={`text-md md:text-lg`}>¿Sabías que determinadas enfermedades afectan al sistema inmune dando lugar a infecciones como el Herpes Zóster? <span className="bold"> Conocé cuáles son.</span></div>
