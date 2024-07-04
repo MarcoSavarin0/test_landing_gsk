@@ -226,9 +226,4 @@ background-color:#F8F8F8;
     height: 47em;
 }
 
-@media only screen and (max-width : 1308px) {
-    .xl\:text-base {
-        font-size: 0.9rem !important;
-    }
-}
 
