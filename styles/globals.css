@@ -231,25 +231,54 @@ background-color:#F8F8F8;
     a.cursor-pointer.text-white.hover\:text-gsk-orange.hover\:underline.md\:text-sm.lg\:text-base.px-3.uppercase.transition.ease-out.duration-300 {
          font-size: 14px !important; 
     }
+    .cursor-pointer.text-white.md\:text-sm.lg\:text-base.px-3.uppercase.transition.ease-out.duration-300.dropdown {
+        font-size: 14px !important;
+    }
+    
+
+
+
     }
 @media only screen and (max-width : 1344px) {
     a.cursor-pointer.text-white.hover\:text-gsk-orange.hover\:underline.md\:text-sm.lg\:text-base.px-3.uppercase.transition.ease-out.duration-300 {
         font-size: 13px !important; 
     }
+    .cursor-pointer.text-white.md\:text-sm.lg\:text-base.px-3.uppercase.transition.ease-out.duration-300.dropdown {
+        font-size: 13px !important;
+    }
 }
+
+
+
 
 @media only screen and (max-width : 1186px) {
     a.cursor-pointer.text-white.hover\:text-gsk-orange.hover\:underline.md\:text-sm.lg\:text-base.px-3.uppercase.transition.ease-out.duration-300 {
         font-size: 12px !important; 
     }
+    .cursor-pointer.text-white.md\:text-sm.lg\:text-base.px-3.uppercase.transition.ease-out.duration-300.dropdown {
+        font-size: 12px !important;
+    }
+
 }
+
+
+
 @media only screen and (max-width : 1130px) {
     a.cursor-pointer.text-white.hover\:text-gsk-orange.hover\:underline.md\:text-sm.lg\:text-base.px-3.uppercase.transition.ease-out.duration-300 {
         font-size: 10px !important; 
     }
+    .cursor-pointer.text-white.md\:text-sm.lg\:text-base.px-3.uppercase.transition.ease-out.duration-300.dropdown {
+        font-size: 10px !important;
+    }
 }
+
+
+
 @media only screen and (max-width : 990px) {
     a.cursor-pointer.text-white.hover\:text-gsk-orange.hover\:underline.md\:text-sm.lg\:text-base.px-3.uppercase.transition.ease-out.duration-300 {
         font-size: 8px !important; 
+    }
+    .cursor-pointer.text-white.md\:text-sm.lg\:text-base.px-3.uppercase.transition.ease-out.duration-300.dropdown {
+        font-size: 8px !important;
     }
 }
