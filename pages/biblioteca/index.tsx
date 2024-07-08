@@ -264,7 +264,30 @@ export const getStaticProps: GetStaticProps = async () => {
 					"slug": "enfermedades-cardiovasculares-zoster"
 				}
 			},
-			
+			{
+				"id": 30,
+				"attributes": {
+					"image": "Nota30",
+					"title": "Beneficios de una dieta saludable en edad adulta",
+					"slug": "dieta-saludable-adultos"
+				}
+			},
+			{
+				"id": 31,
+				"attributes": {
+					"image": "Nota31",
+					"title": "Consejos para cuidar los riñones en la tercera edad",
+					"slug": "como-cuidar-rinones"
+				}
+			},
+			{
+				"id": 32,
+				"attributes": {
+					"image": "importancia-del-ejercicio-en-adultos",
+					"title": "La importancia del ejercicio y actividad física en la edad adulta",
+					"slug": "actividad-edad-adulta"
+				}
+			},
 		]
 	}
 	return {
