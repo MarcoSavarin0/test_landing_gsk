@@ -165,7 +165,7 @@ const Blog = ({ nota }: any) => {
 
 	
 
-const list = [
+	const list = [
 		`<sup>1</sup> Álvarez, J., Cuenllas, A., Gómez, F., López, M., Mañas, M., Hidalgo, D. y Sánchez, B. Alimentación y nutrición saludable en los mayores. Mitos y realidades. Recuperado de <a href="https://www.segg.es/download.asp?" target="_blank">https://www.segg.es/download.asp?</a>.`,
 		`<sup>2</sup> Álvarez, J., Cuenllas, A., Gómez, F., López, M., Mañas, M., Hidalgo, D. y Sánchez, B. Alimentación y nutrición saludable en los mayores. Mitos y realidades. Recuperado de <a href="https://www.segg.es/download.asp?" target="_blank">https://www.segg.es/download.asp?</a>.`,
 		`<sup>3</sup> Cheng J, Burke LE, Venditti EM, Sereika SM, Glynn NW, Albert SM, Newman AB. Diet Improvements in Community-Dwelling Older Adults in the Mobility and Vitality Lifestyle Program. J Appl Gerontol. 2022 May;41(5):1480-1484. doi: 10.1177/07334648211066916. Epub 2022 Feb 2. PMID: 35109691; PMCID: PMC9035039.`,
