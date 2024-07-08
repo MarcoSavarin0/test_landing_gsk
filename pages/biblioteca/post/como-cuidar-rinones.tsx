@@ -140,32 +140,32 @@ const Blog = ({ nota }: any) => {
 
 	
 
-	const list = [
-        `<sup>[1] </sup>Anderson S, Halter JB, Hazzard WR, Himmelfarb J, Horne FM, Kaysen GA, Kusek JW, Nayfield SG, Schmader K, Tian Y, Ashworth JR, Clayton CP, Parker RP, Tarver ED, Woolard NF, High KP; workshop participants. Prediction, progression, and outcomes of chronic kidney disease in older adults. J Am Soc Nephrol. 2009 Jun;20(6):1199-209. doi: 10.1681/ASN.2008080860. Epub 2009 May 21. PMID: 19470680.`,
+const list = [
+	`<sup>[1] </sup>Anderson S, Halter JB, Hazzard WR, Himmelfarb J, Horne FM, Kaysen GA, Kusek JW, Nayfield SG, Schmader K, Tian Y, Ashworth JR, Clayton CP, Parker RP, Tarver ED, Woolard NF, High KP; workshop participants. Prediction, progression, and outcomes of chronic kidney disease in older adults. J Am Soc Nephrol. 2009 Jun;20(6):1199-209. doi: 10.1681/ASN.2008080860. Epub 2009 May 21. PMID: 19470680.`,
 
-        `<sup>[2]</sup> Fang Y, Gong AY, Haller ST, Dworkin LD, Liu Z, Gong R. The ageing kidney: Molecular mechanisms and clinical implications. Ageing Res Rev. 2020 Nov;63:101151. doi: 10.1016/j.arr.2020.101151. Epub 2020 Aug 22. PMID: 32835891; PMCID: PMC7595250.`,
+	`<sup>[2]</sup> Fang Y, Gong AY, Haller ST, Dworkin LD, Liu Z, Gong R. The ageing kidney: Molecular mechanisms and clinical implications. Ageing Res Rev. 2020 Nov;63:101151. doi: 10.1016/j.arr.2020.101151. Epub 2020 Aug 22. PMID: 32835891; PMCID: PMC7595250.`,
 
-        `<sup>[3] </sup>Fang Y, Gong AY, Haller ST, Dworkin LD, Liu Z, Gong R. The ageing kidney: Molecular mechanisms and clinical implications. Ageing Res Rev. 2020 Nov;63:101151. doi: 10.1016/j.arr.2020.101151. Epub 2020 Aug 22. PMID: 32835891; PMCID: PMC7595250.`,
+	`<sup>[3] </sup>Fang Y, Gong AY, Haller ST, Dworkin LD, Liu Z, Gong R. The ageing kidney: Molecular mechanisms and clinical implications. Ageing Res Rev. 2020 Nov;63:101151. doi: 10.1016/j.arr.2020.101151. Epub 2020 Aug 22. PMID: 32835891; PMCID: PMC7595250.`,
 
-        `<sup>[4]</sup> Kwon YJ, Park K, Lee JH. Low-protein diet is inversely related to the incidence of chronic kidney disease in middle-aged and older adults: results from a community-based prospective cohort study. Eur J Nutr. 2022 Oct;61(7):3795-3807. doi: 10.1007/s00394-022-02981-1. Epub 2022 Aug 10. PMID: 35947164.`,
+	`<sup>[4]</sup> Kwon YJ, Park K, Lee JH. Low-protein diet is inversely related to the incidence of chronic kidney disease in middle-aged and older adults: results from a community-based prospective cohort study. Eur J Nutr. 2022 Oct;61(7):3795-3807. doi: 10.1007/s00394-022-02981-1. Epub 2022 Aug 10. PMID: 35947164.`,
 
-        `<sup>[5] </sup>Picard K, Senior PA, Adame Perez S, Jindal K, Richard C, Mager DR. Low Mediterranean Diet scores are associated with reduced kidney function and health related quality of life but not other markers of cardiovascular risk in adults with diabetes and chronic kidney disease. Nutr Metab Cardiovasc Dis. 2021 May 6;31(5):1445-1453. doi: 10.1016/j.numecd.2021.02.002. Epub 2021 Feb 11. PMID: 33812736.`,
-
-
-        `<sup>[6] </sup>Zhou Z, Huang Z, Ai G, Guo X, Zeng G, Zhu W. Association between alcohol consumption and kidney stones in American adults: 2007-2016 NHANES. Front Public Health. 2023 Apr 14;11:1156097. doi: 10.3389/fpubh.2023.1156097. PMID: 37124825; PMCID: PMC10140583.`,
+	`<sup>[5] </sup>Picard K, Senior PA, Adame Perez S, Jindal K, Richard C, Mager DR. Low Mediterranean Diet scores are associated with reduced kidney function and health related quality of life but not other markers of cardiovascular risk in adults with diabetes and chronic kidney disease. Nutr Metab Cardiovasc Dis. 2021 May 6;31(5):1445-1453. doi: 10.1016/j.numecd.2021.02.002. Epub 2021 Feb 11. PMID: 33812736.`,
 
 
-        `<sup>[7]</sup> Nakamura Y, Watanabe H, Tanaka A, Yasui M, Nishihira J, Murayama N. Effect of Increased Daily Water Intake and Hydration on Health in Japanese Adults. Nutrients. 2020 Apr 23;12(4):1191. doi: 10.3390/nu12041191. PMID: 32340375; PMCID: PMC7231288.`,
+	`<sup>[6] </sup>Zhou Z, Huang Z, Ai G, Guo X, Zeng G, Zhu W. Association between alcohol consumption and kidney stones in American adults: 2007-2016 NHANES. Front Public Health. 2023 Apr 14;11:1156097. doi: 10.3389/fpubh.2023.1156097. PMID: 37124825; PMCID: PMC10140583.`,
 
-	
-        `<sup>[8]</sup>K. Hiraki, Y. Shibagaki, K.P. Izawa, C. Hotta, A. Wakamiya, T. Sakurada, et al.
-		Effects of home-based exercises on pre-dialysis patients: A randomized pilot and feasibility trial. BMC Nephrol, 18 (2017), pp. 198 http://dx.doi.org/10.1186/s12882-017-0613-7 | Medline`,
 
-        `<sup>[9] </sup>Ehrenstein B. Diagnostik, Therapie und Prophylaxe des Herpes zoster [Diagnosis, treatment and prophylaxis of herpes zoster]. Z Rheumatol. 2020 Dec;79(10):1009-1017. German. doi: 10.1007/s00393-020-00915-y. PMID: 33141244.`,
+	`<sup>[7]</sup> Nakamura Y, Watanabe H, Tanaka A, Yasui M, Nishihira J, Murayama N. Effect of Increased Daily Water Intake and Hydration on Health in Japanese Adults. Nutrients. 2020 Apr 23;12(4):1191. doi: 10.3390/nu12041191. PMID: 32340375; PMCID: PMC7231288.`,
 
-		`<sup>[10]</sup> Lai SW, Kuo YH, Lin CL, Liao KF. Risk of herpes zoster among patients with predialysis chronic kidney disease in a cohort study in Taiwan. Int J Clin Pract. 2020 Oct;74(10):e13566. doi: 10.1111/ijcp.13566. Epub 2020 Jul 14. PMID: 32479686.`,
+
+	`<sup>[8]</sup>K. Hiraki, Y. Shibagaki, K.P. Izawa, C. Hotta, A. Wakamiya, T. Sakurada, et al.
+	Effects of home-based exercises on pre-dialysis patients: A randomized pilot and feasibility trial. BMC Nephrol, 18 (2017), pp. 198 http://dx.doi.org/10.1186/s12882-017-0613-7 | Medline`,
+
+	`<sup>[9] </sup>Ehrenstein B. Diagnostik, Therapie und Prophylaxe des Herpes zoster [Diagnosis, treatment and prophylaxis of herpes zoster]. Z Rheumatol. 2020 Dec;79(10):1009-1017. German. doi: 10.1007/s00393-020-00915-y. PMID: 33141244.`,
+
+	`<sup>[10]</sup> Lai SW, Kuo YH, Lin CL, Liao KF. Risk of herpes zoster among patients with predialysis chronic kidney disease in a cohort study in Taiwan. Int J Clin Pract. 2020 Oct;74(10):e13566. doi: 10.1111/ijcp.13566. Epub 2020 Jul 14. PMID: 32479686.`,
        
-    ];
+]
      
     
     
