@@ -168,33 +168,33 @@ const Blog = ({ nota }: any) => {
 	
 
 	const list = [
-        '<sup>[1]</sup> An HY, Chen W, Wang CW, Yang HF, Huang WT, Fan SY. The Relationships between Physical Activity and Life Satisfaction and Happiness among Young, Middle-Aged, and Older Adults. Int J Environ Res Public Health. 2020 Jul 4;17(13):4817. doi: 10.3390/ijerph17134817. PMID: 32635457; PMCID: PMC7369812.',
-
-        '<sup>[2]</sup> Shin CN, Lee YS, Belyea M. Physical activity, benefits, and barriers across the aging continuum. Appl Nurs Res. 2018 Dec;44:107-112. doi: 10.1016/j.apnr.2018.10.003. Epub 2018 Oct 17. PMID: 30389054.',
-
-         '<sup>[3]</sup> Seguin R, Nelson ME. The benefits of strength training for older adults. Am J Prev Med. 2003 Oct;25(3 Suppl 2):141-9. doi: 10.1016/s0749-3797(03)00177-6. PMID: 14552938. ',
-
-         '<sup>[4]</sup> Shin CN, Lee YS, Belyea M. Physical activity, benefits, and barriers across the aging continuum. Appl Nurs Res. 2018 Dec;44:107-112. doi: 10.1016/j.apnr.2018.10.003. Epub 2018 Oct 17. PMID: 30389054. ',
-
-         '<sup>[5] </sup>Bherer L. Cognitive plasticity in older adults: effects of cognitive training and physical exercise. Ann N Y Acad Sci. 2015 Mar;1337:1-6. doi: 10.1111/nyas.12682. PMID: 25773610. ',
-
-        '<sup>[6]</sup> Aparicio García-Molina, V.A.; Cabonell Baeza, A.; Delgado Fernández, M. Beneficios de la actividad física en personas mayores. Revista Internacional de Medicina y Ciencias de la Actividad Física y el Deporte, 10(40): 556-576 (2010). [http://hdl.handle.net/10481/37360]',
-
-        '<sup>[7]</sup> U.S. Department of Health and Human Services. Physical Activity Guidelines for Americans, 2nd edition. Washington, DC: U.S.Department of Health and Human Services; 2018.',
-
-        '<sup>[8]</sup> U.S. Department of Health and Human Services. Physical Activity Guidelines for Americans, 2nd edition. Washington, DC: U.S.Department of Health and Human Services; 2018.',
-
-        '<sup>[9]</sup> Ehrenstein B. Diagnostik, Therapie und Prophylaxe des Herpes zoster [Diagnosis, treatment and prophylaxis of herpes zoster]. Z Rheumatol. 2020 Dec;79(10):1009-1017. German. doi: 10.1007/s00393-020-00915-y. PMID: 33141244.',
-
-        '<sup>[10]</sup> Schmidt SAJ, Sørensen HT, Langan SM, Vestergaard M. Associations of Lifestyle and Anthropometric Factors With the Risk of Herpes Zoster: A Nationwide Population-Based Cohort Study. Am J Epidemiol. 2021 Jun 1;190(6):1064-1074. doi: 10.1093/aje/kwab027. PMID: 33569573; PMCID: PMC8168175.',
-
-       '<sup>[11]</sup> Warburton DER, Bredin SSD. Health benefits of physical activity: a systematic review of current systematic reviews. Curr Opin Cardiol. 2017 Sep;32(5):541-556. doi: 10.1097/HCO.0000000000000437. PMID: 28708630.',
-
-        '<sup>[12]</sup> Warburton DER, Bredin SSD. Health benefits of physical activity: a systematic review of current systematic reviews. Curr Opin Cardiol. 2017 Sep;32(5):541-556. doi: 10.1097/HCO.0000000000000437. PMID: 28708630.',
+	        '<sup>[1]</sup> An HY, Chen W, Wang CW, Yang HF, Huang WT, Fan SY. The Relationships between Physical Activity and Life Satisfaction and Happiness among Young, Middle-Aged, and Older Adults. Int J Environ Res Public Health. 2020 Jul 4;17(13):4817. doi: 10.3390/ijerph17134817. PMID: 32635457; PMCID: PMC7369812.',
+	
+	        '<sup>[2]</sup> Shin CN, Lee YS, Belyea M. Physical activity, benefits, and barriers across the aging continuum. Appl Nurs Res. 2018 Dec;44:107-112. doi: 10.1016/j.apnr.2018.10.003. Epub 2018 Oct 17. PMID: 30389054.',
+	
+	         '<sup>[3]</sup> Seguin R, Nelson ME. The benefits of strength training for older adults. Am J Prev Med. 2003 Oct;25(3 Suppl 2):141-9. doi: 10.1016/s0749-3797(03)00177-6. PMID: 14552938. ',
+	
+	         '<sup>[4]</sup> Shin CN, Lee YS, Belyea M. Physical activity, benefits, and barriers across the aging continuum. Appl Nurs Res. 2018 Dec;44:107-112. doi: 10.1016/j.apnr.2018.10.003. Epub 2018 Oct 17. PMID: 30389054. ',
+	
+	         '<sup>[5] </sup>Bherer L. Cognitive plasticity in older adults: effects of cognitive training and physical exercise. Ann N Y Acad Sci. 2015 Mar;1337:1-6. doi: 10.1111/nyas.12682. PMID: 25773610. ',
+	
+	        '<sup>[6]</sup> Aparicio García-Molina, V.A.; Cabonell Baeza, A.; Delgado Fernández, M. Beneficios de la actividad física en personas mayores. Revista Internacional de Medicina y Ciencias de la Actividad Física y el Deporte, 10(40): 556-576 (2010). [http://hdl.handle.net/10481/37360]',
+	
+	        '<sup>[7]</sup> U.S. Department of Health and Human Services. Physical Activity Guidelines for Americans, 2nd edition. Washington, DC: U.S.Department of Health and Human Services; 2018.',
+	
+	        '<sup>[8]</sup> U.S. Department of Health and Human Services. Physical Activity Guidelines for Americans, 2nd edition. Washington, DC: U.S.Department of Health and Human Services; 2018.',
+	
+	        '<sup>[9]</sup> Ehrenstein B. Diagnostik, Therapie und Prophylaxe des Herpes zoster [Diagnosis, treatment and prophylaxis of herpes zoster]. Z Rheumatol. 2020 Dec;79(10):1009-1017. German. doi: 10.1007/s00393-020-00915-y. PMID: 33141244.',
+	
+	        '<sup>[10]</sup> Schmidt SAJ, Sørensen HT, Langan SM, Vestergaard M. Associations of Lifestyle and Anthropometric Factors With the Risk of Herpes Zoster: A Nationwide Population-Based Cohort Study. Am J Epidemiol. 2021 Jun 1;190(6):1064-1074. doi: 10.1093/aje/kwab027. PMID: 33569573; PMCID: PMC8168175.',
+	
+	       '<sup>[11]</sup> Warburton DER, Bredin SSD. Health benefits of physical activity: a systematic review of current systematic reviews. Curr Opin Cardiol. 2017 Sep;32(5):541-556. doi: 10.1097/HCO.0000000000000437. PMID: 28708630.',
+	
+	        '<sup>[12]</sup> Warburton DER, Bredin SSD. Health benefits of physical activity: a systematic review of current systematic reviews. Curr Opin Cardiol. 2017 Sep;32(5):541-556. doi: 10.1097/HCO.0000000000000437. PMID: 28708630.',
 
 
     
-    ];
+    	]
      
     
     
