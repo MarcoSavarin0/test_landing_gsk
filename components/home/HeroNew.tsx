@@ -99,9 +99,9 @@ const HeroNew = () => {
 							</div>
 
 							<article className="order-first absolute top-4 md:top-[12%] lg:top-[30%] text-left left-8 md:left-10 lg:left-14 xl:left-18 2xl:left-24 w-10/12 md:w-7/12 lg:w-6/12 xl:w-7/12 pt-6 md:pt-0 text-hero-new">
-								<p className={` uppercase inline text-white w-full sm:w-fit text-2xl sm:text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl md:leading-[2rem] `}>
+								<h1 className={` uppercase inline text-white w-full sm:w-fit text-2xl sm:text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl md:leading-[2rem] `}>
 									¿SABÍAS QUE LAS <br /><span className="bold">ENFERMEDADES CRÓNICAS</span> <br />AFECTAN EL SISTEMA INMUNE, <span className="bold"> DANDO LUGAR A INFECCIONES COMO EL HERPES ZÓSTER?</span>
-								</p>
+								</h1>
 								{/* {(
 									<h1 className={` text-white leading-none uppercase text-4xl sm:text-6xl lg:text-7xl xl:text-8xl`}>
 										ENFERMEDADES CRÓNICAS
