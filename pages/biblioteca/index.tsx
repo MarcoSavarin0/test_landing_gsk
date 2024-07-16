@@ -288,6 +288,30 @@ export const getStaticProps: GetStaticProps = async () => {
 					"slug": "actividad-edad-adulta"
 				}
 			},
+			{
+				"id": 33,
+				"attributes": {
+					"image": "N33 _HZ y Estres_",
+					"title": "¿Cómo reducir el estrés crónico con técnicas de relajación?",
+					"slug": "tecnicas-relajacion-estres"
+				}
+			},
+			{
+				"id": 34,
+				"attributes": {
+					"image": "N34 _Gravedad Herpes Zóster_",
+					"title": "¿Qué tan grave es el Herpes Zóster?",
+					"slug": "gravedad-herpes-zoster"
+				}
+			},
+			{
+				"id": 35,
+				"attributes": {
+					"image": "N35 _Duración Herpes Zóster_",
+					"title": "¿Cuánto dura el virus del Herpes Zóster?",
+					"slug": "cuanto-dura-herpes-zoster"
+				}
+			},
 		]
 	}
 	return {
