@@ -189,7 +189,7 @@ const Blog = ({ nota }: any) => {
 
 		`<sup>12</sup> Niederer RL, Meyer JJ, Liu K, Danesh-Meyer HV. Herpes Zoster Ophthalmicus Clinical Presentation and Risk Factors for Loss of Vision. Am J Ophthalmol. 2021 Jun;226:83-89. doi: 10.1016/j.ajo.2021.02.002. Epub 2021 Feb 8. PMID: 33571476.`,
 
-        `<sup>13</sup> Niederer RL, Meyer JJ, Liu K, Danesh-Meyer HV. Herpes Zoster Ophthalmicus Clinical Presentation and Risk Factors for Loss of Vision. Am J Ophthalmol. 2021 Jun;226:83-89. doi: 10.1016/j.ajo.2021.02.002. Epub 2021 Feb 8. PMID: 33571476.`,
+        	`<sup>13</sup> Niederer RL, Meyer JJ, Liu K, Danesh-Meyer HV. Herpes Zoster Ophthalmicus Clinical Presentation and Risk Factors for Loss of Vision. Am J Ophthalmol. 2021 Jun;226:83-89. doi: 10.1016/j.ajo.2021.02.002. Epub 2021 Feb 8. PMID: 33571476.`,
 
 	
 	]
