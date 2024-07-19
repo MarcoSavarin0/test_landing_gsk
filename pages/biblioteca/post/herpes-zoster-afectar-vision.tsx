@@ -165,34 +165,21 @@ const Blog = ({ nota }: any) => {
 	const { title, image, metatitle, metadescription, slug } = nota.data[0].attributes
 
 	const list = [
-	`<sup>1</sup> Davis AR, Sheppard J. Herpes Zoster Ophthalmicus Review and Prevention. Eye Contact Lens. 2019 Sep;45(5):286-291. doi: 10.1097/ICL.0000000000000591. PMID: 30844951.`,
-	
-	`<sup>2</sup> Davis AR, Sheppard J. Herpes Zoster Ophthalmicus Review and Prevention. Eye Contact Lens. 2019 Sep;45(5):286-291. doi: 10.1097/ICL.0000000000000591. PMID: 30844951.`,
+		`<sup>1</sup> Davis AR, Sheppard J. Herpes Zoster Ophthalmicus Review and Prevention. Eye Contact Lens. 2019 Sep;45(5):286-291. doi: 10.1097/ICL.0000000000000591. PMID: 30844951.`,
+		`<sup>2</sup> Davis AR, Sheppard J. Herpes Zoster Ophthalmicus Review and Prevention. Eye Contact Lens. 2019 Sep;45(5):286-291. doi: 10.1097/ICL.0000000000000591. PMID: 30844951.`,
+		`<sup>3</sup>  Davis AR, Sheppard J. Herpes Zoster Ophthalmicus Review and Prevention. Eye Contact Lens. 2019 Sep;45(5):286-291. doi: 10.1097/ICL.0000000000000591. PMID: 30844951.`,
+		`<sup>4</sup> Cohen EJ, Jeng BH. Herpes Zoster: A Brief Definitive Review. Cornea. 2021 Aug 1;40(8):943-949. doi: 10.1097/ICO.0000000000002754. PMID: 34029242; PMCID: PMC8249351.`,
+		`<sup>5</sup> Vrcek I, Choudhury E, Durairaj V. Herpes Zoster Ophthalmicus: A Review for the Internist. Am J Med. 2017 Jan;130(1):21-26. doi: 10.1016/j.amjmed.2016.08.039. Epub 2016 Sep 17. PMID: 27644149.`,
+		`<sup>6</sup> Vrcek I, Choudhury E, Durairaj V. Herpes Zoster Ophthalmicus: A Review for the Internist. Am J Med. 2017 Jan;130(1):21-26. doi: 10.1016/j.amjmed.2016.08.039. Epub 2016 Sep 17. PMID: 27644149.`,
+		`<sup>7</sup> Vrcek I, Choudhury E, Durairaj V. Herpes Zoster Ophthalmicus: A Review for the Internist. Am J Med. 2017 Jan;130(1):21-26. doi: 10.1016/j.amjmed.2016.08.039. Epub 2016 Sep 17. PMID: 27644149.`,
+		`<sup>8</sup> Davis AR, Sheppard J. Herpes Zoster Ophthalmicus Review and Prevention. Eye Contact Lens. 2019 Sep;45(5):286-291. doi: 10.1097/ICL.0000000000000591. PMID: 30844951.`,
+		`<sup>9</sup> Davis AR, Sheppard J. Herpes Zoster Ophthalmicus Review and Prevention. Eye Contact Lens. 2019 Sep;45(5):286-291. doi: 10.1097/ICL.0000000000000591. PMID: 30844951.`,
+		`<sup>10</sup> Li JY. Herpes zoster ophthalmicus: acute keratitis. Curr Opin Ophthalmol. 2018 Jul;29(4):328-333. doi: 10.1097/ICU.0000000000000491. PMID: 29794881.`,
+		`<sup>11</sup> Thean JH, Hall AJ, Stawell RJ. Uveitis in Herpes zoster ophthalmicus. Clin Exp Ophthalmol. 2001 Dec;29(6):406-10. doi: 10.1046/j.1442-9071.2001.d01-29.x. PMID: 11778812.`,
+		`<sup>12</sup> Niederer RL, Meyer JJ, Liu K, Danesh-Meyer HV. Herpes Zoster Ophthalmicus Clinical Presentation and Risk Factors for Loss of Vision. Am J Ophthalmol. 2021 Jun;226:83-89. doi: 10.1016/j.ajo.2021.02.002. Epub 2021 Feb 8. PMID: 33571476.`,
+		`<sup>13</sup> Niederer RL, Meyer JJ, Liu K, Danesh-Meyer HV. Herpes Zoster Ophthalmicus Clinical Presentation and Risk Factors for Loss of Vision. Am J Ophthalmol. 2021 Jun;226:83-89. doi: 10.1016/j.ajo.2021.02.002. Epub 2021 Feb 8. PMID: 33571476.`,	
+	]
 
-	`<sup>3</sup>  Davis AR, Sheppard J. Herpes Zoster Ophthalmicus Review and Prevention. Eye Contact Lens. 2019 Sep;45(5):286-291. doi: 10.1097/ICL.0000000000000591. PMID: 30844951.`,
-
-	`<sup>4</sup> Cohen EJ, Jeng BH. Herpes Zoster: A Brief Definitive Review. Cornea. 2021 Aug 1;40(8):943-949. doi: 10.1097/ICO.0000000000002754. PMID: 34029242; PMCID: PMC8249351.`,
-
-	`<sup>5</sup> Vrcek I, Choudhury E, Durairaj V. Herpes Zoster Ophthalmicus: A Review for the Internist. Am J Med. 2017 Jan;130(1):21-26. doi: 10.1016/j.amjmed.2016.08.039. Epub 2016 Sep 17. PMID: 27644149.`,
-
-	`<sup>6</sup> Vrcek I, Choudhury E, Durairaj V. Herpes Zoster Ophthalmicus: A Review for the Internist. Am J Med. 2017 Jan;130(1):21-26. doi: 10.1016/j.amjmed.2016.08.039. Epub 2016 Sep 17. PMID: 27644149.`,
-
-	`<sup>7</sup> Vrcek I, Choudhury E, Durairaj V. Herpes Zoster Ophthalmicus: A Review for the Internist. Am J Med. 2017 Jan;130(1):21-26. doi: 10.1016/j.amjmed.2016.08.039. Epub 2016 Sep 17. PMID: 27644149.`,
-
-	`<sup>8</sup> Davis AR, Sheppard J. Herpes Zoster Ophthalmicus Review and Prevention. Eye Contact Lens. 2019 Sep;45(5):286-291. doi: 10.1097/ICL.0000000000000591. PMID: 30844951.`,
-
-	`<sup>9</sup> Davis AR, Sheppard J. Herpes Zoster Ophthalmicus Review and Prevention. Eye Contact Lens. 2019 Sep;45(5):286-291. doi: 10.1097/ICL.0000000000000591. PMID: 30844951.`,
-
-	`<sup>10</sup> Li JY. Herpes zoster ophthalmicus: acute keratitis. Curr Opin Ophthalmol. 2018 Jul;29(4):328-333. doi: 10.1097/ICU.0000000000000491. PMID: 29794881.`,
-
-	`<sup>11</sup> Thean JH, Hall AJ, Stawell RJ. Uveitis in Herpes zoster ophthalmicus. Clin Exp Ophthalmol. 2001 Dec;29(6):406-10. doi: 10.1046/j.1442-9071.2001.d01-29.x. PMID: 11778812.`,
-
-	`<sup>12</sup> Niederer RL, Meyer JJ, Liu K, Danesh-Meyer HV. Herpes Zoster Ophthalmicus Clinical Presentation and Risk Factors for Loss of Vision. Am J Ophthalmol. 2021 Jun;226:83-89. doi: 10.1016/j.ajo.2021.02.002. Epub 2021 Feb 8. PMID: 33571476.`,
-
-        `<sup>13</sup> Niederer RL, Meyer JJ, Liu K, Danesh-Meyer HV. Herpes Zoster Ophthalmicus Clinical Presentation and Risk Factors for Loss of Vision. Am J Ophthalmol. 2021 Jun;226:83-89. doi: 10.1016/j.ajo.2021.02.002. Epub 2021 Feb 8. PMID: 33571476.`,
-
-	
-]
 
 	return (
 		<>
