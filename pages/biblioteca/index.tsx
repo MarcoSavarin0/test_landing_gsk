@@ -312,6 +312,30 @@ export const getStaticProps: GetStaticProps = async () => {
 					"slug": "cuanto-dura-herpes-zoster"
 				}
 			},
+			{
+				"id": 40,
+				"attributes": {
+					"image": "N40-_Herpes-Zóster-y-HIV-Existe-una-relación_-_1_",
+					"title": "Herpes Zóster y HIV: ¿Existe una relación?",
+					"slug": "herpes-zoster-hiv-conexion"
+				}
+			},
+			{
+				"id": 41,
+				"attributes": {
+					"image": "N41-_Herpes-Zóster-Cómo-puede-afectar-la-visión_-_1_",
+					"title": "Herpes Zóster: ¿Cómo puede afectar la visión?",
+					"slug": "herpes-zoster-afectar-vision"
+				}
+			},
+			{
+				"id": 42,
+				"attributes": {
+					"image": "N42-_Parálisis-de-Bell_",
+					"title": "Similitudes y diferencias entre la parálisis de Bell y el Herpes Zóster",
+					"slug": "paralisis-bell-confundir-herpes-zoster"
+				}
+			},
 		]
 	}
 	return {
