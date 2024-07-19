@@ -177,7 +177,7 @@ const Blog = ({ nota }: any) => {
 		`<sup>10</sup> Li JY. Herpes zoster ophthalmicus: acute keratitis. Curr Opin Ophthalmol. 2018 Jul;29(4):328-333. doi: 10.1097/ICU.0000000000000491. PMID: 29794881.`,
 		`<sup>11</sup> Thean JH, Hall AJ, Stawell RJ. Uveitis in Herpes zoster ophthalmicus. Clin Exp Ophthalmol. 2001 Dec;29(6):406-10. doi: 10.1046/j.1442-9071.2001.d01-29.x. PMID: 11778812.`,
 		`<sup>12</sup> Niederer RL, Meyer JJ, Liu K, Danesh-Meyer HV. Herpes Zoster Ophthalmicus Clinical Presentation and Risk Factors for Loss of Vision. Am J Ophthalmol. 2021 Jun;226:83-89. doi: 10.1016/j.ajo.2021.02.002. Epub 2021 Feb 8. PMID: 33571476.`,
-		`<sup>13</sup> Niederer RL, Meyer JJ, Liu K, Danesh-Meyer HV. Herpes Zoster Ophthalmicus Clinical Presentation and Risk Factors for Loss of Vision. Am J Ophthalmol. 2021 Jun;226:83-89. doi: 10.1016/j.ajo.2021.02.002. Epub 2021 Feb 8. PMID: 33571476.`,	
+		`<sup>13</sup> Niederer RL, Meyer JJ, Liu K, Danesh-Meyer HV. Herpes Zoster Ophthalmicus Clinical Presentation and Risk Factors for Loss of Vision. Am J Ophthalmol. 2021 Jun;226:83-89. doi: 10.1016/j.ajo.2021.02.002. Epub 2021 Feb 8. PMID: 33571476.`,
 	]
 
 
