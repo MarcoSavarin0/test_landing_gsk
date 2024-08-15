@@ -18,12 +18,12 @@ export function StepTwo() {
 
 	return (
 		<form onSubmit={handleSubmit(onHandleFormSubmit)} className="space-y-14">
-			<div className="pt-8 space-y-5">
+			<div className="pt-8 space-y-5 lg:flex lg:flex-col lg:items-center lg:justify-center lg:space-y-8">
 				<div>
 					{/* factorize */}
 					<span className="text-xs">{step} / 4</span>
 
-					<div className="flex flex-wrap gap-x-1 justify-start items-center">
+					<div className="flex flex-wrap gap-x-1 justify-start items-center ">
 						<span className={`${step >= 1 ? "bg-gsk-orange" : "bg-gsk-gray"} w-8 sm:w-12 md:w-16 lg:w-20 h-1`}/>
 						<span className={`${step >= 2 ? "bg-gsk-orange" : "bg-gsk-gray"} w-8 sm:w-12 md:w-16 lg:w-20 h-1`}/>
 						<span className={`${step >= 3 ? "bg-gsk-orange" : "bg-gsk-gray"} w-8 sm:w-12 md:w-16 lg:w-20 h-1`}/>
@@ -32,9 +32,9 @@ export function StepTwo() {
 					{/* factorize */}
 				</div>
 
-				<p className="uppercase text-xl w-full md:w-10/12 lg:w-1/2 font-bold">¿Cuántos años tenés?</p>
+				<p className="uppercase text-xl w-full md:w-10/12 lg:w-1/2 font-bold lg:text-center">¿Cuántos años tenés?</p>
 
-				<ul className="flex flex-wrap gap-x-2 gap-y-3">
+				<ul className="flex flex-wrap gap-x-2 gap-y-3 ">
 					<li>
 						<input type="radio" id="menos" value="menos" {...register("edad")} className="hidden peer" required={true} />
 						<label htmlFor="menos" className="px-4 py-1 rounded-lg uppercase border border-white hover:border-gsk-orange bg-gsk-dark hover:bg-gsk-orange transition-colors duration-100 peer-checked:bg-gsk-orange peer-checked:border-gsk-orange cursor-pointer">

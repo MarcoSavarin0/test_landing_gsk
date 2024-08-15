@@ -3,7 +3,7 @@ import Banner from "@/components/home/Banner"
 import Cta from "@/components/ui/Cta"
 
 import localFont from "@next/font/local"
-import {NextSeo} from "next-seo"
+import { NextSeo } from "next-seo"
 const gskPrecisionBold = localFont({ src: '../../styles/fonts/gskprecision-bold.woff2' })
 
 const Autotest = () => {
@@ -14,7 +14,7 @@ const Autotest = () => {
 				description="¿Creés que podrías estar en riesgo de contraer el Herpes Zóster? Realizá este test de riesgo y obtené la información necesaria para hablar con tu médico."
 				canonical={`${process.env.NEXT_PUBLIC_SITE_URL}/autotest`}
 				openGraph={{
-					
+
 					url: `${process.env.NEXT_PUBLIC_SITE_URL}/autotest`,
 					title: 'Herpes Zóster Diagnóstico. Conocé tu nivel de riesgo | Hablemos de Zóster',
 					description: '¿Creés que podrías estar en riesgo de contraer el Herpes Zóster? Realizá este test de riesgo y obtené la información necesaria para hablar con tu médico.',
@@ -35,9 +35,12 @@ const Autotest = () => {
 				<div>
 					<div className="space-y-3 px-4 text-center  pt-10 pb-36 shadow-xl">
 						<h1 className={`text-gsk-orange font-bold leading-none uppercase text-4xl sm:text-5xl lg:text-6xl xl:text-7xl`}>Herpes Zóster</h1>
-						<H2 title={`TEST: ¿ESTOY EN RIESGO DE TENER HERPES ZÓSTER?`}/>
+						<H2 title={`TEST: ¿ESTOY EN RIESGO DE TENER HERPES ZÓSTER?`} />
 						<div className={`${gskPrecisionBold.className} text-white font-bold text-lg bold md:text-xl`}>
 							<p>Completá este test para conocer tu nivel de riesgo</p>
+							<div className="mt-7">
+								<Cta title={`EMPECEMOS`} url={`/autotest/resultado`} />
+							</div>
 						</div>
 					</div>
 
@@ -53,9 +56,7 @@ const Autotest = () => {
 								<div>
 									<p>Este cuestionario <strong>no solicitará ninguna información personal o sensible, ni está diseñado para utilizarse para el diagnóstico, prevención o tratamiento del Herpes Zóster.</strong> Sus fines son estrictamente informativos y no reemplazan el asesoramiento médico. Si vos o alguna persona cercana está sufriendo Herpes Zóster, o si tenes cualquier duda o pregunta sobre tu salud, no dudes en realizar una consulta con tu médico o médica de confianza.</p>
 								</div>
-								<div>
-									<Cta title={`EMPECEMOS`} url={`/autotest/resultado`}/>
-								</div>
+								
 							</div>
 
 							<ol className="text-[0.6rem]">
@@ -66,7 +67,7 @@ const Autotest = () => {
 					</article>
 				</div>
 
-				<Banner color="dark"/>
+				<Banner color="dark" />
 			</section>
 		</>
 	)

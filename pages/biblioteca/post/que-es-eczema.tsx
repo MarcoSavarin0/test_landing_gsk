@@ -9,6 +9,7 @@ import { GetStaticProps } from "next"
 import parse from "html-react-parser"
 import Link from "next/link"
 import CollapsibleList from '@/components/biblioteca/Collapsible'
+import { Botoninformacion } from '@/components/blog/Botoninformacion'
 
 const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), {
 	ssr: false,
@@ -269,6 +270,7 @@ const Blog = ({ nota }: any) => {
 								{/* <p>Cuidá la salud de quienes te rodean:</p> */}
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
+							<Botoninformacion />
 						</article>
 						
 					</div>

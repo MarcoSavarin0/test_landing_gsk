@@ -18,7 +18,7 @@ export function StepThree() {
 
 	return (
 		<form onSubmit={handleSubmit(onHandleFormSubmit)} className="space-y-14">
-			<div className="pt-8 space-y-5">
+			<div className="pt-8 space-y-5 lg:flex lg:flex-col lg:items-center lg:justify-center lg:space-y-7">
 				<div>
 					{/* factorize */}
 					<span className="text-xs">{step} / 4</span>
@@ -32,7 +32,7 @@ export function StepThree() {
 					{/* factorize */}
 				</div>
 
-				<p className="uppercase text-xl w-full sm:w-10/12 md:w-4/12 font-bold">¿Tenés alguna enfermedad crónica? <span className="font-normal text-sm block">(Por ejemplo, asma, diabetes, EPOC o patologías cardiovasculares)</span></p>
+				<p className="uppercase text-xl w-full sm:w-10/12 md:w-4/12 font-bold lg:text-center">¿Tenés alguna enfermedad crónica? <span className="font-normal text-sm block">(Por ejemplo, asma, diabetes, EPOC o patologías cardiovasculares)</span></p>
 
 				<ul className="flex flex-wrap gap-x-2 gap-y-3">
 					<li>

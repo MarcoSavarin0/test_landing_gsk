@@ -2,7 +2,7 @@ import { Element } from 'react-scroll'
 
 import CardIconBackground from "@/components/home/ui/CardIconBackground"
 import Link from "next/link"
-import SpacerNew from '../ui/SpacerNew'
+import Cta from '../ui/Cta'
 
 interface Card {
 	title: string,
@@ -57,7 +57,9 @@ const Who = () => {
 			<div>
 				<Link href={`/enfermedades-cronicas`} className="text-footer-link"> Conocé más sobre las enfermedades crónicas y el Herpes Zóster </Link>
 			</div>
-			<SpacerNew/>
+			<div>
+				<Cta title={`INICIAR TEST`} url="/autotest"/>
+			</div>
 
 		</section>
 	)

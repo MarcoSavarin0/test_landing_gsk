@@ -129,7 +129,7 @@ export function StepFour() {
 
 	return isCreated ? (
 		<div>
-			<div className="pt-8 space-y-6">
+			<div className="pt-8 space-y-6 ">
 				<div className="text-center space-y-1">
 					<div className="flex flex-wrap gap-x-2 justify-center items-end">
 						<span className="bg-gsk-orange w-4 md:w-5 h-4"/>
@@ -163,7 +163,7 @@ export function StepFour() {
 		</div>
 	) : (
 		<form onSubmit={handleSubmit(onHandleFormSubmit)} className="space-y-14">
-			<div className="pt-8 space-y-5">
+			<div className="pt-8 space-y-5 lg:flex lg:flex-col lg:items-center lg:justify-center lg:space-y-7">
 				<div>
 					<span className="text-xs">{step} / 4</span>
 					<div className="flex flex-wrap gap-x-1 justify-start items-center">
@@ -174,7 +174,7 @@ export function StepFour() {
 					</div>
 				</div>
 
-				<p className="uppercase text-xl w-full sm:w-10/12 md:w-5/12 lg:w-4/12 xl:w-3/12 font-bold">¿Tu sistema inmune está comprometido? <span className="font-normal text-sm block">(Por ejemplo, por tratamientos médicos o uso de medicamentos que debilitan el sistema inmunitario)</span></p>
+				<p className="uppercase text-xl w-full sm:w-10/12 md:w-5/12 lg:w-4/12 xl:w-3/12 font-bold lg:text-center">¿Tu sistema inmune está comprometido? <span className="font-normal text-sm block">(Por ejemplo, por tratamientos médicos o uso de medicamentos que debilitan el sistema inmunitario)</span></p>
 
 				<ul className="flex flex-wrap gap-x-2 gap-y-3">
 					<li>

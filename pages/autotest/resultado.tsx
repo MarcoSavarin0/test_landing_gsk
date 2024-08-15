@@ -57,7 +57,7 @@ const Autotest = () => {
 						<H2 title={`TEST: ¿ESTOY EN RIESGO DE TENER HERPES ZÓSTER?`}/>
 					</div>
 
-					<article className="h-fit lg:h-[40rem] 2xl:h-[50rem] w-full md:w-10/12 mx-auto about px-10 space-y-14 text-white rounded-xl">
+					<article className="h-fit lg:h-[40rem] 2xl:h-[50rem] w-full md:w-10/12 mx-auto about px-10 space-y-14 text-white rounded-xl ">
 						<FormProvider>
 							<ActiveStepFormComponent />
 						</FormProvider>

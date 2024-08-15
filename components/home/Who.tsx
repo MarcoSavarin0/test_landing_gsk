@@ -3,7 +3,7 @@ import { Element } from 'react-scroll'
 import H2 from "@/components/ui/H2"
 import CardIcon from "@/components/home/ui/CardIcon"
 import Description from "@/components/ui/Description"
-import Cta from "@/components/ui/Cta"
+
 
 interface Card {
 	title: string
@@ -43,9 +43,7 @@ const Who = () => {
 				))}
 			</div>
 
-			<div>
-				<Cta title={`INICIAR TEST`} url="/autotest"/>
-			</div>
+			
 		</section>
 	)
 }
