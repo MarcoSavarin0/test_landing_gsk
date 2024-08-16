@@ -1,9 +1,9 @@
-import {useEffect} from "react"
+import { useEffect } from "react"
 import { NextSeo } from "next-seo"
-import {shallow} from "zustand/shallow"
+import { shallow } from "zustand/shallow"
 import parse from "html-react-parser"
-import {scroller} from "react-scroll"
-import {useRouter} from "next/router"
+import { scroller } from "react-scroll"
+import { useRouter } from "next/router"
 
 import useModal from "@/store/store"
 import Modal from '@/components/ui/Modal'
@@ -20,9 +20,11 @@ import H2 from "@/components/ui/H2"
 import Description from "@/components/ui/Description"
 import Spacer from "@/components/ui/Spacer"
 import Share from "@/components/ui/Share"
+import GTM_BODY from "@/components/gtm/body"
+import GTM_HEAD from "@/components/gtm/head"
 
 const Home = () => {
-	const { title, body } = useModal((state) => ({title: state.title, body: state.body,}), shallow)
+	const { title, body } = useModal((state) => ({ title: state.title, body: state.body, }), shallow)
 
 	const router = useRouter()
 	const hash = router.asPath.split("#")[1]
@@ -38,6 +40,7 @@ const Home = () => {
 
 	return (
 		<>
+			<GTM_HEAD />
 			<NextSeo
 				title="Herpes Zoster | Todo lo que Necesitás Saber | 2024"
 				description="No sabes que es el Herpes Zoster? Te contamos todo lo que necesitas saber sobre el virus de la 'culebrilla' y cómo prevenirla."
@@ -60,32 +63,34 @@ const Home = () => {
 					siteName: 'Herpes Zoster | Todo lo que Necesitás Saber | 2024',
 				}}
 			/>
+
 			<>
-				<Hero/>
-				<Sintomas/>
-				<Spacer/>
-				<FaqNew/>
-				<Spacer/>
-				<Who/>
+				<Hero />
+				<Sintomas />
+				<Spacer />
+				<FaqNew />
+				<Spacer />
+				<Who />
 				{/* <Spacer/> */}
-				<Comorbilidad/>
-				<Enfermedades/>
+				<Comorbilidad />
+				<Enfermedades />
 				{/* <Spacer/> */}
-				<Testimonial/>
-				<Blog/>
-				<Banner/>
+				<Testimonial />
+				<Blog />
+				<Banner />
 
 				<div className="flex flex-col justify-center items-center py-10 gap-y-4">
-					<Description title={`Cuidá la salud de quienes te rodean`}/>
+					<Description title={`Cuidá la salud de quienes te rodean`} />
 					<div>
-						<Share cta={`Compartí esta información`} url={`${process.env.NEXT_PUBLIC_SITE_URL}`} quote={"Hablemos de Zoster"} hashtag={"#hablemosdezoster"}/>
+						<Share cta={`Compartí esta información`} url={`${process.env.NEXT_PUBLIC_SITE_URL}`} quote={"Hablemos de Zoster"} hashtag={"#hablemosdezoster"} />
 					</div>
 				</div>
+				<GTM_BODY />
 			</>
 
 			<Modal>
-				<H2 title={parse(title) as string}/>
-				<Description title={body} className="text-justify"/>
+				<H2 title={parse(title) as string} />
+				<Description title={body} className="text-justify" />
 			</Modal>
 		</>
 	)

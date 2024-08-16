@@ -5,10 +5,13 @@ import Cta from "@/components/ui/Cta"
 import localFont from "@next/font/local"
 import { NextSeo } from "next-seo"
 const gskPrecisionBold = localFont({ src: '../../styles/fonts/gskprecision-bold.woff2' })
+import GTM_BODY from "@/components/gtm/body"
+import GTM_HEAD from "@/components/gtm/head"
 
 const Autotest = () => {
 	return (
 		<>
+			<GTM_HEAD />
 			<NextSeo
 				title="Herpes Zóster Diagnóstico. Conocé tu nivel de riesgo | Hablemos de Zóster"
 				description="¿Creés que podrías estar en riesgo de contraer el Herpes Zóster? Realizá este test de riesgo y obtené la información necesaria para hablar con tu médico."
@@ -69,6 +72,7 @@ const Autotest = () => {
 
 				<Banner color="dark" />
 			</section>
+			<GTM_BODY />
 		</>
 	)
 }
