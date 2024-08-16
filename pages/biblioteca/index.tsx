@@ -4,8 +4,8 @@ import Description from "@/components/ui/Description"
 import PostComponent from '@/components/biblioteca/Post'
 import Banner from "@/components/home/Banner"
 import { GetStaticProps } from "next"
-import GTM_BODY from "@/components/gtm/body"
-import GTM_HEAD from "@/components/gtm/head"
+// import GTM_BODY from "@/components/gtm/body"
+// import GTM_HEAD from "@/components/gtm/head"
 
 export const getStaticProps: GetStaticProps = async () => {
 	// const res = await fetch(`${process.env.STRAPI_API_URL}/notas?populate=*&sort[0]=publishedAt%3Adesc&pagination[pageSize]=26`, {
@@ -353,7 +353,7 @@ export const getStaticProps: GetStaticProps = async () => {
 const Blog = ({ notas }: any) => {
 	return (
 		<>
-			<GTM_HEAD />
+			{/* <GTM_HEAD /> */}
 			<NextSeo
 				title="Blog de Salud | Hablemos de Zoster"
 				description="El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento."
@@ -392,7 +392,7 @@ const Blog = ({ notas }: any) => {
 				</section>
 				<Banner />
 			</>
-			<GTM_BODY />
+			{/* <GTM_BODY /> */}
 		</>
 	)
 }
