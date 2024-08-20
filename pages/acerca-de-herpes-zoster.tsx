@@ -6,9 +6,12 @@ import H2 from "@/components/ui/H2"
 import Description from "@/components/ui/Description"
 import About from "@/components/acercade/About"
 
+
+
 const AcercaDe = () => {
 	return (
 		<>
+	
 			<NextSeo
 				title="Herpes Zóster | Sintomas y Prevención | 2024"
 				description="Necesitas información confiable sobre el Herpes Zóster? Nuestro grupo de médicos respondió las preguntas más importantes que tiene la gente sobre este virus."

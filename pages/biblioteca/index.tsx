@@ -5,6 +5,7 @@ import PostComponent from '@/components/biblioteca/Post'
 import Banner from "@/components/home/Banner"
 import { GetStaticProps } from "next"
 
+
 export const getStaticProps: GetStaticProps = async () => {
 	// const res = await fetch(`${process.env.STRAPI_API_URL}/notas?populate=*&sort[0]=publishedAt%3Adesc&pagination[pageSize]=26`, {
 	// 	headers: {
@@ -351,6 +352,7 @@ export const getStaticProps: GetStaticProps = async () => {
 const Blog = ({ notas }: any) => {
 	return (
 		<>
+	
 			<NextSeo
 				title="Blog de Salud | Hablemos de Zoster"
 				description="El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento."
