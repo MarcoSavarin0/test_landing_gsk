@@ -4,7 +4,7 @@ import Description from "@/components/ui/Description"
 import PostComponent from '@/components/biblioteca/Post'
 import Banner from "@/components/home/Banner"
 import { GetStaticProps } from "next"
-
+import { ButtonFilter } from "@/components/biblioteca/ButtonFilter"
 
 
 export const getStaticProps: GetStaticProps = async () => {
@@ -353,7 +353,7 @@ export const getStaticProps: GetStaticProps = async () => {
 const Blog = ({ notas }: any) => {
 	return (
 		<>
-	
+
 			<NextSeo
 				title="Blog de Salud | Hablemos de Zoster"
 				description="El Herpes Zóster es un virus muy común, pero que pocos lo conocen. Ingresá e informate sobre su origen, síntomas y tratamiento."
@@ -376,13 +376,13 @@ const Blog = ({ notas }: any) => {
 			/>
 
 			<>
+				
 				<section className="py-10 space-y-10">
 					<div className="space-y-3 px-10 text-center">
 						<h1 className={`text-gsk-orange font-bold leading-none uppercase text-4xl sm:text-5xl lg:text-6xl xl:text-7xl`}>Hablemos de Salud</h1>
 						<Description title={`En este blog encontrarás información actualizada y consejos útiles para prevenir y tratar el Herpes Zóster.`} />
-						<Description title={`Además, abordaremos temas relevantes en el ámbito de la salud y compartiremos algunos conocimientos para contribuir a tu bienestar integral. ¡Navegá las notas y tomá acción en tu futuro!`} />
+						<Description title={`Además, abordaremos temas relevantes en el ámbito de la salud y compartiremos algunos conocimientos para contribuir a tu bienestar integral. ¡Navegá las notas y tomá acción en tu futuro!`} /><div><ButtonFilter/></div>
 					</div>
-
 					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-y-8 md:gap-y-4 gap-x-4 px-10">
 						{notas.data.map((item: any, index: number) => (
 							<PostComponent key={index} image={item.attributes.image} title={item.attributes.title} slug={item.attributes.slug} />
@@ -392,7 +392,7 @@ const Blog = ({ notas }: any) => {
 				</section>
 				<Banner />
 			</>
-			
+
 		</>
 	)
 }
