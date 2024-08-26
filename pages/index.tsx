@@ -20,8 +20,7 @@ import H2 from "@/components/ui/H2"
 import Description from "@/components/ui/Description"
 import Spacer from "@/components/ui/Spacer"
 import Share from "@/components/ui/Share"
-import GTM_BODY from "@/components/gtm/body"
-import GTM_HEAD from "@/components/gtm/head"
+
 
 const Home = () => {
 	const { title, body } = useModal((state) => ({ title: state.title, body: state.body, }), shallow)
@@ -40,7 +39,7 @@ const Home = () => {
 
 	return (
 		<>
-			<GTM_HEAD />
+		
 			<NextSeo
 				title="Herpes Zoster | Todo lo que Necesitás Saber | 2024"
 				description="No sabes que es el Herpes Zoster? Te contamos todo lo que necesitas saber sobre el virus de la 'culebrilla' y cómo prevenirla."
@@ -85,7 +84,6 @@ const Home = () => {
 						<Share cta={`Compartí esta información`} url={`${process.env.NEXT_PUBLIC_SITE_URL}`} quote={"Hablemos de Zoster"} hashtag={"#hablemosdezoster"} />
 					</div>
 				</div>
-				<GTM_BODY />
 			</>
 
 			<Modal>
