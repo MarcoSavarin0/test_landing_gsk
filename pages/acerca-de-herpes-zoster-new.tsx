@@ -6,9 +6,11 @@ import H2 from "@/components/ui/H2"
 import Description from "@/components/ui/Description"
 import AboutNew from "@/components/acercade/AboutNew"
 
+
 const AcercaDe = () => {
 	return (
 		<>
+
 			<NextSeo
 				title="Herpes Zóster | Sintomas y Prevención | 2024"
 				description="Necesitas información confiable sobre el Herpes Zóster? Nuestro grupo de médicos respondió las preguntas más importantes que tiene la gente sobre este virus."
@@ -34,20 +36,20 @@ const AcercaDe = () => {
 				<section>
 					<div className="space-y-3 px-4 text-center bg-gsk-dark pt-10 pb-36 shadow-xl">
 						<h1 className={`text-gsk-orange font-bold leading-none uppercase text-4xl sm:text-5xl lg:text-6xl xl:text-7xl`}>Herpes Zóster</h1>
-						<H2 title={`¿QUÉ TENÉS QUE SABER?`}/>
-						<Description title={`Conocé toda la información que necesitás saber sobre el Herpes Zóster.`} color={`text-white`}/>
+						<H2 title={`¿QUÉ TENÉS QUE SABER?`} />
+						<Description title={`Conocé toda la información que necesitás saber sobre el Herpes Zóster.`} color={`text-white`} />
 					</div>
 
 					<article className="w-11/12 md:w-10/12 mx-auto about px-10 space-y-14 bg-white rounded-xl">
 						<div className="-mt-24 pt-8 space-y-6">
-							<AboutNew/>
+							<AboutNew />
 						</div>
 					</article>
 
 				</section>
-				<hr className="w-6/12 border-b border-gsk-orange m-auto my-10"/>
-				<Blog/>
-				<Banner/>
+				<hr className="w-6/12 border-b border-gsk-orange m-auto my-10" />
+				<Blog />
+				<Banner />
 			</>
 		</>
 	)

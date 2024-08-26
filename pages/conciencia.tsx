@@ -7,9 +7,11 @@ import Link from "next/link"
 import 'swiper/css'
 import 'swiper/css/navigation'
 
+
 const Conciencia = () => {
 	return (
 		<>
+
 			<NextSeo
 				title="Concientización y Prevención | Herpes Zóster ⚠️ SAW"
 				description="Información clave sobre la prevención del herpes zóster y cómo cuidar tu bienestar. ¡Accedé a nuestro sitio web ahora!"
@@ -34,7 +36,7 @@ const Conciencia = () => {
 			<>
 				<section className="bg-[##FFFFFF] pb-10 md:pb-20">
 					<div className="w-full h-auto">
-						<Image src={"https://gsk-hdz-2.b-cdn.net/conciencia/herobanner.png"} alt={"Semana de Concientización"} width={720} height={1000} className={`w-full h-auto object-cover bg-gsk-dark`}/>
+						<Image src={"https://gsk-hdz-2.b-cdn.net/conciencia/herobanner.png"} alt={"Semana de Concientización"} width={720} height={1000} className={`w-full h-auto object-cover bg-gsk-dark`} />
 
 						{/* <video className={`w-full h-auto object-cover bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="auto" muted={true} width="1920" height="420" autoPlay={true} controls={false} loop={true}>
 							<source src={`https://gsk-hdz-2.b-cdn.net/conciencia/bannerGSK.webp`} type="video/mp4"/>
@@ -59,9 +61,9 @@ const Conciencia = () => {
 								</div>
 
 								<div className="w-full lg:w-5/12 xl:w-5/12 2xl:w-3/12 space-y-4">
-									
+
 									<div className="w-full h-auto">
-										<Image src={"https://gsk-hdz-2.b-cdn.net/conciencia/gsk_side_final.png"} alt={"Semana de Concientización"} width={720} height={1000} className={`w-full h-auto object-cover bg-gsk-dark`}/>
+										<Image src={"https://gsk-hdz-2.b-cdn.net/conciencia/gsk_side_final.png"} alt={"Semana de Concientización"} width={720} height={1000} className={`w-full h-auto object-cover bg-gsk-dark`} />
 
 										{/* <div className="hz90-carousel w-full">
 											<Swiper slidesPerView={1} spaceBetween={50} loop={true} navigation={true} modules={[EffectFade, Autoplay, Navigation]}>
@@ -87,11 +89,11 @@ const Conciencia = () => {
 												<source src={`https://gsk-hdz-2.b-cdn.net/hz90/obelisco.mp4`} type="video/mp4"/>
 											</video> */}
 									</div>
-										
+
 
 								</div>
 							</div>
-							
+
 
 							{/* <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
 								<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/grid-01.webp"} alt={"HZ_90"} width={960} height={720}/>
@@ -102,7 +104,7 @@ const Conciencia = () => {
 								<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/grid-06.webp"} alt={"HZ_90"} width={960} height={720}/>
 							</div> */}
 
-							
+
 
 							{/* <div className="flex justify-center items-center w-11/12 md:w-10/12 lg:w-8/12 mx-auto">
 								<Image src={"https://gsk-hdz-2.b-cdn.net/hz90/window.webp"} alt={"HZ90"} width={1018} height={396}/>
@@ -145,8 +147,8 @@ const Conciencia = () => {
 							<h3 className="font-bold text-xl md:text-2xl">Posees enfermedades autoinmunes o tratamientos inmunosupresores</h3>
 							<p>Si tenés otros factores de riesgo, como por ejemplo enfermedades autoinmunes, tratamientos inmunosupresores, como la quimioterapia o el consumo de corticoides</p>
 						</div>
-						
-					
+
+
 					</article>
 
 					<div className="flex flex-col justify-center gap-y-5 items-center text-center pt-10 md:pt-20">
@@ -182,8 +184,10 @@ const Conciencia = () => {
 						2020;7(1):ofaa005. Published 2020 Jan 9. doi:10.1093/ofid/ofaa005
 					</p>
 
-					
+
 				</section>
+				
+
 			</>
 		</>
 	)

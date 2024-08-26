@@ -6,9 +6,11 @@ import 'swiper/css/navigation'
 import ComplicationNew from "@/components/home/ComplicationNew"
 import FooterNew from "@/components/home/footerNew"
 
+
 const Conciencia = () => {
 	return (
 		<>
+
 			<NextSeo
 				title="Concientización y Prevención | Herpes Zóster ⚠️ SAW"
 				description="Información clave sobre la prevención del herpes zóster y cómo cuidar tu bienestar. ¡Accedé a nuestro sitio web ahora!"
@@ -32,12 +34,11 @@ const Conciencia = () => {
 
 			<>
 				<section className="bg-[##FFFFFF]">
-					
+
 					<HeroNew />
 					<ComplicationNew />
 					<FooterNew />
 				</section>
-				
 			</>
 		</>
 	)

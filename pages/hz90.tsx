@@ -9,9 +9,11 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import { Navigation, EffectFade, Autoplay } from 'swiper/modules'
 
+
 const Hz90 = () => {
 	return (
 		<>
+			
 			<NextSeo
 				title="Hz 90: Campaña de concientización hZ_90 | Hablemos de Zóster"
 				description="¿Te cruzaste al misterioso hZ_90 en las redes, en la calle o en los shoppings? Conocé todo sobre la campaña hZ_90 e informate sobre Herpes Zóster."
@@ -120,8 +122,9 @@ const Hz90 = () => {
 							</div>
 						</div>
 					</article>
-
+					
 				</section>
+			
 			</>
 		</>
 	)
