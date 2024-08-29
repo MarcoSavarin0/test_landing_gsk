@@ -148,12 +148,11 @@ export function StepFour() {
 					<p>{parse(JSON.stringify(results[getValue()].body).split('"').join(''))}</p>
 
 					<div>
-						<Cta title={`Reiniciar el test`} url={`/autotest`}/>
+						<Cta title={`CONOCE MAS`} url={`/biblioteca`} gtm={true} gtmTrackName="AutotestConoceMas"/>
 					</div>
 
-					<p className="italic">Para conocer más sobre el Herpes Zóster, volvé al <Link href="/" className="text-gsk-orange hover:underline">Home</Link> o ingresá en nuestro <Link href="/blog" className="text-gsk-orange hover:underline">Blog</Link>.</p>
+					<p className="italic"><Link href="/" className="text-gsk-orange hover:underline" data-gtm="AutotestToHome">Home</Link> <Link href="/autotest" className="text-gsk-orange hover:underline" data-gtm="AutotestReiniciarTest">Reiniciar Test</Link></p>
 				</div>
-
 				<ol className="text-[0.6rem]">
 					<li>
 						1- Harpaz R et al. Advisory Committee on Immunization Practices (ACIP), Centers for Disease Control and Prevention (CDC). Prevention of Herpes Zoster: recommendations of the Advisory Committee on Immunization Practices (ACIP). MMWR Recomm Rep. 2008;57(RR-5):1-30.

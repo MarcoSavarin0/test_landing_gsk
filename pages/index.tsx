@@ -19,7 +19,7 @@ import Banner from "@/components/home/Banner"
 import H2 from "@/components/ui/H2"
 import Description from "@/components/ui/Description"
 import Spacer from "@/components/ui/Spacer"
-import Share from "@/components/ui/Share"
+import { IconShare } from "@/components/ui/IconShare"
 
 
 const Home = () => {
@@ -81,7 +81,7 @@ const Home = () => {
 				<div className="flex flex-col justify-center items-center py-10 gap-y-4">
 					<Description title={`Cuidá la salud de quienes te rodean`} />
 					<div>
-						<Share cta={`Compartí esta información`} url={`${process.env.NEXT_PUBLIC_SITE_URL}`} quote={"Hablemos de Zoster"} hashtag={"#hablemosdezoster"} />
+						<IconShare url={`${process.env.NEXT_PUBLIC_SITE_URL}`} quote={"Hablemos de Zoster"} hashtag={"#hablemosdezoster"} />
 					</div>
 				</div>
 			</>

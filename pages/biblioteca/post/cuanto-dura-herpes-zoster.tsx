@@ -10,6 +10,7 @@ import parse from "html-react-parser"
 import Link from "next/link"
 import CollapsibleList from '@/components/biblioteca/Collapsible'
 import { Botoninformacion } from '@/components/blog/Botoninformacion'
+import Cta from '@/components/ui/Cta'
 
 const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), {
 	ssr: false,
@@ -256,7 +257,7 @@ const Blog = ({ nota }: any) => {
 										}
 									}}
 									className="markdown-body">{info}</Markdown>
-							</article>
+							</article><div className="w-auto my-5"><Cta title={'Haz el autotest'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/></div>
 
 							<CollapsibleList list={list} />
 

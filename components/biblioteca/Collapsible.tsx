@@ -17,6 +17,7 @@ const CollapsibleList = ({ list }: { list: string[] }) => {
 					))}
 				</ul>
 			)}
+            
 		</div>
 	)
 }

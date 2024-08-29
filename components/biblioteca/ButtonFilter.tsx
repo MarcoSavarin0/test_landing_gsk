@@ -24,7 +24,7 @@ export const ButtonFilter = () => {
 						key={index}
 						onClick={() => handleClick(index)}
 						className={`${
-							activeIndex === index ? "bg-gsk-orange text-white" : "bg-gsk-gray text-[#959595]"
+							activeIndex === index ? "bg-gsk-orange text-white" : "bg-gsk-gray text-[#313131]"
 						} hover:bg-gsk-orange text-xs hover:text-white rounded-md px-5 py-2 uppercase transition-colors ease-out duration-300 m-2`}
 					>
 						{item}
