@@ -314,6 +314,31 @@ export const getStaticProps: GetStaticProps = async () => {
 				}
 			},
 			{
+				"id": 36,
+				"attributes": {
+					"image": "N-36",
+					"title": "¿Cuáles son las secuelas del Herpes Zoster?",
+					"slug": "secuelas-herpes-zoster"
+				}
+			},
+			{
+				"id": 37,
+				"attributes": {
+					"image": "N-37",
+					"title": "¿Cuáles son las etapas del Herpes Zóster?",
+					"slug": "etapas-herpes-zoster"
+				}
+			},
+			{
+				"id": 38,
+				"attributes": {
+					"image": "N-38",
+					"title": "¿Requiere aislamiento el herpes zóster?",
+					"slug": "aislamiento-herpes-zoster"
+				}
+			},
+			
+			{
 				"id": 40,
 				"attributes": {
 					"image": "N40-_Herpes-Zóster-y-HIV-Existe-una-relación_-_1_",
@@ -337,6 +362,23 @@ export const getStaticProps: GetStaticProps = async () => {
 					"slug": "paralisis-bell-confundir-herpes-zoster"
 				}
 			},
+			{
+				"id": 43,
+				"attributes": {
+					"image": "N43-_5-mitos-sobre-el-HZ_",
+					"title": "5 mitos sobre el Herpes Zóster",
+					"slug": "5-mitos-herpes-zoster"
+				}
+			},
+			{
+				"id": 44,
+				"attributes": {
+					"image": "N44-_NPH-Cómo-impacta-en-la-vida-diaria_",
+					"title": "¿Cómo impacta en la vida diaria la Neuralgia Postherpética?",
+					"slug": "como-viven-pacientes-neuralgia-postherpetica"
+				}
+			},
+			
 		]
 	}
 	return {
