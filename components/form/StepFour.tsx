@@ -148,10 +148,10 @@ export function StepFour() {
 					<p>{parse(JSON.stringify(results[getValue()].body).split('"').join(''))}</p>
 
 					<div>
-						<Cta title={`CONOCE MAS`} url={`/biblioteca`} gtm={true} gtmTrackName="AutotestConoceMas"/>
+						<Cta title={`Conoce más`} url={`/biblioteca`} gtm={true} gtmTrackName="AutotestConoceMas"/>
 					</div>
 
-					<p className="italic"><Link href="/" className="text-gsk-orange hover:underline" data-gtm="AutotestToHome">Home</Link> <Link href="/autotest" className="text-gsk-orange hover:underline" data-gtm="AutotestReiniciarTest">Reiniciar Test</Link></p>
+					<p className="italic"><Link href="/" className="text-gsk-orange hover:underline" data-gtm="AutotestToHome">Home</Link> - <Link href="/autotest" className="text-gsk-orange hover:underline" data-gtm="AutotestReiniciarTest">Reiniciar Test</Link></p>
 				</div>
 				<ol className="text-[0.6rem]">
 					<li>

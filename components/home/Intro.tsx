@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { Element } from 'react-scroll'
 
+
 const Intro = () => {
 	return (
 		<Element name="que-es-herpes-zoster" className="bg-gsk-dark text-center">

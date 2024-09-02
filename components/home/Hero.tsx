@@ -9,6 +9,7 @@ import localFont from "@next/font/local"
 
 import 'swiper/css'
 import 'swiper/css/effect-fade'
+import Cta from "../ui/Cta"
 
 const gskPrecisionLight = localFont({ src: '../../styles/fonts/gskprecision-light.woff2' })
 const barlowSemicondensedBoldItalic = localFont({ src: '../../styles/fonts/barlowsemicondensed-bolditalic.woff2' })
@@ -138,7 +139,7 @@ const Hero = () => {
 								</video>
 							</div>
 
-							<article className="order-first absolute top-4 md:top-[12%] lg:top-[20%] text-right right-8 md:right-10 lg:right-14 xl:right-18 2xl:right-24 w-10/12 md:w-7/12 lg:w-6/12 xl:w-7/12 pt-6 md:pt-0">
+							<article className="order-first absolute top-4 md:top-[10%] lg:top-[15%] text-right right-8 md:right-10 lg:right-14 xl:right-18 2xl:right-24 w-10/12 md:w-7/12 lg:w-6/12 xl:w-7/12 pt-5 md:pt-0">
 								<p className={`${barlowSemicondensedItalic.className} uppercase inline text-white w-full sm:w-fit text-2xl sm:text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl md:leading-[2rem]`}>
 									El dolor ocasionado por
 								</p>
@@ -167,11 +168,11 @@ const Hero = () => {
 										</div>
 									</div>
 								</div>
-							</article>
-
-							<span className="absolute bottom-6 md:bottom-10 xl:bottom-14 right-8 md:right-10 lg:right-14 2xl:right-24 text-white z-20 text-[0.50rem] text-right w-fit leading-tight">*BASADO EN TESTIMONIOS REALES DE PACIENTES. <span className="block lg:inline">LOS SÍNTOMAS DEL HERPES ZOSTER PUEDEN VARIAR.</span></span>
+							</article> <div className="md:left-10 absolute bottom-6 md:bottom-10 xl:bottom-14 right-8 lg:left-auto lg:right-14 2xl:right-24 md:mb-3 mb-7"><Cta title={'INICIAR TEST'} url={`/autotest`} /></div><span className="absolute bottom-2 md:bottom-6 xl:bottom-10 right-8 md:right-10 lg:right-14 2xl:right-24 text-white z-20 text-[0.50rem] text-right w-fit leading-tight">
+                            *BASADO EN TESTIMONIOS REALES DE PACIENTES. <span className="block lg:inline">LOS SÍNTOMAS DEL HERPES ZOSTER PUEDEN VARIAR.</span></span>
 
 							<div className="absolute bottom-0 left-0 w-full h-2 md:h-1 bg-gradient-to-t from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 z-10"/>
+                            
 						</div>
 					</SwiperSlide>
 				))}

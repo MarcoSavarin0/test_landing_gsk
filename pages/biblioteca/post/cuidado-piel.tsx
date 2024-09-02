@@ -223,7 +223,7 @@ const Blog = ({ nota }: any) => {
 										}
 									}}
 									className="markdown-body">{info}</Markdown>
-							</article><div className="w-auto my-5"><Cta title={'Haz el autotest'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/></div>
+							</article><div className="w-auto my-5"><Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/></div>
 
 
 							<CollapsibleList list={list} />
