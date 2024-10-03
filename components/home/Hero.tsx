@@ -168,8 +168,16 @@ const Hero = () => {
 										</div>
 									</div>
 								</div>
-							</article> <div className="md:left-10 absolute bottom-6 md:bottom-10 xl:bottom-14 right-8 lg:left-auto lg:right-14 2xl:right-24 md:mb-3 mb-7"><Cta title={'INICIAR TEST'} url={`/autotest`} /></div><span className="absolute bottom-2 md:bottom-6 xl:bottom-10 right-8 md:right-10 lg:right-14 2xl:right-24 text-white z-20 text-[0.50rem] text-right w-fit leading-tight">
-                            *BASADO EN TESTIMONIOS REALES DE PACIENTES. <span className="block lg:inline">LOS SÍNTOMAS DEL HERPES ZOSTER PUEDEN VARIAR.</span></span>
+							</article>
+							
+							<div className="md:left-10 absolute bottom-6 md:bottom-10 xl:bottom-14 right-8 lg:left-auto lg:right-14 2xl:right-24 md:mb-3 mb-7 ">
+								<p className="mb-4 text-xs text-white">Conocé tu nivel de riesgo: </p>
+								<Cta title={'INICIAR TEST'} url={`/autotest`} />
+							</div>
+							<span className="absolute bottom-2 md:bottom-6 xl:bottom-10 right-8 md:right-10 lg:right-14 2xl:right-24 text-white z-20 text-[0.50rem] text-right w-fit leading-tight">
+                            *BASADO EN TESTIMONIOS REALES DE PACIENTES.
+								<span className="block lg:inline">LOS SÍNTOMAS DEL HERPES ZOSTER PUEDEN VARIAR.</span>
+							</span>
 
 							<div className="absolute bottom-0 left-0 w-full h-2 md:h-1 bg-gradient-to-t from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 z-10"/>
                             

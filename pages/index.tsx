@@ -81,6 +81,7 @@ const Home = () => {
 				<div className="flex flex-col justify-center items-center py-10 gap-y-4">
 					<Description title={`Cuidá la salud de quienes te rodean`} />
 					<div>
+						
 						<IconShare url={`${process.env.NEXT_PUBLIC_SITE_URL}`} quote={"Hablemos de Zoster"} hashtag={"#hablemosdezoster"} />
 					</div>
 				</div>

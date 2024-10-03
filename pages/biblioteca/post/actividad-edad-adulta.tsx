@@ -267,8 +267,16 @@ const Blog = ({ nota }: any) => {
 										}
 									}}
 									className="markdown-body">{info}</Markdown>
-							</article><div className="w-auto my-5"><Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/></div>
-							<CollapsibleList list={list} />
+							</article>
+							<div>
+								<div className="mb-8">
+									<Botoninformacion />
+								</div>
+								<div className="w-auto my-5">
+									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<CollapsibleList list={list} />
+							</div>
 
 
 
@@ -284,7 +292,7 @@ const Blog = ({ nota }: any) => {
 								{/* <p>Cuidá la salud de quienes te rodean:</p> */}
 								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
 							</div>
-							<Botoninformacion />
+							
 						</article>
 						
 					</div>

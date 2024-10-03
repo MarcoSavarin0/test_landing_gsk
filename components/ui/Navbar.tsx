@@ -43,7 +43,7 @@ const Navbar = () => {
 										Tengo una enfermedad crónica
 									</Link>
 									
-									<Link href="/#enprimerapersona" scroll={false} className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
+									<Link href="/primerapersona" className="cursor-pointer text-white hover:text-gsk-orange hover:underline md:text-sm lg:text-base px-3 uppercase transition ease-out duration-300">
 										En primera persona
 									</Link>
 									<div

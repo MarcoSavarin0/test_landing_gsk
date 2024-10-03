@@ -2,7 +2,7 @@ import { Element } from 'react-scroll'
 
 import CardIconBackground from "@/components/home/ui/CardIconBackground"
 import Link from "next/link"
-import Cta from '../ui/Cta'
+
 
 interface Card {
 	title: string,
@@ -55,12 +55,8 @@ const Who = () => {
 			</div>
 
 			<div>
-				<Link href={`/enfermedades-cronicas`} className="text-footer-link"> Conocé más sobre las enfermedades crónicas y el Herpes Zóster </Link>
+				<Link href={`/enfermedades-cronicas`} className="text-footer-link border-b-2 border-gsk-orange"> Conocé más sobre las enfermedades crónicas y el Herpes Zóster </Link>
 			</div>
-			<div>
-				<Cta title={`INICIAR TEST`} url="/autotest"/>
-			</div>
-
 		</section>
 	)
 }

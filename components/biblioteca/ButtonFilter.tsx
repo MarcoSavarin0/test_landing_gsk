@@ -1,33 +1,28 @@
 import { useState } from "react"
-type ActiveIndex = number | null
-export const ButtonFilter = () => {
-	const list = [
-		"Síntomas del Herpes Zóster",
-		"Complicaciones del Herpes Zóster",
-		"Enfermedades Autoinmunes",
-		"Enfermedades Respiratorias",
-		"Enfermedades Cardiovasculares",
-	]
 
-	// Estado para guardar el índice del botón activo
-	const [activeIndex, setActiveIndex] = useState<ActiveIndex>(null)
+interface ButtonFilterProps {
+    categories: string[];
+    onClick: (filter: string) => void;
+  }
+export const ButtonFilter = ({ categories, onClick }: ButtonFilterProps) => {
+	const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
 
-	const handleClick = (index : ActiveIndex) => {
-		setActiveIndex(index)
+	const handleClick = (category: string) => {
+		setSelectedCategory(category) // Actualiza el estado con la categoría seleccionada
+		onClick(category) // Llama a la función onClick pasada como prop
 	}
 
 	return (
 		<>
 			<div className="overflow-x-auto whitespace-nowrap md:overscroll-x-none md:whitespace-pre-wrap">
-				{list.map((item, index) => (
+				{categories.map((category, index) => (
 					<button
 						key={index}
-						onClick={() => handleClick(index)}
-						className={`${
-							activeIndex === index ? "bg-gsk-orange text-white" : "bg-gsk-gray text-[#313131]"
-						} hover:bg-gsk-orange text-xs hover:text-white rounded-md px-5 py-2 uppercase transition-colors ease-out duration-300 m-2`}
+						onClick={() => handleClick(category)}
+						className={`text-xs rounded-md px-5 py-2 uppercase transition-colors ease-out duration-300 m-2 
+            ${selectedCategory === category ? 'bg-gsk-orange text-white' : 'bg-gsk-gray text-[#313131] hover:bg-gsk-orange hover:text-white'}`}
 					>
-						{item}
+						{category}
 					</button>
 				))}
 			</div>

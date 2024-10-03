@@ -129,7 +129,7 @@ export function StepFour() {
 
 	return isCreated ? (
 		<div>
-			<div className="pt-8 space-y-6 ">
+			<div className="pt-8 space-y-6 lg:pt-0">
 				<div className="text-center space-y-1">
 					<div className="flex flex-wrap gap-x-2 justify-center items-end">
 						<span className="bg-gsk-orange w-4 md:w-5 h-4"/>

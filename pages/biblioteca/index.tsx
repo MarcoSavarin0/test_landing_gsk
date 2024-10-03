@@ -5,6 +5,7 @@ import PostComponent from '@/components/biblioteca/Post'
 import Banner from "@/components/home/Banner"
 import { GetStaticProps } from "next"
 import { ButtonFilter } from "@/components/biblioteca/ButtonFilter"
+import { useEffect, useState } from "react"
 
 
 export const getStaticProps: GetStaticProps = async () => {
@@ -24,7 +25,8 @@ export const getStaticProps: GetStaticProps = async () => {
 					"image": "sistema-inmunologico-saludable",
 					"title": "¿Cómo mantener una buena salud del sistema inmunológico en la edad adulta?",
 					"slug": "sistema-inmunologico-edad-adulta"
-				}
+				},
+				"category": "Enfermedades autoinmunes"
 			},
 			{
 				"id": 2,
@@ -48,7 +50,8 @@ export const getStaticProps: GetStaticProps = async () => {
 					"image": "relacion-herpes-zoster-lupus",
 					"title": "Herpes Zóster y Lupus: cómo aumenta el riesgo de contraer Herpes Zóster en personas con Lupus",
 					"slug": "lupus"
-				}
+				},
+				"category": "Enfermedades autoinmunes"
 			},
 			{
 				"id": 5,
@@ -64,7 +67,8 @@ export const getStaticProps: GetStaticProps = async () => {
 					"image": "herpes-zoster-epoc",
 					"title": "¿Cómo la Enfermedad Pulmonar Obstructiva Crónica (EPOC) se convierte en un factor de riesgo para desarrollar Herpes Zóster?",
 					"slug": "epoc"
-				}
+				},
+				"category": "Enfermedades Respiratorias"
 			},
 			{
 				"id": 7,
@@ -80,7 +84,8 @@ export const getStaticProps: GetStaticProps = async () => {
 					"image": "DIABETES",
 					"title": "¿Sabías que los pacientes con diabetes tienen hasta un 40% más de riesgo de desarrollar Herpes Zóster?",
 					"slug": "relacion-entre-diabetes-herpes-zoster"
-				}
+				},
+				"category": "Enfermedades autoinmunes"
 			},
 			{
 				"id": 9,
@@ -96,7 +101,8 @@ export const getStaticProps: GetStaticProps = async () => {
 					"image": "relacion-artritis-reumatoide-herpes-zoster",
 					"title": "¿Existe una relación entre el Herpes Zóster y la Artritis Reumatoide?",
 					"slug": "artritis-reumatoide"
-				}
+				},
+				"category": "Enfermedades autoinmunes"
 			},
 			{
 				"id": 11,
@@ -104,7 +110,8 @@ export const getStaticProps: GetStaticProps = async () => {
 					"image": "herpes-zoster-oftalmico",
 					"title": "Herpes Zóster Oftálmico: ¿qué es y cuáles son sus síntomas?",
 					"slug": "herpes-zoster-oftalmico"
-				}
+				},
+				"category": "Complicaciones del Herpes Zóster"
 			},
 			{
 				"id": 12,
@@ -112,7 +119,8 @@ export const getStaticProps: GetStaticProps = async () => {
 					"image": "neuralgia-postherpetica",
 					"title": "Neuralgia Postherpética: qué es y cómo se relaciona con el Herpes Zóster",
 					"slug": "neuralgia-postherpetica"
-				}
+				},
+				"category": "Complicaciones del Herpes Zóster"
 			},
 			{
 				"id": 13,
@@ -264,7 +272,8 @@ export const getStaticProps: GetStaticProps = async () => {
 					"image": "CARDIO",
 					"title": "¿Sabías que las personas con enfermedades cardiovasculares tienen hasta un 30% más de riesgo de desarrollar Herpes Zóster?",
 					"slug": "enfermedades-cardiovasculares-zoster"
-				}
+				},
+				"category": "Enfermedades Cardiovasculares"
 			},
 			{
 				"id": 30,
@@ -319,8 +328,11 @@ export const getStaticProps: GetStaticProps = async () => {
 				"attributes": {
 					"image": "N40-_Herpes-Zóster-y-HIV-Existe-una-relación_-_1_",
 					"title": "Herpes Zóster y HIV: ¿Existe una relación?",
-					"slug": "herpes-zoster-hiv-conexion"
-				}
+					"slug": "herpes-zoster-hiv-conexion",
+					
+				},
+				"category": "Enfermedades autoinmunes"
+				
 			},
 			{
 				"id": 41,
@@ -351,6 +363,23 @@ export const getStaticProps: GetStaticProps = async () => {
 
 
 const Blog = ({ notas }: any) => {
+	const categories = ["Enfermedades autoinmunes", "Enfermedades Respiratorias", "Enfermedades Cardiovasculares", "Complicaciones del Herpes Zóster", "Todos"]
+	const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
+	const [filteredNotas, setFilteredNotas] = useState<any[]>(notas.data)
+    
+	useEffect(() => {
+		if (selectedCategory === "Todos") {
+			setFilteredNotas(notas.data)
+		} else if (selectedCategory) {
+			const filtered = notas.data.filter((nota: any) => {
+				return nota.category === selectedCategory
+			})
+			setFilteredNotas(filtered)
+		} else {
+			setFilteredNotas(notas.data)
+		}
+	}, [selectedCategory, notas.data])
+
 	return (
 		<>
 
@@ -381,10 +410,16 @@ const Blog = ({ notas }: any) => {
 					<div className="space-y-3 px-10 text-center">
 						<h1 className={`text-gsk-orange font-bold leading-none uppercase text-4xl sm:text-5xl lg:text-6xl xl:text-7xl`}>Hablemos de Salud</h1>
 						<Description title={`En este blog encontrarás información actualizada y consejos útiles para prevenir y tratar el Herpes Zóster.`} />
-						<Description title={`Además, abordaremos temas relevantes en el ámbito de la salud y compartiremos algunos conocimientos para contribuir a tu bienestar integral. ¡Navegá las notas y tomá acción en tu futuro!`} /><div><ButtonFilter/></div>
+						<Description title={`Además, abordaremos temas relevantes en el ámbito de la salud y compartiremos algunos conocimientos para contribuir a tu bienestar integral. ¡Navegá las notas y tomá acción en tu futuro!`} />
+						<div>
+							<ButtonFilter
+								categories={categories}
+								onClick={setSelectedCategory}
+							/>
+						</div>
 					</div>
 					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-y-8 md:gap-y-4 gap-x-4 px-10">
-						{notas.data.map((item: any, index: number) => (
+						{filteredNotas.map((item: any, index: number) => (
 							<PostComponent key={index} image={item.attributes.image} title={item.attributes.title} slug={item.attributes.slug} />
 						))}
 					</div>

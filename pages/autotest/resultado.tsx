@@ -52,7 +52,7 @@ const Autotest = () => {
 			/>
 			<section className="space-y-20 lg:space-y-6 bg-gsk-dark">
 				<div>
-					<div className="space-y-3 px-4 text-center pt-10 lg:pb-36">
+					<div className="space-y-3 px-4 text-center pt-10 lg:pb-10">
 						<h1 className={`text-gsk-orange font-bold leading-none uppercase text-4xl sm:text-5xl lg:text-6xl xl:text-7xl`}>Herpes Zóster</h1>
 						<H2 title={`TEST: ¿ESTOY EN RIESGO DE TENER HERPES ZÓSTER?`}/>
 					</div>
