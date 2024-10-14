@@ -66,7 +66,6 @@ La aparición del Herpes Zóster en la zona ocular es una preocupación seria qu
 
 Si tenés síntomas de Herpes Zóster en la zona ocular, o conocés a alguien que los tenga, **es crucial que consultes con tu médico o médica lo antes posible para un diagnóstico y plan de seguimiento adecuado**.
 
-NP-AR-HZU-WCNT-230019
 `
 
 export const getStaticProps: GetStaticProps = async (context) => {
@@ -253,6 +252,10 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">
+                                    NP-AR-HZU-WCNT-230019</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

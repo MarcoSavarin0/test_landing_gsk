@@ -62,7 +62,7 @@ Aunque tengan un buen control de la diabetes, el riesgo de desarrollar Herpes Z�
 
 Además, llevar un estilo de vida saludable, como mantener una dieta equilibrada y hacer ejercicio regularmente, también puede ayudar a fortalecer el sistema inmunológico y prevenir el Herpes Zóster<sup>[7]</sup>. De esta manera, **la relación entre el Herpes Zóster y la diabetes se debe al efecto debilitante que tiene la diabetes en el sistema inmunológico, lo que aumenta el riesgo de tener otras infecciones y enfermedades**<sup>[14]</sup>. Si tenés diabetes, es fundamental hablar con tu médico acerca de las medidas que podés tomar para prevenir el Herpes Zóster y mantener una buena salud en general.
 
-NP-AR-HZU-WCNT-230009.
+
 `
 
 export const getStaticProps: GetStaticProps = async (context) => {
@@ -250,6 +250,11 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">
+                                    NP-AR-HZU-WCNT-230009.
+									</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

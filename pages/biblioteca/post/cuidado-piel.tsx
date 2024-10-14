@@ -80,7 +80,7 @@ Algunas medidas para cuidar la piel durante y después de la enfermedad incluyen
 
 Cuidar la piel durante y después de un episodio de Herpes Zóster es fundamental para prevenir complicaciones y favorecer una recuperación más rápida y saludable. Recordá que siempre es importante consultar a un profesional de la salud para recibir un diagnóstico adecuado, ante cualquier síntoma o inquietud que tengas.
 
-**NP-AR-HZU-WCNT-230014**
+
 
 
 
@@ -229,6 +229,9 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">NP-AR-HZU-WCNT-230014</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

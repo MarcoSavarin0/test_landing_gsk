@@ -56,7 +56,6 @@ El sistema inmunológico puede debilitarse por diversas razones, como:
 
 Cuando el sistema inmunológico no funciona de manera óptima, el cuerpo tiene dificultades para combatir infecciones y enfermedades. Si sospechás que tenés algún síntoma de Herpes Zóster o tu sistema inmunológico está debilitado, no dudes en consultar a un médico.
 
-**NP-AR-HZU-WCNT-230013**
 
 `
 
@@ -242,6 +241,11 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">
+                                    NP-AR-HZU-WCNT-230013
+									</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

@@ -46,7 +46,7 @@ En conclusión, los dolores crónicos ocasionados por la Neuralgia Postherpétic
 
 No olvides consultar con tu médico antes de iniciar cualquier tratamiento.
 
-NP-AR-HZU-WCNT-230001
+
 
 
 
@@ -250,6 +250,11 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">
+                                    NP-AR-HZU-WCNT-230001
+									</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

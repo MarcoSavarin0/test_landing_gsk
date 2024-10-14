@@ -93,7 +93,6 @@ Además, al comprender las diferencias entre los tipos de Herpes, podemos tomar 
 
 Si sospechás que puedes estar experimentando alguno de los síntomas descriptos en esta nota, es crucial que consultes con un equipo médico para recibir el diagnóstico y tratamiento adecuados.
 
-**NP-AR-HZU-WCNT-230006**
 
 
 
@@ -286,6 +285,11 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">
+                                    NP-AR-HZU-WCNT-230006
+									</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

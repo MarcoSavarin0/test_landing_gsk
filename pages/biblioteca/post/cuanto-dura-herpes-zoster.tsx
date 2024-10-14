@@ -64,7 +64,7 @@ El Herpes Zóster tiene un impacto significativo en la salud y bienestar de quie
 **Es fundamental tratar este virus desde el primer momento para asegurar tu bienestar y salud general**. Si vos o alguien que conocés tiene síntomas de Herpes Zóster, es clave que consultar con tu médico de confianza para conocer las opciones de prevención y tratamiento.
 
 
-NP-AR-HZU-WCNT-230017
+
 
 `
 
@@ -263,6 +263,9 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">NP-AR-HZU-WCNT-230017</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

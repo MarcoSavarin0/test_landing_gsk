@@ -42,7 +42,7 @@ Al seguir las pautas mencionadas anteriormente, como cubrir las lesiones, manten
 
 Si sospechás que vos o alguien de tu entorno cercano tiene Herpes Zóster, no dudes en consultar con un equipo médico para obtener el diagnóstico y tratamiento adecuado.
 
-**NP-AR-HZU-WCNT-230007**
+
 
 
 `
@@ -231,6 +231,12 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">
+                                    
+                                    NP-AR-HZU-WCNT-230007
+									</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

@@ -73,7 +73,7 @@ En resumen, aunque no existe una relación directa entre el bienestar emocional 
 
 Si necesitás apoyo para mejorar tu bienestar emocional, consultá a tu médico para recibir el tratamiento adecuado a tu caso específico. 
 
-**NP-AR-HZU-WCNT-230009**
+
 
 
 
@@ -268,6 +268,9 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">NP-AR-HZU-WCNT-230009</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

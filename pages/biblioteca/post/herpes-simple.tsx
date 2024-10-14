@@ -57,7 +57,7 @@ El Herpes Simple es una infección viral común que puede causar síntomas incó
 
 ---
 
-**NP-AR-HZU-WCNT-230005 – Mayo 2023.** 
+
 
 Para mayor información consulte a su médico.GSK Biopharma Argentina S.A. Av del Libertador 7202, Piso 4, CABA, Buenos Aires, Argentina. Para consultas sobre nuestros productos, consultas de calidad o reporte de eventos adversos puede comunicarse al 0800-222-4752.
 
@@ -246,6 +246,9 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">NP-AR-HZU-WCNT-230005 – Mayo 2023.</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

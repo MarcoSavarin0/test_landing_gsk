@@ -63,7 +63,6 @@ En conclusión, gran cantidad de las enfermedades o afecciones que debiliten el 
 
 Si estás en un grupo de riesgo, como personas mayores de 50 años, o tenés una condición médica que debilita tu sistema inmunológico, es importante que hables con tu médico sobre las opciones de tratamiento y prevención del Herpes Zóster.
 
-**NP-AR-HZU-WCNT-230009**
 
 
 
@@ -255,6 +254,9 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">NP-AR-HZU-WCNT-230009</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

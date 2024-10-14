@@ -66,7 +66,7 @@ Si vos o alguien que conocés tiene síntomas relacionados con el Herpes Zóster
 Si vos o alguien que conocés tiene síntomas relacionados con el Herpes Zóster, es fundamental que consultes con un médico para que te den el asesoramiento y el apoyo que necesitás.
 
 
-NP-AR-HZU-WCNT-230017
+
 
 
 
@@ -267,6 +267,9 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">NP-AR-HZU-WCNT-230017</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

@@ -47,7 +47,7 @@ El Herpes Zóster Oftálmico puede desarrollarse cuando las lesiones se producen
 ## Prevención del Herpes Zóster Oftálmico
 Se recomienda consultar con el profesional de salud de cabecera para conocer las opciones de prevención y tratamiento del Herpes Zóster y, consecuentemente, evitar su complicación  oftálmica. 
 
-NP-AR-HZU-WCNT-230001
+
 
 
 
@@ -253,6 +253,10 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">
+                                    NP-AR-HZU-WCNT-230001</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

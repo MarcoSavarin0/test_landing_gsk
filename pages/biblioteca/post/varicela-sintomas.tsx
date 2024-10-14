@@ -56,7 +56,6 @@ El Herpes Zóster puede ser más grave que la varicela y causar complicaciones a
 
 Si presentas algún síntoma relacionado a la varicela o al Herpes Zóster, no dudes en consultar con tu médico o médica para recibir el tratamiento adecuado.
 
-NP-AR-HZU-WCNT-230003
 
 `
 
@@ -243,6 +242,11 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">
+                                    NP-AR-HZU-WCNT-230003
+									</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

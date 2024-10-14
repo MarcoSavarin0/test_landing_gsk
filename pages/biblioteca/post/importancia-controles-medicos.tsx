@@ -50,7 +50,7 @@ En este sentido, los controles médicos regulares permiten realizar un mayor rec
 
 No esperes a que aparezcan síntomas o problemas de salud, la prevención y el diagnóstico temprano son la clave para mantener el bienestar físico y emocional. Consultá a tu médico de confianza para recibir la atención adecuada.
 
-**NP-AR-HZU-WCNT-230008**
+
 
 
 
@@ -235,6 +235,11 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">
+                                    NP-AR-HZU-WCNT-230008
+									</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

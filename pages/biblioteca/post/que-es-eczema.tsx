@@ -68,7 +68,6 @@ Por el otro, el Eczema es una condición de la piel común y molesta que puede a
 
 Si sospechás que tenés Eczema, es importante buscar la atención de un profesional de la salud para recibir el diagnóstico y tratamiento adecuado. Cuanto antes se detecte esta enfermedad, más fácil será tratarla y controlar sus síntomas.
 
-**NP-AR-HZU-WCNT-230006**
 
 
 `
@@ -258,6 +257,11 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">
+                                    NP-AR-HZU-WCNT-230006
+									</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

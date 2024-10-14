@@ -42,7 +42,6 @@ Por lo tanto, la relación entre Herpes Zóster y Lupus se encuentra en el hecho
 
 Es crucial que las personas con Lupus estén al tanto de su mayor riesgo de desarrollar Herpes Zóster y tomen medidas preventivas. Para ello, se recomienda mantener un estilo de vida saludable, informarse sobre los síntomas de ambas afecciones, realizar visitas regulares al médico para monitorear el Lupus y consultar sobre las opciones adecuadas de prevención y tratamiento del Herpes Zóster.
 
-**NP-AR-HZU-WCNT-230011**
 
 
 `
@@ -234,6 +233,11 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">
+                                    NP-AR-HZU-WCNT-230011
+									</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

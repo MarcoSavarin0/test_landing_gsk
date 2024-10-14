@@ -56,7 +56,7 @@ Otras complicaciones pueden incluir:
 
 En caso de que el paciente, presente alguna de las complicaciones mencionadas, puede haber un impacto negativo en la calidad de vida. Por ello, es fundamental conocer los síntomas de esta infección viral para tratarla a tiempo. No dudes en consultar con un médico para conocer los modos de prevenir y tratar el Herpes Zóster.
 
-**NP-AR-HZU-WCNT-230013**
+
 
 
 `
@@ -247,6 +247,11 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">
+                                    NP-AR-HZU-WCNT-230013
+									</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

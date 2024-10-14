@@ -65,7 +65,7 @@ Además, llevar un estilo de vida saludable, como mantener una dieta equilibrada
 
 De esta manera, la relación entre el Herpes Zóster y la diabetes se debe al efecto debilitante que tiene la diabetes en el sistema inmunológico, lo que aumenta el riesgo de tener otras infecciones y enfermedades. Si tenés diabetes, es fundamental hablar con tu médico acerca de las medidas que podés tomar para prevenir el Herpes Zóster y mantener una buena salud en general.
 
-NP-AR-HZU-WCNT-230009.
+
 
 
 
@@ -261,6 +261,9 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">NP-AR-HZU-WCNT-230009</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

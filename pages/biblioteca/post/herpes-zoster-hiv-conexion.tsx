@@ -65,7 +65,7 @@ El vínculo entre el Herpes Zóster y el HIV resalta la necesidad de un seguimie
 
 Si tenés síntomas de Herpes Zóster y padecés HIV, o conocés a alguien que los tenga, **es importante consultar con tu equipo médico para un diagnóstico y plan de tratamiento adecuado**.
 
-NP-AR-HZU-WCNT-230019
+
 `
 
 export const getStaticProps: GetStaticProps = async (context) => {
@@ -263,6 +263,10 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">
+                                    NP-AR-HZU-WCNT-230019</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

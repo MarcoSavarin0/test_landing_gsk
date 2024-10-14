@@ -70,7 +70,7 @@ El herpes zóster se caracteriza por una erupción dolorosa en un área del cuer
 
 Reconocer los síntomas de la varicela es sumamente importante para detectarlos y buscar atención médica si se presentan complicaciones o si la persona afectada pertenece a un grupo de alto riesgo.
 
-NP-AR-HZU-WCNT-230004 – Abril 2023.
+
 
 Para mayor información consulte a su médico.GSK Biopharma Argentina S.A. Av del Libertador 7202, Piso 4, CABA, Buenos Aires, Argentina.Para consultas sobre nuestros productos, consultas de calidad o reporte de eventos adversos puede comunicarse al 0800-222-4752.
 
@@ -259,6 +259,11 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">
+                                    NP-AR-HZU-WCNT-230004 – Abril 2023.
+									</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

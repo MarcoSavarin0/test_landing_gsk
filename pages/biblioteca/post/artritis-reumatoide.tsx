@@ -50,7 +50,7 @@ Otro de los puntos en común entre ambas enfermedades es la edad. Tanto para el 
 De esta manera, es crucial entender la relación entre el Herpes Zóster y la Artritis Reumatoide, ya que ambos trastornos tienen implicaciones en la salud de quienes los padecen. Comprender cómo interactúan estas condiciones y cómo pueden impactar en la salud es esencial para mejorar la calidad de vida del paciente. Si experimentás síntomas relacionados con el Herpes Zóster o la Artritis Reumatoide, es fundamental que consultes a un médico para obtener un diagnóstico adecuado y recibir el tratamiento más apropiado para tu caso.
 
 
-NP-AR-HZU-WCNT-230011.
+
 
 
 
@@ -247,6 +247,9 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">NP-AR-HZU-WCNT-230011.</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

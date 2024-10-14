@@ -64,7 +64,7 @@ A continuación, **te mostramos algunos beneficios de realizar ejercicio**<sup>[
 
 Por ello, **es fundamental mantener una rutina de ejercicio adaptada a nuestras necesidades y capacidades en la tercera edad**. Recordá que ante cualquier duda que tengas sobre el estado de tu salud es importante que consultes a tu médico para recibir un diagnóstico adecuado.
 
-NP-AR-HZU-WCNT-230016
+
 
 
 `
@@ -274,6 +274,9 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">NP-AR-HZU-WCNT-230016</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

@@ -58,7 +58,6 @@ En conclusión, una dieta equilibrada y rica en nutrientes es fundamental para m
 
 Ante cualquier duda que tengas, siempre es importante consultar a tu médico de confianza para recibir un diagnóstico adecuado. 
 
-**NP-AR-HZU-WCNT-230014**
 
 
 
@@ -253,6 +252,9 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">NP-AR-HZU-WCNT-230014</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

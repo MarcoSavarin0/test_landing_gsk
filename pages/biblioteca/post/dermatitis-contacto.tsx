@@ -69,7 +69,7 @@ La dermatitis de contacto y el Herpes Zóster son dos afecciones cutáneas disti
 
 Si sospechas que tienes dermatitis de contacto o Herpes Zóster, te recomendamos consultar a un equipo médico para obtener un diagnóstico preciso y recibir el tratamiento adecuado.
 
-**NP-AR-HZU-WCNT-230013**
+
 
 
 
@@ -266,6 +266,9 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">NP-AR-HZU-WCNT-230013</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

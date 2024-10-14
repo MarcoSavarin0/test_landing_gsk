@@ -52,7 +52,6 @@ La principal similitud entre el Herpes Zóster y la dermatitis herpetiforme es l
 Si creés que tenés alguna de estas enfermedades, es importante que consultes a un equipo médico para recibir un diagnóstico adecuado y cuidar tu salud. 
 
 
-NP-AR-HZU-WCNT-230012.
 
 
 
@@ -244,6 +243,11 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">
+                                    NP-AR-HZU-WCNT-230012.
+									</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

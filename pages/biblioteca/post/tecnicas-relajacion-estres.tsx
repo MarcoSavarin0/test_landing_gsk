@@ -84,7 +84,6 @@ Si crees que vos o alguien que conocés [ síntomas de Herpes Zóster](https://w
 
 El Herpes Zóster es una enfermedad causada por el mismo virus que provoca la varicela.
 
-NP-AR-HZU-WCNT-230017
 
 
 `
@@ -306,6 +305,12 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">
+
+                                    NP-AR-HZU-WCNT-230017
+									</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

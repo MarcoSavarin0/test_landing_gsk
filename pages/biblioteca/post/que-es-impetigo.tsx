@@ -60,7 +60,7 @@ Por su parte, en el Herpes Zóster, las lesiones se presentan como un sarpullido
 
 Aunque el Impétigo y el Herpes Zóster son diferentes en términos de causa, apariencia y tratamiento, ambas son afecciones cutáneas que pueden causar molestias y requerir atención médica. Si sospechás que vos o alguien cercano tiene Impétigo o Herpes Zóster, consultá a un especialista para recibir el diagnóstico y el tratamiento adecuado.
 
-**NP-AR-HZU-WCNT-230014**
+
 
 
 
@@ -212,6 +212,12 @@ const Blog = ({ nota }: any) => {
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
 								</div>
+								<div>
+									<span className="markdown-body">
+                                    NP-AR-HZU-WCNT-230014
+									</span>
+								</div>
+                                
 								<CollapsibleList list={list} />
 							</div>
 						</article>

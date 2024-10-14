@@ -48,7 +48,7 @@ La duración del Síndrome de Ramsay Hunt varía según la severidad de la afecc
 Ahora ya conocés cuáles son los síntomas y la importancia de un diagnóstico temprano, esencial para una recuperación adecuada del Síndrome de Ramsay Hunt. Si sospechás que vos o alguien cercano padece Herpes Zóster, no dudes en consultar a un médico o médica para recibir el tratamiento adecuado y conocer las opciones de prevención.
 
 
-NP-AR-HZU-WCNT-230012.
+
 
 
 `
@@ -234,6 +234,11 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">
+                                    NP-AR-HZU-WCNT-230012.
+									</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

@@ -38,9 +38,6 @@ Además, el estrés y la fatiga asociados con la progresión de una enfermedad c
 
 Si tienes EPOC y experimentas síntomas de Herpes Zóster, es importante hablar con tu médico para obtener un diagnóstico adecuado y discutir las opciones de tratamiento.
 
-NP-AR-HZU-WCNT-230009.
-
-
 
 `
 
@@ -225,8 +222,13 @@ const Blog = ({ nota }: any) => {
 								<div className="mb-8">
 									<Botoninformacion />
 								</div>
+
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+
+								<div>
+									<span className="markdown-body">NP-AR-HZU-WCNT-230009</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

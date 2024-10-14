@@ -57,7 +57,7 @@ En esta etapa de la vida, hay que prestar especial cuidado a la salud y fundamen
 Existen riesgos de contraer enfermedades, relacionados al debilitamiento del sistema inmunológico y como resultado, quedar expuesto a afecciones tales como el Herpes Zóster. De esta manera, prevenir enfermedades crónicas en los adultos mayores es esencial para disfrutar de una vida plena y saludable. La adopción de hábitos saludables, la práctica de ejercicio regular y una alimentación equilibrada, junto con la realización de chequeos médicos regulares, pueden reducir significativamente el riesgo de padecer enfermedades crónicas. Consulta a tu médico para conocer cuáles son los métodos de prevención adecuados para tu caso.
 
 
-NP-AR-HZU-WCNT-230011.
+
 
 
 
@@ -251,6 +251,9 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">NP-AR-HZU-WCNT-230011</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

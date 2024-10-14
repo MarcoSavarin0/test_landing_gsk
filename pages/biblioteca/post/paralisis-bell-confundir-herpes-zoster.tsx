@@ -66,7 +66,6 @@ Aunque la parálisis de Bell y el Herpes Zóster son afecciones distintas, sus s
 Si tenés síntomas que podrían corresponder a la parálisis de Bell o al Herpes Zóster, o conocés a alguien en esa situación, **es importante consultar con tu equipo médico para un diagnóstico preciso y un plan de seguimiento adecuado**.
 
 
-NP-AR-HZU-WCNT-230020
 
 
 `
@@ -257,6 +256,12 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">
+                                    
+NP-AR-HZU-WCNT-230020
+									</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

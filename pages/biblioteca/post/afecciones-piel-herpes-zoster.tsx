@@ -47,7 +47,7 @@ Esta complicación del Herpes Zóster únicamente puede ser diagnosticada por un
 
 Si presentas síntomas de Herpes Zóster, consultá con tu médico o médica lo antes posible.
 
-NP-AR-HZU-WCNT-230003
+
 
 `
 
@@ -234,6 +234,9 @@ const Blog = ({ nota }: any) => {
 								</div>
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">NP-AR-HZU-WCNT-230003</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>
