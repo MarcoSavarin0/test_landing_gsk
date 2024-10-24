@@ -46,7 +46,6 @@ Entender qué es el Herpes Zóster y los mitos que lo rodean es el primer paso p
 
 Si tenés síntomas de Herpes Zóster o conocés a alguien que los tenga, es importante consultar con tu equipo médico para un diagnóstico y plan de manejo adecuado.
 
-NP-AR-HZU-WCNT-230020
 
 
 `
@@ -236,7 +235,7 @@ const Blog = ({ nota }: any) => {
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
 								</div>
 								<div>
-									<span className="markdown-body">NP-AR-HZU-WCNT-230016</span>
+									<span className="markdown-body">NP-AR-HZU-WCNT-230020</span>
 								</div>
 								<CollapsibleList list={list} />
 							</div>

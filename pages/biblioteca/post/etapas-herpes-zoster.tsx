@@ -9,6 +9,8 @@ import { GetStaticProps } from "next"
 import parse from "html-react-parser"
 import Link from "next/link"
 import CollapsibleList from '@/components/biblioteca/Collapsible'
+import { Botoninformacion } from '@/components/blog/Botoninformacion'
+import Cta from '@/components/ui/Cta'
 
 const DynamicSpeechBlog = dynamic(() => import('@/components/blog/SpeechBlog'), {
 	ssr: false,
@@ -59,7 +61,7 @@ El Herpes Zóster es una enfermedad que puede causar síntomas incómodos y dolo
 Si estás experimentando síntomas del Herpes Zóster o deseas obtener más información sobre cómo prevenirlo, te recomendamos consultar con tu médico o médica de confianza. La prevención y el diagnóstico temprano son fundamentales.
 
 
-NP-AR-HZU-WCNT-230018
+
 `
 
 export const getStaticProps: GetStaticProps = async (context) => {
@@ -244,20 +246,17 @@ const Blog = ({ nota }: any) => {
 									}}
 									className="markdown-body">{info}</Markdown>
 							</article>
-
-							<CollapsibleList list={list} />
-
-							{/* <div className="space-y-2 mt-10">
-								<h3 className="text-lg md:text-xl text-gsk-orange">Relacionados</h3>
-								<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-									{releated.map(({id, title, date}: Post) => (
-										<PostComponent key={id} id={id} title={title} date={date}/>
-									))}
+							<div>
+								<div className="mb-8">
+									<Botoninformacion />
 								</div>
-							</div> */}
-							<div className="space-y-2 mt-2">
-								{/* <p>Cuidá la salud de quienes te rodean:</p> */}
-								{/* <Share cta={`Compartir en`} url={`${process.env.NEXT_PUBLIC_SITE_URL}/blog/${slug}`} quote={title} hashtag={`#${categoria.data.attributes.slug.replaceAll('-', '')}`}/> */}
+								<div className="w-auto my-5">
+									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
+								</div>
+								<div>
+									<span className="markdown-body">NP-AR-HZU-WCNT-230018</span>
+								</div>
+								<CollapsibleList list={list} />
 							</div>
 						</article>
 						
