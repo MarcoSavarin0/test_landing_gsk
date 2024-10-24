@@ -74,6 +74,8 @@ export const getStaticProps: GetStaticProps = async (context) => {
 	// })
 	// const nota = await res.json()
 	console.log(context)
+
+    
 	const nota = {
 		"data": [
 			{
