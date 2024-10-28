@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import localFont from "@next/font/local"
-
+import Cta from "./Cta"
 const gskPrecisionLight = localFont({ src: '../../styles/fonts/gskprecision-light.woff2' })
 
 const Footer = () => {
@@ -31,6 +31,9 @@ const Footer = () => {
 							<Link href="https://terms.gsk.com/es-ar/pharmaceuticals/default/" target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
 								Términos y condiciones
 							</Link>
+							<div className="w-40 my-6 lg:my-0 lg:w-56">
+								<Cta title={"GSK PRO"} location={"_blank"} url="https://gskpro.com/es-ar/"/>
+							</div>
 						</div>
 					</div>
 
