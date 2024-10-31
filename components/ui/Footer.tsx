@@ -28,7 +28,7 @@ const Footer = () => {
 							<Link href="https://privacy.gsk.com/es-ar/privacy-notice/general/general-full-text/" target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
 								Políticas de privacidad
 							</Link>
-							<Link href="https://terms.gsk.com/es-ar/pharmaceuticals/default/" target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
+							<Link href="/terminos-condiciones" target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
 								Términos y condiciones
 							</Link>
 							<div className="w-40 my-6 lg:my-0 lg:w-56">
