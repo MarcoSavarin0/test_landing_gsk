@@ -19,7 +19,7 @@ export const ButtonFilter = ({ categories, onClick }: ButtonFilterProps) => {
 					<button
 						key={index}
 						onClick={() => handleClick(category)}
-						className={`text-xs rounded-md px-5 py-2 uppercase transition-colors ease-out duration-300 m-2 
+						className={`text-xs rounded-md px-5 py-2 uppercase transition-colors ease-out duration-300 m-2
             ${selectedCategory === category ? 'bg-gsk-orange text-white' : 'bg-gsk-gray text-[#313131] hover:bg-gsk-orange hover:text-white'}`}
 					>
 						{category}
