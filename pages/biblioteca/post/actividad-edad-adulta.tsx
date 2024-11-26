@@ -275,12 +275,9 @@ const Blog = ({ nota }: any) => {
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
 								</div>
-<<<<<<< Updated upstream
 								<div>
 									<span className="markdown-body">NP-AR-HZU-WCNT-230016</span>
 								</div>
-=======
->>>>>>> Stashed changes
 								<CollapsibleList list={list} />
 							</div>
 

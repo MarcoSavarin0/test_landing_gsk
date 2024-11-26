@@ -222,7 +222,6 @@ const Blog = ({ nota }: any) => {
 								<div className="mb-8">
 									<Botoninformacion />
 								</div>
-<<<<<<< Updated upstream
 
 								<div className="w-auto my-5">
 									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
@@ -231,11 +230,6 @@ const Blog = ({ nota }: any) => {
 								<div>
 									<span className="markdown-body">NP-AR-HZU-WCNT-230009</span>
 								</div>
-=======
-								<div className="w-auto my-5">
-									<Cta title={'INICIAR TEST'} url={`/autotest`} gtm={true} gtmTrackName="Autotest"/>
-								</div>
->>>>>>> Stashed changes
 								<CollapsibleList list={list} />
 							</div>
 						</article>
