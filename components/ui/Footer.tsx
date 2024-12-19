@@ -75,7 +75,7 @@ const Footer = () => {
 
 				<div className="mt-8 md:mt-0">
 					<p className="text-center md:text-left text-xs leading-5 text-gray-500">
-						NP-AR-HZU-WCNT-230002- Abril 2023
+                    NP-AR-HZU-WCNT-240002 – Diciembre 2024
 						<span className="block">Para mayor información consulte a su médico.</span>
 						<span className="block">GSK Biopharma Argentina S.A. Av del Libertador 7202, Piso 4, CABA, Buenos Aires, Argentina.</span>
 						<span className="block">Para consultas sobre nuestros productos, consultas de calidad o reporte de eventos adversos puede comunicarse al 0800 220 4752.</span>

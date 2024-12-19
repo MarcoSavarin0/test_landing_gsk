@@ -53,20 +53,20 @@ const PopOut: React.FC = () => {
 							<h3 className="mb-5 text-sm font-normal text-gray-500 dark:text-gray-400">
                             Después de leer esta información,
 							</h3>
-							<h2 className="text-xl">¿vas a consultarle a tu médico acerca del HZ?
+							<h2 className="text-xl">¿vas a consultarle a tu médico acerca del Herpes Zóster?
 							</h2>
 							<div className="flex justify-center gap-4 mt-6">
 								<button
-									onClick={() => handleClose("no")}
-									className="text-base text-center text-white hover:text-gsk-orange  bg-gsk-orange hover:bg-white border-2 border-gsk-orange transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold"
-								>
-                No
-								</button>
-								<button
 									onClick={() => handleClose("si")}
-									className="text-base text-center text-white hover:text-gsk-orange  bg-gsk-orange hover:bg-white border-2 border-gsk-orange transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold"
+									className="text-base text-center text-white hover:text-gsk-orange  bg-gsk-orange hover:bg-white border-2 border-gsk-orange transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold w-1/2"
 								>
                 Sí
+								</button>
+								<button
+									onClick={() => handleClose("no")}
+									className="text-base text-center text-white hover:text-gsk-orange  bg-gsk-orange hover:bg-white border-2 border-gsk-orange transition duration-300 ease-out rounded px-8 py-3 uppercase font-bold w-1/2"
+								>
+                No
 								</button>
 							</div>
 						</div>
