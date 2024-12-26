@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import localFont from "@next/font/local"
-import Cta from "./Cta"
+
 const gskPrecisionLight = localFont({ src: '../../styles/fonts/gskprecision-light.woff2' })
 
 const Footer = () => {
@@ -18,7 +18,7 @@ const Footer = () => {
 							width={100}
 							height={70}
 						/>
-						<div className={`${gskPrecisionLight} flex flex-col md:flex-row gap-x-0 md:gap-x-4 lg:gap-x-6 text-base md:text-sm`}>
+						<div className={`${gskPrecisionLight} flex flex-col items-center md:flex-row lg:w-full gap-x-0 md:gap-x-4 lg:gap-x-6 text-base md:text-sm`}>
 							<Link href={`/referencias`} className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
 								Referencias
 							</Link>
@@ -31,9 +31,11 @@ const Footer = () => {
 							<Link href="/terminos-condiciones" target="_blank" className="text-white hover:text-gsk-orange transition-colors duration-200 ease-out font-light">
 								Términos y condiciones
 							</Link>
-							<div className="w-40 my-6 lg:my-0 lg:w-56">
-								<Cta title={"GSK PRO"} location={"_blank"} url="https://gskpro.com/es-ar/"/>
-							</div>
+							<Link href={"https://gskpro.com/es-ar/"} target="_blank" className="text-center text-white hover:text-gsk-orange bg-gsk-orange hover:bg-white border-2 border-transparent hover:border-gsk-orange  transition duration-300 ease-out rounded-3xl px-8 py-3  font-bold">
+								<span>Si sos profesional de la salud entra a <span className="font-bold underline">GSK PRO</span></span>
+							</Link>
+							{/* <Cta title={"Si sos profesional de la salud entra a GSK PRO"} location={"_blank"} url="https://gskpro.com/es-ar/"/> */}
+							
 						</div>
 					</div>
 
