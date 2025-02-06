@@ -1,6 +1,7 @@
-import {useState, useEffect} from "react"
+import {useState, useEffect, useRef} from "react"
 import dynamic from 'next/dynamic'
 import { Element } from 'react-scroll'
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa"
 
 import H2 from "@/components/ui/H2"
 import ButtonThumbnail from "@/components/home/ui/ButtonThumbnail"
@@ -39,6 +40,18 @@ const medicos: VideoTestimonio[] = [
 		data: "Médico Neurólogo",
 		id: "0rBIlJ7FP04",
 	},
+	{
+		name: "Dr. Luis Cicco",
+		img: "",
+		data: "Médico Cardiólogo",
+		id: "ApvlA_W0ZkY",
+	},
+	{
+		name: "Dra. Pierina Bachetti",
+		img: "",
+		data: "Especialista en tratamientos del dolor",
+		id: "1MLay6lg-1U",
+	},
 ]
 
 const pacientes: VideoTestimonio[] = [
@@ -72,9 +85,40 @@ const Testimonial = () => {
 	const [playerId, setPlayerId] = useState("dIWt8S179ng")
 	const [activePlayer, setActivePlayer] = useState(0)
 	const [pacientesState, setPacientesState] = useState(false)
+	const containerRef = useRef<HTMLDivElement>(null)
+	const [visibleMedicos, setVisibleMedicos] = useState(medicos.slice(0, 4))
+	console.log(activePlayer)
+	const handleNext = () => {
+		const container = containerRef.current
+		if (container && container.children.length > 0) {
+			const firstItem = container.children[0] as HTMLElement
+			const itemWidth = firstItem.offsetWidth
+			const gap = 24
+			container.scrollBy({
+				left: itemWidth + gap,
+				behavior: 'smooth'
+			})
+			setVisibleMedicos(medicos.slice(4, 6))
+		}
+	}
 
+	const handlePrev = () => {
+		const container = containerRef.current
+		if (container && container.children.length > 0) {
+			const firstItem = container.children[0] as HTMLElement
+			const itemWidth = firstItem.offsetWidth
+			const gap = 24
+			container.scrollBy({
+				left: -(itemWidth + gap),
+				behavior: 'smooth'
+			})
+			setVisibleMedicos(medicos.slice(0, 4))
+		}
+	}
 	const selectVideo = (playerId: string, indexVideo: number) => {
-		setActivePlayer(indexVideo)
+		if(playerId == visibleMedicos[indexVideo].id){
+			setActivePlayer(indexVideo)
+		}
 		setPlayerId(playerId)
 	}
 
@@ -102,19 +146,29 @@ const Testimonial = () => {
 
 				<VideoplayerSSR id={playerId}/>
 
-				<div className="w-full h-auto relative overflow-hidden">
-					<div className={`${pacientesState ? "hidden" : "visible"} grid grid-cols-none grid-flow-col overflow-x-scroll md:overflow-x-auto md:grid-cols-4 w-full gap-6 justify-start md:justify-between text-center px-0 lg:px-2`}>
-						{medicos.map((video, index) => (
-							<button key={index} onClick={() => selectVideo(video.id, index)} className="w-full h-auto">
-								<ButtonThumbnail name={video.name} img={video.img} alt={video.name} data={video.data} active={activePlayer == index}/>
-							</button>
-						))}
+				<div className="w-full h-auto relative ">
+					<div className="relative">
+						<div ref={containerRef} className={`${pacientesState ? "hidden" : "visible"} grid grid-cols-none grid-flow-col overflow-x-scroll md:overflow-x-auto md:grid-cols-4 w-full gap-6 justify-start md:justify-between text-center px-0 lg:px-2`}>
+							{visibleMedicos.map((video, index) => (
+								<button key={index} onClick={() => selectVideo(video.id, index)} className="w-full h-auto">
+									<ButtonThumbnail name={video.name} img={video.img} alt={video.name} data={video.data} active={video.id == playerId} />
+								</button>
+							))}
+						</div>
+						{medicos.length > 4 && !pacientesState && (
+							<>
+								<button onClick={handlePrev} className="absolute -left-10 z-50 top-1/2 transform -translate-y-1/2 bg-gray-200 p-2 rounded-full"><FaArrowLeft />
+								</button>
+								<button onClick={handleNext} className="absolute -right-10 z-50 top-1/2 transform -translate-y-1/2 bg-gray-200 p-2 rounded-full"><FaArrowRight />
+								</button>
+							</>
+						)}
 					</div>
 
 					<div className={`${pacientesState ? "visible" : "hidden"} grid grid-cols-none grid-flow-col overflow-x-scroll md:overflow-x-auto md:grid-cols-4 w-full gap-6 justify-start md:justify-between text-center px-0 lg:px-2`}>
 						{pacientes.map((video, index) => (
 							<button key={index} onClick={() => selectVideo(video.id, index)} className="w-full h-auto">
-								<ButtonThumbnail name={video.name} img={video.img} alt={video.name} active={activePlayer == index} data={video.data}/>
+								<ButtonThumbnail name={video.name} img={video.img} alt={video.name} active={video.id == playerId} data={video.data}/>
 							</button>
 						))}
 					</div>

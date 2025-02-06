@@ -19,6 +19,7 @@ import Banner from "@/components/home/Banner"
 import H2 from "@/components/ui/H2"
 import Description from "@/components/ui/Description"
 import Spacer from "@/components/ui/Spacer"
+import VideoPlayerYt from "@/components/home/VideoPlayerYt"
 import { IconShare } from "@/components/ui/IconShare"
 
 
@@ -66,6 +67,8 @@ const Home = () => {
 			<>
 				<Hero />
 				<Sintomas />
+				<Spacer />
+				<VideoPlayerYt />
 				<Spacer />
 				<FaqNew />
 				<Spacer />
