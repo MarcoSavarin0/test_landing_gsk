@@ -1,19 +1,17 @@
 import {useRef} from "react"
 import {Swiper, SwiperSlide} from "swiper/react"
 import {EffectFade, Autoplay} from "swiper/modules"
-import {Button} from "react-scroll"
-import parse from "html-react-parser"
+
+import { FaQuoteLeft } from "react-icons/fa"
+import { FaQuoteRight } from "react-icons/fa"
 
 import Intro from "@/components/home/Intro"
 import localFont from "@next/font/local"
 
 import 'swiper/css'
 import 'swiper/css/effect-fade'
-import Cta from "../ui/Cta"
 
-const gskPrecisionLight = localFont({ src: '../../styles/fonts/gskprecision-light.woff2' })
 const barlowSemicondensedBoldItalic = localFont({ src: '../../styles/fonts/barlowsemicondensed-bolditalic.woff2' })
-const barlowSemicondensedItalic = localFont({ src: '../../styles/fonts/barlowsemicondensed-italic.woff2' })
 
 interface Dolor {
 	title: string
@@ -92,69 +90,49 @@ const Hero = () => {
 					})
 				}}
 			>
-				{dolores.map(({title, type, top}: Dolor, index: number) => (
+				{dolores.map(({type, top}: Dolor, index: number) => (
 					<SwiperSlide key={index}>
 						<div className="relative w-full flex flex-col bg-gsk-dark h-[21rem] md:h-[24rem] lg:h-[32rem] xl:h-[38rem] 2xl:h-[44rem] overflow-hidden">
-							<div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-b from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 z-10"/>
+							<div className="absolute top-0 right-0 w-full h-2 bg-gradient-to-b from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 z-10"/>
 
-							<div className="absolute bottom-auto md:bottom-0 md:left-0 w-full h-fit">
+							<div className="absolute bottom-auto md:bottom-0 md:right-0 w-full h-fit">
 								<video ref={(e: any) => videoRefs.current[index] = e} poster={"data:image/jpeg;base64,/9j/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAASACADASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAEDBAIF/8QAGhAAAgMBAQAAAAAAAAAAAAAAAAMBAiExEf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBA//EABcRAQEBAQAAAAAAAAAAAAAAAAABESH/2gAMAwEAAhEDEQA/APBqs6svCujSyWYSFcZW18kLgh19C7jZ81Cy6eAAhsjukrAED//Z"} className={`w-full h-[27rem] md:h-auto object-cover md:object-contain object-[30%] md:object-top brightness-75 md:brightness-100 ${top} md:mt-0 bg-gsk-dark`} playsInline={true} crossOrigin="anonymous" preload="none" muted={true} width="1280" height="700" autoPlay={false} controls={false} loop={false} style={{ opacity: 0.5 }}>
 									<source src={`https://gsk-hdz-2.b-cdn.net/hero/${type}.webm`} type="video/webm"/>
 								</video>
 							</div>
-
-							<article className="order-first absolute top-4 md:top-[10%] lg:top-[15%] text-right right-8 md:right-10 lg:right-14 xl:right-18 2xl:right-24 w-10/12 md:w-7/12 lg:w-6/12 xl:w-7/12 pt-5 md:pt-0">
-								<p className={`${barlowSemicondensedItalic.className} uppercase inline text-white w-full sm:w-fit text-2xl sm:text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl md:leading-[2rem]`}>
-									El dolor ocasionado por
+                            <h2 className="text-2xl font-bold text-white absolute max-w-[230px] top-0 left-0 p-4 hidden md:block">
+									Semana de la Concientización del Herpes Zóster
+                            </h2>
+							<article className="order-first absolute top-4 md:top-[7%] lg:top-[18%] text-right right-4 md:right-10 lg:right-14 xl:right-18 2xl:right-24 w-11/12 sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-7/12 pt-6 md:pt-0 text-hero-new">
+								<p className="italic text-xl md:text-6xl mb-4">
+									<FaQuoteLeft className="inline text-red-500 text-lg md:text-4xl" /> Pense que era muy joven para tener<span className="font-black"> Herpes Zóster, </span>me equivoque. <br /> No se lo deseo a nadie. <FaQuoteRight className="inline text-red-500 text-lg md:text-4xl" />
 								</p>
-								{index === 0 ? (
-									<h1 className={`${barlowSemicondensedBoldItalic.className} text-white leading-none uppercase text-4xl sm:text-6xl lg:text-7xl xl:text-8xl`}>
-										Herpes Zóster
-									</h1>
-								) : (
-									<>
-										<p className={`${barlowSemicondensedBoldItalic.className} text-white leading-none uppercase text-4xl sm:text-6xl lg:text-7xl xl:text-8xl`}>
-										Herpes Zóster
-
-										</p>
-										{/* Add other elements for index !== 0 */}
-									</>
-								)}
-								{/* <h1 className={`${barlowSemicondensedBoldItalic.className} text-white leading-none uppercase text-4xl sm:text-6xl lg:text-7xl xl:text-8xl`}>Herpes Zóster</h1> */}
-								<div className="space-y-2 sm:space-y-4">
-									<p className={`${barlowSemicondensedItalic.className} uppercase inline text-white w-full sm:w-fit text-2xl sm:text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl md:leading-[2rem]`}>
-										{parse(title)}
+								<p className="p-2 sm:p-4 text-xs sm:text-xl mb-4">
+									El 90% de los adultos mayores de 50 años<br /> tuvo varicela y tiene un mayor riesgo <br />de desarrollar herpes zóster.
+								</p>
+								<p className="inline-block bg-white font-light rounded-br-3xl text-black text-sm p-4 md:text-3xl">
+									Si tenés más de 50 años o padecés alguna<br /> enfermedad crónica, <span className="font-bold">consultá con tu médico<br /> o médica sobre el herpes zóster.</span>
+                                </p>
+                                <p className="text-xs mt-1 md:hidden">Semana de la Concientización del Herpes Zóster</p>
+								<div className="hidden md:block md:mt-6">
+									<p className="text-[10px] md:text-sm text-gray-100">
+										NP-AR-HZU-BNNR-240004 – Febrero 2025
 									</p>
-									<div className={`${gskPrecisionLight} hidden md:block text-gsk-orange text-xl 2xl:text-3xl font-light space-y-3`}>
-										<div>
-											<p>Conocé más sobre la enfermedad, sus síntomas <span className="lg:block">y las opciones de prevención y tratamiento.</span></p>
-											<p><Button activeClass="active" className="hover:text-white transition ease-out duration-300 cursor-pointer" type="submit" value="Hablemos de Zóster" to="que-es-herpes-zoster" spy={true} smooth={true} offset={0} duration={800} />.</p>
-										</div>
-									</div>
+									<p className="text-[10px] md:text-sm text-gray-100">
+										Para mayor información consulte a su médico. GSK Biopharma Argentina S.A. Av del Libertador 7202, Piso 4, CABA, Buenos Aires, Argentina.
+									</p>
+									<p className="text-[10px] md:text-sm text-gray-100">
+										Para consultas sobre nuestros productos, consultas de calidad o reporte de eventos adversos puede comunicarse al 0800 220 4752.
+									</p>
+									<p className="text-[10px] md:text-sm text-gray-100">
+										*Adaptado de: <a href="https://medlineplus.gov/shingles.html" className="text-blue-600 underline">MedlinePlus</a>
+									</p>
 								</div>
 							</article>
-							
-							<div className="md:left-10 absolute bottom-6 md:bottom-10 xl:bottom-14 right-8 lg:left-auto lg:right-14 2xl:right-24 md:mb-3 mb-7 ">
-								<p className="mb-4 text-xs text-white">Conocé tu nivel de riesgo: </p>
-								<Cta title={'INICIAR TEST'} url={`/autotest`} />
-							</div>
-							<span className="absolute bottom-2 md:bottom-6 xl:bottom-10 right-8 md:right-10 lg:right-14 2xl:right-24 text-white z-20 text-[0.50rem] text-right w-fit leading-tight">
-                            *BASADO EN TESTIMONIOS REALES DE PACIENTES.
-								<span className="block lg:inline">LOS SÍNTOMAS DEL HERPES ZOSTER PUEDEN VARIAR.</span>
-							</span>
-
-							<div className="absolute bottom-0 left-0 w-full h-2 md:h-1 bg-gradient-to-t from-gsk-dark via-gsk-dark/60 to-gsk-dark/0 z-10"/>
-                            
 						</div>
 					</SwiperSlide>
 				))}
 			</Swiper>
-
-			<div className={`${gskPrecisionLight.className} bg-gsk-dark block md:hidden text-gsk-orange text-xl 2xl:text-3xl font-light px-8 md:px-0 my-4`}>
-				<p>Conocé más sobre la enfermedad, sus síntomas <span className="lg:block">y las opciones de prevención y tratamiento.</span></p>
-				<p><Button activeClass="active" className="hover:text-white transition ease-out duration-300 cursor-pointer" type="submit" value="Hablemos de Zóster" to="que-es-herpes-zoster" spy={true} smooth={true} offset={0} duration={800} />.</p>
-			</div>
-
 			<Intro/>
 		</section>
 	)

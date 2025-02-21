@@ -48,7 +48,7 @@ const MirrorContentNew = ({title, image, slug, body, cta}: Complication) => {
 			</div>
 
 			<div className="w-full md:w-8/12 cronica-container">
-				<p className="text-lg md:text-xl text-justify">{parse(body)}</p>
+				<p className="text-lg md:text-xl text-left">{parse(body)}</p>
 				{cta ? <Link href={`/biblioteca/post/${slug}`} className="text-lg underline text-gsk-orange hover:text-gsk-dark transition-colors duration-200 ease-out cta-button-orange">Leer más {">"}</Link> : ""}
 
 			</div>

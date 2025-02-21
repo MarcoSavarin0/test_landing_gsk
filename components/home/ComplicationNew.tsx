@@ -142,7 +142,7 @@ const ComplicationNew = () => {
 
 					{complications.map((item: Complication, index: number) => (
 						<div className={item.bgColor === 'gray' ? "gray-bg px-8 sm:px-12" : " px-8 sm:px-12"} key={index}>
-							<h2 className="text-gsk-orange font-bold text-2xl text-center w-full text-new-title pt-20">
+							<h2 className="text-gsk-orange font-bold text-2xl text-center w-full pt-20">
 								{item.title}
 								{item.doubleTitle && (
 									<>
@@ -152,7 +152,7 @@ const ComplicationNew = () => {
 								)}
 							</h2>
 							<motion.article
-								className="flex flex-col md:flex-row justify-between gap-x-8 gap-y-5 md:gap-y-0 py-20"
+								className="flex flex-col md:flex-row text-left gap-x-8 gap-y-5 md:gap-y-0 py-20"
 								key={index}
 								variants={complicationVariant}
 								custom={index}

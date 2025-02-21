@@ -42,7 +42,6 @@
 		"semi": ["error", "never"],
 		"array-bracket-newline": ["error", "consistent"],
 		"array-bracket-spacing": ["error", "never"],
-		"indent": [2, "tab"],
 		"arrow-spacing": "error",
 		"brace-style": "error",
 		"comma-spacing": ["error", { "before": false, "after": true }],
